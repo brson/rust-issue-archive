@@ -195,6 +195,34 @@ for ((i=START_ISSUE; i<=MAX_ISSUE; i++)); do
         fi
     fi
 
+    # Fetch timeline events (cross-references, commits, label changes, etc.)
+    timeline_file="$ITEMS_DIR/$padded-timeline.json"
+    if [[ ! -f "$timeline_file" ]]; then
+        all_timeline="[]"
+        page=1
+        while true; do
+            timeline_response=$(fetch_api "repos/$REPO/issues/$i/timeline?per_page=100&page=$page") || {
+                log "WARNING: Failed to fetch timeline page $page for #$i"
+                break
+            }
+            if [[ "$timeline_response" == "404" ]]; then
+                break
+            fi
+            page_count=$(echo "$timeline_response" | jq 'length')
+            if [[ "$page_count" -eq 0 ]]; then
+                break
+            fi
+            all_timeline=$(echo "$all_timeline" "$timeline_response" | jq -s 'add')
+            if [[ "$page_count" -lt 100 ]]; then
+                break
+            fi
+            ((page++)) || true
+        done
+        if [[ "$all_timeline" != "[]" ]]; then
+            echo "$all_timeline" > "$timeline_file"
+        fi
+    fi
+
     # Progress report
     if (( i % 100 == 0 )); then
         log "Progress: $i/$MAX_ISSUE | fetched=$fetched exists=$skipped_exists date=$skipped_date 404=$skipped_404 errors=$errors"
