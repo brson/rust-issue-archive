@@ -136,27 +136,54 @@ for ((i=START_ISSUE; i<=MAX_ISSUE; i++)); do
         continue
     fi
 
-    # Fetch issue/PR
-    response=$(fetch_api "repos/$REPO/issues/$i") || {
-        ((errors++)) || true
-        log "ERROR: Failed to fetch #$i"
-        continue
-    }
+    # Fetch issue/PR with retry on parse errors
+    parse_attempts=0
+    max_parse_attempts=3
+    created_at=""
 
-    if [[ "$response" == "404" ]]; then
-        ((skipped_404++)) || true
+    while [[ $parse_attempts -lt $max_parse_attempts ]]; do
+        response=$(fetch_api "repos/$REPO/issues/$i") || {
+            ((errors++)) || true
+            log "ERROR: Failed to fetch #$i"
+            break
+        }
+
+        if [[ "$response" == "404" ]]; then
+            ((skipped_404++)) || true
+            break
+        fi
+
+        # Try to parse created_at
+        if created_at=$(echo "$response" | jq -re '.created_at' 2>/dev/null); then
+            break  # Success
+        fi
+
+        ((parse_attempts++)) || true
+        if [[ $parse_attempts -lt $max_parse_attempts ]]; then
+            log "WARNING #$i: jq parse failed, retry $parse_attempts/$max_parse_attempts in 5s..."
+            sleep 5
+        fi
+    done
+
+    # Skip if we couldn't get created_at
+    if [[ -z "$created_at" ]]; then
+        if [[ "$response" != "404" ]]; then
+            log "ERROR #$i: jq failed parsing after $max_parse_attempts attempts, skipping"
+            ((errors++)) || true
+        fi
         continue
     fi
-
-    # Check created_at date
-    created_at=$(echo "$response" | jq -r '.created_at')
     if [[ "$created_at" > "$CUTOFF_DATE" || "$created_at" == "$CUTOFF_DATE" ]]; then
         ((skipped_date++)) || true
         continue
     fi
 
     # Determine type (issue or PR)
-    has_pr=$(echo "$response" | jq 'has("pull_request")')
+    has_pr=$(echo "$response" | jq 'has("pull_request")' 2>&1) || {
+        log "ERROR #$i: jq failed checking pull_request, skipping"
+        ((errors++)) || true
+        continue
+    }
     if [[ "$has_pr" == "true" ]]; then
         item_type="pr"
     else
@@ -164,12 +191,17 @@ for ((i=START_ISSUE; i<=MAX_ISSUE; i++)); do
     fi
 
     # Add metadata and save
-    echo "$response" | jq --arg type "$item_type" '. + {"_meta": {"type": $type}}' > "$item_file"
+    if ! echo "$response" | jq --arg type "$item_type" '. + {"_meta": {"type": $type}}' > "$item_file"; then
+        log "ERROR #$i: jq failed adding metadata, skipping"
+        rm -f "$item_file"
+        ((errors++)) || true
+        continue
+    fi
     ((fetched++)) || true
 
     # Fetch comments if any (with pagination)
-    comment_count=$(echo "$response" | jq -r '.comments')
-    if [[ "$comment_count" -gt 0 ]]; then
+    comment_count=$(echo "$response" | jq -r '.comments' 2>/dev/null) || comment_count=0
+    if [[ "$comment_count" =~ ^[0-9]+$ && "$comment_count" -gt 0 ]]; then
         all_comments="[]"
         page=1
         while true; do
@@ -180,11 +212,17 @@ for ((i=START_ISSUE; i<=MAX_ISSUE; i++)); do
             if [[ "$comments_response" == "404" ]]; then
                 break
             fi
-            page_count=$(echo "$comments_response" | jq 'length')
+            if ! page_count=$(echo "$comments_response" | jq -e 'length'); then
+                log "WARNING #$i: jq failed parsing comments length"
+                break
+            fi
             if [[ "$page_count" -eq 0 ]]; then
                 break
             fi
-            all_comments=$(echo "$all_comments" "$comments_response" | jq -s 'add')
+            if ! all_comments=$(echo "$all_comments" "$comments_response" | jq -s 'add'); then
+                log "WARNING #$i: jq failed merging comments"
+                break
+            fi
             if [[ "$page_count" -lt 100 ]]; then
                 break
             fi
@@ -208,11 +246,17 @@ for ((i=START_ISSUE; i<=MAX_ISSUE; i++)); do
             if [[ "$timeline_response" == "404" ]]; then
                 break
             fi
-            page_count=$(echo "$timeline_response" | jq 'length')
+            if ! page_count=$(echo "$timeline_response" | jq -e 'length'); then
+                log "WARNING #$i: jq failed parsing timeline length"
+                break
+            fi
             if [[ "$page_count" -eq 0 ]]; then
                 break
             fi
-            all_timeline=$(echo "$all_timeline" "$timeline_response" | jq -s 'add')
+            if ! all_timeline=$(echo "$all_timeline" "$timeline_response" | jq -s 'add'); then
+                log "WARNING #$i: jq failed merging timeline"
+                break
+            fi
             if [[ "$page_count" -lt 100 ]]; then
                 break
             fi
