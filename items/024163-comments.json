@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/95309562",
+    "html_url": "https://github.com/rust-lang/rust/issues/24163#issuecomment-95309562",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/24163",
+    "id": 95309562,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk1MzA5NTYy",
+    "user": {
+      "login": "steveklabnik",
+      "id": 27786,
+      "node_id": "MDQ6VXNlcjI3Nzg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27786?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steveklabnik",
+      "html_url": "https://github.com/steveklabnik",
+      "followers_url": "https://api.github.com/users/steveklabnik/followers",
+      "following_url": "https://api.github.com/users/steveklabnik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steveklabnik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steveklabnik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steveklabnik/subscriptions",
+      "organizations_url": "https://api.github.com/users/steveklabnik/orgs",
+      "repos_url": "https://api.github.com/users/steveklabnik/repos",
+      "events_url": "https://api.github.com/users/steveklabnik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steveklabnik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-22T19:20:54Z",
+    "updated_at": "2015-04-22T19:20:54Z",
+    "body": "Notes from talking to @aturon \n\nborrow is used in things like hashmap, where you have a key, and the map needs to store the owned version, but you want to look things up by the borrowed version. `HashMap<String, i32>`, but you want to look up by string literals: `&str`.\n\nfor most types, you want T and &T. but for things that take slices, there's a few different slice types. Borrow is good for this\n\nit's more restrictive than asref, because the assumption is the borrow is the same wrt hashing or comparison: String, &str, and &String all hash to the same value.\n\nAsRef: you can get a different reference out of this. that's it. a conversion, not an equivalence.\n\nanything htat impls borrow should implement asref, but no blanket because of coherence\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/95309562/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

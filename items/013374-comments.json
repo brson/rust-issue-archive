@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/41170739",
+    "html_url": "https://github.com/rust-lang/rust/issues/13374#issuecomment-41170739",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13374",
+    "id": 41170739,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTcwNzM5",
+    "user": {
+      "login": "netvl",
+      "id": 280456,
+      "node_id": "MDQ6VXNlcjI4MDQ1Ng==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/280456?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/netvl",
+      "html_url": "https://github.com/netvl",
+      "followers_url": "https://api.github.com/users/netvl/followers",
+      "following_url": "https://api.github.com/users/netvl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/netvl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/netvl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/netvl/subscriptions",
+      "organizations_url": "https://api.github.com/users/netvl/orgs",
+      "repos_url": "https://api.github.com/users/netvl/repos",
+      "events_url": "https://api.github.com/users/netvl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/netvl/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-23T14:54:58Z",
+    "updated_at": "2014-04-23T14:54:58Z",
+    "body": "I agree. Sometimes I write \"interactive\" tests which are _intended_ to print something to the terminal. Previously it worked, and when I was porting old code to the new compiler, it surprised me that some tests became silent. This is a very useful feature sometimes. Probably add a flag to test binary?\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/41170739/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

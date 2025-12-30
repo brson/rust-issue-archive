@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/12847255",
+    "html_url": "https://github.com/rust-lang/rust/issues/4661#issuecomment-12847255",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/4661",
+    "id": 12847255,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyODQ3MjU1",
+    "user": {
+      "login": "brendanzab",
+      "id": 695077,
+      "node_id": "MDQ6VXNlcjY5NTA3Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/695077?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brendanzab",
+      "html_url": "https://github.com/brendanzab",
+      "followers_url": "https://api.github.com/users/brendanzab/followers",
+      "following_url": "https://api.github.com/users/brendanzab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brendanzab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brendanzab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brendanzab/subscriptions",
+      "organizations_url": "https://api.github.com/users/brendanzab/orgs",
+      "repos_url": "https://api.github.com/users/brendanzab/repos",
+      "events_url": "https://api.github.com/users/brendanzab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brendanzab/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-01-29T17:40:38Z",
+    "updated_at": "2013-01-29T17:40:38Z",
+    "body": "Woops - just realised that I reposted my own issue: #4641 - sorry!\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/12847255/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

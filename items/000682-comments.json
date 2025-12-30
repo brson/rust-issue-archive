@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1638660",
+    "html_url": "https://github.com/rust-lang/rust/issues/682#issuecomment-1638660",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/682",
+    "id": 1638660,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2Mzg2NjA=",
+    "user": {
+      "login": "eholk",
+      "id": 105766,
+      "node_id": "MDQ6VXNlcjEwNTc2Ng==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105766?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eholk",
+      "html_url": "https://github.com/eholk",
+      "followers_url": "https://api.github.com/users/eholk/followers",
+      "following_url": "https://api.github.com/users/eholk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eholk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eholk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eholk/subscriptions",
+      "organizations_url": "https://api.github.com/users/eholk/orgs",
+      "repos_url": "https://api.github.com/users/eholk/repos",
+      "events_url": "https://api.github.com/users/eholk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eholk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-07-23T20:36:51Z",
+    "updated_at": "2011-07-23T20:36:51Z",
+    "body": "I think I'm going to start working on this now. I ran Instruments.app on word-count.rs, and 75% of the time is spent on locking, most of which is in the scheduler lock. \n\nThe design I'm going to tentatively adopt is to merge `rust_scheduler` and `rust_task_thread`, so we create multiple schedulers and each one has its own thread (this is really similar to the old `rust_domain` model...). For now, I'll make it so that when you create a task, the kernel picks a random scheduler to create it on, and tasks just stay on the same scheduler for their whole lifetime. We can add load balancing (probably in the form of work stealing) later.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1638660/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/138010096",
+    "html_url": "https://github.com/rust-lang/rust/issues/28151#issuecomment-138010096",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28151",
+    "id": 138010096,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzODAxMDA5Ng==",
+    "user": {
+      "login": "Manishearth",
+      "id": 1617736,
+      "node_id": "MDQ6VXNlcjE2MTc3MzY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1617736?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Manishearth",
+      "html_url": "https://github.com/Manishearth",
+      "followers_url": "https://api.github.com/users/Manishearth/followers",
+      "following_url": "https://api.github.com/users/Manishearth/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Manishearth/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Manishearth/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Manishearth/subscriptions",
+      "organizations_url": "https://api.github.com/users/Manishearth/orgs",
+      "repos_url": "https://api.github.com/users/Manishearth/repos",
+      "events_url": "https://api.github.com/users/Manishearth/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Manishearth/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-05T23:44:00Z",
+    "updated_at": "2015-09-05T23:44:00Z",
+    "body": "Another code example: https://github.com/rust-lang/rust/issues/28261#issue-105047215\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/138010096/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

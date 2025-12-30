@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/3172138",
+    "html_url": "https://github.com/rust-lang/rust/issues/1310#issuecomment-3172138",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/1310",
+    "id": 3172138,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzIxMzg=",
+    "user": {
+      "login": "brson",
+      "id": 147214,
+      "node_id": "MDQ6VXNlcjE0NzIxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147214?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brson",
+      "html_url": "https://github.com/brson",
+      "followers_url": "https://api.github.com/users/brson/followers",
+      "following_url": "https://api.github.com/users/brson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brson/subscriptions",
+      "organizations_url": "https://api.github.com/users/brson/orgs",
+      "repos_url": "https://api.github.com/users/brson/repos",
+      "events_url": "https://api.github.com/users/brson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-12-16T01:38:10Z",
+    "updated_at": "2011-12-16T01:38:10Z",
+    "body": "Fixed in a1b3e3ea1093b1d62b5ac607c140a119fd8a94dd, 26db74c81193c895f51ee67f3cfba5b2b412b1cf, 1f8f6054d283f7a2d5e5277f422463bfaecbe139.\n\n9% speedup compiling rustc.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/3172138/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

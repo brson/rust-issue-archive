@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/45951671",
+    "html_url": "https://github.com/rust-lang/rust/pull/14846#issuecomment-45951671",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14846",
+    "id": 45951671,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1OTUxNjcx",
+    "user": {
+      "login": "eddyb",
+      "id": 77424,
+      "node_id": "MDQ6VXNlcjc3NDI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77424?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eddyb",
+      "html_url": "https://github.com/eddyb",
+      "followers_url": "https://api.github.com/users/eddyb/followers",
+      "following_url": "https://api.github.com/users/eddyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eddyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eddyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eddyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/eddyb/orgs",
+      "repos_url": "https://api.github.com/users/eddyb/repos",
+      "events_url": "https://api.github.com/users/eddyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eddyb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-12T21:40:11Z",
+    "updated_at": "2014-06-12T21:40:11Z",
+    "body": "I should've added a test for this, I believe @nick29581 reverted my previous fix.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/45951671/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

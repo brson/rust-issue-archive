@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/14779719",
+    "html_url": "https://github.com/rust-lang/rust/pull/5329#issuecomment-14779719",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/5329",
+    "id": 14779719,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0Nzc5NzE5",
+    "user": {
+      "login": "wanderview",
+      "id": 1256526,
+      "node_id": "MDQ6VXNlcjEyNTY1MjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1256526?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wanderview",
+      "html_url": "https://github.com/wanderview",
+      "followers_url": "https://api.github.com/users/wanderview/followers",
+      "following_url": "https://api.github.com/users/wanderview/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wanderview/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wanderview/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wanderview/subscriptions",
+      "organizations_url": "https://api.github.com/users/wanderview/orgs",
+      "repos_url": "https://api.github.com/users/wanderview/repos",
+      "events_url": "https://api.github.com/users/wanderview/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wanderview/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-03-12T14:55:48Z",
+    "updated_at": "2013-03-12T14:56:09Z",
+    "body": "Sounds good.  I can pursue using conditions in a separate pull request.  Would you like all `fail!` uses in `std::getopts` converted over?\n\nThanks.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/14779719/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

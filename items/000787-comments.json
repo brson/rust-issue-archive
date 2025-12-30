@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1732269",
+    "html_url": "https://github.com/rust-lang/rust/issues/787#issuecomment-1732269",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/787",
+    "id": 1732269,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MzIyNjk=",
+    "user": {
+      "login": "msullivan",
+      "id": 340349,
+      "node_id": "MDQ6VXNlcjM0MDM0OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/340349?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msullivan",
+      "html_url": "https://github.com/msullivan",
+      "followers_url": "https://api.github.com/users/msullivan/followers",
+      "following_url": "https://api.github.com/users/msullivan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msullivan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msullivan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msullivan/subscriptions",
+      "organizations_url": "https://api.github.com/users/msullivan/orgs",
+      "repos_url": "https://api.github.com/users/msullivan/repos",
+      "events_url": "https://api.github.com/users/msullivan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msullivan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-08-05T01:11:54Z",
+    "updated_at": "2011-08-05T01:11:54Z",
+    "body": "Oh, that's really awful. We zero out uninitialized local variables but we don't zero ones with initializers because we know that they will be initialized. However, if we break inside the initializer expression it won't get initialized _or_ zeroed.\n\nArgh.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1732269/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68335140",
+    "html_url": "https://github.com/rust-lang/rust/issues/20322#issuecomment-68335140",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20322",
+    "id": 68335140,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4MzM1MTQw",
+    "user": {
+      "login": "rohitjoshi",
+      "id": 1570798,
+      "node_id": "MDQ6VXNlcjE1NzA3OTg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1570798?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rohitjoshi",
+      "html_url": "https://github.com/rohitjoshi",
+      "followers_url": "https://api.github.com/users/rohitjoshi/followers",
+      "following_url": "https://api.github.com/users/rohitjoshi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rohitjoshi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rohitjoshi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rohitjoshi/subscriptions",
+      "organizations_url": "https://api.github.com/users/rohitjoshi/orgs",
+      "repos_url": "https://api.github.com/users/rohitjoshi/repos",
+      "events_url": "https://api.github.com/users/rohitjoshi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rohitjoshi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-30T07:05:41Z",
+    "updated_at": "2014-12-30T07:05:41Z",
+    "body": "Here is pull request https://github.com/rust-lang/rust/pull/20326\n\nI have fixed and validated on Mac OSX\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68335140/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

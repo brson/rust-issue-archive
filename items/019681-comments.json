@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66405458",
+    "html_url": "https://github.com/rust-lang/rust/issues/19681#issuecomment-66405458",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19681",
+    "id": 66405458,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY2NDA1NDU4",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-10T05:09:21Z",
+    "updated_at": "2014-12-10T05:10:31Z",
+    "body": "The asm rust/llvm produces (`rustc -O --emit=asm`) is:\n\n``` asm\n_ZN4main20h7890cd32b0d93ad4eaaE:\n    .cfi_startproc\n    movb    $6, 1234\n    retq\n```\n\nas expected (this is essentially identical to what GCC and Clang produce for the equivalent C program).\n\nThe `illegal instruction` error seems to be related to our current runtime catching/handling the segfault signal, e.g. changing the code to\n\n``` rust\n#[start]\nfn main(_: int, _: *const *const u8) -> int {\n    unsafe {\n        *(1234 as *mut u8) = 6;\n    }\n    0\n}\n```\n\ngives a segfault which is the expected output: writing to some \"random\" piece of memory is unlikely to work well.\n\nClosing as not-a-bug, feel free to reopen if I've misinterpreted you.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66405458/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

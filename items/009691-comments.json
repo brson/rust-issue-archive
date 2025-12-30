@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25598895",
+    "html_url": "https://github.com/rust-lang/rust/pull/9691#issuecomment-25598895",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9691",
+    "id": 25598895,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NTk4ODk1",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-10-03T05:29:23Z",
+    "updated_at": "2013-10-03T05:29:23Z",
+    "body": "Here's the libextra documentation generated next to the libstd documentation. Notice that the link is to the doc folder on the same server.\n\nhttp://www.contrib.andrew.cmu.edu/~acrichto/doc/extra/treemap/struct.TreeMapIterator.html\n\nA random program that uses libstd (notice the link from option to the `static.rust-lang.org` site:\n\nhttp://www.contrib.andrew.cmu.edu/~acrichto/doc/foo/fn.foo.html\n\nThe commands to generate this documentation was:\n\n```\nrustdoc src/libstd/std.rs\nrustdoc src/libextra/extra.rs\nrsync doc my.remote.server:doc\nrm -rf doc\nrustdoc foo.rs\nrsync doc my.remote.server:doc\n```\n\nSo basically libstd/libextra documentation was generated alongside one another, but when removed the `foo` documentation could still link to libstd/libextra (because of the crate attributes).\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25598895/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/162258507",
+    "html_url": "https://github.com/rust-lang/rust/issues/30227#issuecomment-162258507",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30227",
+    "id": 162258507,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MjI1ODUwNw==",
+    "user": {
+      "login": "marcusklaas",
+      "id": 1255413,
+      "node_id": "MDQ6VXNlcjEyNTU0MTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1255413?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marcusklaas",
+      "html_url": "https://github.com/marcusklaas",
+      "followers_url": "https://api.github.com/users/marcusklaas/followers",
+      "following_url": "https://api.github.com/users/marcusklaas/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marcusklaas/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marcusklaas/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marcusklaas/subscriptions",
+      "organizations_url": "https://api.github.com/users/marcusklaas/orgs",
+      "repos_url": "https://api.github.com/users/marcusklaas/repos",
+      "events_url": "https://api.github.com/users/marcusklaas/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marcusklaas/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-06T00:07:05Z",
+    "updated_at": "2015-12-06T00:07:05Z",
+    "body": "Woops, there is a way apparently: it's an ident pattern with a invalid code. Not pretty, but it works.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/162258507/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

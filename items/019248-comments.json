@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64133082",
+    "html_url": "https://github.com/rust-lang/rust/pull/19248#issuecomment-64133082",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19248",
+    "id": 64133082,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0MTMzMDgy",
+    "user": {
+      "login": "aturon",
+      "id": 709807,
+      "node_id": "MDQ6VXNlcjcwOTgwNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/709807?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aturon",
+      "html_url": "https://github.com/aturon",
+      "followers_url": "https://api.github.com/users/aturon/followers",
+      "following_url": "https://api.github.com/users/aturon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aturon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aturon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aturon/subscriptions",
+      "organizations_url": "https://api.github.com/users/aturon/orgs",
+      "repos_url": "https://api.github.com/users/aturon/repos",
+      "events_url": "https://api.github.com/users/aturon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aturon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-23T20:25:50Z",
+    "updated_at": "2014-11-23T20:25:50Z",
+    "body": "Thanks @japaric! It's not clear yet what the ultimate fate of these `as_slice` traits will be, but this is a fine improvement for now.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64133082/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

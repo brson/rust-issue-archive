@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21027662",
+    "html_url": "https://github.com/rust-lang/rust/issues/7344#issuecomment-21027662",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7344",
+    "id": 21027662,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxMDI3NjYy",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-16T08:20:52Z",
+    "updated_at": "2013-07-16T08:20:52Z",
+    "body": "Possibly the same issue (at least, it gives the same assertion):\n\n``` rust\nfn main() {\n    let x = \"foo\";\n    return;\n    if x == \"foo\" {}\n}\n```\n\nIt doesn't happen if `x` is a primitive type like `int` or `float`.\n\nThis appears to be a crash in the depths of `trans_to_datum`... I'm having a look at it now, but I probably won't make much progress. Backtrace for the code in the issue:\n\n```\n#0  0x00007ffff37b11e5 in __GI_raise (sig=sig@entry=6) at ../nptl/sysdeps/unix/sysv/linux/raise.c:56\n#1  0x00007ffff37b4398 in __GI_abort () at abort.c:90\n#2  0x00007ffff37aa272 in __assert_fail_base (fmt=0x7ffff38e7900 \"%s%s%s:%u: %s%sAssertion `%s' failed.\\n%n\", assertion=assertion@entry=0x7ffff4ee2d40 \"isa<X>(Val) && \\\"cast<Ty>() argument of incompatible type!\\\"\", file=file@entry=0x7ffff4ee2ce0 \"/home/huon/rust/src/llvm/include/llvm/Support/Casting.h\", line=line@entry=231, function=function@entry=0x7ffff54839a0 <_ZZN4llvm4castINS_14SequentialTypeENS_4TypeEEENS_9enable_ifINS_7is_sameIT0_NS_13simplify_typeIS5_E10SimpleTypeEEENS_10cast_rettyIT_PS5_E8ret_typeEE4typeESC_E19__PRETTY_FUNCTION__> \"typename llvm::enable_if<llvm::is_same<Y, typename llvm::simplify_type<From>::SimpleType>, typename llvm::cast_retty<X, Y*>::ret_type>::type llvm::cast(Y*) [with X = llvm::SequentialType; Y = llvm::Ty\"...) at assert.c:92\n#3  0x00007ffff37aa322 in __GI___assert_fail (assertion=0x7ffff4ee2d40 \"isa<X>(Val) && \\\"cast<Ty>() argument of incompatible type!\\\"\", file=0x7ffff4ee2ce0 \"/home/huon/rust/src/llvm/include/llvm/Support/Casting.h\", line=231, function=0x7ffff54839a0 <_ZZN4llvm4castINS_14SequentialTypeENS_4TypeEEENS_9enable_ifINS_7is_sameIT0_NS_13simplify_typeIS5_E10SimpleTypeEEENS_10cast_rettyIT_PS5_E8ret_typeEE4typeESC_E19__PRETTY_FUNCTION__> \"typename llvm::enable_if<llvm::is_same<Y, typename llvm::simplify_type<From>::SimpleType>, typename llvm::cast_retty<X, Y*>::ret_type>::type llvm::cast(Y*) [with X = llvm::SequentialType; Y = llvm::Ty\"...) at assert.c:101\n#4  0x00007ffff4daee84 in LLVMGetElementType () from /usr/local/bin/../lib/librustllvm.so\n#5  0x00007ffff61046f5 in middle::trans::build::LoadRangeAssert::_55594db7263cd047::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n#6  0x00007ffff6104516 in middle::trans::datum::__extensions__::meth_26894::to_value_llval::_7eff40c77bdb254::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n#7  0x00007ffff61043ad in middle::trans::datum::__extensions__::meth_26891::to_value_datum::_7fae9ce1f4e115c3::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n#8  0x00007ffff6105199 in middle::trans::datum::__extensions__::meth_26908::to_appropriate_datum::_7fae9ce1f4e115c3::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n#9  0x00007ffff613c4c7 in middle::trans::expr::trans_to_datum_unadjusted::_4ecb3fec4142e0c1::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n#10 0x00007ffff60dae2f in middle::trans::expr::trans_to_datum::_4ecb3fec4142e0c1::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n#11 0x00007ffff614bd7b in middle::trans::expr::trans_unary_datum::_3071da634f922af2::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n#12 0x00007ffff6143b0b in middle::trans::expr::trans_rvalue_datum_unadjusted::_4ecb3fec4142e0c1::_0$x2e8$x2dpre () from /usr/local/bin/../lib/librustc-d3cb8c2ccd84a7a7-0.8-pre.so\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21027662/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

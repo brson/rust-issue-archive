@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69623892",
+    "html_url": "https://github.com/rust-lang/rust/issues/21027#issuecomment-69623892",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21027",
+    "id": 69623892,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5NjIzODky",
+    "user": {
+      "login": "Gankra",
+      "id": 1136864,
+      "node_id": "MDQ6VXNlcjExMzY4NjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1136864?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gankra",
+      "html_url": "https://github.com/Gankra",
+      "followers_url": "https://api.github.com/users/Gankra/followers",
+      "following_url": "https://api.github.com/users/Gankra/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gankra/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gankra/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gankra/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gankra/orgs",
+      "repos_url": "https://api.github.com/users/Gankra/repos",
+      "events_url": "https://api.github.com/users/Gankra/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gankra/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-12T18:56:52Z",
+    "updated_at": "2015-01-12T18:56:52Z",
+    "body": "IntoIter should just be as Send as Vec. Feel free to send a PR to ammend this.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69623892/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

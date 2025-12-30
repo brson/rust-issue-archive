@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/11802825",
+    "html_url": "https://github.com/rust-lang/rust/issues/4290#issuecomment-11802825",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/4290",
+    "id": 11802825,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExODAyODI1",
+    "user": {
+      "login": "stevenblenkinsop",
+      "id": 3118803,
+      "node_id": "MDQ6VXNlcjMxMTg4MDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3118803?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stevenblenkinsop",
+      "html_url": "https://github.com/stevenblenkinsop",
+      "followers_url": "https://api.github.com/users/stevenblenkinsop/followers",
+      "following_url": "https://api.github.com/users/stevenblenkinsop/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stevenblenkinsop/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stevenblenkinsop/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stevenblenkinsop/subscriptions",
+      "organizations_url": "https://api.github.com/users/stevenblenkinsop/orgs",
+      "repos_url": "https://api.github.com/users/stevenblenkinsop/repos",
+      "events_url": "https://api.github.com/users/stevenblenkinsop/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stevenblenkinsop/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-01-02T09:23:56Z",
+    "updated_at": "2013-01-02T09:24:50Z",
+    "body": "Found out syntax for this was E2/&amp;r&lt;T&gt; from @nikomatsakis' blog post. Probably needs to be documented somewhere at some point, but that's issue #3886 (which seems to have been closed on the basis that &r/T is already documented, when the issue was about T/&r...). \n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/11802825/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

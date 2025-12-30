@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/102549346",
+    "html_url": "https://github.com/rust-lang/rust/issues/17696#issuecomment-102549346",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17696",
+    "id": 102549346,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMjU0OTM0Ng==",
+    "user": {
+      "login": "ftxqxd",
+      "id": 2055302,
+      "node_id": "MDQ6VXNlcjIwNTUzMDI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2055302?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ftxqxd",
+      "html_url": "https://github.com/ftxqxd",
+      "followers_url": "https://api.github.com/users/ftxqxd/followers",
+      "following_url": "https://api.github.com/users/ftxqxd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ftxqxd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ftxqxd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ftxqxd/subscriptions",
+      "organizations_url": "https://api.github.com/users/ftxqxd/orgs",
+      "repos_url": "https://api.github.com/users/ftxqxd/repos",
+      "events_url": "https://api.github.com/users/ftxqxd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ftxqxd/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-15T23:50:19Z",
+    "updated_at": "2015-05-15T23:50:19Z",
+    "body": "The error message for this makes sense now, and the `Box<Foo<T = i32>>` syntax works now. I think this can be closed.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/102549346/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

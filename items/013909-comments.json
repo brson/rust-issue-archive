@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/42095605",
+    "html_url": "https://github.com/rust-lang/rust/issues/13909#issuecomment-42095605",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13909",
+    "id": 42095605,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMDk1NjA1",
+    "user": {
+      "login": "thestinger",
+      "id": 1505226,
+      "node_id": "MDQ6VXNlcjE1MDUyMjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1505226?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thestinger",
+      "html_url": "https://github.com/thestinger",
+      "followers_url": "https://api.github.com/users/thestinger/followers",
+      "following_url": "https://api.github.com/users/thestinger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thestinger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thestinger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thestinger/subscriptions",
+      "organizations_url": "https://api.github.com/users/thestinger/orgs",
+      "repos_url": "https://api.github.com/users/thestinger/repos",
+      "events_url": "https://api.github.com/users/thestinger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thestinger/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-05-03T04:08:36Z",
+    "updated_at": "2014-05-03T04:08:36Z",
+    "body": "A change to the language like this should be proposed through the [RFC process](https://github.com/rust-lang/rfcs).\n\nIt's intended to be the remainder operator because it maps to the functionality of hardware, just like in C. It maps directly to the `urem` and `srem` instructions in LLVM, and those have direct equivalents on the CPU. The corresponding trait is `ops::Rem` and the method is called `rem`, so there's a full awareness of the operator's semantics. The division operator is also explicitly defined as a _truncating_ integer division like C, not one taking the floor like Python.\n\n>  but it doesn't give the middle finger to mathematicians either.\n\nIt's not like `%` is the modulo operator in mathematical notation. AFAIK it's an ALGOL/C-ism and Rust is consistent with the origin of the operator. Mathematica and Matlab don't use the `%` operator for this either.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/42095605/reactions",
+      "total_count": 3,
+      "+1": 3,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

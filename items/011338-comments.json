@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32105084",
+    "html_url": "https://github.com/rust-lang/rust/pull/11338#issuecomment-32105084",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11338",
+    "id": 32105084,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMTA1MDg0",
+    "user": {
+      "login": "jhasse",
+      "id": 80071,
+      "node_id": "MDQ6VXNlcjgwMDcx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80071?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jhasse",
+      "html_url": "https://github.com/jhasse",
+      "followers_url": "https://api.github.com/users/jhasse/followers",
+      "following_url": "https://api.github.com/users/jhasse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jhasse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jhasse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jhasse/subscriptions",
+      "organizations_url": "https://api.github.com/users/jhasse/orgs",
+      "repos_url": "https://api.github.com/users/jhasse/repos",
+      "events_url": "https://api.github.com/users/jhasse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jhasse/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-11T19:47:08Z",
+    "updated_at": "2014-01-11T19:47:08Z",
+    "body": "`in_target` was broken and the wrong sysroot was passed to `system_library`. Test now pass on my linux system :)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32105084/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

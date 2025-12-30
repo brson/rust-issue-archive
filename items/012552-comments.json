@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/46866854",
+    "html_url": "https://github.com/rust-lang/rust/issues/12552#issuecomment-46866854",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12552",
+    "id": 46866854,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2ODY2ODU0",
+    "user": {
+      "login": "steveklabnik",
+      "id": 27786,
+      "node_id": "MDQ6VXNlcjI3Nzg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27786?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steveklabnik",
+      "html_url": "https://github.com/steveklabnik",
+      "followers_url": "https://api.github.com/users/steveklabnik/followers",
+      "following_url": "https://api.github.com/users/steveklabnik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steveklabnik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steveklabnik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steveklabnik/subscriptions",
+      "organizations_url": "https://api.github.com/users/steveklabnik/orgs",
+      "repos_url": "https://api.github.com/users/steveklabnik/repos",
+      "events_url": "https://api.github.com/users/steveklabnik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steveklabnik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-23T16:18:12Z",
+    "updated_at": "2014-06-23T16:18:29Z",
+    "body": "This seems to be fixed:\n\n```\n$ rustc bugs.rs \nbugs.rs:4:5: 4:12 error: mismatched types: expected `core::result::Result<<generic #9>,<generic integer #0>>` but found `core::option::Option<<generic #12>>` (expected enum core::result::Result but found enum core::option::Option)\nbugs.rs:4     Some(k) => match k {\n              ^~~~~~~\nbugs.rs:7:5: 7:9 error: mismatched types: expected `core::result::Result<<generic #9>,<generic integer #0>>` but found `core::option::Option<<generic #13>>` (expected enum core::result::Result but found enum core::option::Option)\nbugs.rs:7     None => ()\n              ^~~~\nbugs.rs:5:27: 5:28 error: failed to find an implementation of trait core::fmt::Show for <generic #0>\nbugs.rs:5       a => println!(\"{}\", a)\n                                    ^\nnote: in expansion of format_args!\n<std macros>:2:23: 2:77 note: expansion site\n<std macros>:1:1: 3:2 note: in expansion of println!\nbugs.rs:5:12: 6:6 note: expansion site\n\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/46866854/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

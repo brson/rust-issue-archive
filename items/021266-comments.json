@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70332540",
+    "html_url": "https://github.com/rust-lang/rust/issues/21266#issuecomment-70332540",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21266",
+    "id": 70332540,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwMzMyNTQw",
+    "user": {
+      "login": "emk",
+      "id": 36963,
+      "node_id": "MDQ6VXNlcjM2OTYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/36963?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/emk",
+      "html_url": "https://github.com/emk",
+      "followers_url": "https://api.github.com/users/emk/followers",
+      "following_url": "https://api.github.com/users/emk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/emk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/emk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/emk/subscriptions",
+      "organizations_url": "https://api.github.com/users/emk/orgs",
+      "repos_url": "https://api.github.com/users/emk/repos",
+      "events_url": "https://api.github.com/users/emk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/emk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-16T22:24:46Z",
+    "updated_at": "2015-01-16T22:24:46Z",
+    "body": "Duplicate of #21200.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70332540/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

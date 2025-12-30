@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21115070",
+    "html_url": "https://github.com/rust-lang/rust/pull/7835#issuecomment-21115070",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7835",
+    "id": 21115070,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxMTE1MDcw",
+    "user": {
+      "login": "omasanori",
+      "id": 167209,
+      "node_id": "MDQ6VXNlcjE2NzIwOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167209?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/omasanori",
+      "html_url": "https://github.com/omasanori",
+      "followers_url": "https://api.github.com/users/omasanori/followers",
+      "following_url": "https://api.github.com/users/omasanori/following{/other_user}",
+      "gists_url": "https://api.github.com/users/omasanori/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/omasanori/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/omasanori/subscriptions",
+      "organizations_url": "https://api.github.com/users/omasanori/orgs",
+      "repos_url": "https://api.github.com/users/omasanori/repos",
+      "events_url": "https://api.github.com/users/omasanori/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/omasanori/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-17T14:07:16Z",
+    "updated_at": "2013-07-17T14:40:07Z",
+    "body": "@pnkfelix To update .pot, execute `make docs-l10n`. I think it is better to update .pots automatically, though.\n\nUpdate: I wrote a separated issue #7850 about automatic update.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21115070/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

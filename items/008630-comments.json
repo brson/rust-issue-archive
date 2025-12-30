@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/22914511",
+    "html_url": "https://github.com/rust-lang/rust/pull/8630#issuecomment-22914511",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8630",
+    "id": 22914511,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyOTE0NTEx",
+    "user": {
+      "login": "mihneadb",
+      "id": 643127,
+      "node_id": "MDQ6VXNlcjY0MzEyNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/643127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mihneadb",
+      "html_url": "https://github.com/mihneadb",
+      "followers_url": "https://api.github.com/users/mihneadb/followers",
+      "following_url": "https://api.github.com/users/mihneadb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mihneadb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mihneadb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mihneadb/subscriptions",
+      "organizations_url": "https://api.github.com/users/mihneadb/orgs",
+      "repos_url": "https://api.github.com/users/mihneadb/repos",
+      "events_url": "https://api.github.com/users/mihneadb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mihneadb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-08-20T00:22:54Z",
+    "updated_at": "2013-08-20T00:22:54Z",
+    "body": "Dupe of https://github.com/mozilla/rust/pull/8616 . Closing.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/22914511/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

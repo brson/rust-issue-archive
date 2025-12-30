@@ -1,0 +1,114 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/2206",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/2206/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/2206/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/2206/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/2206",
+  "id": 4119425,
+  "node_id": "MDU6SXNzdWU0MTE5NDI1",
+  "number": 2206,
+  "title": "rustdoc should be able to build documentation from compiled crates",
+  "user": {
+    "login": "brson",
+    "id": 147214,
+    "node_id": "MDQ6VXNlcjE0NzIxNA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/147214?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/brson",
+    "html_url": "https://github.com/brson",
+    "followers_url": "https://api.github.com/users/brson/followers",
+    "following_url": "https://api.github.com/users/brson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/brson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/brson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/brson/subscriptions",
+    "organizations_url": "https://api.github.com/users/brson/orgs",
+    "repos_url": "https://api.github.com/users/brson/repos",
+    "events_url": "https://api.github.com/users/brson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/brson/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 203738,
+      "node_id": "MDU6TGFiZWwyMDM3Mzg=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-rustdoc",
+      "name": "T-rustdoc",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the rustdoc team, which will review and decide on the PR/issue."
+    },
+    {
+      "id": 234902,
+      "node_id": "MDU6TGFiZWwyMzQ5MDI=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-enhancement",
+      "name": "C-enhancement",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: An issue proposing an enhancement or a PR with one."
+    },
+    {
+      "id": 13242248,
+      "node_id": "MDU6TGFiZWwxMzI0MjI0OA==",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-metadata",
+      "name": "A-metadata",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Crate metadata"
+    },
+    {
+      "id": 60329014,
+      "node_id": "MDU6TGFiZWw2MDMyOTAxNA==",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/P-low",
+      "name": "P-low",
+      "color": "eb6420",
+      "default": false,
+      "description": "Low priority"
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 10,
+  "created_at": "2012-04-14T19:03:58Z",
+  "updated_at": "2024-09-03T05:19:22Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "rustdocs are built from attributes which are (should be) stored in the crate metadata. rustdoc should be able to construct the crate documentation from the crate metadata with nearly the same fidelity as from the original source.\r\n\r\n**Update(2024, fmease)**: In today's terms, this essentially asks for the option[^1] to build docs based on `rustc_middle::ty` instead of the HIR in the *all* cases, not just for inlined cross-crate re-exports and synthetic impls.\r\n\r\n[^1]: Some t-rustdoc members (incl. myself, @fmease) are even inclined to drop \"HIR cleaning\" entirely once the important https://github.com/rust-lang/rust/labels/A-cross-crate-reexports issues have been addressed (which is non-trivial I have to add). In the long term, that move would greatly improve the correctness of rustdoc and make it easier to develop certain features. Namely anything that depends on more complex \"type-based reasoning\" (for which `rustc_middle::ty` is a lot better suited compared to the HIR).",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/2206/reactions",
+    "total_count": 0,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/2206/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

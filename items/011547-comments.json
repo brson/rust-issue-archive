@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32326450",
+    "html_url": "https://github.com/rust-lang/rust/pull/11547#issuecomment-32326450",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11547",
+    "id": 32326450,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMzI2NDUw",
+    "user": {
+      "login": "eastwood",
+      "id": 2359795,
+      "node_id": "MDQ6VXNlcjIzNTk3OTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2359795?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eastwood",
+      "html_url": "https://github.com/eastwood",
+      "followers_url": "https://api.github.com/users/eastwood/followers",
+      "following_url": "https://api.github.com/users/eastwood/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eastwood/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eastwood/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eastwood/subscriptions",
+      "organizations_url": "https://api.github.com/users/eastwood/orgs",
+      "repos_url": "https://api.github.com/users/eastwood/repos",
+      "events_url": "https://api.github.com/users/eastwood/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eastwood/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-15T01:23:02Z",
+    "updated_at": "2014-01-15T01:23:02Z",
+    "body": "/cc @alexcrichton \n\nJust had some merged, redundant code that didn't actually do anything to the results, but slowed it down. \n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32326450/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

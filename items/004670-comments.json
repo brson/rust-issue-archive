@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/12840300",
+    "html_url": "https://github.com/rust-lang/rust/pull/4670#issuecomment-12840300",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/4670",
+    "id": 12840300,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyODQwMzAw",
+    "user": {
+      "login": "pnkfelix",
+      "id": 173127,
+      "node_id": "MDQ6VXNlcjE3MzEyNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pnkfelix",
+      "html_url": "https://github.com/pnkfelix",
+      "followers_url": "https://api.github.com/users/pnkfelix/followers",
+      "following_url": "https://api.github.com/users/pnkfelix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pnkfelix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pnkfelix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pnkfelix/subscriptions",
+      "organizations_url": "https://api.github.com/users/pnkfelix/orgs",
+      "repos_url": "https://api.github.com/users/pnkfelix/repos",
+      "events_url": "https://api.github.com/users/pnkfelix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pnkfelix/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-01-29T15:36:47Z",
+    "updated_at": "2013-01-29T15:36:47Z",
+    "body": "Discussion on #rust [1] has led me to conclude that the majority of this pull request is taking a step in the wrong direction.  (Instead of revising the text to accommodate the capture clause, the code should instead be revised to not use capture clauses.)\n\nSo I will probably close this pull request.  (I am going to wait until I get a chance to double-check with tjc first, though.)\n\n[1] http://irclog.gr/#browse/irc.mozilla.org/rust/356944\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/12840300/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

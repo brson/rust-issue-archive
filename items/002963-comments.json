@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7228460",
+    "html_url": "https://github.com/rust-lang/rust/issues/2963#issuecomment-7228460",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2963",
+    "id": 7228460,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcyMjg0NjA=",
+    "user": {
+      "login": "paulstansifer",
+      "id": 1431,
+      "node_id": "MDQ6VXNlcjE0MzE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1431?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulstansifer",
+      "html_url": "https://github.com/paulstansifer",
+      "followers_url": "https://api.github.com/users/paulstansifer/followers",
+      "following_url": "https://api.github.com/users/paulstansifer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulstansifer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulstansifer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulstansifer/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulstansifer/orgs",
+      "repos_url": "https://api.github.com/users/paulstansifer/repos",
+      "events_url": "https://api.github.com/users/paulstansifer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulstansifer/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-07-24T18:50:10Z",
+    "updated_at": "2012-07-24T18:50:10Z",
+    "body": "Closed by 9103e43 and f785ccc.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7228460/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

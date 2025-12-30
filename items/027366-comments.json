@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/125772256",
+    "html_url": "https://github.com/rust-lang/rust/issues/27366#issuecomment-125772256",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/27366",
+    "id": 125772256,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNTc3MjI1Ng==",
+    "user": {
+      "login": "jarrett",
+      "id": 16208,
+      "node_id": "MDQ6VXNlcjE2MjA4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16208?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jarrett",
+      "html_url": "https://github.com/jarrett",
+      "followers_url": "https://api.github.com/users/jarrett/followers",
+      "following_url": "https://api.github.com/users/jarrett/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jarrett/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jarrett/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jarrett/subscriptions",
+      "organizations_url": "https://api.github.com/users/jarrett/orgs",
+      "repos_url": "https://api.github.com/users/jarrett/repos",
+      "events_url": "https://api.github.com/users/jarrett/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jarrett/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-07-28T22:36:57Z",
+    "updated_at": "2015-07-28T22:36:57Z",
+    "body": "Fixed in latest nightly.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/125772256/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

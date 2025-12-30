@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/67763512",
+    "html_url": "https://github.com/rust-lang/rust/issues/20095#issuecomment-67763512",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20095",
+    "id": 67763512,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3NzYzNTEy",
+    "user": {
+      "login": "nodakai",
+      "id": 90726,
+      "node_id": "MDQ6VXNlcjkwNzI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90726?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nodakai",
+      "html_url": "https://github.com/nodakai",
+      "followers_url": "https://api.github.com/users/nodakai/followers",
+      "following_url": "https://api.github.com/users/nodakai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nodakai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nodakai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nodakai/subscriptions",
+      "organizations_url": "https://api.github.com/users/nodakai/orgs",
+      "repos_url": "https://api.github.com/users/nodakai/repos",
+      "events_url": "https://api.github.com/users/nodakai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nodakai/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-21T08:15:01Z",
+    "updated_at": "2014-12-21T08:15:01Z",
+    "body": "My understanding is, it already has a delay of 100 ms:\n- https://github.com/rust-lang/rust/blob/master/src/librustdoc/html/static/main.js#L638\n\n``` js\n$('.search-input').on('keyup', function() {\n    clearTimeout(keyUpTimeout);\n    keyUpTimeout = setTimeout(search, 100);\n});\n```\n\nYou may locally experiment with this parameter.\n\nI also wonder if we should suppress incremental search when the input area has less than, say, three characters.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/67763512/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

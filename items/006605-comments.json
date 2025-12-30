@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18112127",
+    "html_url": "https://github.com/rust-lang/rust/issues/6605#issuecomment-18112127",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6605",
+    "id": 18112127,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4MTEyMTI3",
+    "user": {
+      "login": "ben0x539",
+      "id": 24142,
+      "node_id": "MDQ6VXNlcjI0MTQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24142?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ben0x539",
+      "html_url": "https://github.com/ben0x539",
+      "followers_url": "https://api.github.com/users/ben0x539/followers",
+      "following_url": "https://api.github.com/users/ben0x539/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ben0x539/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ben0x539/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ben0x539/subscriptions",
+      "organizations_url": "https://api.github.com/users/ben0x539/orgs",
+      "repos_url": "https://api.github.com/users/ben0x539/repos",
+      "events_url": "https://api.github.com/users/ben0x539/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ben0x539/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-19T04:14:06Z",
+    "updated_at": "2013-05-19T04:14:49Z",
+    "body": "Indenting the second part of the multi-line doc-comment with four spaces apparently tells markdown that we want multiple paragraphs in a single list item, but it looks weird in the `.rs` file and then there's paragraph elements in some list items and not others, which also looks weird (and inconsistent between markdown implementations):\n\n<h4>Variants</h4><ul><li><code>DefaultScheduler</code> - Run task on the default scheduler</li><li><code>CurrentScheduler</code> - Run task on the current scheduler</li><li><code>ExistingScheduler(Scheduler)</code> - Run task on a specific scheduler</li><li><p><code>PlatformThread</code> - Tasks are scheduled on the main OS thread</p> The main OS thread is the thread used to launch the runtime which, in most cases, is the process's initial thread as created by the OS.</li><li><code>SingleThreaded</code> - All tasks run in the same OS thread</li><li><code>ThreadPerCore</code> - Tasks are distributed among available CPUs</li><li><code>ThreadPerTask</code> - Each task runs in its own OS thread</li><li><p><code>ManualThreads(uint)</code> - Tasks are distributed among a fixed number of OS threads</p></li></ul>\n\nI'm not sure what the desired html output here is in the first place (maybe paragraphs for every list item whether and css to squeeze them together?), but I suspect the doc comment is okay as it is and rustdoc ought to change.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18112127/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

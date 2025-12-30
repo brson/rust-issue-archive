@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18588126",
+    "html_url": "https://github.com/rust-lang/rust/issues/6767#issuecomment-18588126",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6767",
+    "id": 18588126,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NTg4MTI2",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-29T00:01:19Z",
+    "updated_at": "2013-05-29T00:01:19Z",
+    "body": "This was fixed by d7e1f08b2115b3f5dd1497e993fb5b3029e70346\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18588126/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

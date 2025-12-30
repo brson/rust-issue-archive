@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68851327",
+    "html_url": "https://github.com/rust-lang/rust/issues/20030#issuecomment-68851327",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20030",
+    "id": 68851327,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4ODUxMzI3",
+    "user": {
+      "login": "Munksgaard",
+      "id": 230613,
+      "node_id": "MDQ6VXNlcjIzMDYxMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/230613?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Munksgaard",
+      "html_url": "https://github.com/Munksgaard",
+      "followers_url": "https://api.github.com/users/Munksgaard/followers",
+      "following_url": "https://api.github.com/users/Munksgaard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Munksgaard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Munksgaard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Munksgaard/subscriptions",
+      "organizations_url": "https://api.github.com/users/Munksgaard/orgs",
+      "repos_url": "https://api.github.com/users/Munksgaard/repos",
+      "events_url": "https://api.github.com/users/Munksgaard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Munksgaard/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-06T10:48:23Z",
+    "updated_at": "2015-01-06T10:48:23Z",
+    "body": "The ICE is no longer present with `rustc 0.13.0-dev (c7dd3c4d6 2015-01-05 23:51:00 +0000)`. I'm closing this as resolved.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68851327/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

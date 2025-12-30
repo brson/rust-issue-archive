@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70386124",
+    "html_url": "https://github.com/rust-lang/rust/issues/20857#issuecomment-70386124",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20857",
+    "id": 70386124,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwMzg2MTI0",
+    "user": {
+      "login": "erickt",
+      "id": 84711,
+      "node_id": "MDQ6VXNlcjg0NzEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84711?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erickt",
+      "html_url": "https://github.com/erickt",
+      "followers_url": "https://api.github.com/users/erickt/followers",
+      "following_url": "https://api.github.com/users/erickt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erickt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erickt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erickt/subscriptions",
+      "organizations_url": "https://api.github.com/users/erickt/orgs",
+      "repos_url": "https://api.github.com/users/erickt/repos",
+      "events_url": "https://api.github.com/users/erickt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erickt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-17T21:58:15Z",
+    "updated_at": "2015-01-17T21:58:15Z",
+    "body": "@SDX2000: Thanks for this! This would be probably more appropriate as a comment on the current [collections reform RFC](https://github.com/rust-lang/rfcs/pull/509), so I'm going to close this and redirect you to comment there. Generally speaking though, we already have a function [concat](http://doc.rust-lang.org/std/slice/trait.SliceConcatExt.html#tymethod.concat), so we do have some desire to not use the same name for different things. Instead, a better solution might be if we end up growing an `AddAssign` trait that we could instead write:\n\n``` rust\nlet mut v = String::new();\nv += 'a';\nv += \"foo\";\n\nlet mut v = Vec::new();\nv += 1u8;\nv += [2u8, 3, 4];\n```\n\nAnd not worry about the method. There is a chance we might be able to get this in for rust 1.0 if someone does the work :)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70386124/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

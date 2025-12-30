@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/109068815",
+    "html_url": "https://github.com/rust-lang/rust/issues/26015#issuecomment-109068815",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26015",
+    "id": 109068815,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwOTA2ODgxNQ==",
+    "user": {
+      "login": "justinkirby",
+      "id": 557944,
+      "node_id": "MDQ6VXNlcjU1Nzk0NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/557944?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/justinkirby",
+      "html_url": "https://github.com/justinkirby",
+      "followers_url": "https://api.github.com/users/justinkirby/followers",
+      "following_url": "https://api.github.com/users/justinkirby/following{/other_user}",
+      "gists_url": "https://api.github.com/users/justinkirby/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/justinkirby/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/justinkirby/subscriptions",
+      "organizations_url": "https://api.github.com/users/justinkirby/orgs",
+      "repos_url": "https://api.github.com/users/justinkirby/repos",
+      "events_url": "https://api.github.com/users/justinkirby/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/justinkirby/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-04T22:02:26Z",
+    "updated_at": "2015-06-04T22:02:26Z",
+    "body": "Found the problem. My source file was src/mai.rs not src/main.rs\n\nThe bug could be for a better error message, but I can see how that might not be a valid change request. Closing this bug as error between chair and keyboard.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/109068815/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

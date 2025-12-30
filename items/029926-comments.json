@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/158155755",
+    "html_url": "https://github.com/rust-lang/rust/issues/29926#issuecomment-158155755",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29926",
+    "id": 158155755,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1ODE1NTc1NQ==",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-11-19T18:56:35Z",
+    "updated_at": "2015-11-19T18:56:35Z",
+    "body": "Note that this was an [explicit drawback](https://github.com/rust-lang/rfcs/blob/master/text/1291-promote-libc.md#loss-of-windows-bindings) of the libc RFC, but otherwise this all generally jives with the current design today. \n\nThe standard library currently doesn't strive to have an exhaustive set of bindings in `std::os::raw` but rather purely what's needed for the standard library itself. It was also definitely a possibility laid out in the libc RFC to have another umbrella crate which reexports all the shared types here and there, but that's currently out of the scope of the design of libc.\n\nFor now I'm going to close this, but feel free to open an issue against liblibc!\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/158155755/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

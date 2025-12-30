@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54093306",
+    "html_url": "https://github.com/rust-lang/rust/issues/16413#issuecomment-54093306",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16413",
+    "id": 54093306,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0MDkzMzA2",
+    "user": {
+      "login": "mdinger",
+      "id": 4156987,
+      "node_id": "MDQ6VXNlcjQxNTY5ODc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4156987?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mdinger",
+      "html_url": "https://github.com/mdinger",
+      "followers_url": "https://api.github.com/users/mdinger/followers",
+      "following_url": "https://api.github.com/users/mdinger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mdinger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mdinger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mdinger/subscriptions",
+      "organizations_url": "https://api.github.com/users/mdinger/orgs",
+      "repos_url": "https://api.github.com/users/mdinger/repos",
+      "events_url": "https://api.github.com/users/mdinger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mdinger/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-09-01T21:42:40Z",
+    "updated_at": "2014-09-01T21:42:40Z",
+    "body": "Attribute `crate_id` no longer exists and should be removed. See PR https://github.com/rust-lang/rust/pull/15319\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54093306/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1529603",
+    "html_url": "https://github.com/rust-lang/rust/issues/639#issuecomment-1529603",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/639",
+    "id": 1529603,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1Mjk2MDM=",
+    "user": {
+      "login": "jruderman",
+      "id": 692547,
+      "node_id": "MDQ6VXNlcjY5MjU0Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/692547?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jruderman",
+      "html_url": "https://github.com/jruderman",
+      "followers_url": "https://api.github.com/users/jruderman/followers",
+      "following_url": "https://api.github.com/users/jruderman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jruderman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jruderman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jruderman/subscriptions",
+      "organizations_url": "https://api.github.com/users/jruderman/orgs",
+      "repos_url": "https://api.github.com/users/jruderman/repos",
+      "events_url": "https://api.github.com/users/jruderman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jruderman/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-07-08T02:12:52Z",
+    "updated_at": "2011-07-08T02:12:52Z",
+    "body": "Better testcase, still shows this bug after the fix for issue 638:\n\n```\niter under(uint hi) -> uint {\n    let uint y = 0u;\n    while (y < hi) {\n        put y;\n        y += 1u;\n    }\n}\n\niter several_zeroes() -> uint {\n    for each (uint i in under(3u)) {\n        put 0u;\n    }\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1529603/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/305563736",
+    "html_url": "https://github.com/rust-lang/rust/issues/28533#issuecomment-305563736",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28533",
+    "id": 305563736,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNTU2MzczNg==",
+    "user": {
+      "login": "Mark-Simulacrum",
+      "id": 5047365,
+      "node_id": "MDQ6VXNlcjUwNDczNjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5047365?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mark-Simulacrum",
+      "html_url": "https://github.com/Mark-Simulacrum",
+      "followers_url": "https://api.github.com/users/Mark-Simulacrum/followers",
+      "following_url": "https://api.github.com/users/Mark-Simulacrum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mark-Simulacrum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mark-Simulacrum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mark-Simulacrum/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mark-Simulacrum/orgs",
+      "repos_url": "https://api.github.com/users/Mark-Simulacrum/repos",
+      "events_url": "https://api.github.com/users/Mark-Simulacrum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mark-Simulacrum/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2017-06-01T17:29:18Z",
+    "updated_at": "2017-06-01T17:29:18Z",
+    "body": "Closing, we suggest to not call it today and provide the definition site.\r\n\r\n```\r\nerror: `Test::Variant` is being called, but it is not a function\r\n --> test.rs:8:13\r\n  |\r\n8 |     let x = Test::Variant(\"World\");\r\n  |             ^^^^^^^^^^^^^^^^^^^^^^\r\n  |\r\n  = help: did you mean to write `Test::Variant`?\r\nnote: defined here\r\n --> test.rs:2:5\r\n  |\r\n2 |     Variant,\r\n  |     ^^^^^^^\r\n\r\nerror: aborting due to previous error(s)\r\n```",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/305563736/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

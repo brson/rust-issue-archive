@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/22799490",
+    "html_url": "https://github.com/rust-lang/rust/pull/8549#issuecomment-22799490",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8549",
+    "id": 22799490,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyNzk5NDkw",
+    "user": {
+      "login": "toddaaro",
+      "id": 366431,
+      "node_id": "MDQ6VXNlcjM2NjQzMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/366431?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/toddaaro",
+      "html_url": "https://github.com/toddaaro",
+      "followers_url": "https://api.github.com/users/toddaaro/followers",
+      "following_url": "https://api.github.com/users/toddaaro/following{/other_user}",
+      "gists_url": "https://api.github.com/users/toddaaro/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/toddaaro/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/toddaaro/subscriptions",
+      "organizations_url": "https://api.github.com/users/toddaaro/orgs",
+      "repos_url": "https://api.github.com/users/toddaaro/repos",
+      "events_url": "https://api.github.com/users/toddaaro/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/toddaaro/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-08-16T23:07:06Z",
+    "updated_at": "2013-08-16T23:07:06Z",
+    "body": "Rolling this up with two of my other PR-ready branches. Eliminates merge hassles and should ease bors load a bit.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/22799490/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

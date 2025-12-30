@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1739581",
+    "html_url": "https://github.com/rust-lang/rust/issues/778#issuecomment-1739581",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/778",
+    "id": 1739581,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3Mzk1ODE=",
+    "user": {
+      "login": "catamorphism",
+      "id": 427212,
+      "node_id": "MDQ6VXNlcjQyNzIxMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/427212?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/catamorphism",
+      "html_url": "https://github.com/catamorphism",
+      "followers_url": "https://api.github.com/users/catamorphism/followers",
+      "following_url": "https://api.github.com/users/catamorphism/following{/other_user}",
+      "gists_url": "https://api.github.com/users/catamorphism/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/catamorphism/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/catamorphism/subscriptions",
+      "organizations_url": "https://api.github.com/users/catamorphism/orgs",
+      "repos_url": "https://api.github.com/users/catamorphism/repos",
+      "events_url": "https://api.github.com/users/catamorphism/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/catamorphism/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-08-05T22:33:15Z",
+    "updated_at": "2011-08-05T22:33:15Z",
+    "body": "As of the current revision, the typechecker rightly rejects this program (the fix was the same as for #768 - so I'm closing).\n\nThe \"pointer being freed was not allocated\" problem is, I think, a known bug; a lot of things that fail don't fail cleanly.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1739581/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

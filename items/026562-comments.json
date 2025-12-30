@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/115114243",
+    "html_url": "https://github.com/rust-lang/rust/issues/26562#issuecomment-115114243",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26562",
+    "id": 115114243,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNTExNDI0Mw==",
+    "user": {
+      "login": "yongqli",
+      "id": 67243,
+      "node_id": "MDQ6VXNlcjY3MjQz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/67243?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yongqli",
+      "html_url": "https://github.com/yongqli",
+      "followers_url": "https://api.github.com/users/yongqli/followers",
+      "following_url": "https://api.github.com/users/yongqli/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yongqli/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yongqli/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yongqli/subscriptions",
+      "organizations_url": "https://api.github.com/users/yongqli/orgs",
+      "repos_url": "https://api.github.com/users/yongqli/repos",
+      "events_url": "https://api.github.com/users/yongqli/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yongqli/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-25T05:51:24Z",
+    "updated_at": "2015-06-25T05:51:24Z",
+    "body": "Ok, it turns out I had already installed rust from `homebrew` some time ago and this caused some sort of conflict which only now manifested. Removing all traces of rust fixed the issue.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/115114243/reactions",
+      "total_count": 2,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 1,
+      "confused": 0,
+      "heart": 1,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

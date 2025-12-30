@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20241255",
+    "html_url": "https://github.com/rust-lang/rust/issues/7491#issuecomment-20241255",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7491",
+    "id": 20241255,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwMjQxMjU1",
+    "user": {
+      "login": "brson",
+      "id": 147214,
+      "node_id": "MDQ6VXNlcjE0NzIxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147214?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brson",
+      "html_url": "https://github.com/brson",
+      "followers_url": "https://api.github.com/users/brson/followers",
+      "following_url": "https://api.github.com/users/brson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brson/subscriptions",
+      "organizations_url": "https://api.github.com/users/brson/orgs",
+      "repos_url": "https://api.github.com/users/brson/repos",
+      "events_url": "https://api.github.com/users/brson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-06-30T03:01:47Z",
+    "updated_at": "2013-06-30T03:04:19Z",
+    "body": "Looks like a bug in `clean.mk`.\n\nWe build compilers that run on 'host' triples, so for each host triple we must have an llvm - we don't need an llvm for 'target' triples, and in fact should not build one for targets that are not hosts - not all targets may be capable of running llvm.\n\nThe problem here is that `clean.mk` defines [clean rules](https://github.com/mozilla/rust/blob/master/mk/clean.mk#L145) for all hosts, but then goes on to try to [invoke them](https://github.com/mozilla/rust/blob/master/mk/clean.mk#L22) for all targets. The solution is probably to fix the latter to only invoke `clean` on host triples.\n\nThis is the same issue addressed by https://github.com/mozilla/rust/pull/7492\n\n@Thad for your purposes, since you are trying to create a compiler for x86_64 from an i686 host, you probably want to configure with `--host-triples=i686-pc-mingw,x86_64-whatever`, producing two complete compilers.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20241255/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

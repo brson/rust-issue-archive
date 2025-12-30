@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/25345",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/25345/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/25345/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/25345/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/25345",
+  "id": 75706805,
+  "node_id": "MDU6SXNzdWU3NTcwNjgwNQ==",
+  "number": 25345,
+  "title": "non-hygienic lifetime-shadowing check can make macros non-modular",
+  "user": {
+    "login": "pnkfelix",
+    "id": 173127,
+    "node_id": "MDQ6VXNlcjE3MzEyNw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/173127?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pnkfelix",
+    "html_url": "https://github.com/pnkfelix",
+    "followers_url": "https://api.github.com/users/pnkfelix/followers",
+    "following_url": "https://api.github.com/users/pnkfelix/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pnkfelix/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pnkfelix/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pnkfelix/subscriptions",
+    "organizations_url": "https://api.github.com/users/pnkfelix/orgs",
+    "repos_url": "https://api.github.com/users/pnkfelix/repos",
+    "events_url": "https://api.github.com/users/pnkfelix/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pnkfelix/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 1775993,
+      "node_id": "MDU6TGFiZWwxNzc1OTkz",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-lifetimes",
+      "name": "A-lifetimes",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Lifetimes / regions"
+    },
+    {
+      "id": 132910982,
+      "node_id": "MDU6TGFiZWwxMzI5MTA5ODI=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-macros",
+      "name": "A-macros",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: All kinds of macros (custom derive, macro_rules!, proc macros, ..)"
+    },
+    {
+      "id": 211668100,
+      "node_id": "MDU6TGFiZWwyMTE2NjgxMDA=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-compiler",
+      "name": "T-compiler",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+    },
+    {
+      "id": 650731663,
+      "node_id": "MDU6TGFiZWw2NTA3MzE2NjM=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-bug",
+      "name": "C-bug",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: This is a bug."
+    },
+    {
+      "id": 7728961333,
+      "node_id": "LA_kwDOAAsO6M8AAAABzK6XNQ",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-hygiene",
+      "name": "A-hygiene",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Macro hygiene"
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 4,
+  "created_at": "2015-05-12T19:13:20Z",
+  "updated_at": "2024-12-12T23:11:06Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "non-hygienic lifetime-shadowing check can make macros non-modular\n\nThis is sort of related to #24278\n\nHere is some example code ([playpen](http://is.gd/qktKxW))\n\n``` rust\nmacro_rules! foo {\n    ($m:ident) => {\n        fn $m<'a>(x: &'a i8) -> i8 { *x }\n    }\n}\n\nstruct Foo<'a>(&'a i8);\n\nimpl<'a> Foo<'a> {\n    foo!(bar);\n    fn baz() -> i8 {\n        let x = 3_i8;\n        Foo::bar(&x)\n    }\n}\n\nfn main() {\n    println!(\"{}\", Foo::baz());\n}\n```\n\nThis yields the error:\n\n```\n<anon>:3:15: 3:17 error: lifetime name `'a` shadows a lifetime name that is already in scope\n<anon>:3         fn $m<'a>(x: &'a i8) -> i8 { *x }\n```\n\nThe problem is that there is no way for the macro author to make their macro robust against all possible contexts here.  In other words, the referential transparency component of hygiene demands that the lifetimes introduced by an expansion be treated as fresh, but they are not.\n\n(Of course, there are plenty of other ways that our macro system is not hygienic, so this is likely to be filed away as a known weakness in `macro_rules!`.  I just wanted to have a place to reference this problem.)\n",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/25345/reactions",
+    "total_count": 0,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/25345/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

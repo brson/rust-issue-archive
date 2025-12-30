@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/88466684",
+    "html_url": "https://github.com/rust-lang/rust/issues/23928#issuecomment-88466684",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23928",
+    "id": 88466684,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg4NDY2Njg0",
+    "user": {
+      "login": "rprichard",
+      "id": 1572855,
+      "node_id": "MDQ6VXNlcjE1NzI4NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1572855?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rprichard",
+      "html_url": "https://github.com/rprichard",
+      "followers_url": "https://api.github.com/users/rprichard/followers",
+      "following_url": "https://api.github.com/users/rprichard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rprichard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rprichard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rprichard/subscriptions",
+      "organizations_url": "https://api.github.com/users/rprichard/orgs",
+      "repos_url": "https://api.github.com/users/rprichard/repos",
+      "events_url": "https://api.github.com/users/rprichard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rprichard/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-01T12:48:08Z",
+    "updated_at": "2015-04-01T12:48:08Z",
+    "body": "@steveklabnik Oh wait, this is obviously a duplicate of #23913, which you just opened.\n\nI'll close it.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/88466684/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

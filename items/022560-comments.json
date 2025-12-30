@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/90074097",
+    "html_url": "https://github.com/rust-lang/rust/issues/22560#issuecomment-90074097",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22560",
+    "id": 90074097,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkwMDc0MDk3",
+    "user": {
+      "login": "lgrz",
+      "id": 158654,
+      "node_id": "MDQ6VXNlcjE1ODY1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/158654?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lgrz",
+      "html_url": "https://github.com/lgrz",
+      "followers_url": "https://api.github.com/users/lgrz/followers",
+      "following_url": "https://api.github.com/users/lgrz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lgrz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lgrz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lgrz/subscriptions",
+      "organizations_url": "https://api.github.com/users/lgrz/orgs",
+      "repos_url": "https://api.github.com/users/lgrz/repos",
+      "events_url": "https://api.github.com/users/lgrz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lgrz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-06T14:02:03Z",
+    "updated_at": "2015-04-06T14:02:52Z",
+    "body": "The sample code provided no longer crashes rustc, instead a compilation error is now generated.\n\n```\n$ rustc 22560.rs\n22560.rs:3:13: 3:16 error: the type parameter `RHS` must be explicitly specified in an object type because its default value `Self` references the type `Self`\n22560.rs:3 type Test = Add + Sub;\n                     ^~~\n22560.rs:3:19: 3:22 error: only the builtin traits can be used as closure or object bounds [E0225]\n22560.rs:3 type Test = Add + Sub;\n                           ^~~\nerror: aborting due to 2 previous errors\n$ rustc -Vv\nrustc 1.0.0-nightly (083b8a404 2015-04-05) (built 2015-04-04)\nbinary: rustc\ncommit-hash: 083b8a40413eb3dfec7430150b8895f6c8bbafca\ncommit-date: 2015-04-05\nbuild-date: 2015-04-04\nhost: x86_64-apple-darwin\nrelease: 1.0.0-nightly\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/90074097/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

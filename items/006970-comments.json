@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19145505",
+    "html_url": "https://github.com/rust-lang/rust/pull/6970#issuecomment-19145505",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6970",
+    "id": 19145505,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MTQ1NTA1",
+    "user": {
+      "login": "artagnon",
+      "id": 37226,
+      "node_id": "MDQ6VXNlcjM3MjI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/37226?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/artagnon",
+      "html_url": "https://github.com/artagnon",
+      "followers_url": "https://api.github.com/users/artagnon/followers",
+      "following_url": "https://api.github.com/users/artagnon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/artagnon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/artagnon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/artagnon/subscriptions",
+      "organizations_url": "https://api.github.com/users/artagnon/orgs",
+      "repos_url": "https://api.github.com/users/artagnon/repos",
+      "events_url": "https://api.github.com/users/artagnon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/artagnon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-06-08T08:48:08Z",
+    "updated_at": "2013-06-08T08:48:08Z",
+    "body": "@catamorphism I think the failure was being caused by something else: rebased now.  If it still doesn't pass for some reason, just close the PR; this trivial change isn't worth our time.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19145505/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

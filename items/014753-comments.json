@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/45443456",
+    "html_url": "https://github.com/rust-lang/rust/issues/14753#issuecomment-45443456",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14753",
+    "id": 45443456,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NDQzNDU2",
+    "user": {
+      "login": "comex",
+      "id": 47517,
+      "node_id": "MDQ6VXNlcjQ3NTE3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47517?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/comex",
+      "html_url": "https://github.com/comex",
+      "followers_url": "https://api.github.com/users/comex/followers",
+      "following_url": "https://api.github.com/users/comex/following{/other_user}",
+      "gists_url": "https://api.github.com/users/comex/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/comex/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/comex/subscriptions",
+      "organizations_url": "https://api.github.com/users/comex/orgs",
+      "repos_url": "https://api.github.com/users/comex/repos",
+      "events_url": "https://api.github.com/users/comex/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/comex/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-08T17:55:03Z",
+    "updated_at": "2014-06-08T17:55:03Z",
+    "body": "Derp, I should file this on the rust-www repository.  Closing.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/45443456/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

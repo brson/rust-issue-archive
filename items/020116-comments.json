@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/67873596",
+    "html_url": "https://github.com/rust-lang/rust/issues/20116#issuecomment-67873596",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20116",
+    "id": 67873596,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3ODczNTk2",
+    "user": {
+      "login": "pythonesque",
+      "id": 923144,
+      "node_id": "MDQ6VXNlcjkyMzE0NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/923144?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pythonesque",
+      "html_url": "https://github.com/pythonesque",
+      "followers_url": "https://api.github.com/users/pythonesque/followers",
+      "following_url": "https://api.github.com/users/pythonesque/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pythonesque/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pythonesque/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pythonesque/subscriptions",
+      "organizations_url": "https://api.github.com/users/pythonesque/orgs",
+      "repos_url": "https://api.github.com/users/pythonesque/repos",
+      "events_url": "https://api.github.com/users/pythonesque/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pythonesque/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-22T18:44:16Z",
+    "updated_at": "2014-12-22T18:44:16Z",
+    "body": "I think that in general there are a lot of cases where transmute (or a transmute-a-like) could be statically determined to be safe, where the required knowledge to make it safe seems to be sufficiently specialized that it probably does need to live with an intrinsic.  And I can independently think of cases where it would be useful to make assertions about two sizes other than that they were equivalent (for example, wanting to enforce that sizeof(elem1) evenly divides sizeof(elem2)).  So I'm not sure that `SameSize` is really the right generic answer.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/67873596/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

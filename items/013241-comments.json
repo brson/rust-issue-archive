@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39262738",
+    "html_url": "https://github.com/rust-lang/rust/pull/13241#issuecomment-39262738",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13241",
+    "id": 39262738,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MjYyNzM4",
+    "user": {
+      "login": "stepancheg",
+      "id": 28969,
+      "node_id": "MDQ6VXNlcjI4OTY5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28969?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/stepancheg",
+      "html_url": "https://github.com/stepancheg",
+      "followers_url": "https://api.github.com/users/stepancheg/followers",
+      "following_url": "https://api.github.com/users/stepancheg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/stepancheg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/stepancheg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/stepancheg/subscriptions",
+      "organizations_url": "https://api.github.com/users/stepancheg/orgs",
+      "repos_url": "https://api.github.com/users/stepancheg/repos",
+      "events_url": "https://api.github.com/users/stepancheg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/stepancheg/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-01T21:39:55Z",
+    "updated_at": "2014-04-01T21:39:55Z",
+    "body": "Updated patch: push_all\\* now calls extend.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39262738/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

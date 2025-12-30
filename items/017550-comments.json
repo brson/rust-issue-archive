@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70782676",
+    "html_url": "https://github.com/rust-lang/rust/issues/17550#issuecomment-70782676",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17550",
+    "id": 70782676,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwNzgyNjc2",
+    "user": {
+      "login": "Florob",
+      "id": 133684,
+      "node_id": "MDQ6VXNlcjEzMzY4NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/133684?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Florob",
+      "html_url": "https://github.com/Florob",
+      "followers_url": "https://api.github.com/users/Florob/followers",
+      "following_url": "https://api.github.com/users/Florob/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Florob/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Florob/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Florob/subscriptions",
+      "organizations_url": "https://api.github.com/users/Florob/orgs",
+      "repos_url": "https://api.github.com/users/Florob/repos",
+      "events_url": "https://api.github.com/users/Florob/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Florob/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-21T04:24:49Z",
+    "updated_at": "2015-01-21T04:24:49Z",
+    "body": "Duplicate of #17362.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70782676/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/41000899",
+    "html_url": "https://github.com/rust-lang/rust/issues/13649#issuecomment-41000899",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13649",
+    "id": 41000899,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMDAwODk5",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-22T03:35:13Z",
+    "updated_at": "2014-04-22T03:35:13Z",
+    "body": "I use `-Z no-opt` to temporarily avoid the expense of `-O` for specific targets makefile projects (including/especially mozilla/rust) i.e. `make foo RUSTFLAGS='-Z no-opt'`.\n\nThis can be equally well simulated if https://github.com/mozilla/rust/issues/7493 was fixed to allow multiple `--opt-level`s (since `RUSTFLAGS='--opt-level=0'` works equally well).\n\n(This is just a minor thing, but it is often easier to use the makefile targets than to work out the correct manual `rustc` invocation.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/41000899/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

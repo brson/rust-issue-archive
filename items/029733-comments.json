@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/277796207",
+    "html_url": "https://github.com/rust-lang/rust/issues/29733#issuecomment-277796207",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29733",
+    "id": 277796207,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3Nzc5NjIwNw==",
+    "user": {
+      "login": "Kixunil",
+      "id": 1178779,
+      "node_id": "MDQ6VXNlcjExNzg3Nzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1178779?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Kixunil",
+      "html_url": "https://github.com/Kixunil",
+      "followers_url": "https://api.github.com/users/Kixunil/followers",
+      "following_url": "https://api.github.com/users/Kixunil/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Kixunil/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Kixunil/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Kixunil/subscriptions",
+      "organizations_url": "https://api.github.com/users/Kixunil/orgs",
+      "repos_url": "https://api.github.com/users/Kixunil/repos",
+      "events_url": "https://api.github.com/users/Kixunil/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Kixunil/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2017-02-06T20:02:54Z",
+    "updated_at": "2017-02-06T20:02:54Z",
+    "body": "Seems like it's similar to one [I've encountered](https://play.rust-lang.org/?gist=321bf058921fc67bb451376297faa022&version=stable&backtrace=0). (Try commenting-out body of `for` loop.)",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/277796207/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

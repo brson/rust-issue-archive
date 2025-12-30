@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/84627084",
+    "html_url": "https://github.com/rust-lang/rust/issues/23599#issuecomment-84627084",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23599",
+    "id": 84627084,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg0NjI3MDg0",
+    "user": {
+      "login": "GuillaumeGomez",
+      "id": 3050060,
+      "node_id": "MDQ6VXNlcjMwNTAwNjA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3050060?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GuillaumeGomez",
+      "html_url": "https://github.com/GuillaumeGomez",
+      "followers_url": "https://api.github.com/users/GuillaumeGomez/followers",
+      "following_url": "https://api.github.com/users/GuillaumeGomez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GuillaumeGomez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GuillaumeGomez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GuillaumeGomez/subscriptions",
+      "organizations_url": "https://api.github.com/users/GuillaumeGomez/orgs",
+      "repos_url": "https://api.github.com/users/GuillaumeGomez/repos",
+      "events_url": "https://api.github.com/users/GuillaumeGomez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GuillaumeGomez/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-22T15:06:01Z",
+    "updated_at": "2015-03-22T16:01:41Z",
+    "body": "And what would you want Debug implementation to display ?\n\nEDIT: I precise I'm adding it (it'll will display position of the buffer for now).\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/84627084/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

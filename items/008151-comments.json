@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21854617",
+    "html_url": "https://github.com/rust-lang/rust/pull/8151#issuecomment-21854617",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8151",
+    "id": 21854617,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxODU0NjE3",
+    "user": {
+      "login": "sanxiyn",
+      "id": 45249,
+      "node_id": "MDQ6VXNlcjQ1MjQ5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45249?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sanxiyn",
+      "html_url": "https://github.com/sanxiyn",
+      "followers_url": "https://api.github.com/users/sanxiyn/followers",
+      "following_url": "https://api.github.com/users/sanxiyn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sanxiyn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sanxiyn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sanxiyn/subscriptions",
+      "organizations_url": "https://api.github.com/users/sanxiyn/orgs",
+      "repos_url": "https://api.github.com/users/sanxiyn/repos",
+      "events_url": "https://api.github.com/users/sanxiyn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sanxiyn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-31T11:05:50Z",
+    "updated_at": "2013-07-31T11:05:50Z",
+    "body": "Currently ARM builds for the generic ARM architecture, which lacks atomic instructions. When the architecture lacks atomic instructions, LLVM lowers atomic instructions to [__sync built-in functions](http://gcc.gnu.org/onlinedocs/gcc/_005f_005fsync-Builtins.html) in the compiler runtime, but there are no such functions for max, min, umax, umin and LLVM crashes with assertions. It seems to me that fixing this requires changing the compiler runtime interface, which seems difficult.\n\nOn the other hand, specific ARM architectures do have atomic instructions. I don't know the exact architecture revision which introduced atomic instructions, but I confirmed that passing `--target-feature +v7` to rustc works. (Except that ARM is currently using binutils assembler instead of LLVM assembler therefore you also need to pass `-march=armv7-a` to the assembler, which is annoying but temporary until we switch to LLVM assembler.)\n\nSince atomic instructions are more efficient than __sync built-in functions, it may be a good idea to build for the more recent ARM architecture. I will make a separate pull request to do this.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21854617/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

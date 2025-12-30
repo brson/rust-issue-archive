@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/138765572",
+    "html_url": "https://github.com/rust-lang/rust/issues/28288#issuecomment-138765572",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28288",
+    "id": 138765572,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzODc2NTU3Mg==",
+    "user": {
+      "login": "eminence",
+      "id": 402454,
+      "node_id": "MDQ6VXNlcjQwMjQ1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/402454?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eminence",
+      "html_url": "https://github.com/eminence",
+      "followers_url": "https://api.github.com/users/eminence/followers",
+      "following_url": "https://api.github.com/users/eminence/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eminence/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eminence/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eminence/subscriptions",
+      "organizations_url": "https://api.github.com/users/eminence/orgs",
+      "repos_url": "https://api.github.com/users/eminence/repos",
+      "events_url": "https://api.github.com/users/eminence/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eminence/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-09T03:19:45Z",
+    "updated_at": "2015-09-09T03:19:45Z",
+    "body": "CC #28308 similar error, but smaller reproducer\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/138765572/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

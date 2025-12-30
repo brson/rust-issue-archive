@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/125766909",
+    "html_url": "https://github.com/rust-lang/rust/issues/25446#issuecomment-125766909",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25446",
+    "id": 125766909,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyNTc2NjkwOQ==",
+    "user": {
+      "login": "dhuseby",
+      "id": 5017470,
+      "node_id": "MDQ6VXNlcjUwMTc0NzA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5017470?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dhuseby",
+      "html_url": "https://github.com/dhuseby",
+      "followers_url": "https://api.github.com/users/dhuseby/followers",
+      "following_url": "https://api.github.com/users/dhuseby/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dhuseby/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dhuseby/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dhuseby/subscriptions",
+      "organizations_url": "https://api.github.com/users/dhuseby/orgs",
+      "repos_url": "https://api.github.com/users/dhuseby/repos",
+      "events_url": "https://api.github.com/users/dhuseby/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dhuseby/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-07-28T22:05:44Z",
+    "updated_at": "2015-07-28T22:05:44Z",
+    "body": "This issue was fixed in the last few weeks.  The FreeBSD buildbots are successfully building rust again: http://buildbot.rust-lang.org/builders/auto-freebsd10_64-1\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/125766909/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

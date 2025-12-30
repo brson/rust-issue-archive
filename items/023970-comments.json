@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/107625471",
+    "html_url": "https://github.com/rust-lang/rust/issues/23970#issuecomment-107625471",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23970",
+    "id": 107625471,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNzYyNTQ3MQ==",
+    "user": {
+      "login": "ebfull",
+      "id": 3794471,
+      "node_id": "MDQ6VXNlcjM3OTQ0NzE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3794471?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ebfull",
+      "html_url": "https://github.com/ebfull",
+      "followers_url": "https://api.github.com/users/ebfull/followers",
+      "following_url": "https://api.github.com/users/ebfull/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ebfull/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ebfull/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ebfull/subscriptions",
+      "organizations_url": "https://api.github.com/users/ebfull/orgs",
+      "repos_url": "https://api.github.com/users/ebfull/repos",
+      "events_url": "https://api.github.com/users/ebfull/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ebfull/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-01T16:28:07Z",
+    "updated_at": "2015-06-01T16:28:07Z",
+    "body": "This ICE is no longer appearing on the latest nightly. Instead it's sensible:\n\n```\n<anon>:5:1: 5:21 error: the object type `Bar` automatically implements the trait `Foo` [E0371]\n<anon>:5 impl Foo for Bar { }\n         ^~~~~~~~~~~~~~~~~~~~\nerror: aborting due to previous error\nplaypen: application terminated with error code 101\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/107625471/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/57942993",
+    "html_url": "https://github.com/rust-lang/rust/issues/17431#issuecomment-57942993",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17431",
+    "id": 57942993,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU3OTQyOTkz",
+    "user": {
+      "login": "isabelmu",
+      "id": 6258344,
+      "node_id": "MDQ6VXNlcjYyNTgzNDQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6258344?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/isabelmu",
+      "html_url": "https://github.com/isabelmu",
+      "followers_url": "https://api.github.com/users/isabelmu/followers",
+      "following_url": "https://api.github.com/users/isabelmu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/isabelmu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/isabelmu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/isabelmu/subscriptions",
+      "organizations_url": "https://api.github.com/users/isabelmu/orgs",
+      "repos_url": "https://api.github.com/users/isabelmu/repos",
+      "events_url": "https://api.github.com/users/isabelmu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/isabelmu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-05T16:26:10Z",
+    "updated_at": "2014-10-06T02:01:23Z",
+    "body": "I believe this ~~and #17483~~ are separate from #4363. The issue seems to be a bug in the `ty::is_type_representable` logic, which should catch type definition recursions that lead to infinitely large types.\n\nHere's a case this logic does catch:\n\n``` rust\nstruct Foo { foo: Option<Foo> }\nimpl Foo { fn bar(&self) {} }\n```\n\nAnd a snippet of the debug log:\n\n```\nDEBUG:rustc::middle::ty: is_type_representable: Foo\nDEBUG:rustc::middle::ty: type_structurally_recursive: Foo\nDEBUG:rustc::middle::ty: type_structurally_recursive: core::option::Option<Foo>\nDEBUG:rustc::middle::ty: type_structurally_recursive: Foo\n```\n\nThe second time that Foo is seen, an error is generated, so `rustc` won't overflow later on.\n\nBut here's a case that it fails to catch:\n\n``` rust\nstruct Foo { foo: Option<Option<Foo>> }\nimpl Foo { fn bar(&self) {} }\n```\n\nAnd the corresponding debug output:\n\n```\nDEBUG:rustc::middle::ty: is_type_representable: Foo\nDEBUG:rustc::middle::ty: type_structurally_recursive: Foo\nDEBUG:rustc::middle::ty: type_structurally_recursive: core::option::Option<core::option::Option<Foo>>\nDEBUG:rustc::middle::ty: type_structurally_recursive: core::option::Option<Foo>\n```\n\nSomehow we aren't getting all the way through to the inner `Foo`, so we don't end up reporting an error.\n\nHere's the output for the original example, with `Mutex<Option<Foo>>`:\n\n```\nDEBUG:rustc::middle::ty: is_type_representable: Foo\nDEBUG:rustc::middle::ty: type_structurally_recursive: Foo\nDEBUG:rustc::middle::ty: type_structurally_recursive: sync::lock::Mutex<core::option::Option<Foo>>\nDEBUG:rustc::middle::ty: type_structurally_recursive: sync::raw::Mutex\nDEBUG:rustc::middle::ty: type_structurally_recursive: sync::raw::Sem<collections::vec::Vec<sync::raw::WaitQueue>>\nDEBUG:rustc::middle::ty: type_structurally_recursive: sync::mutex::Mutex\nDEBUG:rustc::middle::ty: type_structurally_recursive: Box<sync::mutex::StaticMutex>\nDEBUG:rustc::middle::ty: type_structurally_recursive: core::cell::UnsafeCell<sync::raw::SemInner<collections::vec::Vec<sync::raw::WaitQueue>>>\nDEBUG:rustc::middle::ty: type_structurally_recursive: sync::raw::SemInner<collections::vec::Vec<sync::raw::WaitQueue>>\nDEBUG:rustc::middle::ty: type_structurally_recursive: int\nDEBUG:rustc::middle::ty: type_structurally_recursive: sync::raw::WaitQueue\nDEBUG:rustc::middle::ty: type_structurally_recursive: sync::comm::Receiver<sync::comm::Sender<()>>\nDEBUG:rustc::middle::ty: type_structurally_recursive: core::cell::UnsafeCell<sync::comm::Flavor<sync::comm::Sender<()>>>\n```\n\nI'll see whether I can fix this.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/57942993/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

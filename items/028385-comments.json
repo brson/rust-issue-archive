@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139854336",
+    "html_url": "https://github.com/rust-lang/rust/issues/28385#issuecomment-139854336",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28385",
+    "id": 139854336,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzOTg1NDMzNg==",
+    "user": {
+      "login": "RomanMenzel",
+      "id": 7603898,
+      "node_id": "MDQ6VXNlcjc2MDM4OTg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7603898?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RomanMenzel",
+      "html_url": "https://github.com/RomanMenzel",
+      "followers_url": "https://api.github.com/users/RomanMenzel/followers",
+      "following_url": "https://api.github.com/users/RomanMenzel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RomanMenzel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RomanMenzel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RomanMenzel/subscriptions",
+      "organizations_url": "https://api.github.com/users/RomanMenzel/orgs",
+      "repos_url": "https://api.github.com/users/RomanMenzel/repos",
+      "events_url": "https://api.github.com/users/RomanMenzel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RomanMenzel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-13T09:01:38Z",
+    "updated_at": "2015-09-13T09:01:38Z",
+    "body": "Have just solved it, the problem was my terminal (I had a strange configuration).\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139854336/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

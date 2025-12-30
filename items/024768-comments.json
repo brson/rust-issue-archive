@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/270170390",
+    "html_url": "https://github.com/rust-lang/rust/issues/24768#issuecomment-270170390",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/24768",
+    "id": 270170390,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MDE3MDM5MA==",
+    "user": {
+      "login": "steveklabnik",
+      "id": 27786,
+      "node_id": "MDQ6VXNlcjI3Nzg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27786?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steveklabnik",
+      "html_url": "https://github.com/steveklabnik",
+      "followers_url": "https://api.github.com/users/steveklabnik/followers",
+      "following_url": "https://api.github.com/users/steveklabnik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steveklabnik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steveklabnik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steveklabnik/subscriptions",
+      "organizations_url": "https://api.github.com/users/steveklabnik/orgs",
+      "repos_url": "https://api.github.com/users/steveklabnik/repos",
+      "events_url": "https://api.github.com/users/steveklabnik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steveklabnik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2017-01-03T17:26:03Z",
+    "updated_at": "2017-01-03T17:26:03Z",
+    "body": "Triage: it's been almost two years, there's no reproducing. I'm going to close. @thepowersgang if you still feel like this is a problem, please provide one, thanks!",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/270170390/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

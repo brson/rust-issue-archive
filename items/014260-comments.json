@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62065927",
+    "html_url": "https://github.com/rust-lang/rust/issues/14260#issuecomment-62065927",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14260",
+    "id": 62065927,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYyMDY1OTI3",
+    "user": {
+      "login": "SimonSapin",
+      "id": 291359,
+      "node_id": "MDQ6VXNlcjI5MTM1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/291359?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SimonSapin",
+      "html_url": "https://github.com/SimonSapin",
+      "followers_url": "https://api.github.com/users/SimonSapin/followers",
+      "following_url": "https://api.github.com/users/SimonSapin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SimonSapin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SimonSapin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SimonSapin/subscriptions",
+      "organizations_url": "https://api.github.com/users/SimonSapin/orgs",
+      "repos_url": "https://api.github.com/users/SimonSapin/repos",
+      "events_url": "https://api.github.com/users/SimonSapin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SimonSapin/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-06T22:48:10Z",
+    "updated_at": "2014-11-06T22:48:10Z",
+    "body": "This is now a stand-alone library that is very easy to use with Cargo: https://github.com/Kimundi/lazy-static.rs\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62065927/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

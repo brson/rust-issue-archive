@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71776324",
+    "html_url": "https://github.com/rust-lang/rust/issues/19314#issuecomment-71776324",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19314",
+    "id": 71776324,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcxNzc2MzI0",
+    "user": {
+      "login": "kmcallister",
+      "id": 444997,
+      "node_id": "MDQ6VXNlcjQ0NDk5Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/444997?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kmcallister",
+      "html_url": "https://github.com/kmcallister",
+      "followers_url": "https://api.github.com/users/kmcallister/followers",
+      "following_url": "https://api.github.com/users/kmcallister/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kmcallister/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kmcallister/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kmcallister/subscriptions",
+      "organizations_url": "https://api.github.com/users/kmcallister/orgs",
+      "repos_url": "https://api.github.com/users/kmcallister/repos",
+      "events_url": "https://api.github.com/users/kmcallister/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kmcallister/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-28T03:42:26Z",
+    "updated_at": "2015-01-28T03:42:26Z",
+    "body": "This is underway, e.g. [time](https://crates.io/crates/time) and [log](https://crates.io/crates/log) have moved to crates.io.  We have an ongoing goal to do this to the degree possible, so I don't think there's a specific actionable ticket here.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71776324/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

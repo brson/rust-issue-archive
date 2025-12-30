@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75503305",
+    "html_url": "https://github.com/rust-lang/rust/issues/22701#issuecomment-75503305",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22701",
+    "id": 75503305,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1NTAzMzA1",
+    "user": {
+      "login": "brendanzab",
+      "id": 695077,
+      "node_id": "MDQ6VXNlcjY5NTA3Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/695077?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brendanzab",
+      "html_url": "https://github.com/brendanzab",
+      "followers_url": "https://api.github.com/users/brendanzab/followers",
+      "following_url": "https://api.github.com/users/brendanzab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brendanzab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brendanzab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brendanzab/subscriptions",
+      "organizations_url": "https://api.github.com/users/brendanzab/orgs",
+      "repos_url": "https://api.github.com/users/brendanzab/repos",
+      "events_url": "https://api.github.com/users/brendanzab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brendanzab/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-23T08:09:53Z",
+    "updated_at": "2015-02-23T08:09:53Z",
+    "body": "Oh, duh, the solution is:\n\n``` rust\ntrait Resources: std::marker::PhantomFn<Self> {\n    type Buffer;\n}\n\ntype BufferHandle<R: Resources> = (<R as Resources>::Buffer, ());\n\nstruct ParamValues<'a, R: Resources> where\n    R: Resources,\n    R::Buffer: 'a,\n{\n    pub blocks: &'a mut Vec<BufferHandle<R>>,\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75503305/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

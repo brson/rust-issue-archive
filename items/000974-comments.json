@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/2759437",
+    "html_url": "https://github.com/rust-lang/rust/issues/974#issuecomment-2759437",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/974",
+    "id": 2759437,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NTk0Mzc=",
+    "user": {
+      "login": "boggle",
+      "id": 50886,
+      "node_id": "MDQ6VXNlcjUwODg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50886?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/boggle",
+      "html_url": "https://github.com/boggle",
+      "followers_url": "https://api.github.com/users/boggle/followers",
+      "following_url": "https://api.github.com/users/boggle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/boggle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/boggle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/boggle/subscriptions",
+      "organizations_url": "https://api.github.com/users/boggle/orgs",
+      "repos_url": "https://api.github.com/users/boggle/repos",
+      "events_url": "https://api.github.com/users/boggle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/boggle/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-11-16T13:39:10Z",
+    "updated_at": "2011-11-16T13:39:10Z",
+    "body": "The basic analysis is correct but this is more involved, the use of int instead if u/i64 goes up via token::LIT_MACH_INT, ast::lit_mach_int all the way down to tycheck and trans.  Will require some work fixing this. Secondary issue would be proper handling of signedness.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/2759437/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

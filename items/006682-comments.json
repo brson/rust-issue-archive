@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18807090",
+    "html_url": "https://github.com/rust-lang/rust/issues/6682#issuecomment-18807090",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6682",
+    "id": 18807090,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4ODA3MDkw",
+    "user": {
+      "login": "dotdash",
+      "id": 230962,
+      "node_id": "MDQ6VXNlcjIzMDk2Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/230962?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dotdash",
+      "html_url": "https://github.com/dotdash",
+      "followers_url": "https://api.github.com/users/dotdash/followers",
+      "following_url": "https://api.github.com/users/dotdash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dotdash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dotdash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dotdash/subscriptions",
+      "organizations_url": "https://api.github.com/users/dotdash/orgs",
+      "repos_url": "https://api.github.com/users/dotdash/repos",
+      "events_url": "https://api.github.com/users/dotdash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dotdash/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-06-02T13:30:23Z",
+    "updated_at": "2013-06-02T13:30:23Z",
+    "body": "This is actually not related to the return value, but just passing `self` by value. The code ends up passing the stack address to `glue_drop`.\n\n``` asm\n    .type   _ZN14__extensions__9meth_28651m17_7e6e9d6cd229cfd23_00E,@function\n_ZN14__extensions__9meth_28651m17_7e6e9d6cd229cfd23_00E:\n    .cfi_startproc\n    cmpq    %fs:112, %rsp\n    ja  .LBB0_0\n    movabsq $40, %r10\n    movabsq $0, %r11\n    callq   __morestack\n    ret\n.LBB0_0:\n    pushq   %rbp\n.Ltmp2:\n    .cfi_def_cfa_offset 16\n.Ltmp3:\n    .cfi_offset %rbp, -16\n    movq    %rsp, %rbp\n.Ltmp4:\n    .cfi_def_cfa_register %rbp\n    subq    $32, %rsp\n    movq    %rdi, -16(%rbp)\n    jmp .LBB0_2\n.LBB0_1:\n    addq    $32, %rsp\n    popq    %rbp\n    ret\n.LBB0_2:\n    movq    -16(%rbp), %rax\n    movq    %rax, -24(%rbp)\n    movabsq $0, %rax\n    movq    %rax, %rdi\n    movq    %rax, %rsi\n    movq    -24(%rbp), %rdx\n    callq   _ZN9_ubox_u3217_d8e692bd4656d07e14glue_drop_2877E\n    jmp .LBB0_1\n.Ltmp5:\n    .size   _ZN14__extensions__9meth_28651m17_7e6e9d6cd229cfd23_00E, .Ltmp5-_ZN14__extensions__9meth_28651m17_7e6e9d6cd229cfd23_00E\n\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18807090/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

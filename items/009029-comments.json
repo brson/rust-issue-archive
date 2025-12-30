@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27386616",
+    "html_url": "https://github.com/rust-lang/rust/issues/9029#issuecomment-27386616",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9029",
+    "id": 27386616,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3Mzg2NjE2",
+    "user": {
+      "login": "JeffMurray",
+      "id": 4346807,
+      "node_id": "MDQ6VXNlcjQzNDY4MDc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4346807?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JeffMurray",
+      "html_url": "https://github.com/JeffMurray",
+      "followers_url": "https://api.github.com/users/JeffMurray/followers",
+      "following_url": "https://api.github.com/users/JeffMurray/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JeffMurray/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JeffMurray/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JeffMurray/subscriptions",
+      "organizations_url": "https://api.github.com/users/JeffMurray/orgs",
+      "repos_url": "https://api.github.com/users/JeffMurray/repos",
+      "events_url": "https://api.github.com/users/JeffMurray/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JeffMurray/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-10-30T13:00:17Z",
+    "updated_at": "2013-10-30T13:00:17Z",
+    "body": "closing since std::rt::io is replacing std::io\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27386616/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

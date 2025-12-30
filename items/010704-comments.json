@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29533149",
+    "html_url": "https://github.com/rust-lang/rust/pull/10704#issuecomment-29533149",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10704",
+    "id": 29533149,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NTMzMTQ5",
+    "user": {
+      "login": "TeXitoi",
+      "id": 5787066,
+      "node_id": "MDQ6VXNlcjU3ODcwNjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5787066?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TeXitoi",
+      "html_url": "https://github.com/TeXitoi",
+      "followers_url": "https://api.github.com/users/TeXitoi/followers",
+      "following_url": "https://api.github.com/users/TeXitoi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TeXitoi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TeXitoi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TeXitoi/subscriptions",
+      "organizations_url": "https://api.github.com/users/TeXitoi/orgs",
+      "repos_url": "https://api.github.com/users/TeXitoi/repos",
+      "events_url": "https://api.github.com/users/TeXitoi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TeXitoi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-29T19:14:57Z",
+    "updated_at": "2013-11-29T19:14:57Z",
+    "body": "Le 2013-11-28 20:52, Daniel Micay a \u00e9crit\u00a0:\n\n> Isn't using RWArc for this really slow?\n\n(strange, I can't find this comment on github)\n\nIn fact, if you look at the code carefully (see `fn mult`), in parallel, \n1 `RWArc` (`v`)is only used as read during a long time by multiple tasks \n(100), and 1 `RWArc` (`out`) is used in write mode only to set a value \nin a vector at the end of each tasks (`RWArc::write` concurrency is on a \nvery short time). As `RWArc::read` is almost the same thing as using \n`Arc`, this code works quite well. I tried to use `Arc` in tasks for \nread only data, and writing in one unique task reading messages, but it \nis slower (by memory, 10% slower) and more complicated.\n\nI didn't profile the code, but it seems that most of the time spend is \nin the `A` function.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29533149/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

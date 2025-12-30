@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/164254563",
+    "html_url": "https://github.com/rust-lang/rust/issues/30361#issuecomment-164254563",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30361",
+    "id": 164254563,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2NDI1NDU2Mw==",
+    "user": {
+      "login": "arielb1",
+      "id": 1830974,
+      "node_id": "MDQ6VXNlcjE4MzA5NzQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1830974?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/arielb1",
+      "html_url": "https://github.com/arielb1",
+      "followers_url": "https://api.github.com/users/arielb1/followers",
+      "following_url": "https://api.github.com/users/arielb1/following{/other_user}",
+      "gists_url": "https://api.github.com/users/arielb1/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/arielb1/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/arielb1/subscriptions",
+      "organizations_url": "https://api.github.com/users/arielb1/orgs",
+      "repos_url": "https://api.github.com/users/arielb1/repos",
+      "events_url": "https://api.github.com/users/arielb1/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/arielb1/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-13T12:36:08Z",
+    "updated_at": "2015-12-13T12:36:08Z",
+    "body": "@petrochenkov \n\nI was aware of this mess but I am not familiar enough with `resolve` to understand its effects or try to touch it.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/164254563/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/23237766",
+    "html_url": "https://github.com/rust-lang/rust/pull/8563#issuecomment-23237766",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8563",
+    "id": 23237766,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzMjM3NzY2",
+    "user": {
+      "login": "rlepidi",
+      "id": 321554,
+      "node_id": "MDQ6VXNlcjMyMTU1NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/321554?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rlepidi",
+      "html_url": "https://github.com/rlepidi",
+      "followers_url": "https://api.github.com/users/rlepidi/followers",
+      "following_url": "https://api.github.com/users/rlepidi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rlepidi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rlepidi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rlepidi/subscriptions",
+      "organizations_url": "https://api.github.com/users/rlepidi/orgs",
+      "repos_url": "https://api.github.com/users/rlepidi/repos",
+      "events_url": "https://api.github.com/users/rlepidi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rlepidi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-08-25T23:30:45Z",
+    "updated_at": "2013-08-25T23:31:03Z",
+    "body": "This page is accessible from the rust-lang.org site if you type in the url, but it is not yet linked from the bottom of the main Tutorial page.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/23237766/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

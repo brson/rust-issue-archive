@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/2970603",
+    "html_url": "https://github.com/rust-lang/rust/issues/1236#issuecomment-2970603",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/1236",
+    "id": 2970603,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NzA2MDM=",
+    "user": {
+      "login": "elly",
+      "id": 218734,
+      "node_id": "MDQ6VXNlcjIxODczNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/218734?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/elly",
+      "html_url": "https://github.com/elly",
+      "followers_url": "https://api.github.com/users/elly/followers",
+      "following_url": "https://api.github.com/users/elly/following{/other_user}",
+      "gists_url": "https://api.github.com/users/elly/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/elly/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/elly/subscriptions",
+      "organizations_url": "https://api.github.com/users/elly/orgs",
+      "repos_url": "https://api.github.com/users/elly/repos",
+      "events_url": "https://api.github.com/users/elly/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/elly/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-12-01T04:08:04Z",
+    "updated_at": "2011-12-01T04:08:04Z",
+    "body": "Discovery: I had a really ancient librustc.so in my library path. Removing it, and using -L to refer to the real one, fixed this. Closing.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/2970603/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

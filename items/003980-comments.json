@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19027321",
+    "html_url": "https://github.com/rust-lang/rust/issues/3980#issuecomment-19027321",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3980",
+    "id": 19027321,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5MDI3MzIx",
+    "user": {
+      "login": "graydon",
+      "id": 14097,
+      "node_id": "MDQ6VXNlcjE0MDk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/graydon",
+      "html_url": "https://github.com/graydon",
+      "followers_url": "https://api.github.com/users/graydon/followers",
+      "following_url": "https://api.github.com/users/graydon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/graydon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/graydon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/graydon/subscriptions",
+      "organizations_url": "https://api.github.com/users/graydon/orgs",
+      "repos_url": "https://api.github.com/users/graydon/repos",
+      "events_url": "https://api.github.com/users/graydon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/graydon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-06-06T06:33:20Z",
+    "updated_at": "2013-06-06T06:33:20Z",
+    "body": "Considering this impl shows up in libstd now:\n\n```\nimpl<T: Copy + Add<T,T>> Add<Option<T>, Option<T>> for Option<T> {\n    #[inline(always)]\n    fn add(&self, other: &Option<T>) -> Option<T> {\n        match (*self, *other) {\n            (None, None) => None,\n            (_, None) => *self,\n            (None, _) => *other,\n            (Some(ref lhs), Some(ref rhs)) => Some(*lhs + *rhs)\n        }\n    }\n}\n```\n\nand that this program:\n\n```\nfn main () {\n    println(fmt!(\"%?\", Some(1) + Some(2)))\n}\n```\n\nprints `Some(3)`, I think this bug is now closed.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19027321/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

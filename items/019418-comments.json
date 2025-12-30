@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64979432",
+    "html_url": "https://github.com/rust-lang/rust/pull/19418#issuecomment-64979432",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19418",
+    "id": 64979432,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0OTc5NDMy",
+    "user": {
+      "login": "rust-highfive",
+      "id": 7378925,
+      "node_id": "MDQ6VXNlcjczNzg5MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7378925?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rust-highfive",
+      "html_url": "https://github.com/rust-highfive",
+      "followers_url": "https://api.github.com/users/rust-highfive/followers",
+      "following_url": "https://api.github.com/users/rust-highfive/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rust-highfive/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rust-highfive/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rust-highfive/subscriptions",
+      "organizations_url": "https://api.github.com/users/rust-highfive/orgs",
+      "repos_url": "https://api.github.com/users/rust-highfive/repos",
+      "events_url": "https://api.github.com/users/rust-highfive/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rust-highfive/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-30T08:52:43Z",
+    "updated_at": "2014-11-30T08:52:43Z",
+    "body": "<img src=\"http://www.joshmatthews.net/warning.svg\" alt=\"warning\" height=20> **Warning** <img src=\"http://www.joshmatthews.net/warning.svg\" alt=\"warning\" height=20>\n- These commits modify **unsafe code**. Please review it carefully!\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64979432/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

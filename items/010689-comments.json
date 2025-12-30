@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29551298",
+    "html_url": "https://github.com/rust-lang/rust/pull/10689#issuecomment-29551298",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10689",
+    "id": 29551298,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5NTUxMjk4",
+    "user": {
+      "login": "musitdev",
+      "id": 5486375,
+      "node_id": "MDQ6VXNlcjU0ODYzNzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5486375?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/musitdev",
+      "html_url": "https://github.com/musitdev",
+      "followers_url": "https://api.github.com/users/musitdev/followers",
+      "following_url": "https://api.github.com/users/musitdev/following{/other_user}",
+      "gists_url": "https://api.github.com/users/musitdev/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/musitdev/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/musitdev/subscriptions",
+      "organizations_url": "https://api.github.com/users/musitdev/orgs",
+      "repos_url": "https://api.github.com/users/musitdev/repos",
+      "events_url": "https://api.github.com/users/musitdev/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/musitdev/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-30T12:11:33Z",
+    "updated_at": "2013-11-30T12:11:33Z",
+    "body": "I update the documentation and add the two method. There another PR pending about the change of @ in &. What is the best way to merge the two changes.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29551298/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

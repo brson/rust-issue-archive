@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/87744030",
+    "html_url": "https://github.com/rust-lang/rust/issues/23569#issuecomment-87744030",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23569",
+    "id": 87744030,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg3NzQ0MDMw",
+    "user": {
+      "login": "elrnv",
+      "id": 1807432,
+      "node_id": "MDQ6VXNlcjE4MDc0MzI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1807432?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/elrnv",
+      "html_url": "https://github.com/elrnv",
+      "followers_url": "https://api.github.com/users/elrnv/followers",
+      "following_url": "https://api.github.com/users/elrnv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/elrnv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/elrnv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/elrnv/subscriptions",
+      "organizations_url": "https://api.github.com/users/elrnv/orgs",
+      "repos_url": "https://api.github.com/users/elrnv/repos",
+      "events_url": "https://api.github.com/users/elrnv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/elrnv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-30T16:36:11Z",
+    "updated_at": "2015-03-30T16:36:11Z",
+    "body": "Closing the issue, as it doesn't occur for rust's nightly build 2015-03-29.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/87744030/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

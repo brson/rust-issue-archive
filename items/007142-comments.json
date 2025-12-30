@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19504776",
+    "html_url": "https://github.com/rust-lang/rust/pull/7142#issuecomment-19504776",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7142",
+    "id": 19504776,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5NTA0Nzc2",
+    "user": {
+      "login": "pcwalton",
+      "id": 157897,
+      "node_id": "MDQ6VXNlcjE1Nzg5Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157897?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pcwalton",
+      "html_url": "https://github.com/pcwalton",
+      "followers_url": "https://api.github.com/users/pcwalton/followers",
+      "following_url": "https://api.github.com/users/pcwalton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pcwalton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pcwalton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pcwalton/subscriptions",
+      "organizations_url": "https://api.github.com/users/pcwalton/orgs",
+      "repos_url": "https://api.github.com/users/pcwalton/repos",
+      "events_url": "https://api.github.com/users/pcwalton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pcwalton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-06-15T22:49:14Z",
+    "updated_at": "2013-06-15T22:49:14Z",
+    "body": "Yes, I've wanted this for a while.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19504776/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

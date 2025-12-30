@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10068111",
+    "html_url": "https://github.com/rust-lang/rust/issues/3654#issuecomment-10068111",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3654",
+    "id": 10068111,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDY4MTEx",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-11-05T12:01:55Z",
+    "updated_at": "2012-11-07T17:00:49Z",
+    "body": "On windows at least, this appears to be fixed:\n\n```\n$ rustc.exe ./src/test/run-pass/reexport-star.rs --pretty normal\n// FIXME #3654\n\nmod a {\n    pub fn f() { }\n    pub fn g() { }\n}\n\nmod b {\n    pub use a::*;\n}\n\nfn main() { b::f(); b::g(); }\n```\n\nEdit: also tested on Debian 64bit, same result as above.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10068111/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

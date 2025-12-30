@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/147590513",
+    "html_url": "https://github.com/rust-lang/rust/issues/28998#issuecomment-147590513",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28998",
+    "id": 147590513,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0NzU5MDUxMw==",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-10-13T03:58:17Z",
+    "updated_at": "2015-10-13T03:58:17Z",
+    "body": "Thanks for the report! I think things are basically working as intended here, however, as there's a number of pieces in the source that need to be touched up to get this to work:\n- In the C++ code the external declaration of `rust_function` needs to be tagged with `extern \"C\"` as well to ensure that name mangling doesn't happen (and the right ABI is used).\n- On the Rust side of things you'll need to tag the `rust_function` with `#[no_mangle]` to disable the compiler's name mangling.\n- On the Rust side of things you'll also need to mark the function as `pub` as it needs to be visible to C (e.g. crate public).\n\nOnce those are done it should work just fine!\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/147590513/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

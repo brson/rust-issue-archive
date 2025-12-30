@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21372583",
+    "html_url": "https://github.com/rust-lang/rust/issues/7977#issuecomment-21372583",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7977",
+    "id": 21372583,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxMzcyNTgz",
+    "user": {
+      "login": "nibrahim",
+      "id": 69051,
+      "node_id": "MDQ6VXNlcjY5MDUx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/69051?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nibrahim",
+      "html_url": "https://github.com/nibrahim",
+      "followers_url": "https://api.github.com/users/nibrahim/followers",
+      "following_url": "https://api.github.com/users/nibrahim/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nibrahim/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nibrahim/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nibrahim/subscriptions",
+      "organizations_url": "https://api.github.com/users/nibrahim/orgs",
+      "repos_url": "https://api.github.com/users/nibrahim/repos",
+      "events_url": "https://api.github.com/users/nibrahim/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nibrahim/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-22T20:21:57Z",
+    "updated_at": "2013-07-22T20:21:57Z",
+    "body": "This is caused due to mismatch between the `10` (which is an integer) and the type of `monster_factor` which is a `float`.  Using 10.0 (or some other float as the tutorial actually suggests) prevents the problem.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21372583/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/37767876",
+    "html_url": "https://github.com/rust-lang/rust/pull/12931#issuecomment-37767876",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12931",
+    "id": 37767876,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM3NzY3ODc2",
+    "user": {
+      "login": "aochagavia",
+      "id": 5196584,
+      "node_id": "MDQ6VXNlcjUxOTY1ODQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5196584?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aochagavia",
+      "html_url": "https://github.com/aochagavia",
+      "followers_url": "https://api.github.com/users/aochagavia/followers",
+      "following_url": "https://api.github.com/users/aochagavia/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aochagavia/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aochagavia/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aochagavia/subscriptions",
+      "organizations_url": "https://api.github.com/users/aochagavia/orgs",
+      "repos_url": "https://api.github.com/users/aochagavia/repos",
+      "events_url": "https://api.github.com/users/aochagavia/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aochagavia/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-16T19:47:02Z",
+    "updated_at": "2014-03-16T19:47:37Z",
+    "body": "Why does this happen? It has nothing to do with the refactored function...\n\n```\nfailures:\n\n---- [run-fail] run-fail/assert-macro-fmt.rs stdout ----\n\nerror: error pattern 'failed at 'test-assert-fmt 42 rust'' not found!\ncommand: x86_64-unknown-linux-gnu/test/run-fail/assert-macro-fmt.stage2-x86_64-unknown-linux-gnu \nstdout:\n------------------------------------------\n\n------------------------------------------\nstderr:\n------------------------------------------\ntask '<main>\n------------------------------------------\n\ntask '[run-fail] run-fail/assert-macro-fmt.rs' failed at 'explicit failure', /home/rustbuild/src/rust-buildbot/slave/auto-linux-64-nopt-t/build/src/compiletest/runtest.rs:950\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/37767876/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

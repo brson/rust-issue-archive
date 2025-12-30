@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/100119187",
+    "html_url": "https://github.com/rust-lang/rust/issues/25007#issuecomment-100119187",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25007",
+    "id": 100119187,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDExOTE4Nw==",
+    "user": {
+      "login": "lambda-fairy",
+      "id": 1572323,
+      "node_id": "MDQ6VXNlcjE1NzIzMjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1572323?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lambda-fairy",
+      "html_url": "https://github.com/lambda-fairy",
+      "followers_url": "https://api.github.com/users/lambda-fairy/followers",
+      "following_url": "https://api.github.com/users/lambda-fairy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lambda-fairy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lambda-fairy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lambda-fairy/subscriptions",
+      "organizations_url": "https://api.github.com/users/lambda-fairy/orgs",
+      "repos_url": "https://api.github.com/users/lambda-fairy/repos",
+      "events_url": "https://api.github.com/users/lambda-fairy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lambda-fairy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-08T06:37:49Z",
+    "updated_at": "2015-05-08T09:56:03Z",
+    "body": "@brson So should we pipe the value through e.g. md5sum?\n\nThat could be awkward on BSDs, where the hash programs have a [different naming convention and interface](https://stackoverflow.com/questions/1299833/bsd-md5-vs-gnu-md5sum-output-format).\n\nI think we can patch over the differences by adding a check to the configure script. Something like this:\n\n``` sh\n# Use `md5sum` on GNU platforms, and `md5 -q` on BSD\nsystem_md5sum=$(which md5sum)\nsystem_md5=$(which md5)\nif [ -n \"$system_md5sum\" ]\nthen\n    CFG_HASH_COMMAND=\"$system_md5sum | head -c 8\"\nelif [ -n \"$system_md5\" ]\nthen\n    CFG_HASH_COMMAND=\"$system_md5 -q | head -c 8\"\nelse\n    err 'either `md5sum` or `md5` must be installed'\nfi\nputvar CFG_HASH_COMMAND\n```\n\nthen in the Makefile we have:\n\n``` make\nCFG_FILENAME_EXTRA=$(shell echo -n $(CFG_RELEASE) | $(CFG_HASH_COMMAND))\n```\n\nBut if there's a simpler way then I'm all ears.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/100119187/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

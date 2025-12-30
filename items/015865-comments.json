@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/50013858",
+    "html_url": "https://github.com/rust-lang/rust/pull/15865#issuecomment-50013858",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15865",
+    "id": 50013858,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMDEzODU4",
+    "user": {
+      "login": "jameshurst",
+      "id": 8225950,
+      "node_id": "MDQ6VXNlcjgyMjU5NTA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8225950?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jameshurst",
+      "html_url": "https://github.com/jameshurst",
+      "followers_url": "https://api.github.com/users/jameshurst/followers",
+      "following_url": "https://api.github.com/users/jameshurst/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jameshurst/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jameshurst/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jameshurst/subscriptions",
+      "organizations_url": "https://api.github.com/users/jameshurst/orgs",
+      "repos_url": "https://api.github.com/users/jameshurst/repos",
+      "events_url": "https://api.github.com/users/jameshurst/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jameshurst/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-07-24T13:13:04Z",
+    "updated_at": "2014-07-24T13:13:04Z",
+    "body": "I've made some changes so now it should handle type parameters as well. Previously I did intent to capture the space or tab so that it would show up in the replacement, but it looks like I can just add the space in the replacements and ctags is smart enough to remove the unneeded spaces.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/50013858/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77677190",
+    "html_url": "https://github.com/rust-lang/rust/issues/23142#issuecomment-77677190",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23142",
+    "id": 77677190,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3Njc3MTkw",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-07T07:03:04Z",
+    "updated_at": "2015-03-07T07:05:24Z",
+    "body": "These aren't equivalent: `&*` cannot be split apart, in general. The first code is equivalent to:\n\n``` rust\nfn main(){\n    let val = Foo;\n    let x: Option<&Foo> = Some(&val);\n    let tmp = match x {\n        Some(val) => *val,\n        None => panic!(),\n    };\n    let y = &tmp;\n}\n```\n\nAnd hence requires creating a \"full\" `Foo` value on the stack, in `tmp` (i.e. doing a move).\n\nE.g. imagine if it was\n\n``` rust\n    let y = &match x {\n        Some(val) => *val,\n        None => Foo,\n    };\n```\n\nThe code wouldn't know where/when to run the destructor. The true equivalent is changing the first code to:\n\n``` rust\n    let y = &*match x {\n        Some(val) => val,\n        None => panic!(),\n    };\n```\n\nalthough this also works:\n\n``` rust\n    let y = match x {\n        Some(val) => &*val,\n        None => panic!(),\n    };\n```\n\n(In all cases the `&*` is unnecessary, fwiw.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77677190/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

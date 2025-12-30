@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/17525533",
+    "html_url": "https://github.com/rust-lang/rust/issues/6279#issuecomment-17525533",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6279",
+    "id": 17525533,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3NTI1NTMz",
+    "user": {
+      "login": "yichoi",
+      "id": 3222276,
+      "node_id": "MDQ6VXNlcjMyMjIyNzY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3222276?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yichoi",
+      "html_url": "https://github.com/yichoi",
+      "followers_url": "https://api.github.com/users/yichoi/followers",
+      "following_url": "https://api.github.com/users/yichoi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yichoi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yichoi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yichoi/subscriptions",
+      "organizations_url": "https://api.github.com/users/yichoi/orgs",
+      "repos_url": "https://api.github.com/users/yichoi/repos",
+      "events_url": "https://api.github.com/users/yichoi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yichoi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-07T06:30:07Z",
+    "updated_at": "2013-05-07T06:30:07Z",
+    "body": "#6235 cause duplicated rules for LIB and BIN in case of Windows (https://github.com/mozilla/rust/commit/4dd0fa68766e84499bd1680043b38a34a9fc7606#L1R86, https://github.com/mozilla/rust/commit/175a5eea420af5f23c356da7def52d82903bceed#L0R133)\n\nIt can be simply fixed with CFG_LIB check whether bin or lib however considering multiple target triples with linux and windows, CFG_LIB needs to configurable #5223 and #5577\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/17525533/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

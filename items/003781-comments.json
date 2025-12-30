@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/9514054",
+    "html_url": "https://github.com/rust-lang/rust/issues/3781#issuecomment-9514054",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3781",
+    "id": 9514054,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk1MTQwNTQ=",
+    "user": {
+      "login": "jesse99",
+      "id": 425055,
+      "node_id": "MDQ6VXNlcjQyNTA1NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/425055?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jesse99",
+      "html_url": "https://github.com/jesse99",
+      "followers_url": "https://api.github.com/users/jesse99/followers",
+      "following_url": "https://api.github.com/users/jesse99/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jesse99/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jesse99/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jesse99/subscriptions",
+      "organizations_url": "https://api.github.com/users/jesse99/orgs",
+      "repos_url": "https://api.github.com/users/jesse99/repos",
+      "events_url": "https://api.github.com/users/jesse99/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jesse99/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-10-17T02:26:40Z",
+    "updated_at": "2012-10-17T02:27:31Z",
+    "body": "Can't seem to attach a file to a ticket so I'll attach the files below. To repro the compiler error just run make with no arguments. Might be able to condense this a bit more (e.g. by removing validation.rs).\n\n```\n---- ./Makefile --------\nall: xml-client\n\n.PHONY : xml-client\nxml-client:\n    cd sxml && rustc sxml.rc\n    cd xml-client && rustc -L ../sxml --test client.rc && ./client\n\n---- sxml/parsing.rs --------\nuse result::{Result, Err};\n\npub fn parse_str(_text: &str) -> Result<Xml, @~str>\n{\n    Err(@~\"not implemented\")\n}\n\n---- sxml/sxml.rc --------\n#[link(name = \"sxml\", vers = \"1.0\", uuid = \"333BE970-5A76-40CD-A101-3DD27CB469E5\")];\n#[crate_type = \"lib\"];\n\nextern mod std;\n\npub mod parsing;\npub mod validation;\n\n---- sxml/sxml.rs --------\nuse result::{Err, Ok, Result};\nuse std::map::{HashMap};\n\npub use parsing::{parse_str};\npub use validation::{validate_xml};\n\npub type Attributes = HashMap<@~str, @~str>;\n\npub enum Xml\n{\n    Content(@~str),\n    Element(@~str, Attributes, @[@Xml]),\n}\n\npub fn from_str(text: &str) -> Result<Xml, @~str>\n{\n    do parse_str(text).chain |xml|\n    {\n        match validate_xml(&xml)\n        {\n            @~\"\"   => Ok(xml),\n            errors => Err(errors),\n        }\n    }\n}\n\n---- sxml/validation.rs --------\npub fn validate_xml(_xml: &Xml) -> @~str\n{\n    @~\"\"\n}\n\n---- xml-client/client.rc --------\n#[link(name = \"client\", vers = \"0.2\", uuid = \"D71AEFEB-650C-46E5-91C3-36E9406AEE8E\")];\n\nextern mod std;\nextern mod sxml (name = \"sxml\", vers = \"1.0\");\n\nmod client;\n\n---- xml-client/client.rs --------\nuse sxml::*;                // compiler error with this present (see below)\n\n//use sxml::{from_str};     // unit test compiles and runs with this instead\n//use sxml::parsing;\n\nuse result::{Err, Ok, Result};\n\n#[test]\nfn test_inner_modules()\n{\n    info!(\"hmm\");\n    match parsing::parse_str(\"<hmm/>\")\n    {\n        Ok(*) => assert false,\n        Err(mesg) => assert *mesg == ~\"not implemented\",\n    }\n}\n\n// With `use sxml::*;` get:\n//<core-macros>:5:31: 5:41 error: unresolved name: core::info\n//<core-macros>:5     #macro[[#info[f, ...], log(core::info, #fmt[f, ...])]];\n//                                               ^~~~~~~~~~\n//<core-macros>:5:10: 5:59 note: in expansion of #info\n//client.rs:11:4: 11:17 note: expansion site\n//error: aborting due to previous error\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/9514054/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

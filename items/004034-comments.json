@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10980297",
+    "html_url": "https://github.com/rust-lang/rust/issues/4034#issuecomment-10980297",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/4034",
+    "id": 10980297,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwOTgwMjk3",
+    "user": {
+      "login": "graydon",
+      "id": 14097,
+      "node_id": "MDQ6VXNlcjE0MDk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/graydon",
+      "html_url": "https://github.com/graydon",
+      "followers_url": "https://api.github.com/users/graydon/followers",
+      "following_url": "https://api.github.com/users/graydon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/graydon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/graydon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/graydon/subscriptions",
+      "organizations_url": "https://api.github.com/users/graydon/orgs",
+      "repos_url": "https://api.github.com/users/graydon/repos",
+      "events_url": "https://api.github.com/users/graydon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/graydon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-12-04T01:25:47Z",
+    "updated_at": "2012-12-04T01:25:47Z",
+    "body": "```\n$ make -j 20 check\ncfg: shell host triple x86_64-unknown-linux-gnu\ncfg: host for x86_64-unknown-linux-gnu is x86_64\ncfg: unix-y environment\ncfg: using gcc\ncfg: no llnextgen found, omitting grammar-verification\ncfg: including dist rules\ncfg: including test rules\ncheck: formatting\ncompile_and_link: x86_64-unknown-linux-gnu/stage0/lib/rustc/x86_64-unknown-linux-gnu/lib/libcore.so\nextract: tutorial tests\nextract: tutorial-ffi tests\nextract: tutorial-macros tests\nextract: tutorial-borrowed-ptr tests\nextract: tutorial-tasks tests\nextract: ref tests\n/home/graydon/src/rust/src/libcore/core.rs:76: tab character\n/home/graydon/src/rust/src/libcore/core.rs:76: trailing whitespace\nmake: *** [tidy] Error 123\nmake: *** Waiting for unfinished jobs....\n$\n```\n\nWfm in this case. Maybe run builds with `make -j 20 || echo \"ERROR\"` ? In any case, we are definitely rewriting it in rust asap (I know \"asap\" seems to mean \"in quite a while\" around here) so I'm going to close this as a dupe of #2237 / #2238.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10980297/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

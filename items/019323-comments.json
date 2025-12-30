@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66582816",
+    "html_url": "https://github.com/rust-lang/rust/issues/19323#issuecomment-66582816",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19323",
+    "id": 66582816,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY2NTgyODE2",
+    "user": {
+      "login": "lambda-fairy",
+      "id": 1572323,
+      "node_id": "MDQ6VXNlcjE1NzIzMjM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1572323?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lambda-fairy",
+      "html_url": "https://github.com/lambda-fairy",
+      "followers_url": "https://api.github.com/users/lambda-fairy/followers",
+      "following_url": "https://api.github.com/users/lambda-fairy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lambda-fairy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lambda-fairy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lambda-fairy/subscriptions",
+      "organizations_url": "https://api.github.com/users/lambda-fairy/orgs",
+      "repos_url": "https://api.github.com/users/lambda-fairy/repos",
+      "events_url": "https://api.github.com/users/lambda-fairy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lambda-fairy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-11T07:37:25Z",
+    "updated_at": "2014-12-11T07:39:37Z",
+    "body": "I think we can get away with just removing that line. GitHub collapses whitespace in inline code and no-one complains.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66582816/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

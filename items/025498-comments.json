@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/178273755",
+    "html_url": "https://github.com/rust-lang/rust/issues/25498#issuecomment-178273755",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25498",
+    "id": 178273755,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3ODI3Mzc1NQ==",
+    "user": {
+      "login": "cassiemeharry",
+      "id": 1672021,
+      "node_id": "MDQ6VXNlcjE2NzIwMjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1672021?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cassiemeharry",
+      "html_url": "https://github.com/cassiemeharry",
+      "followers_url": "https://api.github.com/users/cassiemeharry/followers",
+      "following_url": "https://api.github.com/users/cassiemeharry/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cassiemeharry/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cassiemeharry/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cassiemeharry/subscriptions",
+      "organizations_url": "https://api.github.com/users/cassiemeharry/orgs",
+      "repos_url": "https://api.github.com/users/cassiemeharry/repos",
+      "events_url": "https://api.github.com/users/cassiemeharry/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cassiemeharry/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2016-02-02T00:36:39Z",
+    "updated_at": "2016-02-02T00:36:39Z",
+    "body": "Forgot this was still here. Just tested it in the most recent nightly, and while it fails to build, it seems to be due to API changes rather than an ICE:\n\n``` console\n$ RUST_BACKTRACE=1 multirust run nightly cargo build\n   Compiling regex-syntax v0.2.2\n   Compiling libc v0.2.6\n   Compiling yaml v0.2.0\n/Users/nick/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/yaml-0.2.0/build.rs:3:21: 3:28 error: unresolved import `std::fs::PathExt`. There is no `PathExt` in `std::fs` [E0432]\n/Users/nick/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/yaml-0.2.0/build.rs:3 use std::fs::{File, PathExt};\n                                                                                                                                   ^~~~~~~\n/Users/nick/.multirust/toolchains/nightly/cargo/registry/src/github.com-88ac128001ac3a9a/yaml-0.2.0/build.rs:3:21: 3:28 help: run `rustc --explain E0432` to see a detailed explanation\nerror: aborting due to previous error\nBuild failed, waiting for other jobs to finish...\nCould not compile `yaml`.\n\nTo learn more, run the command again with --verbose.\n\n$ multirust run nightly rustc --version\nrustc 1.8.0-nightly (094c5b0d6 2016-01-31)\n```\n\nI think you can go ahead and take this off of #29249.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/178273755/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

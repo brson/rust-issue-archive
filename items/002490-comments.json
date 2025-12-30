@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/6498224",
+    "html_url": "https://github.com/rust-lang/rust/issues/2490#issuecomment-6498224",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2490",
+    "id": 6498224,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0OTgyMjQ=",
+    "user": {
+      "login": "catamorphism",
+      "id": 427212,
+      "node_id": "MDQ6VXNlcjQyNzIxMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/427212?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/catamorphism",
+      "html_url": "https://github.com/catamorphism",
+      "followers_url": "https://api.github.com/users/catamorphism/followers",
+      "following_url": "https://api.github.com/users/catamorphism/following{/other_user}",
+      "gists_url": "https://api.github.com/users/catamorphism/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/catamorphism/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/catamorphism/subscriptions",
+      "organizations_url": "https://api.github.com/users/catamorphism/orgs",
+      "repos_url": "https://api.github.com/users/catamorphism/repos",
+      "events_url": "https://api.github.com/users/catamorphism/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/catamorphism/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-06-22T00:40:00Z",
+    "updated_at": "2012-06-22T00:40:00Z",
+    "body": "I was able to reproduce this with Rust 77c470d -- I got the segfault compiling the code unmodified, but if I changed the signature for `no_overwrite` to:\n\n```\n    fn no_overwrite<T: copy, U: copy>(m: map::hashmap<T, U>, +k: T, v: U) {\n```\n\nI didn't see the segfault (I got the output saying it was loading some data, then it ran for a long time or went into a loop, not sure which). Also, the code that calls `no_overwrite` here  -- in `load_agencies` looks very much like the offending code in #2633 (particularly, that `row_id` gets passed as an argument to `no_overwrite` as well as being a field in a record that's passed to `no_overwrite`). So I'm going to assume this is another instance of #2584 and that it's therefore fixed in Rust HEAD. (I can't verify that because the code doesn't compile in HEAD, for other reasons.)\n\nReopen if that's not so!\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/6498224/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

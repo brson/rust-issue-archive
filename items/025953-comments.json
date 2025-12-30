@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139997038",
+    "html_url": "https://github.com/rust-lang/rust/issues/25953#issuecomment-139997038",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25953",
+    "id": 139997038,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzOTk5NzAzOA==",
+    "user": {
+      "login": "ujh",
+      "id": 28911,
+      "node_id": "MDQ6VXNlcjI4OTEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28911?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ujh",
+      "html_url": "https://github.com/ujh",
+      "followers_url": "https://api.github.com/users/ujh/followers",
+      "following_url": "https://api.github.com/users/ujh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ujh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ujh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ujh/subscriptions",
+      "organizations_url": "https://api.github.com/users/ujh/orgs",
+      "repos_url": "https://api.github.com/users/ujh/repos",
+      "events_url": "https://api.github.com/users/ujh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ujh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-14T08:23:56Z",
+    "updated_at": "2015-09-14T08:23:56Z",
+    "body": "It's broken for me, too. I'm using Chrome 45.0.2454.85 (not Chrome canary). Also Mac OSX and `rustc 1.4.0-nightly (fd230ff12 2015-09-13)`.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139997038/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

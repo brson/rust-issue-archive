@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32992418",
+    "html_url": "https://github.com/rust-lang/rust/issues/11716#issuecomment-32992418",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11716",
+    "id": 32992418,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyOTkyNDE4",
+    "user": {
+      "login": "alsam",
+      "id": 5341924,
+      "node_id": "MDQ6VXNlcjUzNDE5MjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5341924?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alsam",
+      "html_url": "https://github.com/alsam",
+      "followers_url": "https://api.github.com/users/alsam/followers",
+      "following_url": "https://api.github.com/users/alsam/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alsam/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alsam/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alsam/subscriptions",
+      "organizations_url": "https://api.github.com/users/alsam/orgs",
+      "repos_url": "https://api.github.com/users/alsam/repos",
+      "events_url": "https://api.github.com/users/alsam/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alsam/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-22T04:22:06Z",
+    "updated_at": "2014-01-22T04:22:06Z",
+    "body": "Sorry, found that duplicates \nhttps://github.com/mozilla/rust/issues/11707\nafter filing this bug.\n\nPlease close this bug also.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32992418/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

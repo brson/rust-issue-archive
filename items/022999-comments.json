@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/96105637",
+    "html_url": "https://github.com/rust-lang/rust/issues/22999#issuecomment-96105637",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22999",
+    "id": 96105637,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk2MTA1NjM3",
+    "user": {
+      "login": "frewsxcv",
+      "id": 416575,
+      "node_id": "MDQ6VXNlcjQxNjU3NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/416575?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/frewsxcv",
+      "html_url": "https://github.com/frewsxcv",
+      "followers_url": "https://api.github.com/users/frewsxcv/followers",
+      "following_url": "https://api.github.com/users/frewsxcv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/frewsxcv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/frewsxcv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/frewsxcv/subscriptions",
+      "organizations_url": "https://api.github.com/users/frewsxcv/orgs",
+      "repos_url": "https://api.github.com/users/frewsxcv/repos",
+      "events_url": "https://api.github.com/users/frewsxcv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/frewsxcv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-25T00:13:53Z",
+    "updated_at": "2015-04-25T00:13:53Z",
+    "body": "The original code block no longer compiles in Rust 1.0 beta2\n\n```\n~/Downloads $ rustc test.rs\ntest.rs:8:16: 8:26 error: type `A` does not implement any method in scope named `iter_mut`\ntest.rs:8     for p in a.iter_mut() {\n                         ^~~~~~~~~~\ntest.rs:8:16: 8:26 help: methods from traits can only be called if the trait is implemented and in scope; the following trait defines a method `iter_mut`, perhaps you need to implement it:\ntest.rs:8:16: 8:26 help: candidate #1: `core::slice::SliceExt`\ntest.rs:15:32: 15:42 error: the trait `core::marker::Sized` is not implemented for the type `[_]` [E0277]\ntest.rs:15     let a: [_; 100] = unsafe { init_array(|| 0u8) };\n                                          ^~~~~~~~~~\ntest.rs:15:32: 15:42 note: `[_]` does not have a constant size known at compile-time\ntest.rs:15     let a: [_; 100] = unsafe { init_array(|| 0u8) };\n                                          ^~~~~~~~~~\ntest.rs:15:32: 15:50 error: mismatched types:\n expected `[_; 100]`,\n    found `[u8]`\n(expected array of 100 elements,\n    found slice) [E0308]\ntest.rs:15     let a: [_; 100] = unsafe { init_array(|| 0u8) };\n                                          ^~~~~~~~~~~~~~~~~~\nerror: aborting due to 3 previous errors\n\n~/Downloads $ rustc --version\nrustc 1.0.0-beta.2 (e9080ec39 2015-04-16) (built 2015-04-16)\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/96105637/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

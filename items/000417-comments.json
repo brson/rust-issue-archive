@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1413360",
+    "html_url": "https://github.com/rust-lang/rust/issues/417#issuecomment-1413360",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/417",
+    "id": 1413360,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0MTMzNjA=",
+    "user": {
+      "login": "lkuper",
+      "id": 535218,
+      "node_id": "MDQ6VXNlcjUzNTIxOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/535218?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lkuper",
+      "html_url": "https://github.com/lkuper",
+      "followers_url": "https://api.github.com/users/lkuper/followers",
+      "following_url": "https://api.github.com/users/lkuper/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lkuper/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lkuper/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lkuper/subscriptions",
+      "organizations_url": "https://api.github.com/users/lkuper/orgs",
+      "repos_url": "https://api.github.com/users/lkuper/repos",
+      "events_url": "https://api.github.com/users/lkuper/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lkuper/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-06-21T19:59:59Z",
+    "updated_at": "2011-06-21T19:59:59Z",
+    "body": "Now that simple anonymous objects are working, to prevent confusion,\nI'm breaking down the rest of the work I'm doing with anonymous\nobjects into four separate bugs:\n- Issue #538: Adding support for extending objects with new fields.\n  This will be a pretty big feature, involving the parser and,\n  importantly, the resolver, as well as the typechecking and\n  translation passes.  Currently xfail'd test:\n  src/test/run-pass/anon-objs-with-fields.rs.\n- Issue #539: Addding support for 'degenerate' anonymous objects\n  that don't add any new methods or fields.  This might seem\n  trivial, but part of making it work is ensuring that calls to\n  anonymous objects \"fall through\" appropriately, so that calls to\n  methods that were on the original object still work when made on\n  the anonymous object.  Currently xfail'd test:\n  src/test/run-pass/anon-obj-degenerate.rs.\n- Issue #540: Adding support for extending objects with methods that\n  contain simple self-calls (no overloading).  I think the place\n  this is currently failing is in typechecking, although I need to\n  make sure.  Currently xfail'd test:\n  src/test/run-pass/anon-obj-with-self-call.rs.\n- Issue #543: Adding support for extending objects with methods that\n  overload existing methods in the presence of self-calls.  This is\n  tricky because we have to make sure that the meaning of 'self' is\n  also overloaded.  Currently xfail'd test:\n  src/test/run-pass/anon-obj-overloading.rs.\n\nAs far as I can tell, those four issues supersede this one, so I'm\nclosing this one and will continue working on the others.  Let me know\nif you see something I missed.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1413360/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

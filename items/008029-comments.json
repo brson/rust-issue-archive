@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21558830",
+    "html_url": "https://github.com/rust-lang/rust/pull/8029#issuecomment-21558830",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8029",
+    "id": 21558830,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNTU4ODMw",
+    "user": {
+      "login": "emillon",
+      "id": 496345,
+      "node_id": "MDQ6VXNlcjQ5NjM0NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/496345?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/emillon",
+      "html_url": "https://github.com/emillon",
+      "followers_url": "https://api.github.com/users/emillon/followers",
+      "following_url": "https://api.github.com/users/emillon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/emillon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/emillon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/emillon/subscriptions",
+      "organizations_url": "https://api.github.com/users/emillon/orgs",
+      "repos_url": "https://api.github.com/users/emillon/repos",
+      "events_url": "https://api.github.com/users/emillon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/emillon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-25T14:45:20Z",
+    "updated_at": "2013-07-25T14:45:20Z",
+    "body": "@cmr Thanks. I fixed the warning message.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21558830/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

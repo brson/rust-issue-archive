@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38722671",
+    "html_url": "https://github.com/rust-lang/rust/pull/13131#issuecomment-38722671",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13131",
+    "id": 38722671,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NzIyNjcx",
+    "user": {
+      "login": "japaric",
+      "id": 5018213,
+      "node_id": "MDQ6VXNlcjUwMTgyMTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5018213?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/japaric",
+      "html_url": "https://github.com/japaric",
+      "followers_url": "https://api.github.com/users/japaric/followers",
+      "following_url": "https://api.github.com/users/japaric/following{/other_user}",
+      "gists_url": "https://api.github.com/users/japaric/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/japaric/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/japaric/subscriptions",
+      "organizations_url": "https://api.github.com/users/japaric/orgs",
+      "repos_url": "https://api.github.com/users/japaric/repos",
+      "events_url": "https://api.github.com/users/japaric/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/japaric/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-26T18:37:40Z",
+    "updated_at": "2014-03-26T18:37:40Z",
+    "body": "This solves #13124, but issue #13123 is still present.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38722671/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

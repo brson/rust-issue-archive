@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/110944790",
+    "html_url": "https://github.com/rust-lang/rust/issues/26194#issuecomment-110944790",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26194",
+    "id": 110944790,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMDk0NDc5MA==",
+    "user": {
+      "login": "Veedrac",
+      "id": 2867413,
+      "node_id": "MDQ6VXNlcjI4Njc0MTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2867413?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Veedrac",
+      "html_url": "https://github.com/Veedrac",
+      "followers_url": "https://api.github.com/users/Veedrac/followers",
+      "following_url": "https://api.github.com/users/Veedrac/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Veedrac/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Veedrac/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Veedrac/subscriptions",
+      "organizations_url": "https://api.github.com/users/Veedrac/orgs",
+      "repos_url": "https://api.github.com/users/Veedrac/repos",
+      "events_url": "https://api.github.com/users/Veedrac/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Veedrac/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-10T23:20:52Z",
+    "updated_at": "2015-06-10T23:20:52Z",
+    "body": "`self` is of type `S` inside the function, and seems to be moved \"correctly\".\n\n```\ns.f();\ns.f();\n```\n\ngives\n\n```\n<anon>:8:5: 8:6 error: use of moved value: `s`\n<anon>:8     s.f();\n```\n\nwhilst\n\n```\nfn f(self: *mut S) { let _: () = self; }\n```\n\ngives\n\n```\n<anon>:3:38: 3:42 error: mismatched types:\n expected `()`,\n    found `S`\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/110944790/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

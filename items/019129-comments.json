@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/63822537",
+    "html_url": "https://github.com/rust-lang/rust/issues/19129#issuecomment-63822537",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19129",
+    "id": 63822537,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYzODIyNTM3",
+    "user": {
+      "login": "tomjakubowski",
+      "id": 667901,
+      "node_id": "MDQ6VXNlcjY2NzkwMQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/667901?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tomjakubowski",
+      "html_url": "https://github.com/tomjakubowski",
+      "followers_url": "https://api.github.com/users/tomjakubowski/followers",
+      "following_url": "https://api.github.com/users/tomjakubowski/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tomjakubowski/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tomjakubowski/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tomjakubowski/subscriptions",
+      "organizations_url": "https://api.github.com/users/tomjakubowski/orgs",
+      "repos_url": "https://api.github.com/users/tomjakubowski/repos",
+      "events_url": "https://api.github.com/users/tomjakubowski/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tomjakubowski/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-20T15:14:25Z",
+    "updated_at": "2014-11-20T15:40:47Z",
+    "body": "On version b825b3496 I get this ICE just with (edited with a smaller example):\n\n``` rust\n#![feature(associated_types)]\n#![crate_type=\"lib\"]\n\npub trait Foo<A> {\n    type B;\n\n    fn foo(&self) -> bool { false }\n}\n\n```\n\n```\nfoo.rs:1:1: 1:1 error: internal compiler error: Type parameter `B/AssocSpace.1` (B/AssocSpace/1) out of range when substituting (root type=B) substs=Substs[types=[[A];[Self];[B];[]], regions=[[];[];[];[]]]\nfoo.rs:1 #![feature(associated_types)]\n         ^\nnote: the compiler unexpectedly panicked. this is a bug.\nnote: we would appreciate a bug report: http://doc.rust-lang.org/complement-bugreport.html\nnote: run with `RUST_BACKTRACE=1` for a backtrace\ntask 'rustc' panicked at 'Box<Any>', /home/tom/src/rust/rust/src/libsyntax/diagnostic.rs:121\n\nstack backtrace:\n   1:     0x7f42b15e5750 - rt::backtrace::imp::write::hd4dc9c5b7adc70deB9s\n   2:     0x7f42b15e88f0 - failure::on_fail::h601ae62da37820fduwt\n   3:     0x7f42b1d8b5b0 - unwind::begin_unwind_inner::hd5e2a13fc766a9ednbd\n   4:     0x7f42af488b30 - unwind::begin_unwind::h1840779095798302194\n   5:     0x7f42af488ab0 - diagnostic::SpanHandler::span_bug::haca8008c8efcaccdl7F\n   6:     0x7f42b05766a0 - middle::subst::SubstFolder<'a, 'tcx>.TypeFolder<'tcx>::fold_ty::h6dfb50fd9b2a318dKTP\n   7:     0x7f42b0617f80 - middle::ty_fold::VecPerParamSpace<T>.TypeFoldable<'tcx>::fold_with::closure.96163\n   8:     0x7f42b0617b30 - middle::subst::VecPerParamSpace<T>::map_enumerated::h1858619917310266163\n   9:     0x7f42b0617270 - middle::ty_fold::TypeFolder::fold_substs::h10218276810570421665\n  10:     0x7f42b0650d50 - middle::ty_fold::Vec<T>.TypeFoldable<'tcx>::fold_with::closure.98606\n  11:     0x7f42b0650bb0 - vec::Vec<T>.FromIterator<T>::from_iter::h15054265504360828229\n  12:     0x7f42b06506f0 - middle::ty_fold::ty..ParamBounds<'tcx>.TypeFoldable<'tcx>::fold_with::h5912314470836935956\n  13:     0x7f42b063db90 - middle::ty::Generics<'tcx>::to_bounds::hbca748b7f43f8696vo1\n  14:     0x7f42b0652470 - middle::ty::construct_parameter_environment::he8cb628e2da26785Gy6\n  15:     0x7f42b0651dd0 - middle::ty::ParameterEnvironment<'tcx>::for_item::haae90d8e2fdf61c2ju1\n  16:     0x7f42b071ef30 - middle::typeck::check::check_method_body::he4cebab5fe2fb8f8nwi\n  17:     0x7f42b07134a0 - middle::typeck::check::check_item::h2db4e12f763145a7vli\n  18:     0x7f42b0717350 - middle::typeck::check::check_item_types::h6c8b3f561b623f38x0h\n  19:     0x7f42b0b03fa0 - util::common::time::h16216271059762254987\n  20:     0x7f42b0b031b0 - middle::typeck::check_crate::hd1db30e85ca4d877jVL\n  21:     0x7f42b2298aa0 - driver::driver::phase_3_run_analysis_passes::h27f0c337e17ae602bfS\n  22:     0x7f42b228d8c0 - driver::driver::compile_input::h144d59d4a02adda6VVR\n  23:     0x7f42b2312840 - driver::run_compiler::h0f9dd69b80cf00c4pUT\n  24:     0x7f42b2312730 - driver::run::closure.59734\n  25:     0x7f42b211ef60 - task::TaskBuilder<S>::try_future::closure.39040\n  26:     0x7f42b211ed50 - task::TaskBuilder<S>::spawn_internal::closure.39011\n  27:     0x7f42b2632a40 - task::NativeSpawner.Spawner::spawn::closure.2471\n  28:     0x7f42b1dedc60 - rust_try_inner\n  29:     0x7f42b1dedc50 - rust_try\n  30:     0x7f42b1d88f10 - unwind::try::hbf9691835cc163a4IZc\n  31:     0x7f42b1d88da0 - task::Task::run::h309f69a6701379ady5b\n  32:     0x7f42b2632780 - task::NativeSpawner.Spawner::spawn::closure.2397\n  33:     0x7f42b1d8a5c0 - thread::thread_start::h721d15c10ff33d0aEqc\n  34:     0x7f42ac7f9250 - start_thread\n  35:     0x7f42b1a613b9 - clone\n  36:                0x0 - <unknown>\n\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/63822537/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

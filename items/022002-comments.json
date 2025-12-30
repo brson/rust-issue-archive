@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75153117",
+    "html_url": "https://github.com/rust-lang/rust/issues/22002#issuecomment-75153117",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22002",
+    "id": 75153117,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1MTUzMTE3",
+    "user": {
+      "login": "supr",
+      "id": 588566,
+      "node_id": "MDQ6VXNlcjU4ODU2Ng==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/588566?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/supr",
+      "html_url": "https://github.com/supr",
+      "followers_url": "https://api.github.com/users/supr/followers",
+      "following_url": "https://api.github.com/users/supr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/supr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/supr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/supr/subscriptions",
+      "organizations_url": "https://api.github.com/users/supr/orgs",
+      "repos_url": "https://api.github.com/users/supr/repos",
+      "events_url": "https://api.github.com/users/supr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/supr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-19T22:33:18Z",
+    "updated_at": "2015-02-19T22:33:18Z",
+    "body": "While we are at it, can we also add some more information about complex types and how to handle unions.\n\nThanks\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75153117/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

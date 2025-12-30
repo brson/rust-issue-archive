@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19597472",
+    "html_url": "https://github.com/rust-lang/rust/issues/7212#issuecomment-19597472",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7212",
+    "id": 19597472,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE5NTk3NDcy",
+    "user": {
+      "login": "thestinger",
+      "id": 1505226,
+      "node_id": "MDQ6VXNlcjE1MDUyMjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1505226?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thestinger",
+      "html_url": "https://github.com/thestinger",
+      "followers_url": "https://api.github.com/users/thestinger/followers",
+      "following_url": "https://api.github.com/users/thestinger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thestinger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thestinger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thestinger/subscriptions",
+      "organizations_url": "https://api.github.com/users/thestinger/orgs",
+      "repos_url": "https://api.github.com/users/thestinger/repos",
+      "events_url": "https://api.github.com/users/thestinger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thestinger/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-06-18T08:25:41Z",
+    "updated_at": "2013-06-18T08:33:01Z",
+    "body": "Unique boxes are equivalent to a paired malloc/free in C, they don't use garbage collection and would have to copy.\n\nA persistent data structure has to be implemented with @ (garbage collection) or Rc (reference counting). There's no global garbage collector so they won't be sendable between tasks, and `Rc` isn't sendable because it doesn't use atomic reference counting.\n\nI have #4987 open about reimplementing the persistent tree to make it actually useful, and new bugs can be opened for other specific data structures. I don't think it really makes sense to have a metabug for this.\n\nRealistically, concurrent access to persistent data structures would require implementing a global garbage collector for immutable data. There's `extra::arc` for sendable atomic reference counted types, but reference counting is only acceptable for persistent data structures with a low fanout, like 1 for a list, or 2 for a binary tree. For acceptable performance, most persistent data structures would require implementing a global garbage collector for immutable data.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/19597472/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

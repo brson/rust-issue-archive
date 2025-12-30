@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/28566576",
+    "html_url": "https://github.com/rust-lang/rust/issues/7755#issuecomment-28566576",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7755",
+    "id": 28566576,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NTY2NTc2",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-15T12:48:56Z",
+    "updated_at": "2013-11-15T12:48:56Z",
+    "body": "The issue is the random number generator generates numbers in `[0, 1)` and takes logarithms, so it's possible to get log(0) == -&#8734;. It should be `(0, 1)`, i.e. never generating `0`.\n\nI guess generating `(0, 1)` isn't that unusual (IIRC there's at least 2 other places it is done in an ad-hoc way in `std::rand`) so I'll add a newtype `Rand` impl for this. (Triage.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/28566576/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

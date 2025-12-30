@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/52555097",
+    "html_url": "https://github.com/rust-lang/rust/pull/16582#issuecomment-52555097",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16582",
+    "id": 52555097,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUyNTU1MDk3",
+    "user": {
+      "login": "Gankra",
+      "id": 1136864,
+      "node_id": "MDQ6VXNlcjExMzY4NjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1136864?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gankra",
+      "html_url": "https://github.com/Gankra",
+      "followers_url": "https://api.github.com/users/Gankra/followers",
+      "following_url": "https://api.github.com/users/Gankra/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gankra/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gankra/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gankra/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gankra/orgs",
+      "repos_url": "https://api.github.com/users/Gankra/repos",
+      "events_url": "https://api.github.com/users/Gankra/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gankra/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-08-18T21:05:50Z",
+    "updated_at": "2014-08-18T21:05:50Z",
+    "body": "Lumping in a bug fix with this.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/52555097/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7669920",
+    "html_url": "https://github.com/rust-lang/rust/pull/3179#issuecomment-7669920",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3179",
+    "id": 7669920,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc2Njk5MjA=",
+    "user": {
+      "login": "brson",
+      "id": 147214,
+      "node_id": "MDQ6VXNlcjE0NzIxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147214?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brson",
+      "html_url": "https://github.com/brson",
+      "followers_url": "https://api.github.com/users/brson/followers",
+      "following_url": "https://api.github.com/users/brson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brson/subscriptions",
+      "organizations_url": "https://api.github.com/users/brson/orgs",
+      "repos_url": "https://api.github.com/users/brson/repos",
+      "events_url": "https://api.github.com/users/brson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-08-11T20:18:28Z",
+    "updated_at": "2012-08-11T20:18:44Z",
+    "body": "Thanks, dbp! I'm glad you are giving the pretty-printer some love. I read the patch and it is a shame the amount of gymnastics necessary to make this work. Unfortunately the pretty-printer is a bit of a mystery and when I need to update it I just hack at it until it 'works', so I can't offer any useful advice.\n\nRebased and pushed to incoming.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7669920/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

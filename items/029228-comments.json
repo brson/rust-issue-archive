@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/150137860",
+    "html_url": "https://github.com/rust-lang/rust/issues/29228#issuecomment-150137860",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29228",
+    "id": 150137860,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MDEzNzg2MA==",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-10-22T07:57:50Z",
+    "updated_at": "2015-10-22T07:57:50Z",
+    "body": "This looks like it's because the host libs are different from the target libs (in theory shouldn't ever happen).\n\nPossible cause: the i686 libstd package is actually a bunch of libraries produced by a x86_64 compiler, it may be the case that the symbols or something along the line is dependent on the architecture that produced the artifact. The i686 host libs, however, are produced by an i686 compiler. \n\nI think due to the way hashing works the same library compiled by an i686 compiler vs x86_64 compiler (even if for the same target) will produce different binaries (causing the discrepancy here).\n\nThis... seems like we should be more picky about picking libs to ship!\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/150137860/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

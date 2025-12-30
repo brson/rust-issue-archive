@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27614170",
+    "html_url": "https://github.com/rust-lang/rust/issues/9226#issuecomment-27614170",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9226",
+    "id": 27614170,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NjE0MTcw",
+    "user": {
+      "login": "mletterle",
+      "id": 3096,
+      "node_id": "MDQ6VXNlcjMwOTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3096?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mletterle",
+      "html_url": "https://github.com/mletterle",
+      "followers_url": "https://api.github.com/users/mletterle/followers",
+      "following_url": "https://api.github.com/users/mletterle/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mletterle/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mletterle/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mletterle/subscriptions",
+      "organizations_url": "https://api.github.com/users/mletterle/orgs",
+      "repos_url": "https://api.github.com/users/mletterle/repos",
+      "events_url": "https://api.github.com/users/mletterle/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mletterle/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-02T03:50:57Z",
+    "updated_at": "2013-11-02T03:50:57Z",
+    "body": "I'm guessing the original author meant to have it as `unit` and not `uint`. I'm not sure if that's more appropriate or not than `()` and `!`, though it seems like it would be useful to distinguish between the two. I am kind of sad that `DW_ATE_unsigned` appears to be the only real good choice for the type encoding, a bit of research shows instances of implementations that use what appears to be a non-standard `DW_ATE_void` which may be more appropriate, but...\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27614170/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

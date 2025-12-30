@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/60514993",
+    "html_url": "https://github.com/rust-lang/rust/issues/18342#issuecomment-60514993",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18342",
+    "id": 60514993,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYwNTE0OTkz",
+    "user": {
+      "login": "spersson",
+      "id": 1425156,
+      "node_id": "MDQ6VXNlcjE0MjUxNTY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1425156?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/spersson",
+      "html_url": "https://github.com/spersson",
+      "followers_url": "https://api.github.com/users/spersson/followers",
+      "following_url": "https://api.github.com/users/spersson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/spersson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/spersson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/spersson/subscriptions",
+      "organizations_url": "https://api.github.com/users/spersson/orgs",
+      "repos_url": "https://api.github.com/users/spersson/repos",
+      "events_url": "https://api.github.com/users/spersson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/spersson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-26T11:53:57Z",
+    "updated_at": "2014-10-26T11:53:57Z",
+    "body": "turns out the best way to find a bug in your code is to report a bug in someone else's. \nI found this now which has the solution:\nhttp://www.reddit.com/r/rust/comments/2depfr/dynamiclibrary_usage/\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/60514993/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

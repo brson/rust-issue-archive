@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/307835912",
+    "html_url": "https://github.com/rust-lang/rust/issues/30331#issuecomment-307835912",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30331",
+    "id": 307835912,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNzgzNTkxMg==",
+    "user": {
+      "login": "Mark-Simulacrum",
+      "id": 5047365,
+      "node_id": "MDQ6VXNlcjUwNDczNjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5047365?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mark-Simulacrum",
+      "html_url": "https://github.com/Mark-Simulacrum",
+      "followers_url": "https://api.github.com/users/Mark-Simulacrum/followers",
+      "following_url": "https://api.github.com/users/Mark-Simulacrum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mark-Simulacrum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mark-Simulacrum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mark-Simulacrum/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mark-Simulacrum/orgs",
+      "repos_url": "https://api.github.com/users/Mark-Simulacrum/repos",
+      "events_url": "https://api.github.com/users/Mark-Simulacrum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mark-Simulacrum/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2017-06-12T16:04:33Z",
+    "updated_at": "2017-06-12T16:04:33Z",
+    "body": "We don't give the suggestion today, so I'm going to close this.\r\n\r\n```\r\nerror[E0308]: mismatched types\r\n  --> test.rs:31:36\r\n   |\r\n31 |         self.children[index.index].borrow_mut()\r\n   |                                    ^^^^^^^^^^ lifetime mismatch\r\n   |\r\n   = note: expected type `std::borrow::BorrowMut<NodeChild>`\r\n              found type `std::borrow::BorrowMut<NodeChild + 'a>`\r\nnote: the anonymous lifetime #1 defined on the method body at 30:5...\r\n  --> test.rs:30:5\r\n   |\r\n30 | /     pub fn child_at_index_mut(&mut self, index: &NodeChildIndex) -> &mut NodeChild {\r\n31 | |         self.children[index.index].borrow_mut()\r\n32 | |     }\r\n   | |_____^\r\nnote: ...does not necessarily outlive the lifetime 'a as defined on the impl at 20:1\r\n  --> test.rs:20:1\r\n   |\r\n20 | / impl<'a> Node<'a> {\r\n21 | |     pub fn new() -> Self {\r\n22 | |         Node { children: Vec::new() }\r\n23 | |     }\r\n...  |\r\n32 | |     }\r\n33 | | }\r\n   | |_^\r\n\r\nerror: aborting due to previous error(s)\r\n```",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/307835912/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/163850766",
+    "html_url": "https://github.com/rust-lang/rust/issues/30318#issuecomment-163850766",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30318",
+    "id": 163850766,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2Mzg1MDc2Ng==",
+    "user": {
+      "login": "est31",
+      "id": 8872119,
+      "node_id": "MDQ6VXNlcjg4NzIxMTk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8872119?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/est31",
+      "html_url": "https://github.com/est31",
+      "followers_url": "https://api.github.com/users/est31/followers",
+      "following_url": "https://api.github.com/users/est31/following{/other_user}",
+      "gists_url": "https://api.github.com/users/est31/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/est31/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/est31/subscriptions",
+      "organizations_url": "https://api.github.com/users/est31/orgs",
+      "repos_url": "https://api.github.com/users/est31/repos",
+      "events_url": "https://api.github.com/users/est31/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/est31/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-11T06:08:54Z",
+    "updated_at": "2015-12-11T06:08:54Z",
+    "body": "It was suggested on irc to cc @nikomatsakis about this because its a bad error.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/163850766/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

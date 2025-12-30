@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/31383359",
+    "html_url": "https://github.com/rust-lang/rust/issues/10992#issuecomment-31383359",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10992",
+    "id": 31383359,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxMzgzMzU5",
+    "user": {
+      "login": "doy",
+      "id": 78547,
+      "node_id": "MDQ6VXNlcjc4NTQ3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/78547?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/doy",
+      "html_url": "https://github.com/doy",
+      "followers_url": "https://api.github.com/users/doy/followers",
+      "following_url": "https://api.github.com/users/doy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/doy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/doy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/doy/subscriptions",
+      "organizations_url": "https://api.github.com/users/doy/orgs",
+      "repos_url": "https://api.github.com/users/doy/repos",
+      "events_url": "https://api.github.com/users/doy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/doy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-12-31T04:19:42Z",
+    "updated_at": "2013-12-31T04:19:42Z",
+    "body": "I started looking into this, but it seems to have already been done in b25a0524 (under a different name).\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/31383359/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

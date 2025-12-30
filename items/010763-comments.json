@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29837255",
+    "html_url": "https://github.com/rust-lang/rust/issues/10763#issuecomment-29837255",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10763",
+    "id": 29837255,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5ODM3MjU1",
+    "user": {
+      "login": "meadori",
+      "id": 296965,
+      "node_id": "MDQ6VXNlcjI5Njk2NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/296965?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/meadori",
+      "html_url": "https://github.com/meadori",
+      "followers_url": "https://api.github.com/users/meadori/followers",
+      "following_url": "https://api.github.com/users/meadori/following{/other_user}",
+      "gists_url": "https://api.github.com/users/meadori/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/meadori/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/meadori/subscriptions",
+      "organizations_url": "https://api.github.com/users/meadori/orgs",
+      "repos_url": "https://api.github.com/users/meadori/repos",
+      "events_url": "https://api.github.com/users/meadori/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/meadori/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-12-04T19:34:59Z",
+    "updated_at": "2013-12-04T19:34:59Z",
+    "body": "Hmmm, does this fall under the purview of mozilla/rust#3678 ? I see the following in librustc/middle/trans/foreign.rs:\n\n```\n Rust => {\n                // FIXME(#3678) Implement linking to foreign fns with Rust ABI\n                ccx.sess.unimpl(\n                    format!(\"Foreign functions with Rust ABI\"));\n            }\n```\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29837255/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

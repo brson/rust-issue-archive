@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/45443337",
+    "html_url": "https://github.com/rust-lang/rust/pull/14752#issuecomment-45443337",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14752",
+    "id": 45443337,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1NDQzMzM3",
+    "user": {
+      "login": "ghost",
+      "id": 10137,
+      "node_id": "MDQ6VXNlcjEwMTM3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10137?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ghost",
+      "html_url": "https://github.com/ghost",
+      "followers_url": "https://api.github.com/users/ghost/followers",
+      "following_url": "https://api.github.com/users/ghost/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ghost/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ghost/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ghost/subscriptions",
+      "organizations_url": "https://api.github.com/users/ghost/orgs",
+      "repos_url": "https://api.github.com/users/ghost/repos",
+      "events_url": "https://api.github.com/users/ghost/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ghost/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-08T17:50:08Z",
+    "updated_at": "2014-06-08T17:50:08Z",
+    "body": "Not entirely convinced this is the right way to fix it so I'd love to hear from someone who knows this stuff. But it boils down to the fact that const strings evaluate to a { i8_, i64 } struct which then cannot be Stored in a %str_slice_ pointer, even though it's a type alias (tripped on another LLVM assertion after I added the auto ref handling). An alternative, having a bit cast/pointer cast just for string slices in the matching code, seemed like a hack to me.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/45443337/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

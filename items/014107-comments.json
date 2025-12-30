@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/72376068",
+    "html_url": "https://github.com/rust-lang/rust/issues/14107#issuecomment-72376068",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14107",
+    "id": 72376068,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcyMzc2MDY4",
+    "user": {
+      "login": "mahkoh",
+      "id": 1882250,
+      "node_id": "MDQ6VXNlcjE4ODIyNTA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1882250?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mahkoh",
+      "html_url": "https://github.com/mahkoh",
+      "followers_url": "https://api.github.com/users/mahkoh/followers",
+      "following_url": "https://api.github.com/users/mahkoh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mahkoh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mahkoh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mahkoh/subscriptions",
+      "organizations_url": "https://api.github.com/users/mahkoh/orgs",
+      "repos_url": "https://api.github.com/users/mahkoh/repos",
+      "events_url": "https://api.github.com/users/mahkoh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mahkoh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-01T18:12:58Z",
+    "updated_at": "2015-02-01T18:13:27Z",
+    "body": "```\n~/dragons/strstr$ /usr/bin/time -p ./rust < pg1342.txt\nreal 26.85\nuser 26.79\nsys 0.00\n~/dragons/strstr$ /usr/bin/time -p ./c < pg1342.txt    \nreal 0.83\nuser 0.83\nsys 0.00\n```\n\nThis is for the case where the needle is a single character. In the case above the rust version is as fast or faster than the C version.\n\n``` c\n#include <string.h>\n#include <unistd.h>\n\nint main(void) {\n    static char haystack[1024 * 1024];\n    read(0, haystack, sizeof(haystack) - 1);\n\n    const char *needle = \"_\";\n\n    for (size_t i = 0; i < 10000000; i++) {\n        size_t j = (size_t)strstr(haystack, needle);\n        asm volatile(\"\" : : \"r\"(j), \"r\"(&needle) : \"memory\");\n    }\n}\n```\n\n``` rust\n#![feature(core, test, io)]\n\nextern crate test;\n\nfn main() {\n    let haystack = std::old_io::stdin().read_to_string().unwrap();\n\n    let mut needle = \"_\";\n\n    for _ in range(0, 10000000) {\n        test::black_box(&mut needle);\n        test::black_box(haystack.contains(needle));\n    }\n}\n```\n\nMaybe there is a bug in the case for short needles.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/72376068/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

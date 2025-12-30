@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/9678172",
+    "html_url": "https://github.com/rust-lang/rust/pull/3831#issuecomment-9678172",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3831",
+    "id": 9678172,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk2NzgxNzI=",
+    "user": {
+      "login": "Dretch",
+      "id": 1428731,
+      "node_id": "MDQ6VXNlcjE0Mjg3MzE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1428731?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Dretch",
+      "html_url": "https://github.com/Dretch",
+      "followers_url": "https://api.github.com/users/Dretch/followers",
+      "following_url": "https://api.github.com/users/Dretch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Dretch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Dretch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Dretch/subscriptions",
+      "organizations_url": "https://api.github.com/users/Dretch/orgs",
+      "repos_url": "https://api.github.com/users/Dretch/repos",
+      "events_url": "https://api.github.com/users/Dretch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Dretch/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-10-22T19:58:25Z",
+    "updated_at": "2012-10-22T19:58:25Z",
+    "body": "Oops, it went into master instead of incoming.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/9678172/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

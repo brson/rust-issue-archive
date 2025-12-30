@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/151530541",
+    "html_url": "https://github.com/rust-lang/rust/issues/18242#issuecomment-151530541",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18242",
+    "id": 151530541,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1MTUzMDU0MQ==",
+    "user": {
+      "login": "steveklabnik",
+      "id": 27786,
+      "node_id": "MDQ6VXNlcjI3Nzg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27786?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steveklabnik",
+      "html_url": "https://github.com/steveklabnik",
+      "followers_url": "https://api.github.com/users/steveklabnik/followers",
+      "following_url": "https://api.github.com/users/steveklabnik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steveklabnik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steveklabnik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steveklabnik/subscriptions",
+      "organizations_url": "https://api.github.com/users/steveklabnik/orgs",
+      "repos_url": "https://api.github.com/users/steveklabnik/repos",
+      "events_url": "https://api.github.com/users/steveklabnik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steveklabnik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-10-27T14:59:32Z",
+    "updated_at": "2015-10-27T14:59:32Z",
+    "body": "We now give a much better error here:\n\n```\nhello.rs:1:22: 1:23 error: expected `,` or `>` after lifetime name, found `+`\nhello.rs:1 fn f() -> Box<'static+std::fmt::Show> { unreachable!() }\n                                ^\nhello.rs:1:22: 1:23 error: expected type, found `+`\nhello.rs:1 fn f() -> Box<'static+std::fmt::Show> { unreachable!() }\n                                ^\nhello.rs:1:15: 1:23 note: did you mean a single argument type &'a Type, or did you mean the comma-separated arguments 'a, Type?\nhello.rs:1 fn f() -> Box<'static+std::fmt::Show> { unreachable!() }\n                         ^~~~~~~~\n```\n\nWhile it's still not perfect, nobody else has mentioned this in a year, so I'm giving this a close. I'm not even 100% sure that this is something that we want to accept.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/151530541/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44971814",
+    "html_url": "https://github.com/rust-lang/rust/pull/14623#issuecomment-44971814",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14623",
+    "id": 44971814,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0OTcxODE0",
+    "user": {
+      "login": "exscape",
+      "id": 143653,
+      "node_id": "MDQ6VXNlcjE0MzY1Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/143653?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/exscape",
+      "html_url": "https://github.com/exscape",
+      "followers_url": "https://api.github.com/users/exscape/followers",
+      "following_url": "https://api.github.com/users/exscape/following{/other_user}",
+      "gists_url": "https://api.github.com/users/exscape/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/exscape/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/exscape/subscriptions",
+      "organizations_url": "https://api.github.com/users/exscape/orgs",
+      "repos_url": "https://api.github.com/users/exscape/repos",
+      "events_url": "https://api.github.com/users/exscape/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/exscape/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-03T14:31:34Z",
+    "updated_at": "2014-06-03T14:31:34Z",
+    "body": "This is almost identical to https://github.com/mozilla/rust/pull/13761, with the main difference being the renaming of MutableTotalOrdVector to MutableOrdVector, after the TotalOrd -> Ord and TotalEq -> Eq rename. That is, this could merge clearly, which the old request likely didn't.\n\nOther changes are that two unnecessary `mut`s were removed from the tests, and one mostly useless test was removed. I'll copy/paste the rest of that top comment, also, only editing the changed trait names etc:\n\nAnyway. This adds two methods to mutable vectors (`MutableOrdVector<T>`): next_permutation() and prev_permutation().\nThey mutate the vector to the next/previous lexicographic permutation, _in place_.  \nThe existing permutation functionality, [ImmutableCloneableVector::permutations()](http://static.rust-lang.org/doc/master/std/slice/trait.ImmutableCloneableVector.html#tymethod.permutations), uses iterators and clones the entire vector _each iteration_, resulting in bad performance. For even a 10-element vector, that causes 10! = 3628800 calls to clone(), on the entire 10-element vector.\nIt also uses a swapping algorithm which does not generate lexicographic permutations; if you want lexicographical permutations, as far as I can tell, Rust currently cannot provide that.\n\nSo does Rust need this? I don't know. I wanted to use it, and realized it didn't exist, so I created it. Others may disagree about the necessity, of course.\n\nSample benchmarks:\n\n```\ntest bench_iterated_permutations_one_iter      ... bench:     721 ns/iter (+/- 212)\ntest bench_lexicographic_permutations_one_iter ... bench:      14 ns/iter (+/- 1)\ntest bench_iterated_permutations_bulk          ... bench: 2449743 ns/iter (+/- 328460)\ntest bench_lexicographic_permutations_bulk     ... bench:   69704 ns/iter (+/- 2235)\n```\n\n51x faster per single iteration (one permutation per benchmark iteration), 35x faster to loop through all 5040 permutations of range(0,7) per benchmark iteration.\n\nOne possible (style-ish) issue with this code is the return types: they return `true` if successful, and `false` if the vector was already at the first/last permutation. This makes looping rather easy, but I'm not sure if it's considered \"pretty\", so to speak. However, since iterators are much too expensive, at least if returning a cloned vector each iteration is the only way to make them work, I found no better way to solve this, and at least IMHO it looks fine.\nAlso, I'm not sure if the comments inside the actual functions is considered excessive or not, but that is of course easily changed, if that would be the case.  \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44971814/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

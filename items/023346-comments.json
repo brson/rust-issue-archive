@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/119193459",
+    "html_url": "https://github.com/rust-lang/rust/issues/23346#issuecomment-119193459",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23346",
+    "id": 119193459,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExOTE5MzQ1OQ==",
+    "user": {
+      "login": "gkoz",
+      "id": 4260361,
+      "node_id": "MDQ6VXNlcjQyNjAzNjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4260361?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/gkoz",
+      "html_url": "https://github.com/gkoz",
+      "followers_url": "https://api.github.com/users/gkoz/followers",
+      "following_url": "https://api.github.com/users/gkoz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/gkoz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/gkoz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/gkoz/subscriptions",
+      "organizations_url": "https://api.github.com/users/gkoz/orgs",
+      "repos_url": "https://api.github.com/users/gkoz/repos",
+      "events_url": "https://api.github.com/users/gkoz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/gkoz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-07-07T12:47:49Z",
+    "updated_at": "2015-07-07T12:47:49Z",
+    "body": "This is rejected by beta with `the type parameter PAR is not constrained by the impl trait, self type, or predicates` which is logical I guess. But technically a breaking change.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/119193459/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

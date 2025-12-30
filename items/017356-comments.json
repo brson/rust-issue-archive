@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/105658591",
+    "html_url": "https://github.com/rust-lang/rust/issues/17356#issuecomment-105658591",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17356",
+    "id": 105658591,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNTY1ODU5MQ==",
+    "user": {
+      "login": "edunham",
+      "id": 812892,
+      "node_id": "MDQ6VXNlcjgxMjg5Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/812892?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/edunham",
+      "html_url": "https://github.com/edunham",
+      "followers_url": "https://api.github.com/users/edunham/followers",
+      "following_url": "https://api.github.com/users/edunham/following{/other_user}",
+      "gists_url": "https://api.github.com/users/edunham/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/edunham/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/edunham/subscriptions",
+      "organizations_url": "https://api.github.com/users/edunham/orgs",
+      "repos_url": "https://api.github.com/users/edunham/repos",
+      "events_url": "https://api.github.com/users/edunham/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/edunham/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-26T20:40:37Z",
+    "updated_at": "2015-06-02T21:11:17Z",
+    "body": "This list represents the unchecked items in brson's list, sorted into categories which roughly correlate to what action they look like they'll need next, and annotated with summaries/updates where necessary. Duplicating mainly so I can have permissions on a copy of the list, with issue numbers turned into links correctly.\n\n### Brson's Notes-To-Self\n- [ ]  upload rustup.sh #19505\n- [ ]  channel metadata #21243\n- [X]  fix build date ~~#22774~~ closed in favor of #25812, which is now closed too\n- [ ]  windows dist locking bug #21434\n- [ ]  doc translation services #25660\n\n### Things that got closed or became a different issue\n- [ ]  release channel ~~#16677~~  #23757 is only surviving child of this issue\n- [ ]  beta/stable integration automation #23756  -- closed for\n  https://github.com/rust-lang/rust/issues/23757\n- [ ]  more android slaves #16795 -- will probably fork into enabling more\n  android configs, if that doesn't exist yet\n- [ ]  rust package desyncing rust-lang/rust-buildbot#7 -- is closed now, yay\n- [ ]  cross-platform type system consistency for std #22228 -- original bug got\n  closed; needs new bug?\n- [ ]  remove metrics infra #19145 -- it got finished, then closed, then\n  reopened by a comment referencing https://github.com/servo/html5ever/issues/72\n\n### Things that look \"easy\"\n- [ ]  benchmark bot #12458 -- looks \"easy\" if stuff still works\n- [ ]  doc/master -> doc/nightly #17398  -- pretty sure i can do this one, but\n  is it dev.rust-lang.org or static.rust-lang.org bucket?\n- [ ]  test 'make install' #19698  -- has caused pile of bugs. maybe not done\n  yet because slow? should be \"easy\"\n- [ ]  guidelines #19315  -- work done in\n  https://github.com/rust-lang/rust/pull/22331 needs to be linked from somewhere\n- [ ]  snap signing #13254  -- directly from\n  https://github.com/rust-lang/rust/issues/13252\n- [ ]  upload feature list #25724 -- looks clearly defined, could be a good\n  first \"real bug\"\n- [ ]  www.rust-lang.org SSL #13180 -- kick nginx and the DNS\n\n### Buildbot things, or things that'll change a lot if we switch CI\n- [ ]  slave per build #22448 -- nice-to-have\n- [ ]  fix dist security #20629  -- needs BUILDBOT to become https\n- [ ]  ec2 spot instances #21904  -- looks like a matter of\n  read-the-linked-manual\n- [ ]  move from buildbot to taskcluster?\n\n### Everything Else (mostly things that need design decisions)\n- [ ]  testing 32 bit on distcheck #17344 -- need to add more cases to make\n  check. Slowdowns incoming!\n- [ ]  lexer tests #15880 -- hello, yak (hairier than its cousin the yacc)...\n- [ ]  test more OS X #17269 -- tools are identified; licensing situation\n  unknown\n- [ ]  losing windows slaves #18703 -- needs troubleshooting\n- [ ]  doc tools on dist bots #19200 -- needs design decision\n- [ ]  mac minis -> macstadium #19286  -- needs research, design, implementation\n- [ ]  package dbg std #20630  -- needs design decision\n- [ ]  install source #19535 -- needs design decision\n- [ ]  get rid of cloudfront #21239 -- turned into artifact invalidation. lots\n  of noise here; having it broken makes many people very unhappy\n- [ ]  cargo dist dir #21240 -- design decision kinda made; needs implementation\n  knowledge\n- [ ]  cargo compatibility bots rust-lang/cargo#1276  -- cargo needs better\n  tests\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/105658591/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

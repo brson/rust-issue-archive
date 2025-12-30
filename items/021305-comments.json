@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/73011673",
+    "html_url": "https://github.com/rust-lang/rust/issues/21305#issuecomment-73011673",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21305",
+    "id": 73011673,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDczMDExNjcz",
+    "user": {
+      "login": "abonander",
+      "id": 3198595,
+      "node_id": "MDQ6VXNlcjMxOTg1OTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3198595?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/abonander",
+      "html_url": "https://github.com/abonander",
+      "followers_url": "https://api.github.com/users/abonander/followers",
+      "following_url": "https://api.github.com/users/abonander/following{/other_user}",
+      "gists_url": "https://api.github.com/users/abonander/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/abonander/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/abonander/subscriptions",
+      "organizations_url": "https://api.github.com/users/abonander/orgs",
+      "repos_url": "https://api.github.com/users/abonander/repos",
+      "events_url": "https://api.github.com/users/abonander/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/abonander/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-05T08:36:46Z",
+    "updated_at": "2015-02-05T08:36:46Z",
+    "body": "I think more information is necessary.\n- Open CMD and run `echo %PATH%`, what does it output?\n- What anti-virus are you running? (Possibly what's causing it.)\n- Are you running from CMD or double-clicking the .exe?\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/73011673/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

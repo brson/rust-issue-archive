@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25502876",
+    "html_url": "https://github.com/rust-lang/rust/pull/9643#issuecomment-25502876",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9643",
+    "id": 25502876,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1NTAyODc2",
+    "user": {
+      "login": "dcrewi",
+      "id": 1852207,
+      "node_id": "MDQ6VXNlcjE4NTIyMDc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1852207?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dcrewi",
+      "html_url": "https://github.com/dcrewi",
+      "followers_url": "https://api.github.com/users/dcrewi/followers",
+      "following_url": "https://api.github.com/users/dcrewi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dcrewi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dcrewi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dcrewi/subscriptions",
+      "organizations_url": "https://api.github.com/users/dcrewi/orgs",
+      "repos_url": "https://api.github.com/users/dcrewi/repos",
+      "events_url": "https://api.github.com/users/dcrewi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dcrewi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-10-02T00:00:32Z",
+    "updated_at": "2013-10-02T00:00:32Z",
+    "body": "Thanks for fixing this, @thestinger!\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25502876/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

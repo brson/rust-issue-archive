@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64800263",
+    "html_url": "https://github.com/rust-lang/rust/pull/19359#issuecomment-64800263",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19359",
+    "id": 64800263,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0ODAwMjYz",
+    "user": {
+      "login": "japaric",
+      "id": 5018213,
+      "node_id": "MDQ6VXNlcjUwMTgyMTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5018213?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/japaric",
+      "html_url": "https://github.com/japaric",
+      "followers_url": "https://api.github.com/users/japaric/followers",
+      "following_url": "https://api.github.com/users/japaric/following{/other_user}",
+      "gists_url": "https://api.github.com/users/japaric/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/japaric/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/japaric/subscriptions",
+      "organizations_url": "https://api.github.com/users/japaric/orgs",
+      "repos_url": "https://api.github.com/users/japaric/repos",
+      "events_url": "https://api.github.com/users/japaric/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/japaric/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-27T15:03:09Z",
+    "updated_at": "2014-11-27T15:03:09Z",
+    "body": "Just want to add that due to the bad interaction of struct bounds and the `deriving` syntax extension, in the case of `CowVec<T>` you are forced to bound `T: Clone` with a `where` clause:\n\nThis compiles:\n\n``` rust\nuse std::vec::CowVec;\n\n#[deriving(Clone)]\nstruct Foo<'a, T: 'a> where T: Clone {\n    bar: CowVec<'a, T>,\n}\n\nfn main() {}\n```\n\nBut this does not:\n\n``` rust\nuse std::vec::CowVec;\n\n#[deriving(Clone)]\nstruct Foo<'a, T: 'a + Clone> {\n    bar: CowVec<'a, T>,\n}\n\nfn main() {}\n```\n\nSee #19361 and #19358 for more details\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64800263/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

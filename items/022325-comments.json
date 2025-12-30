@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75754156",
+    "html_url": "https://github.com/rust-lang/rust/issues/22325#issuecomment-75754156",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22325",
+    "id": 75754156,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1NzU0MTU2",
+    "user": {
+      "login": "retep998",
+      "id": 666308,
+      "node_id": "MDQ6VXNlcjY2NjMwOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/666308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/retep998",
+      "html_url": "https://github.com/retep998",
+      "followers_url": "https://api.github.com/users/retep998/followers",
+      "following_url": "https://api.github.com/users/retep998/following{/other_user}",
+      "gists_url": "https://api.github.com/users/retep998/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/retep998/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/retep998/subscriptions",
+      "organizations_url": "https://api.github.com/users/retep998/orgs",
+      "repos_url": "https://api.github.com/users/retep998/repos",
+      "events_url": "https://api.github.com/users/retep998/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/retep998/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-24T13:16:53Z",
+    "updated_at": "2015-02-24T13:18:36Z",
+    "body": "Another example of this problem: https://retep998.github.io/doc/winapi/winerror/index.html\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75754156/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

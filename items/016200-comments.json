@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/50967068",
+    "html_url": "https://github.com/rust-lang/rust/issues/16200#issuecomment-50967068",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16200",
+    "id": 50967068,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwOTY3MDY4",
+    "user": {
+      "login": "kennytm",
+      "id": 103023,
+      "node_id": "MDQ6VXNlcjEwMzAyMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/103023?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kennytm",
+      "html_url": "https://github.com/kennytm",
+      "followers_url": "https://api.github.com/users/kennytm/followers",
+      "following_url": "https://api.github.com/users/kennytm/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kennytm/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kennytm/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kennytm/subscriptions",
+      "organizations_url": "https://api.github.com/users/kennytm/orgs",
+      "repos_url": "https://api.github.com/users/kennytm/repos",
+      "events_url": "https://api.github.com/users/kennytm/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kennytm/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-08-02T16:19:14Z",
+    "updated_at": "2014-08-02T16:19:14Z",
+    "body": "The problem seems to due to integer overflow in https://github.com/rust-lang/rust/blob/5b85c8cbe/src/libcollections/vec.rs#L967. \n\nSince `length` is `0u`, `length - 1` will become the max integer, which will then unnecessarily trigger the `.swap()` call causing the failure.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/50967068/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/147738400",
+    "html_url": "https://github.com/rust-lang/rust/issues/28085#issuecomment-147738400",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28085",
+    "id": 147738400,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0NzczODQwMA==",
+    "user": {
+      "login": "jonas-schievink",
+      "id": 1786438,
+      "node_id": "MDQ6VXNlcjE3ODY0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1786438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonas-schievink",
+      "html_url": "https://github.com/jonas-schievink",
+      "followers_url": "https://api.github.com/users/jonas-schievink/followers",
+      "following_url": "https://api.github.com/users/jonas-schievink/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonas-schievink/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonas-schievink/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonas-schievink/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonas-schievink/orgs",
+      "repos_url": "https://api.github.com/users/jonas-schievink/repos",
+      "events_url": "https://api.github.com/users/jonas-schievink/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonas-schievink/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-10-13T14:49:40Z",
+    "updated_at": "2015-10-13T14:49:40Z",
+    "body": "Looks like a duplicate of #24858, so I'll close this\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/147738400/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

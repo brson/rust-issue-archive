@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/46407087",
+    "html_url": "https://github.com/rust-lang/rust/issues/14999#issuecomment-46407087",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14999",
+    "id": 46407087,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2NDA3MDg3",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-18T08:10:23Z",
+    "updated_at": "2014-06-18T08:10:23Z",
+    "body": "Strangely, some examples don't have crates, e.g. the first example in `std::option` is [sent to playpen](http://play.rust-lang.org/?code=fn%20main%28%29%20{%0A%20%20%20%20fn%20divide%28numerator%3A%20f64%2C%20denominator%3A%20f64%29%20-%3E%20Option%3Cf64%3E%20{%0A%20%20%20%20%20%20%20%20if%20denominator%20%3D%3D%200.0%20{%0A%20%20%20%20%20%20%20%20%20%20%20%20None%0A%20%20%20%20%20%20%20%20}%20else%20{%0A%20%20%20%20%20%20%20%20%20%20%20%20Some%28numerator%20%2F%20denominator%29%0A%20%20%20%20%20%20%20%20}%0A%20%20%20%20}%0A%20%20%20%20%0A%20%20%20%20%2F%2F%20The%20return%20value%20of%20the%20function%20is%20an%20option%0A%20%20%20%20let%20result%20%3D%20divide%282.0%2C%203.0%29%3B%0A%20%20%20%20%0A%20%20%20%20%2F%2F%20Pattern%20match%20to%20retrieve%20the%20value%0A%20%20%20%20match%20result%20{%0A%20%20%20%20%20%20%20%20%2F%2F%20The%20division%20was%20valid%0A%20%20%20%20%20%20%20%20Some%28x%29%20%3D%3E%20println!%28%22Result%3A%20{}%22%2C%20x%29%2C%0A%20%20%20%20%20%20%20%20%2F%2F%20The%20division%20was%20invalid%0A%20%20%20%20%20%20%20%20None%20%20%20%20%3D%3E%20println!%28%22Cannot%20divide%20by%200%22%29%0A%20%20%20%20}%0A}) looking like\n\n``` rust\nfn divide(numerator: f64, denominator: f64) -> Option<f64> {\n    if denominator == 0.0 {\n        None\n    } else {\n        Some(numerator / denominator)\n    }\n}\n\n// The return value of the function is an option\nlet result = divide(2.0, 3.0);\n\n// Pattern match to retrieve the value\nmatch result {\n    // The division was valid\n    Some(x) => println!(\"Result: {}\", x),\n    // The division was invalid\n    None    => println!(\"Cannot divide by 0\")\n}\n```\n\ni.e. no `extern crate std`. _And_, even when originating in [`core::option`](http://doc.rust-lang.org/master/core/option/index.html) there's no `extern crate core;`.\n\nHowever, this doesn't seem to be a universal feature of reexports, e.g. `Arc`s example is \"fine\":\n- from [`std`](http://doc.rust-lang.org/master/std/sync/struct.Arc.html) it [includes `extern crate std`](http://play.rust-lang.org/?code=extern%20crate%20std%3B%0Ause%20std%3A%3Async%3A%3AArc%3B%0A%0Afn%20main%28%29%20{%0A%20%20%20%20let%20numbers%20%3D%20Vec%3A%3Afrom_fn%28100%2C%20|i|%20i%20as%20f32%29%3B%0A%20%20%20%20let%20shared_numbers%20%3D%20Arc%3A%3Anew%28numbers%29%3B%0A%0A%20%20%20%20for%20_%20in%20range%280%2C%2010%29%20{%0A%20%20%20%20%20%20%20%20let%20child_numbers%20%3D%20shared_numbers.clone%28%29%3B%0A%0A%20%20%20%20%20%20%20%20spawn%28proc%28%29%20{%0A%20%20%20%20%20%20%20%20%20%20%20%20let%20local_numbers%20%3D%20child_numbers.as_slice%28%29%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%2F%2F%20Work%20with%20the%20local%20numbers%0A%20%20%20%20%20%20%20%20}%29%3B%0A%20%20%20%20}%0A}).\n- from [`sync`](http://doc.rust-lang.org/master/sync/struct.Arc.html) it [includes `extern crate sync`](http://play.rust-lang.org/?code=extern%20crate%20sync%3B%0Ause%20std%3A%3Async%3A%3AArc%3B%0A%0Afn%20main%28%29%20{%0A%20%20%20%20let%20numbers%20%3D%20Vec%3A%3Afrom_fn%28100%2C%20|i|%20i%20as%20f32%29%3B%0A%20%20%20%20let%20shared_numbers%20%3D%20Arc%3A%3Anew%28numbers%29%3B%0A%0A%20%20%20%20for%20_%20in%20range%280%2C%2010%29%20{%0A%20%20%20%20%20%20%20%20let%20child_numbers%20%3D%20shared_numbers.clone%28%29%3B%0A%0A%20%20%20%20%20%20%20%20spawn%28proc%28%29%20{%0A%20%20%20%20%20%20%20%20%20%20%20%20let%20local_numbers%20%3D%20child_numbers.as_slice%28%29%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%2F%2F%20Work%20with%20the%20local%20numbers%0A%20%20%20%20%20%20%20%20}%29%3B%0A%20%20%20%20}%0A})\n\n(And, just for reference, this doesn't appear to be a problem of module doc strings vs type doc strings, e.g. the [example on `Option.as_ref`](http://doc.rust-lang.org/master/std/option/type.Option.html#method.as_ref) suffers the same fate as the other `option` examples.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/46407087/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

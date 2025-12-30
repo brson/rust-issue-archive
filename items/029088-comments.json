@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/148572257",
+    "html_url": "https://github.com/rust-lang/rust/issues/29088#issuecomment-148572257",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29088",
+    "id": 148572257,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0ODU3MjI1Nw==",
+    "user": {
+      "login": "pkmoore",
+      "id": 3318351,
+      "node_id": "MDQ6VXNlcjMzMTgzNTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3318351?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pkmoore",
+      "html_url": "https://github.com/pkmoore",
+      "followers_url": "https://api.github.com/users/pkmoore/followers",
+      "following_url": "https://api.github.com/users/pkmoore/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pkmoore/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pkmoore/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pkmoore/subscriptions",
+      "organizations_url": "https://api.github.com/users/pkmoore/orgs",
+      "repos_url": "https://api.github.com/users/pkmoore/repos",
+      "events_url": "https://api.github.com/users/pkmoore/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pkmoore/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-10-16T01:45:36Z",
+    "updated_at": "2015-10-16T01:45:36Z",
+    "body": "I agree. As someone unfamiliar with the language the error message lead me to fix the playpen code like this:\n\nfn main() {\n    b'\\u{2192}'\n}\n\nWhich leads to:\n\nerror: unicode escape sequences cannot be used as a byte or in a byte string\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/148572257/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

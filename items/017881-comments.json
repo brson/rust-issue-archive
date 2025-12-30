@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70793913",
+    "html_url": "https://github.com/rust-lang/rust/issues/17881#issuecomment-70793913",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17881",
+    "id": 70793913,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwNzkzOTEz",
+    "user": {
+      "login": "carllerche",
+      "id": 6180,
+      "node_id": "MDQ6VXNlcjYxODA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6180?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/carllerche",
+      "html_url": "https://github.com/carllerche",
+      "followers_url": "https://api.github.com/users/carllerche/followers",
+      "following_url": "https://api.github.com/users/carllerche/following{/other_user}",
+      "gists_url": "https://api.github.com/users/carllerche/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/carllerche/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/carllerche/subscriptions",
+      "organizations_url": "https://api.github.com/users/carllerche/orgs",
+      "repos_url": "https://api.github.com/users/carllerche/repos",
+      "events_url": "https://api.github.com/users/carllerche/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/carllerche/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-21T07:10:28Z",
+    "updated_at": "2015-01-21T07:10:28Z",
+    "body": "This appears to be fixed. New code snippet is:\n\n```\nuse std::sync::mpsc::*;\n\nfn action<T: Send, F: FnOnce(T) + Send>(v: T, f: F) {\n    f(v);\n}\n\npub fn main() {\n    let (tx, rx) = channel();\n\n    action(\"zomg\", move |v| { tx.send(v); });\n    rx.recv();\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70793913/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21935927",
+    "html_url": "https://github.com/rust-lang/rust/issues/8178#issuecomment-21935927",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8178",
+    "id": 21935927,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxOTM1OTI3",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-08-01T13:27:36Z",
+    "updated_at": "2013-08-01T13:27:36Z",
+    "body": "Wow, this one appears to be the combination of two separate issues:\n1. if a macro invocation is allowed to expand to a item/statement (rather than an expression), it is assumed to do so (https://github.com/mozilla/rust/issues/5941)\n2. a macro expanding to multiple items is silently truncated at the first one (https://github.com/mozilla/rust/issues/8012)\n\n#5921 means that, in `twice!($b) + 1`, the `twice!($b)` gets treated as a statement/item macro, and then #8012 means that the trailing `+ 1` gets dropped (and so the behaviour is incorrect, _and_ no error is reported).\n\nThis can be fixed by forcing the `twice!($b)` to be evaluated in an expression context (that is what is happening with the `1 + twice!($b)` form), which can be done with some parens:\n\n``` rust\nmacro_rules! twice_one(\n    ($b:expr) => ( (twice!($b) + 1) );\n)\n```\n\n(Closing as a dup of those two issues.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21935927/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

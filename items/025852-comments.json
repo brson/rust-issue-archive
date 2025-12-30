@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/204805742",
+    "html_url": "https://github.com/rust-lang/rust/issues/25852#issuecomment-204805742",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25852",
+    "id": 204805742,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNDgwNTc0Mg==",
+    "user": {
+      "login": "jethrogb",
+      "id": 1132307,
+      "node_id": "MDQ6VXNlcjExMzIzMDc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1132307?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jethrogb",
+      "html_url": "https://github.com/jethrogb",
+      "followers_url": "https://api.github.com/users/jethrogb/followers",
+      "following_url": "https://api.github.com/users/jethrogb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jethrogb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jethrogb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jethrogb/subscriptions",
+      "organizations_url": "https://api.github.com/users/jethrogb/orgs",
+      "repos_url": "https://api.github.com/users/jethrogb/repos",
+      "events_url": "https://api.github.com/users/jethrogb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jethrogb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2016-04-02T21:12:47Z",
+    "updated_at": "2016-04-02T21:12:47Z",
+    "body": "This has been fixed. core is stable now. nightly actually says std now.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/204805742/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

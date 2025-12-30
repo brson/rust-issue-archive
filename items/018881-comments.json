@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75846943",
+    "html_url": "https://github.com/rust-lang/rust/issues/18881#issuecomment-75846943",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18881",
+    "id": 75846943,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1ODQ2OTQz",
+    "user": {
+      "login": "msiemens",
+      "id": 1873922,
+      "node_id": "MDQ6VXNlcjE4NzM5MjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1873922?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/msiemens",
+      "html_url": "https://github.com/msiemens",
+      "followers_url": "https://api.github.com/users/msiemens/followers",
+      "following_url": "https://api.github.com/users/msiemens/following{/other_user}",
+      "gists_url": "https://api.github.com/users/msiemens/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/msiemens/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/msiemens/subscriptions",
+      "organizations_url": "https://api.github.com/users/msiemens/orgs",
+      "repos_url": "https://api.github.com/users/msiemens/repos",
+      "events_url": "https://api.github.com/users/msiemens/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/msiemens/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-24T21:11:35Z",
+    "updated_at": "2015-02-24T21:11:35Z",
+    "body": "The sample compiles with latest Rust. I suspect that RFC 599 causes `Box<Trait>` to be interpreted as Box<Trait+'static>. If `t` is changed to `&'a Trait` to prevent that, Rust gives the correct suggestion now (Playpen: http://is.gd/KUiweA) :grinning: \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75846943/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

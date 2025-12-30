@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/49573648",
+    "html_url": "https://github.com/rust-lang/rust/pull/15849#issuecomment-49573648",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15849",
+    "id": 49573648,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NTczNjQ4",
+    "user": {
+      "login": "tedhorst",
+      "id": 113629,
+      "node_id": "MDQ6VXNlcjExMzYyOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/113629?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tedhorst",
+      "html_url": "https://github.com/tedhorst",
+      "followers_url": "https://api.github.com/users/tedhorst/followers",
+      "following_url": "https://api.github.com/users/tedhorst/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tedhorst/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tedhorst/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tedhorst/subscriptions",
+      "organizations_url": "https://api.github.com/users/tedhorst/orgs",
+      "repos_url": "https://api.github.com/users/tedhorst/repos",
+      "events_url": "https://api.github.com/users/tedhorst/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tedhorst/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-07-21T05:54:10Z",
+    "updated_at": "2014-07-21T05:54:10Z",
+    "body": "This is a better fix for #15833.  Thanks to @huonw for pointing it out.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/49573648/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

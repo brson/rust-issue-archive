@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/36697388",
+    "html_url": "https://github.com/rust-lang/rust/issues/12696#issuecomment-36697388",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12696",
+    "id": 36697388,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2Njk3Mzg4",
+    "user": {
+      "login": "zmike",
+      "id": 234706,
+      "node_id": "MDQ6VXNlcjIzNDcwNg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/234706?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/zmike",
+      "html_url": "https://github.com/zmike",
+      "followers_url": "https://api.github.com/users/zmike/followers",
+      "following_url": "https://api.github.com/users/zmike/following{/other_user}",
+      "gists_url": "https://api.github.com/users/zmike/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/zmike/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/zmike/subscriptions",
+      "organizations_url": "https://api.github.com/users/zmike/orgs",
+      "repos_url": "https://api.github.com/users/zmike/repos",
+      "events_url": "https://api.github.com/users/zmike/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/zmike/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-05T00:36:06Z",
+    "updated_at": "2014-03-05T00:36:06Z",
+    "body": "Nevermind, the @larsbergstrom magic fixed it.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/36697388/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

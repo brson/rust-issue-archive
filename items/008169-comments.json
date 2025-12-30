@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/26636698",
+    "html_url": "https://github.com/rust-lang/rust/issues/8169#issuecomment-26636698",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8169",
+    "id": 26636698,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI2NjM2Njk4",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-10-18T23:13:32Z",
+    "updated_at": "2013-10-18T23:13:32Z",
+    "body": "Triage: the privacy checker was recently rewritten to fix half of this and the other half is by design. The following now runs:\n\n``` rust\nstruct Outer {\n  number: int\n}\n\nmod inner {\n  use super::Outer;\n  pub fn run_from_outside() {\n    let _ = Outer { number: 42 };\n  }\n}\n\n#[test]\nfn test() {\n  use inner::run_from_outside;\n  run_from_outside();\n}\n```\n\nNote the `pub fn run_from_outside`. Private things can be used in children, but an item needs to be public to be used by the parent (although the child module itself doesn't have to be `pub`). Closing.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/26636698/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

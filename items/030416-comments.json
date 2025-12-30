@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/165170443",
+    "html_url": "https://github.com/rust-lang/rust/issues/30416#issuecomment-165170443",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30416",
+    "id": 165170443,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2NTE3MDQ0Mw==",
+    "user": {
+      "login": "geofft",
+      "id": 74644,
+      "node_id": "MDQ6VXNlcjc0NjQ0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/74644?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/geofft",
+      "html_url": "https://github.com/geofft",
+      "followers_url": "https://api.github.com/users/geofft/followers",
+      "following_url": "https://api.github.com/users/geofft/following{/other_user}",
+      "gists_url": "https://api.github.com/users/geofft/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/geofft/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/geofft/subscriptions",
+      "organizations_url": "https://api.github.com/users/geofft/orgs",
+      "repos_url": "https://api.github.com/users/geofft/repos",
+      "events_url": "https://api.github.com/users/geofft/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/geofft/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-16T16:43:15Z",
+    "updated_at": "2015-12-16T16:43:15Z",
+    "body": "Linking to the source of methods would also be very nice, and I'd guess is easy to implement at the same time, but they tend to be easier to find.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/165170443/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

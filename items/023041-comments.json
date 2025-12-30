@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77628514",
+    "html_url": "https://github.com/rust-lang/rust/issues/23041#issuecomment-77628514",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23041",
+    "id": 77628514,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3NjI4NTE0",
+    "user": {
+      "login": "mikedilger",
+      "id": 1669069,
+      "node_id": "MDQ6VXNlcjE2NjkwNjk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1669069?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mikedilger",
+      "html_url": "https://github.com/mikedilger",
+      "followers_url": "https://api.github.com/users/mikedilger/followers",
+      "following_url": "https://api.github.com/users/mikedilger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mikedilger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mikedilger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mikedilger/subscriptions",
+      "organizations_url": "https://api.github.com/users/mikedilger/orgs",
+      "repos_url": "https://api.github.com/users/mikedilger/repos",
+      "events_url": "https://api.github.com/users/mikedilger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mikedilger/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-06T20:20:45Z",
+    "updated_at": "2015-03-06T20:20:45Z",
+    "body": "probably a dup of #22897\n\n```\nstack backtrace:\n   1:     0x7f6892f6f87f - sys::backtrace::write::hd4e8cc47a8584fc6OBA\n   2:     0x7f6892f9a552 - panicking::on_panic::hfee0f86819ae23d5hHJ\n   3:     0x7f6892ecfbda - rt::unwind::begin_unwind_inner::h37f420a62e49c8c7knJ\n   4:     0x7f689047903d - rt::unwind::begin_unwind::h8415944015202791066\n   5:     0x7f6890478fe3 - diagnostic::SpanHandler::span_bug::h75e79c0a54af89b4VBD\n   6:     0x7f6890cdcd33 - session::Session::span_bug::hfb84cab0434b695ayHp\n   7:     0x7f6891c91251 - check::regionck::visit_expr::h5138703d9a0086d4WBd\n   8:     0x7f6891c8ca60 - check::regionck::Rcx<'a, 'tcx>::visit_fn_body::hd94272955e2bdf089dd\n   9:     0x7f6891d19b36 - check::check_bare_fn::he5ad48bfa8a0f4ccVan\n  10:     0x7f6891d11cf1 - check::check_item::h70d8c4d186aed50bztn\n  11:     0x7f6891de3ae3 - check_crate::closure.35216\n  12:     0x7f6891dde88a - check_crate::h385944248f94b2dcTZB\n  13:     0x7f68935240d8 - driver::phase_3_run_analysis_passes::h46bd0dc62476cdecxFa\n  14:     0x7f689350b4ed - driver::compile_input::hd3b97ca9cf852f24Iba\n  15:     0x7f68935d2a47 - run_compiler::hdea2287c7bb22b2fF5b\n  16:     0x7f68935d05d9 - thunk::F.Invoke<A, R>::invoke::h6737654279709288520\n  17:     0x7f68935cf250 - rt::unwind::try::try_fn::h8325543558165455024\n  18:     0x7f689300a258 - rust_try_inner\n  19:     0x7f689300a245 - rust_try\n  20:     0x7f68935cf9ef - thunk::F.Invoke<A, R>::invoke::h1677976001982228969\n  21:     0x7f6892f85295 - sys::thread::thread_start::hb74e8c873814d22br8E\n  22:     0x7f688cf7e223 - start_thread\n  23:     0x7f6892b5b5ec - __clone\n  24:                0x0 - <unknown>\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77628514/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/15522097",
+    "html_url": "https://github.com/rust-lang/rust/issues/5573#issuecomment-15522097",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/5573",
+    "id": 15522097,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NTIyMDk3",
+    "user": {
+      "login": "pnkfelix",
+      "id": 173127,
+      "node_id": "MDQ6VXNlcjE3MzEyNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pnkfelix",
+      "html_url": "https://github.com/pnkfelix",
+      "followers_url": "https://api.github.com/users/pnkfelix/followers",
+      "following_url": "https://api.github.com/users/pnkfelix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pnkfelix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pnkfelix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pnkfelix/subscriptions",
+      "organizations_url": "https://api.github.com/users/pnkfelix/orgs",
+      "repos_url": "https://api.github.com/users/pnkfelix/repos",
+      "events_url": "https://api.github.com/users/pnkfelix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pnkfelix/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-03-27T13:09:06Z",
+    "updated_at": "2013-03-27T13:09:06Z",
+    "body": "We discussed the `<expr> as @<Trait>` form in the meeting last night:\n  https://etherpad.mozilla.org/Meeting-weekly-2013-03-26\n\nI think the plan of record is to allow expressions of type `@T` to automatically coerce to `@Trait` without any explicit cast, and then remove the `<expr> as @<Trait>` form entirely; therefore we should not spend time documenting this form of cast, since it will be removed.  Closing.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/15522097/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

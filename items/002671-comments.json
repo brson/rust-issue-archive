@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7083905",
+    "html_url": "https://github.com/rust-lang/rust/issues/2671#issuecomment-7083905",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2671",
+    "id": 7083905,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwODM5MDU=",
+    "user": {
+      "login": "bblum",
+      "id": 1820515,
+      "node_id": "MDQ6VXNlcjE4MjA1MTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1820515?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bblum",
+      "html_url": "https://github.com/bblum",
+      "followers_url": "https://api.github.com/users/bblum/followers",
+      "following_url": "https://api.github.com/users/bblum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bblum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bblum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bblum/subscriptions",
+      "organizations_url": "https://api.github.com/users/bblum/orgs",
+      "repos_url": "https://api.github.com/users/bblum/repos",
+      "events_url": "https://api.github.com/users/bblum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bblum/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-07-18T22:08:24Z",
+    "updated_at": "2012-07-18T22:08:24Z",
+    "body": "Running this enough times will eventually hang, as one task \"escapes\":\n\n```\nfn foo() {\n    task::yield();\n    task::spawn(foo);\n}\n\nfn main() {\n    let b = task::builder();\n    task::unsupervise(b);\n    task::run(b, foo);\n    for iter::repeat(1000) { task::yield(); }\n    fail;\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7083905/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

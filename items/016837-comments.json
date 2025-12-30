@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/76759722",
+    "html_url": "https://github.com/rust-lang/rust/issues/16837#issuecomment-76759722",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16837",
+    "id": 76759722,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc2NzU5NzIy",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-02T17:41:12Z",
+    "updated_at": "2015-03-02T17:41:12Z",
+    "body": "I believe this has been fixed in the meantime:\n\n```\nfoo.rs:3:5: 3:6 error: the trait `core::marker::Sized` is not implemented for the type `[isize]` [E0277]\nfoo.rs:3 let y = *x;        // error: mismatched types: expected `<generic #1>`, found `[int]`\n             ^\nfoo.rs:3:5: 3:6 note: `[isize]` does not have a constant size known at compile-time\nfoo.rs:3 let y = *x;        // error: mismatched types: expected `<generic #1>`, found `[int]`\n             ^\nfoo.rs:4:5: 4:6 error: the trait `core::marker::Sized` is not implemented for the type `[isize]` [E0277]\nfoo.rs:4 let y: [isize] = *x; // error: mismatched types: expected `[int]`, found `<generic #3>`\n             ^\nfoo.rs:4:5: 4:6 note: `[isize]` does not have a constant size known at compile-time\nfoo.rs:4 let y: [isize] = *x; // error: mismatched types: expected `[int]`, found `<generic #3>`\n             ^\nfoo.rs:7:5: 7:6 error: the trait `core::marker::Sized` is not implemented for the type `str` [E0277]\nfoo.rs:7 let s = *\"hello world\";\n             ^\nfoo.rs:7:5: 7:6 note: `str` does not have a constant size known at compile-time\nfoo.rs:7 let s = *\"hello world\";\n             ^\nfoo.rs:8:5: 8:6 error: the trait `core::marker::Sized` is not implemented for the type `str` [E0277]\nfoo.rs:8 let s: str = *\"hello world\";\n             ^\nfoo.rs:8:5: 8:6 note: `str` does not have a constant size known at compile-time\nfoo.rs:8 let s: str = *\"hello world\";\n             ^\nerror: aborting due to 4 previous errors\n```\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/76759722/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

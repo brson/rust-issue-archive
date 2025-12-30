@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54764712",
+    "html_url": "https://github.com/rust-lang/rust/pull/17087#issuecomment-54764712",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17087",
+    "id": 54764712,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NzY0NzEy",
+    "user": {
+      "login": "DanAlbert",
+      "id": 315852,
+      "node_id": "MDQ6VXNlcjMxNTg1Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/315852?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DanAlbert",
+      "html_url": "https://github.com/DanAlbert",
+      "followers_url": "https://api.github.com/users/DanAlbert/followers",
+      "following_url": "https://api.github.com/users/DanAlbert/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DanAlbert/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DanAlbert/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DanAlbert/subscriptions",
+      "organizations_url": "https://api.github.com/users/DanAlbert/orgs",
+      "repos_url": "https://api.github.com/users/DanAlbert/repos",
+      "events_url": "https://api.github.com/users/DanAlbert/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DanAlbert/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-09-07T23:23:59Z",
+    "updated_at": "2014-09-07T23:23:59Z",
+    "body": "I don't see any errors in the travis build log. Also, I see nothing but red builds going back a month...\n\nI built and ran all the tests on my machine with no issues.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54764712/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

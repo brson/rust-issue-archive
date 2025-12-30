@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/56131815",
+    "html_url": "https://github.com/rust-lang/rust/pull/17250#issuecomment-56131815",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17250",
+    "id": 56131815,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MTMxODE1",
+    "user": {
+      "login": "ahmedcharles",
+      "id": 3112514,
+      "node_id": "MDQ6VXNlcjMxMTI1MTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3112514?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ahmedcharles",
+      "html_url": "https://github.com/ahmedcharles",
+      "followers_url": "https://api.github.com/users/ahmedcharles/followers",
+      "following_url": "https://api.github.com/users/ahmedcharles/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ahmedcharles/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ahmedcharles/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ahmedcharles/subscriptions",
+      "organizations_url": "https://api.github.com/users/ahmedcharles/orgs",
+      "repos_url": "https://api.github.com/users/ahmedcharles/repos",
+      "events_url": "https://api.github.com/users/ahmedcharles/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ahmedcharles/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-09-19T03:36:51Z",
+    "updated_at": "2014-09-19T03:36:51Z",
+    "body": "New patch. The only intended use of bitflags! is for Attributes.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/56131815/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

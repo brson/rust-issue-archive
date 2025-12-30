@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/52262277",
+    "html_url": "https://github.com/rust-lang/rust/issues/16348#issuecomment-52262277",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16348",
+    "id": 52262277,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUyMjYyMjc3",
+    "user": {
+      "login": "wickerwaka",
+      "id": 6377250,
+      "node_id": "MDQ6VXNlcjYzNzcyNTA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6377250?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/wickerwaka",
+      "html_url": "https://github.com/wickerwaka",
+      "followers_url": "https://api.github.com/users/wickerwaka/followers",
+      "following_url": "https://api.github.com/users/wickerwaka/following{/other_user}",
+      "gists_url": "https://api.github.com/users/wickerwaka/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/wickerwaka/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/wickerwaka/subscriptions",
+      "organizations_url": "https://api.github.com/users/wickerwaka/orgs",
+      "repos_url": "https://api.github.com/users/wickerwaka/repos",
+      "events_url": "https://api.github.com/users/wickerwaka/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/wickerwaka/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-08-15T00:29:51Z",
+    "updated_at": "2014-08-15T00:29:51Z",
+    "body": "This is not windows specific. Since '-C' is a valid option, libgetopts is not treating 'C' it as a the start of the value being specified for the '-L' option. I'm not sure if this is expected or desired functionality. IMO if an option has a mandatory or optional argument then anything after it should be treated as such.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/52262277/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

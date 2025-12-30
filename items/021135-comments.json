@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/91503810",
+    "html_url": "https://github.com/rust-lang/rust/issues/21135#issuecomment-91503810",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21135",
+    "id": 91503810,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkxNTAzODEw",
+    "user": {
+      "login": "Munksgaard",
+      "id": 230613,
+      "node_id": "MDQ6VXNlcjIzMDYxMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/230613?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Munksgaard",
+      "html_url": "https://github.com/Munksgaard",
+      "followers_url": "https://api.github.com/users/Munksgaard/followers",
+      "following_url": "https://api.github.com/users/Munksgaard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Munksgaard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Munksgaard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Munksgaard/subscriptions",
+      "organizations_url": "https://api.github.com/users/Munksgaard/orgs",
+      "repos_url": "https://api.github.com/users/Munksgaard/repos",
+      "events_url": "https://api.github.com/users/Munksgaard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Munksgaard/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-10T10:05:02Z",
+    "updated_at": "2015-04-10T10:05:02Z",
+    "body": "Specialized implementations of Drop are now prohibited, rendering this ICE moot, ie. this works:\n\n``` rust\n#![feature(unsafe_destructor)]\n#![allow(dead_code)]\n\nuse std::marker::PhantomData;\n\nstruct Foo<T> ( PhantomData<T> );\n\nstruct Bar<T,U> ( PhantomData<(T, U)> );\n\n#[unsafe_destructor]\nimpl <T> Drop for Foo<T> {\n    fn drop(&mut self) {\n    }\n}\n\nfn main() {\n    let x: Foo<Bar<u8,u8>>;\n}\n```\n\nwhile this isn't allowed\n\n``` rust\n#![feature(unsafe_destructor)]\n#![allow(dead_code)]\n\nuse std::marker::PhantomData;\n\nstruct Foo<T> ( PhantomData<T> );\n\nstruct Bar<T,U> ( PhantomData<(T, U)> );\n\n#[unsafe_destructor]\nimpl <T,U> Drop for Foo<Bar<T,U>> {\n    fn drop(&mut self) {\n    }\n}\n\nfn main() {\n    let x: Foo<Bar<u8,u8>>;\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/91503810/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

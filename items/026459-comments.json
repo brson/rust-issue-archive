@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/113826122",
+    "html_url": "https://github.com/rust-lang/rust/issues/26459#issuecomment-113826122",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26459",
+    "id": 113826122,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMzgyNjEyMg==",
+    "user": {
+      "login": "daboross",
+      "id": 1152146,
+      "node_id": "MDQ6VXNlcjExNTIxNDY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1152146?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/daboross",
+      "html_url": "https://github.com/daboross",
+      "followers_url": "https://api.github.com/users/daboross/followers",
+      "following_url": "https://api.github.com/users/daboross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/daboross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/daboross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/daboross/subscriptions",
+      "organizations_url": "https://api.github.com/users/daboross/orgs",
+      "repos_url": "https://api.github.com/users/daboross/repos",
+      "events_url": "https://api.github.com/users/daboross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/daboross/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-20T22:06:07Z",
+    "updated_at": "2015-06-20T22:06:13Z",
+    "body": "This seems to also occur in any kind of pattern matching, even in a simple thing like:\n\n``` rust\nfn main() {\n    let u8{x} = 3;\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/113826122/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20816652",
+    "html_url": "https://github.com/rust-lang/rust/issues/7711#issuecomment-20816652",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7711",
+    "id": 20816652,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwODE2NjUy",
+    "user": {
+      "login": "chris-morgan",
+      "id": 392868,
+      "node_id": "MDQ6VXNlcjM5Mjg2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/392868?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-morgan",
+      "html_url": "https://github.com/chris-morgan",
+      "followers_url": "https://api.github.com/users/chris-morgan/followers",
+      "following_url": "https://api.github.com/users/chris-morgan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-morgan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-morgan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-morgan/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-morgan/orgs",
+      "repos_url": "https://api.github.com/users/chris-morgan/repos",
+      "events_url": "https://api.github.com/users/chris-morgan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-morgan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-11T14:48:10Z",
+    "updated_at": "2013-07-11T16:12:15Z",
+    "body": "I'll have a go at this.\n\n<del>#7311 must be taken into account.</del> _cmr/dbaupp say it shouldn't be._\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20816652/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

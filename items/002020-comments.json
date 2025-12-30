@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/4594084",
+    "html_url": "https://github.com/rust-lang/rust/issues/2020#issuecomment-4594084",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2020",
+    "id": 4594084,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ1OTQwODQ=",
+    "user": {
+      "login": "marijnh",
+      "id": 144427,
+      "node_id": "MDQ6VXNlcjE0NDQyNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144427?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/marijnh",
+      "html_url": "https://github.com/marijnh",
+      "followers_url": "https://api.github.com/users/marijnh/followers",
+      "following_url": "https://api.github.com/users/marijnh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/marijnh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/marijnh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/marijnh/subscriptions",
+      "organizations_url": "https://api.github.com/users/marijnh/orgs",
+      "repos_url": "https://api.github.com/users/marijnh/repos",
+      "events_url": "https://api.github.com/users/marijnh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/marijnh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-03-20T12:21:28Z",
+    "updated_at": "2012-03-20T12:21:28Z",
+    "body": "Done in 928364b98b61e7a88b26a01cd6acb78fb68430e4 (though I mistyped the bug number in the commit message)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/4594084/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

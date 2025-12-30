@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62366530",
+    "html_url": "https://github.com/rust-lang/rust/issues/11341#issuecomment-62366530",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11341",
+    "id": 62366530,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYyMzY2NTMw",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-10T10:31:24Z",
+    "updated_at": "2014-11-10T10:31:24Z",
+    "body": "This is now actually by design, [RFC #234](https://github.com/rust-lang/rfcs/blob/master/text/0234-variants-namespace.md) places enum variants into the type namespace as well as the value namespace. (This was not the case when this issue was filed, though, so was definitely worth a bug then; thanks!)\n\nThe bad error message you note is still an issue, but this is covered more specifically by https://github.com/rust-lang/rust/issues/17546, so I'm closing this.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62366530/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

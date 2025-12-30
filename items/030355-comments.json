@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/290994350",
+    "html_url": "https://github.com/rust-lang/rust/issues/30355#issuecomment-290994350",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30355",
+    "id": 290994350,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MDk5NDM1MA==",
+    "user": {
+      "login": "chordowl",
+      "id": 3811822,
+      "node_id": "MDQ6VXNlcjM4MTE4MjI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3811822?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chordowl",
+      "html_url": "https://github.com/chordowl",
+      "followers_url": "https://api.github.com/users/chordowl/followers",
+      "following_url": "https://api.github.com/users/chordowl/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chordowl/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chordowl/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chordowl/subscriptions",
+      "organizations_url": "https://api.github.com/users/chordowl/orgs",
+      "repos_url": "https://api.github.com/users/chordowl/repos",
+      "events_url": "https://api.github.com/users/chordowl/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chordowl/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2017-04-02T15:41:21Z",
+    "updated_at": "2017-04-02T15:41:21Z",
+    "body": "Triage: this no longer ICEs.\r\n\r\n<details>\r\n<summary>Meta</summary>\r\n\r\n`rustc --version --verbose`:\r\n\r\nrustc 1.16.0 (30cf806ef 2017-03-10)\r\nbinary: rustc\r\ncommit-hash: 30cf806ef8881c41821fbd43e5cf3699c5290c16\r\ncommit-date: 2017-03-10\r\nhost: x86_64-pc-windows-gnu\r\nrelease: 1.16.0\r\nLLVM version: 3.9\r\n</details>",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/290994350/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

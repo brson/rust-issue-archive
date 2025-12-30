@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20555866",
+    "html_url": "https://github.com/rust-lang/rust/pull/7618#issuecomment-20555866",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7618",
+    "id": 20555866,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNTU1ODY2",
+    "user": {
+      "login": "glinscott",
+      "id": 554932,
+      "node_id": "MDQ6VXNlcjU1NDkzMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/554932?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/glinscott",
+      "html_url": "https://github.com/glinscott",
+      "followers_url": "https://api.github.com/users/glinscott/followers",
+      "following_url": "https://api.github.com/users/glinscott/following{/other_user}",
+      "gists_url": "https://api.github.com/users/glinscott/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/glinscott/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/glinscott/subscriptions",
+      "organizations_url": "https://api.github.com/users/glinscott/orgs",
+      "repos_url": "https://api.github.com/users/glinscott/repos",
+      "events_url": "https://api.github.com/users/glinscott/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/glinscott/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-06T15:22:58Z",
+    "updated_at": "2013-07-06T15:22:58Z",
+    "body": "Merged with https://github.com/mozilla/rust/pull/7608\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20555866/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

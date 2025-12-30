@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/36415375",
+    "html_url": "https://github.com/rust-lang/rust/issues/11450#issuecomment-36415375",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11450",
+    "id": 36415375,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NDE1Mzc1",
+    "user": {
+      "login": "luqmana",
+      "id": 287063,
+      "node_id": "MDQ6VXNlcjI4NzA2Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/287063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/luqmana",
+      "html_url": "https://github.com/luqmana",
+      "followers_url": "https://api.github.com/users/luqmana/followers",
+      "following_url": "https://api.github.com/users/luqmana/following{/other_user}",
+      "gists_url": "https://api.github.com/users/luqmana/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/luqmana/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/luqmana/subscriptions",
+      "organizations_url": "https://api.github.com/users/luqmana/orgs",
+      "repos_url": "https://api.github.com/users/luqmana/repos",
+      "events_url": "https://api.github.com/users/luqmana/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/luqmana/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-01T03:55:40Z",
+    "updated_at": "2014-03-01T03:55:40Z",
+    "body": "So, the easy fix for this (as seen above) is to correct the signature of the `mul` method since the `Mul` trait expects the argument to be of the type `&RHS` (so in your case `&f64` instead of just `f64`).\n\nThe reason for the ICE is because for operators `rustc` does a little bit of magic. Notice that while you implement the `Mul` trait for some type `&T` (i.e a reference to some T), you can simply do `Vec2 {..} * 2.0f32`. That is, `2.0f32` is `f32` and not `&f32`. This works because `rustc` will automatically take a reference. So what's happening is that with `foo * T`, the compiler is expecting the `mul` method to take some `&U` and then it can compare to make sure `T == U` (or more specifically that `T` coerces to `U`). But in this case, the argument of the `mul` method is not a reference and hence the \"no ref\" error.\n\nI don't think we should ICE in this case since we do catch the mismatched trait/impl method and hence provide a better error message that way. (As you can see if you move the `impl Mul` block higher like in the second code example).\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/36415375/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

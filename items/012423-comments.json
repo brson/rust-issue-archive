@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/35694987",
+    "html_url": "https://github.com/rust-lang/rust/issues/12423#issuecomment-35694987",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12423",
+    "id": 35694987,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1Njk0OTg3",
+    "user": {
+      "login": "erickt",
+      "id": 84711,
+      "node_id": "MDQ6VXNlcjg0NzEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84711?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erickt",
+      "html_url": "https://github.com/erickt",
+      "followers_url": "https://api.github.com/users/erickt/followers",
+      "following_url": "https://api.github.com/users/erickt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erickt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erickt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erickt/subscriptions",
+      "organizations_url": "https://api.github.com/users/erickt/orgs",
+      "repos_url": "https://api.github.com/users/erickt/repos",
+      "events_url": "https://api.github.com/users/erickt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erickt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-02-21T03:04:15Z",
+    "updated_at": "2014-02-21T03:04:15Z",
+    "body": "cc @eddyb\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/35694987/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/94967996",
+    "html_url": "https://github.com/rust-lang/rust/issues/21174#issuecomment-94967996",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21174",
+    "id": 94967996,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk0OTY3OTk2",
+    "user": {
+      "login": "tamird",
+      "id": 1535036,
+      "node_id": "MDQ6VXNlcjE1MzUwMzY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1535036?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tamird",
+      "html_url": "https://github.com/tamird",
+      "followers_url": "https://api.github.com/users/tamird/followers",
+      "following_url": "https://api.github.com/users/tamird/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tamird/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tamird/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tamird/subscriptions",
+      "organizations_url": "https://api.github.com/users/tamird/orgs",
+      "repos_url": "https://api.github.com/users/tamird/repos",
+      "events_url": "https://api.github.com/users/tamird/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tamird/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-21T23:07:13Z",
+    "updated_at": "2015-04-21T23:07:13Z",
+    "body": "No longer repros.\n\n``` rust\ntrait Trait<'a> {\n    type A;\n    type B;\n}\n\nfn foo<'a, T: Trait<'a>>(value: T::A) {\n    let new: T::B = unsafe { std::mem::transmute_copy(&value) };\n}\n\nfn main() { }\n```\n\ncompiles now.\n\n``` rust\ntrait Trait<'a> {\n    type A;\n    type B;\n}\n\nfn foo<'a, T: Trait<'a>>(value: T::A) {\n    let new: T::B = unsafe { std::mem::transmute(value) };\n}\n\nfn main() { }\n```\n\nFails with:\n\n``` shell\nmain.rs:7:30: 7:49 error: cannot transmute to or from a type that contains type parameters in its interior [E0139]\nmain.rs:7     let new: T::B = unsafe { std::mem::transmute(value) };\n```\n\nBut no ICE.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/94967996/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

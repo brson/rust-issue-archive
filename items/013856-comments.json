@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58809832",
+    "html_url": "https://github.com/rust-lang/rust/issues/13856#issuecomment-58809832",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13856",
+    "id": 58809832,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU4ODA5ODMy",
+    "user": {
+      "login": "Ryman",
+      "id": 994978,
+      "node_id": "MDQ6VXNlcjk5NDk3OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/994978?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ryman",
+      "html_url": "https://github.com/Ryman",
+      "followers_url": "https://api.github.com/users/Ryman/followers",
+      "following_url": "https://api.github.com/users/Ryman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ryman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ryman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ryman/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ryman/orgs",
+      "repos_url": "https://api.github.com/users/Ryman/repos",
+      "events_url": "https://api.github.com/users/Ryman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ryman/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-12T17:01:43Z",
+    "updated_at": "2014-10-12T17:01:43Z",
+    "body": "This works on master and has tests.\n\n```\n#![feature(simd)]\n#![allow(experimental)]\n\nuse std::simd::i32x4;\n\nfn main() {\n    let x = i32x4(1, 2, 3, 4);\n    let y = i32x4(7, 2, 3, 4);\n    let _ = x == y;\n    println!(\"{}\", x == y);\n}\n```\n\nTests are [here](https://github.com/rust-lang/rust/blob/master/src/test/run-pass/simd-binop.rs)\n\nCan this be closed?\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58809832/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

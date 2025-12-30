@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/160780944",
+    "html_url": "https://github.com/rust-lang/rust/issues/29084#issuecomment-160780944",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29084",
+    "id": 160780944,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MDc4MDk0NA==",
+    "user": {
+      "login": "Nashenas88",
+      "id": 1673130,
+      "node_id": "MDQ6VXNlcjE2NzMxMzA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1673130?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Nashenas88",
+      "html_url": "https://github.com/Nashenas88",
+      "followers_url": "https://api.github.com/users/Nashenas88/followers",
+      "following_url": "https://api.github.com/users/Nashenas88/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Nashenas88/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Nashenas88/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Nashenas88/subscriptions",
+      "organizations_url": "https://api.github.com/users/Nashenas88/orgs",
+      "repos_url": "https://api.github.com/users/Nashenas88/repos",
+      "events_url": "https://api.github.com/users/Nashenas88/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Nashenas88/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-11-30T22:23:31Z",
+    "updated_at": "2015-11-30T22:23:31Z",
+    "body": "The following code also has the same problem:\n\n``` rust\nfn main() {\n    macro_rules! call_mut {\n        ($e:expr, $i:expr) => {\n            $e.call_mut()\n        };\n        ($e:expr, $i:expr, $($is:expr),+) => {\n            call_mut!($e.call(), $($is),+)\n            //          ^ this is the problem, it should be call_mut\n        };\n    }\n\n    struct S;\n\n    impl S {\n        fn call(&self) -> &S { self }\n        fn call_mut(&mut self) -> &mut S { self }\n    }\n\n    let mut s = S;\n    let mut s2: &mut S = call_mut!(s, 1, 2);\n}\n```\n\nwhich gives the following output on https://play.rust-lang.org/ (this is the same on stable, beta, and nightly):\n\n```\n<anon>:20:36: 7:32 error: cannot borrow immutable borrowed content as mutable\n(internal compiler error: unprintable span)\n<anon>:7:13: 7:43 note: in this expansion of call_mut! (defined in <anon>)\n<anon>:20:26: 20:44 note: in this expansion of call_mut! (defined in <anon>)\nerror: aborting due to previous error\nplaypen: application terminated with error code 101\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/160780944/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

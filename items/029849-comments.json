@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/317505524",
+    "html_url": "https://github.com/rust-lang/rust/issues/29849#issuecomment-317505524",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29849",
+    "id": 317505524,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMxNzUwNTUyNA==",
+    "user": {
+      "login": "Mark-Simulacrum",
+      "id": 5047365,
+      "node_id": "MDQ6VXNlcjUwNDczNjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5047365?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Mark-Simulacrum",
+      "html_url": "https://github.com/Mark-Simulacrum",
+      "followers_url": "https://api.github.com/users/Mark-Simulacrum/followers",
+      "following_url": "https://api.github.com/users/Mark-Simulacrum/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Mark-Simulacrum/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Mark-Simulacrum/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Mark-Simulacrum/subscriptions",
+      "organizations_url": "https://api.github.com/users/Mark-Simulacrum/orgs",
+      "repos_url": "https://api.github.com/users/Mark-Simulacrum/repos",
+      "events_url": "https://api.github.com/users/Mark-Simulacrum/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Mark-Simulacrum/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2017-07-24T18:02:38Z",
+    "updated_at": "2017-07-24T18:02:38Z",
+    "body": "I'm going to close this since we don't give lifetime suggestions anymore and the new work on that will presumably cause both new bugs and fix old bugs; it doesn't seem useful to keep this open. Feel free to reopen though.",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/317505524/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

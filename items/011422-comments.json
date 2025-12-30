@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32093812",
+    "html_url": "https://github.com/rust-lang/rust/issues/11422#issuecomment-32093812",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11422",
+    "id": 32093812,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDkzODEy",
+    "user": {
+      "login": "mrshu",
+      "id": 461491,
+      "node_id": "MDQ6VXNlcjQ2MTQ5MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/461491?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mrshu",
+      "html_url": "https://github.com/mrshu",
+      "followers_url": "https://api.github.com/users/mrshu/followers",
+      "following_url": "https://api.github.com/users/mrshu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mrshu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mrshu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mrshu/subscriptions",
+      "organizations_url": "https://api.github.com/users/mrshu/orgs",
+      "repos_url": "https://api.github.com/users/mrshu/repos",
+      "events_url": "https://api.github.com/users/mrshu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mrshu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-11T11:43:51Z",
+    "updated_at": "2014-01-11T11:43:51Z",
+    "body": "Isn't this because `doc/version_info.html` changes every time? \n\nWhat do you think would be the right way to fix this?\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32093812/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

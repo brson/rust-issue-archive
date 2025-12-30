@@ -1,0 +1,114 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/26735",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/26735/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/26735/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/26735/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/26735",
+  "id": 92576580,
+  "node_id": "MDU6SXNzdWU5MjU3NjU4MA==",
+  "number": 26735,
+  "title": "Can't infer the type of index",
+  "user": {
+    "login": "yongqli",
+    "id": 67243,
+    "node_id": "MDQ6VXNlcjY3MjQz",
+    "avatar_url": "https://avatars.githubusercontent.com/u/67243?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/yongqli",
+    "html_url": "https://github.com/yongqli",
+    "followers_url": "https://api.github.com/users/yongqli/followers",
+    "following_url": "https://api.github.com/users/yongqli/following{/other_user}",
+    "gists_url": "https://api.github.com/users/yongqli/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/yongqli/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/yongqli/subscriptions",
+    "organizations_url": "https://api.github.com/users/yongqli/orgs",
+    "repos_url": "https://api.github.com/users/yongqli/repos",
+    "events_url": "https://api.github.com/users/yongqli/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/yongqli/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 122406831,
+      "node_id": "MDU6TGFiZWwxMjI0MDY4MzE=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-closures",
+      "name": "A-closures",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Closures (`|\u2026| { \u2026 }`)"
+    },
+    {
+      "id": 604454086,
+      "node_id": "MDU6TGFiZWw2MDQ0NTQwODY=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-inference",
+      "name": "A-inference",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Type inference"
+    },
+    {
+      "id": 650731663,
+      "node_id": "MDU6TGFiZWw2NTA3MzE2NjM=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-bug",
+      "name": "C-bug",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: This is a bug."
+    },
+    {
+      "id": 4172483496,
+      "node_id": "LA_kwDOAAsO6M74swuo",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-types",
+      "name": "T-types",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the types team, which will review and decide on the PR/issue."
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 4,
+  "created_at": "2015-07-02T08:05:16Z",
+  "updated_at": "2024-09-03T05:45:55Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "This doesn't type-check\r\n\r\n```rs\r\nfn main() {\r\n    let m = [[0.; 2]; 2];\r\n    println!(\"{}\", (|i, j| m[i][j])(0, 1));\r\n}\r\n```\r\n\r\nfailing with\r\n\r\n```\r\nerror[E0282]: type annotations needed\r\n --> inf.rs:3:28\r\n  |\r\n3 |     println!(\"{}\", (|i, j| m[i][j])(0, 1));\r\n  |                            ^^^^ cannot infer type\r\n```\r\n\r\nAnnotating as `usize` fixes it, but I would expect the compiler to be able to infer the type. Is there a reason why it can't?\r\n",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/26735/reactions",
+    "total_count": 0,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/26735/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

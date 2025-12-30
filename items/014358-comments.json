@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44672384",
+    "html_url": "https://github.com/rust-lang/rust/issues/14358#issuecomment-44672384",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14358",
+    "id": 44672384,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0NjcyMzg0",
+    "user": {
+      "login": "schmee",
+      "id": 3405586,
+      "node_id": "MDQ6VXNlcjM0MDU1ODY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3405586?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/schmee",
+      "html_url": "https://github.com/schmee",
+      "followers_url": "https://api.github.com/users/schmee/followers",
+      "following_url": "https://api.github.com/users/schmee/following{/other_user}",
+      "gists_url": "https://api.github.com/users/schmee/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/schmee/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/schmee/subscriptions",
+      "organizations_url": "https://api.github.com/users/schmee/orgs",
+      "repos_url": "https://api.github.com/users/schmee/repos",
+      "events_url": "https://api.github.com/users/schmee/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/schmee/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-05-30T16:44:32Z",
+    "updated_at": "2014-05-30T16:44:32Z",
+    "body": "I'll submit a PR for this in a day or so.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44672384/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

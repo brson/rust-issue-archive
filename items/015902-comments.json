@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/49836322",
+    "html_url": "https://github.com/rust-lang/rust/pull/15902#issuecomment-49836322",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15902",
+    "id": 49836322,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5ODM2MzIy",
+    "user": {
+      "login": "nham",
+      "id": 546409,
+      "node_id": "MDQ6VXNlcjU0NjQwOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/546409?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nham",
+      "html_url": "https://github.com/nham",
+      "followers_url": "https://api.github.com/users/nham/followers",
+      "following_url": "https://api.github.com/users/nham/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nham/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nham/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nham/subscriptions",
+      "organizations_url": "https://api.github.com/users/nham/orgs",
+      "repos_url": "https://api.github.com/users/nham/repos",
+      "events_url": "https://api.github.com/users/nham/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nham/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-07-23T06:06:03Z",
+    "updated_at": "2014-07-23T06:06:03Z",
+    "body": "Not really. I was thinking that since we are deriving Hash automatically for TrieSet that if it works for TrieMap it will also work for TrieSet.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/49836322/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

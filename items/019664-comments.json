@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66326072",
+    "html_url": "https://github.com/rust-lang/rust/pull/19664#issuecomment-66326072",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19664",
+    "id": 66326072,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY2MzI2MDcy",
+    "user": {
+      "login": "tbu-",
+      "id": 6666593,
+      "node_id": "MDQ6VXNlcjY2NjY1OTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6666593?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tbu-",
+      "html_url": "https://github.com/tbu-",
+      "followers_url": "https://api.github.com/users/tbu-/followers",
+      "following_url": "https://api.github.com/users/tbu-/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tbu-/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tbu-/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tbu-/subscriptions",
+      "organizations_url": "https://api.github.com/users/tbu-/orgs",
+      "repos_url": "https://api.github.com/users/tbu-/repos",
+      "events_url": "https://api.github.com/users/tbu-/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tbu-/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-09T17:53:33Z",
+    "updated_at": "2014-12-09T17:53:33Z",
+    "body": "The accidental documentation changes:\nhttps://github.com/rust-lang/rust/pull/19566/files/#diff-5263ba5ea81c8ae8cccdad211700c4e7R128\nhttps://github.com/rust-lang/rust/pull/19566/files/#diff-c60c1f9b7164f9cfcf93f93f2136a021L70\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66326072/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

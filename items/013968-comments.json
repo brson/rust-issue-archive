@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/95336619",
+    "html_url": "https://github.com/rust-lang/rust/issues/13968#issuecomment-95336619",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13968",
+    "id": 95336619,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk1MzM2NjE5",
+    "user": {
+      "login": "tamird",
+      "id": 1535036,
+      "node_id": "MDQ6VXNlcjE1MzUwMzY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1535036?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tamird",
+      "html_url": "https://github.com/tamird",
+      "followers_url": "https://api.github.com/users/tamird/followers",
+      "following_url": "https://api.github.com/users/tamird/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tamird/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tamird/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tamird/subscriptions",
+      "organizations_url": "https://api.github.com/users/tamird/orgs",
+      "repos_url": "https://api.github.com/users/tamird/repos",
+      "events_url": "https://api.github.com/users/tamird/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tamird/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-22T21:08:34Z",
+    "updated_at": "2015-04-22T21:08:34Z",
+    "body": "With minor updates to get this code compiling:\n\n``` rust\n// n.rs\n#![crate_type=\"lib\"]\npub static C : i8 = 3;\n```\n\n``` rust\n// m.rs\nextern crate n;\n\n#[cfg(version1a)] use n::C;\n#[cfg(version2a)] use n as local_n;\n#[cfg(version3a)] use n;\n\n#[cfg(version1a)] pub fn read() -> i8 { C }\n#[cfg(version2a)] pub fn read() -> i8 { local_n::C }\n#[cfg(version3a)] pub fn read() -> i8 { n::C }\n#[cfg(version4a)] pub fn read() -> i8 { ::n::C }\n#[cfg(version5a)] pub fn read() -> i8 { n::C }\n#[cfg(version6a)] pub fn read() -> i8 { self::n::C }\n\n#[cfg(any(version1b,\n          version2b,\n          version3b,\n          version4b,\n          version5b,))]\npub fn read() -> i8 { sub_m::read() }\n\nmod sub_m {\n    #[cfg(version1b)] use n::C;\n    #[cfg(version2b)] use n as local_n;\n    #[cfg(version3b)] use n;\n\n    #[cfg(version1b)] pub fn read() -> i8 { C }\n    #[cfg(version2b)] pub fn read() -> i8 { local_n::C }\n    #[cfg(version3b)] pub fn read() -> i8 { n::C }\n    #[cfg(version4b)] pub fn read() -> i8 { ::n::C }\n    #[cfg(version5b)] pub fn read() -> i8 { super::n::C }\n}\n\npub fn main() {\n    println!(\"n::C is {}\", read());\n}\n```\n\nThe result is:\n\n``` shell\n$ for v in version{1a,2a,4a,5a,6a,1b,2b,3b,4b,5b,3a} ; do echo $v; rustc -L. --cfg $v m.rs && ./m ; done\nversion1a\nn::C is 3\nversion2a\nn::C is 3\nversion4a\nn::C is 3\nversion5a\nn::C is 3\nversion6a\nn::C is 3\nversion1b\nn::C is 3\nversion2b\nn::C is 3\nversion3b\nn::C is 3\nversion4b\nn::C is 3\nversion5b\nn::C is 3\nversion3a\nm.rs:5:23: 5:24 error: import `n` conflicts with imported crate in this module (maybe you meant `use n::*`?) [E0254]\nm.rs:5 #[cfg(version3a)] use n;\n                             ^\nerror: aborting due to previous error\n```\n\nWhich seems like a pretty good error message. This might be good to close.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/95336619/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

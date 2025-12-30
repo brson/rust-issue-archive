@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/99206249",
+    "html_url": "https://github.com/rust-lang/rust/issues/25124#issuecomment-99206249",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25124",
+    "id": 99206249,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk5MjA2MjQ5",
+    "user": {
+      "login": "DoumanAsh",
+      "id": 5676053,
+      "node_id": "MDQ6VXNlcjU2NzYwNTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5676053?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/DoumanAsh",
+      "html_url": "https://github.com/DoumanAsh",
+      "followers_url": "https://api.github.com/users/DoumanAsh/followers",
+      "following_url": "https://api.github.com/users/DoumanAsh/following{/other_user}",
+      "gists_url": "https://api.github.com/users/DoumanAsh/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/DoumanAsh/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/DoumanAsh/subscriptions",
+      "organizations_url": "https://api.github.com/users/DoumanAsh/orgs",
+      "repos_url": "https://api.github.com/users/DoumanAsh/repos",
+      "events_url": "https://api.github.com/users/DoumanAsh/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/DoumanAsh/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-05T20:09:48Z",
+    "updated_at": "2015-05-05T20:09:48Z",
+    "body": "I'm sorry, i didn't notice that there is already new beta.\nIn beta4  `rustc 1.0.0-beta.4 (850151a75 2015-04-30) (built 2015-05-01)` this issue is fixed.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/99206249/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27358622",
+    "html_url": "https://github.com/rust-lang/rust/pull/10168#issuecomment-27358622",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10168",
+    "id": 27358622,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3MzU4NjIy",
+    "user": {
+      "login": "reedlepee123",
+      "id": 5721031,
+      "node_id": "MDQ6VXNlcjU3MjEwMzE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5721031?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/reedlepee123",
+      "html_url": "https://github.com/reedlepee123",
+      "followers_url": "https://api.github.com/users/reedlepee123/followers",
+      "following_url": "https://api.github.com/users/reedlepee123/following{/other_user}",
+      "gists_url": "https://api.github.com/users/reedlepee123/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/reedlepee123/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/reedlepee123/subscriptions",
+      "organizations_url": "https://api.github.com/users/reedlepee123/orgs",
+      "repos_url": "https://api.github.com/users/reedlepee123/repos",
+      "events_url": "https://api.github.com/users/reedlepee123/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/reedlepee123/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-10-30T01:27:35Z",
+    "updated_at": "2013-10-30T01:27:35Z",
+    "body": "r? @brson \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27358622/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21738567",
+    "html_url": "https://github.com/rust-lang/rust/pull/8109#issuecomment-21738567",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8109",
+    "id": 21738567,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIxNzM4NTY3",
+    "user": {
+      "login": "bluss",
+      "id": 3209739,
+      "node_id": "MDQ6VXNlcjMyMDk3Mzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3209739?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bluss",
+      "html_url": "https://github.com/bluss",
+      "followers_url": "https://api.github.com/users/bluss/followers",
+      "following_url": "https://api.github.com/users/bluss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bluss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bluss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bluss/subscriptions",
+      "organizations_url": "https://api.github.com/users/bluss/orgs",
+      "repos_url": "https://api.github.com/users/bluss/repos",
+      "events_url": "https://api.github.com/users/bluss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bluss/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-29T18:00:05Z",
+    "updated_at": "2013-07-29T18:00:05Z",
+    "body": "Cloning closures when possible would be great too (issue #8025). Probably better postponed for closure reform?\n\n```\n// clone a &'static fn\nmacro_rules! closure_clone(\n    ($($A:ident),*) => (\n        impl<$($A,)* Ret_Type> Clone for &'static fn($($A),*) -> Ret_Type {\n            /// Return a copy of a captureless closure\n            #[inline]\n            fn clone(&self) -> &'static fn($($A),*) -> Ret_Type {\n                unsafe {\n                    let closure: raw::Closure = cast::transmute_copy(self);\n                    assert!(ptr::is_null(closure.env));\n                    cast::transmute(closure)\n                }\n            }\n        }\n    )\n)\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/21738567/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

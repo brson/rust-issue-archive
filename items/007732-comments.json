@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20915424",
+    "html_url": "https://github.com/rust-lang/rust/issues/7732#issuecomment-20915424",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7732",
+    "id": 20915424,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwOTE1NDI0",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-13T06:11:34Z",
+    "updated_at": "2013-07-13T06:11:34Z",
+    "body": "So it turns out that this is a fairly subtle problem.\n\nWhen generating JIT code, we also generate glue code for destroying things like `@` boxes. Let's say that some of these `@` boxes are circularly referenced, so they're left up to the annihilator to clean up. This means that the annihilator will run the glue drop code at task exit time.\n\nWhat this means is that the drop glue which must get invoked is stored off in JIT memory away from the actual main program. Let's then assume that being a responsible individual, you free your LLVM resources as soon as you're done using them (basically when the JIT code finishes). You can then quickly see how this becomes a problem. If the JIT code is deallocated, then when task exit comes around and tries to run the drop glue... segfault!\n\nTo illustrate this, here's a minimal program:\n\n``` rust\nstruct A { a: Option<@mut A> }\n\nfn main() {\n    let a = @mut A { a: None };\n    a.a = Some(a);\n}\n\n```\n\nNote the circular reference to force the box to stay alive until the annihilator runs. Now running this code in the JIT:\n\n```\n$ rustc -Z jit jit.rs\nzsh: segmentation fault  rustc -Z jit jit.rs\n```\n\nSo what this means is that immediately after `_rust_main` returns from the jit, we can't destroy the execution engine/llvm context. These two objects shouldn't be leaked, but they should definitely outlive the lifetime of the task that the jit code is executing on. Now this also means that you can't just squirrel them away into TLS. TLS is apparently destroyed _before_ annihilation, so you wind up with the same problem. Somehow the LLVM context/execution engine needs to be communicated back up to the parent task (unless this is the root task in which case I'm not 100% sure how to proceed... Currently this is never the case).\n\nI'll get a patch for this soon.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20915424/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

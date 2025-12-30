@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/3267047",
+    "html_url": "https://github.com/rust-lang/rust/issues/1370#issuecomment-3267047",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/1370",
+    "id": 3267047,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyNjcwNDc=",
+    "user": {
+      "login": "kud1ing",
+      "id": 391975,
+      "node_id": "MDQ6VXNlcjM5MTk3NQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/391975?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kud1ing",
+      "html_url": "https://github.com/kud1ing",
+      "followers_url": "https://api.github.com/users/kud1ing/followers",
+      "following_url": "https://api.github.com/users/kud1ing/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kud1ing/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kud1ing/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kud1ing/subscriptions",
+      "organizations_url": "https://api.github.com/users/kud1ing/orgs",
+      "repos_url": "https://api.github.com/users/kud1ing/repos",
+      "events_url": "https://api.github.com/users/kud1ing/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kud1ing/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-12-24T08:42:10Z",
+    "updated_at": "2011-12-24T08:42:10Z",
+    "body": "Fixed by #1377\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/3267047/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

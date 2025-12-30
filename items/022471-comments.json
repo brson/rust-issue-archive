@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/74855525",
+    "html_url": "https://github.com/rust-lang/rust/issues/22471#issuecomment-74855525",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22471",
+    "id": 74855525,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc0ODU1NTI1",
+    "user": {
+      "login": "nagisa",
+      "id": 679122,
+      "node_id": "MDQ6VXNlcjY3OTEyMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/679122?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nagisa",
+      "html_url": "https://github.com/nagisa",
+      "followers_url": "https://api.github.com/users/nagisa/followers",
+      "following_url": "https://api.github.com/users/nagisa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nagisa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nagisa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nagisa/subscriptions",
+      "organizations_url": "https://api.github.com/users/nagisa/orgs",
+      "repos_url": "https://api.github.com/users/nagisa/repos",
+      "events_url": "https://api.github.com/users/nagisa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nagisa/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-18T12:20:49Z",
+    "updated_at": "2015-02-18T12:20:59Z",
+    "body": "Something completely useless, but possibly fun: the line of code responsible for this error is almost 4 years old now, introduced in 48a69d2100622df88e3f1014eff00227401bf079. During all those years it survived at least 4 switches to and from `~\"\"` strings.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/74855525/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

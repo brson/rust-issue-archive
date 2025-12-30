@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/236153305",
+    "html_url": "https://github.com/rust-lang/rust/issues/29358#issuecomment-236153305",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29358",
+    "id": 236153305,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIzNjE1MzMwNQ==",
+    "user": {
+      "login": "GuillaumeGomez",
+      "id": 3050060,
+      "node_id": "MDQ6VXNlcjMwNTAwNjA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3050060?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/GuillaumeGomez",
+      "html_url": "https://github.com/GuillaumeGomez",
+      "followers_url": "https://api.github.com/users/GuillaumeGomez/followers",
+      "following_url": "https://api.github.com/users/GuillaumeGomez/following{/other_user}",
+      "gists_url": "https://api.github.com/users/GuillaumeGomez/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/GuillaumeGomez/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/GuillaumeGomez/subscriptions",
+      "organizations_url": "https://api.github.com/users/GuillaumeGomez/orgs",
+      "repos_url": "https://api.github.com/users/GuillaumeGomez/repos",
+      "events_url": "https://api.github.com/users/GuillaumeGomez/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/GuillaumeGomez/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2016-07-29T11:01:41Z",
+    "updated_at": "2016-07-29T11:01:41Z",
+    "body": "I think this one is all good. I close it, don't hesitate to reopen it if you find something missing.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/236153305/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

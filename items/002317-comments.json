@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/5633079",
+    "html_url": "https://github.com/rust-lang/rust/issues/2317#issuecomment-5633079",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2317",
+    "id": 5633079,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU2MzMwNzk=",
+    "user": {
+      "login": "graydon",
+      "id": 14097,
+      "node_id": "MDQ6VXNlcjE0MDk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/graydon",
+      "html_url": "https://github.com/graydon",
+      "followers_url": "https://api.github.com/users/graydon/followers",
+      "following_url": "https://api.github.com/users/graydon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/graydon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/graydon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/graydon/subscriptions",
+      "organizations_url": "https://api.github.com/users/graydon/orgs",
+      "repos_url": "https://api.github.com/users/graydon/repos",
+      "events_url": "https://api.github.com/users/graydon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/graydon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-05-10T18:38:04Z",
+    "updated_at": "2012-05-10T18:38:04Z",
+    "body": "Thought about this a bit more:\n- 'const fn' is, I think, overkill. Obliges the compiler to do a ton\n  of additional work simulating runtime semantics, and gets the phases\n  really mixed up, circular.\n- The scary case is integers sneaking into types, as in fixed-size\n  arrays. I think the main case for this is actually C interop, where\n  a syntax extension that reaches into clang, grabs C type-size\n  information, and returns a literal is probably sufficient. I don't\n  think it's necessary to generalize to \"any constant expression can\n  appear in a type\". Which is good, because that would be a huge\n  undertaking and very likely make the phases circular, to the point\n  of total confusion.\n- Given that, sizeof/alignof/offsetof probably don't need to be\n  const exprs. The other use-case for distinct integer-const exprs\n  (as opposed to general const exprs) is in enum discriminant values,\n  and I don't know exactly why they can't be pushed back to \"some LLVM\n  constant we'll get the actual value of later\". I'm willing to find\n  out, if someone can enlighten me!\n- Very little compiler-work is saved -- in fact I think it's more work\n  -- to spill, emit a call to a visitor, and reload (and inline that),\n  instead of just emitting integer-add or fp-mul. At least for types\n  already well understood to the compiler, LLVM, and machine.\n- The primitive types already have privileged status in a few places,\n  such as literal forms, presence in types (again, fixed vectors),\n  and permitting multiple integer types for the RHS of << and [] and\n  whatnot.\n- All this combines to make me think:\n  - Integer, fp, raw pointer, region pointer, literal, addr-of,\n    concatenation and indexing is an ok set of constant exprs.\n    Evaluation happens in target mode, operands must themselves\n    be constants, and we can do it in LLVM. It's just a line\n    distinguishing \"what we can define a 'const' as and have in\n    read-only memory\".\n  - All such constant expressions (including literals, raw\n    and region-pointer ops, fp and integer ops), have fixed\n    compiler-implemented meaning. Anything more complex you want\n    to do _at compile time_ you have to shell out to a syntax\n    extension for. Maybe we provide a variable-precision fp\n    calculator extension for fancy math constants.\n  - All _nontrivial_ operations are routed through visitors, where\n    \"trivial\" means that the operation _could_ have been a constant\n    expr if only it had been applied to constant operands. IOW\n    anything that boils down to 0 or 1 LLVM operation, memcmp or\n    memmove is trivial. Anything touching the heap or a dynamic-sized\n    value is nontrivial.\n\nI understand this is a somewhat ragged line cut through the space of constant-ness, but I think it can be defended in a principled way: the compiler does what compilers are good at -- primitives of various sorts, read-only memory slabs and addresses -- and the libraries do the rest.\n\nThis does mean that sizeof, alignof and offsetof, applied to rust types, remain \"runtime\" values, even though the compiler implements them as intrinsics and they wind up as emitted / inlined constants. Again, I _think_ the main reason we'd want to have these functions evaluated much earlier -- i.e. \"before types\" -- has to do with C interop, and can be handled by a syntax extension that returns literals calculated by clang, but I could be wrong. Input welcome. \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/5633079/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69015359",
+    "html_url": "https://github.com/rust-lang/rust/issues/20691#issuecomment-69015359",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20691",
+    "id": 69015359,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5MDE1MzU5",
+    "user": {
+      "login": "shadowmint",
+      "id": 355760,
+      "node_id": "MDQ6VXNlcjM1NTc2MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/355760?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/shadowmint",
+      "html_url": "https://github.com/shadowmint",
+      "followers_url": "https://api.github.com/users/shadowmint/followers",
+      "following_url": "https://api.github.com/users/shadowmint/following{/other_user}",
+      "gists_url": "https://api.github.com/users/shadowmint/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/shadowmint/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/shadowmint/subscriptions",
+      "organizations_url": "https://api.github.com/users/shadowmint/orgs",
+      "repos_url": "https://api.github.com/users/shadowmint/repos",
+      "events_url": "https://api.github.com/users/shadowmint/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/shadowmint/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-07T12:26:10Z",
+    "updated_at": "2015-01-07T12:26:10Z",
+    "body": "uh... failed three times in a row, then suddenly worked. Maybe an upload was in progress or something?\n\n...anyhow, seems to be working now, so I'll just close this I guess...\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69015359/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44343400",
+    "html_url": "https://github.com/rust-lang/rust/issues/14467#issuecomment-44343400",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14467",
+    "id": 44343400,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MzQzNDAw",
+    "user": {
+      "login": "glandium",
+      "id": 1038527,
+      "node_id": "MDQ6VXNlcjEwMzg1Mjc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1038527?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/glandium",
+      "html_url": "https://github.com/glandium",
+      "followers_url": "https://api.github.com/users/glandium/followers",
+      "following_url": "https://api.github.com/users/glandium/following{/other_user}",
+      "gists_url": "https://api.github.com/users/glandium/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/glandium/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/glandium/subscriptions",
+      "organizations_url": "https://api.github.com/users/glandium/orgs",
+      "repos_url": "https://api.github.com/users/glandium/repos",
+      "events_url": "https://api.github.com/users/glandium/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/glandium/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-05-27T22:24:23Z",
+    "updated_at": "2014-05-27T22:24:23Z",
+    "body": "There's already a detach() function on Command, which does something related but different. There might be risk for confusion if the same name is used.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44343400/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

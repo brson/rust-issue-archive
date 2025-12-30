@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71463483",
+    "html_url": "https://github.com/rust-lang/rust/issues/20989#issuecomment-71463483",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20989",
+    "id": 71463483,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcxNDYzNDgz",
+    "user": {
+      "login": "japaric",
+      "id": 5018213,
+      "node_id": "MDQ6VXNlcjUwMTgyMTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5018213?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/japaric",
+      "html_url": "https://github.com/japaric",
+      "followers_url": "https://api.github.com/users/japaric/followers",
+      "following_url": "https://api.github.com/users/japaric/following{/other_user}",
+      "gists_url": "https://api.github.com/users/japaric/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/japaric/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/japaric/subscriptions",
+      "organizations_url": "https://api.github.com/users/japaric/orgs",
+      "repos_url": "https://api.github.com/users/japaric/repos",
+      "events_url": "https://api.github.com/users/japaric/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/japaric/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-26T13:55:10Z",
+    "updated_at": "2015-01-26T13:55:10Z",
+    "body": "Duplicate of #20605 \n\nTo avoid the LLVM assertion, don't dereference the iterator in the for loop, this works:\n\n``` rust\n#![allow(dead_code)]\n\n#[derive(Show)]\nstruct Cell;\n\nstruct Grid {\n    cols: [[Cell; 6]; 6]\n}\n\nimpl Grid {\n    fn iter(&self) -> Box<Iterator<Item = &Cell>> {\n        Box::new(self.cols.iter().flat_map(|x| x.iter()))\n    }\n    fn fill(&mut self) {\n        for cell in self.iter() {\n            println!(\"here's a cell: {:?}\", cell);\n        }\n    }\n}\n\nfn main() {\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71463483/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

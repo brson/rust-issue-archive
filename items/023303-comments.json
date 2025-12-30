@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/80071400",
+    "html_url": "https://github.com/rust-lang/rust/issues/23303#issuecomment-80071400",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23303",
+    "id": 80071400,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgwMDcxNDAw",
+    "user": {
+      "login": "rprichard",
+      "id": 1572855,
+      "node_id": "MDQ6VXNlcjE1NzI4NTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1572855?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rprichard",
+      "html_url": "https://github.com/rprichard",
+      "followers_url": "https://api.github.com/users/rprichard/followers",
+      "following_url": "https://api.github.com/users/rprichard/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rprichard/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rprichard/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rprichard/subscriptions",
+      "organizations_url": "https://api.github.com/users/rprichard/orgs",
+      "repos_url": "https://api.github.com/users/rprichard/repos",
+      "events_url": "https://api.github.com/users/rprichard/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rprichard/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-14T07:29:59Z",
+    "updated_at": "2015-03-14T07:29:59Z",
+    "body": "Copying-and-pasting the example I posted in the FreeBSD issue:\n\n```\nmkdir subdir\necho \"void dummy(void){}\" > subdir/dummy.c\ngcc -shared subdir/dummy.c -o subdir/libdummy.so\necho  >main.rs '#[link(name = \"dummy\", kind = \"dylib\")]'\necho >>main.rs 'extern { fn dummy(); }'\necho >>main.rs 'fn main() { unsafe { dummy(); } }'\nrustc main.rs -L \"\" -Lsubdir\n```\n\nProduces:\n\n```\nerror: linking with `cc` failed: exit code: 1\nnote: \"cc\" \"-Wl,--as-needed\" \"-m64\" \"-L\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib\" \"-o\" \"./main\" \"./main.o\" \"-Wl,--whole-archive\" \"-lmorestack\" \"-Wl,--no-whole-archive\" \"-Wl,--gc-sections\" \"-pie\" \"-nodefaultlibs\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libstd-4e7c5e5c.rlib\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcollections-4e7c5e5c.rlib\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libunicode-4e7c5e5c.rlib\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/librand-4e7c5e5c.rlib\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liballoc-4e7c5e5c.rlib\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/liblibc-4e7c5e5c.rlib\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib/libcore-4e7c5e5c.rlib\" \"-L\" \"\" \"-L\" \"subdir\" \"-L\" \"/usr/local/lib/rustlib/x86_64-unknown-linux-gnu/lib\" \"-L\" \"/home/rprichard/mess/dyncrate/.rust/lib/x86_64-unknown-linux-gnu\" \"-L\" \"/home/rprichard/mess/dyncrate/lib/x86_64-unknown-linux-gnu\" \"-Wl,--whole-archive\" \"-Wl,-Bstatic\" \"-Wl,--no-whole-archive\" \"-Wl,-Bdynamic\" \"-ldummy\" \"-ldl\" \"-lpthread\" \"-lrt\" \"-lgcc_s\" \"-lpthread\" \"-lc\" \"-lm\" \"-lcompiler-rt\"\nnote: /usr/bin/ld: cannot find -ldummy\ncollect2: error: ld returned 1 exit status\n```\n\nRemove the `-L \"\"`, or move it to the end of the command-line, and it works. `ld` is seeing `-L -Lsubdir`, so it adds the non-existent `-Lsubdir` directory to the search path, and it doesn't search inside `subdir`.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/80071400/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

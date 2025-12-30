@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32003058",
+    "html_url": "https://github.com/rust-lang/rust/issues/10535#issuecomment-32003058",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10535",
+    "id": 32003058,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMDAzMDU4",
+    "user": {
+      "login": "eastwood",
+      "id": 2359795,
+      "node_id": "MDQ6VXNlcjIzNTk3OTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2359795?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eastwood",
+      "html_url": "https://github.com/eastwood",
+      "followers_url": "https://api.github.com/users/eastwood/followers",
+      "following_url": "https://api.github.com/users/eastwood/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eastwood/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eastwood/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eastwood/subscriptions",
+      "organizations_url": "https://api.github.com/users/eastwood/orgs",
+      "repos_url": "https://api.github.com/users/eastwood/repos",
+      "events_url": "https://api.github.com/users/eastwood/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eastwood/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-10T05:07:07Z",
+    "updated_at": "2014-01-10T05:07:07Z",
+    "body": "Requires significant re-factoring to search completely based on the index paths. For example searching for \"File::\" in this fix will return no results. Still need to search completely based on path (rather than name's + types) to completely fix. Will continue to work this\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32003058/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

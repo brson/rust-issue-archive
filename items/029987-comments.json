@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/158774268",
+    "html_url": "https://github.com/rust-lang/rust/issues/29987#issuecomment-158774268",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29987",
+    "id": 158774268,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1ODc3NDI2OA==",
+    "user": {
+      "login": "steveklabnik",
+      "id": 27786,
+      "node_id": "MDQ6VXNlcjI3Nzg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27786?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steveklabnik",
+      "html_url": "https://github.com/steveklabnik",
+      "followers_url": "https://api.github.com/users/steveklabnik/followers",
+      "following_url": "https://api.github.com/users/steveklabnik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steveklabnik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steveklabnik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steveklabnik/subscriptions",
+      "organizations_url": "https://api.github.com/users/steveklabnik/orgs",
+      "repos_url": "https://api.github.com/users/steveklabnik/repos",
+      "events_url": "https://api.github.com/users/steveklabnik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steveklabnik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-11-22T16:14:57Z",
+    "updated_at": "2015-11-22T16:14:57Z",
+    "body": "We try to keep the bug tracker open for just bugs, please post questions on how to use Rust to stack overflow or http://users.rust-lang.org/ in the future\n\nIt's possible to do this, but not with that `use` syntax. you don't need the 'lib' directory:\n\n```\n// main.rs\nmod foo;\nmod bar;\nuse foo::hello;\n\nfn main() {\n    hello();\n    bar::by();\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/158774268/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

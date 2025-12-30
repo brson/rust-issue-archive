@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/111710870",
+    "html_url": "https://github.com/rust-lang/rust/issues/26269#issuecomment-111710870",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26269",
+    "id": 111710870,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMTcxMDg3MA==",
+    "user": {
+      "login": "Stebalien",
+      "id": 310393,
+      "node_id": "MDQ6VXNlcjMxMDM5Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/310393?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Stebalien",
+      "html_url": "https://github.com/Stebalien",
+      "followers_url": "https://api.github.com/users/Stebalien/followers",
+      "following_url": "https://api.github.com/users/Stebalien/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Stebalien/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Stebalien/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Stebalien/subscriptions",
+      "organizations_url": "https://api.github.com/users/Stebalien/orgs",
+      "repos_url": "https://api.github.com/users/Stebalien/repos",
+      "events_url": "https://api.github.com/users/Stebalien/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Stebalien/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-13T13:39:33Z",
+    "updated_at": "2015-06-13T13:39:33Z",
+    "body": "Hi. This is the bug tracker for rust the _programming language_. You're looking for rust the game: [forums](http://facepunch.com/forumdisplay.php?f=415), [support](http://support.facepunchstudios.com/)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/111710870/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

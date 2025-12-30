@@ -1,0 +1,114 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/25664",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/25664/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/25664/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/25664/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/25664",
+  "id": 78727595,
+  "node_id": "MDU6SXNzdWU3ODcyNzU5NQ==",
+  "number": 25664,
+  "title": "rust-lang repos that do not declare licenses",
+  "user": {
+    "login": "brson",
+    "id": 147214,
+    "node_id": "MDQ6VXNlcjE0NzIxNA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/147214?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/brson",
+    "html_url": "https://github.com/brson",
+    "followers_url": "https://api.github.com/users/brson/followers",
+    "following_url": "https://api.github.com/users/brson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/brson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/brson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/brson/subscriptions",
+    "organizations_url": "https://api.github.com/users/brson/orgs",
+    "repos_url": "https://api.github.com/users/brson/repos",
+    "events_url": "https://api.github.com/users/brson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/brson/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 60329014,
+      "node_id": "MDU6TGFiZWw2MDMyOTAxNA==",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/P-low",
+      "name": "P-low",
+      "color": "eb6420",
+      "default": false,
+      "description": "Low priority"
+    },
+    {
+      "id": 650846969,
+      "node_id": "MDU6TGFiZWw2NTA4NDY5Njk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-tracking-issue",
+      "name": "C-tracking-issue",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: An issue tracking the progress of sth. like the implementation of an RFC"
+    },
+    {
+      "id": 4234928242,
+      "node_id": "LA_kwDOAAsO6M78a-By",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-licensing",
+      "name": "A-licensing",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Compiler licensing"
+    },
+    {
+      "id": 7902801018,
+      "node_id": "LA_kwDOAAsO6M8AAAAB1wsseg",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-leadership-council",
+      "name": "T-leadership-council",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the leadership council."
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 22,
+  "created_at": "2015-05-20T22:33:53Z",
+  "updated_at": "2025-04-25T09:44:56Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "It came up today that kate-config does not have a license file. I filed a [PR](https://github.com/rust-lang/kate-config/pull/9) to fix that, but there are others.\n\n- [ ] crates.io-index - I'm not sure if this needs a copyright license since it isn't a work of creative expression, but it might still be worth putting something explicit in there just to fend off questions. Maybe there's some sort of 'open-data' license that's appropriate. https://github.com/rust-lang/crates.io-index/issues/3\n- [x] blog.rust-lang.org\n- [x] https://github.com/rust-lang/blog.rust-lang.org/issues/63 CC-BY suggested\n- [x] regex - Declared in Cargo.toml but no accompanying license files. has dual Apache+MIT\n- [x] rfcs - This is a mess. It should have the MIT/ASL license per our other docs but we didn't have the foresight to do it. - https://github.com/rust-lang/rfcs/issues/1259\n- [x] rust-buildbot - now dual-licensed\n- [ ] meeting-minutes - Doesn't matter probably.\n- [ ] rust-www - This is tricky. It contains a COPYRIGHT file, but I believe we put it there to have a license to link to for Rust itself. We can probably argue that the entire website falls under that license.\n- [ ] Add Apache and MIT license texts?  prev.rust-lang.org#174\n- [x] rust.vim - https://github.com/rust-lang/rust.vim/issues/45\n- [x] rust-mode -  https://github.com/rust-lang/rust-mode/issues/91\n- [x] rust-packaging - contains licenses now\n- [x] ~~gedit-config - dual-licensed~~ (abandoned)\n- [ ] rustup - rustup.sh itself contains the license, but not the rest. and repo contains both license files\n- [ ] rust-installer - ditto\n- [x] ~~rust-wiki-backup - decommissioned partially because it was not properly licensed~~ (archived)\n- [ ] rust-guidelines - repo was decommissioned and moved\n- [x] ~~nano-config - Only contains copyright notice, not license Has both licenses~~ (archived)\n- [x] ~~zsh-config~~ (archived)\n\n## Update:\n\n- [x] [docker-rust](https://github.com/rust-lang/docker-rust)\n- https://github.com/rust-lang/docker-rust/issues/207 - https://github.com/rust-lang/docker-rust/pull/74\n  - [x] ~~[docker-rust-nightly](https://github.com/rust-lang/docker-rust-nightly)~~ (the repository has been archived, the licensing is now being done in docker-rust)\n- [ ] [crater](https://github.com/rust-lang/crater) mentions a license in README, even though the license files are not included in the repo\n- [x] [bors](https://github.com/rust-lang/bors): [bootstrap commit](https://github.com/rust-lang/bors/commit/bb146113e158f7764b78847cf833cd8f74cadc7d)\n- [x] [surveys](https://github.com/rust-lang/surveys)\n  - https://github.com/rust-lang/surveys/issues/267\n  - https://github.com/rust-lang/surveys/pull/266\n- [x] [rustc-perf](https://github.com/rust-lang/rustc-perf)\n  - https://github.com/rust-lang/rustc-perf/issues/1933\n  - https://github.com/rust-lang/rustc-perf/pull/1881\n- [x] [fmt-rfcs](https://github.com/rust-lang/fmt-rfcs): https://github.com/rust-lang/fmt-rfcs/pull/174\n- [ ] [.github](https://github.com/rust-lang/.github)\n- [ ]  [rust-lang.github.io](https://github.com/rust-lang/rust-lang.github.io)\n- [x] ~~https://github.com/rust-lang/project-rfc-2229~~ (archived)\n- [x] ~~https://github.com/rust-lang/wg-debugging~~ (archived)\n- [ ] https://github.com/rust-lang/wg-cargo-std-aware\n- [ ] https://github.com/rust-lang/wg-allocators\n- [ ] https://github.com/rust-lang/moderation-team\n- [x] ~~https://github.com/rust-lang/wg-incr-comp~~ (archived)\n- [ ] https://github.com/rust-lang/compiler-team-prioritization\n- [x] ~~https://github.com/rust-lang/rustc-timing~~ (archived)",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/25664/reactions",
+    "total_count": 0,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/25664/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

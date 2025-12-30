@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/291419",
+    "html_url": "https://github.com/rust-lang/rust/issues/88#issuecomment-291419",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/88",
+    "id": 291419,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MTQxOQ==",
+    "user": {
+      "login": "froystig",
+      "id": 123903,
+      "node_id": "MDQ6VXNlcjEyMzkwMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123903?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/froystig",
+      "html_url": "https://github.com/froystig",
+      "followers_url": "https://api.github.com/users/froystig/followers",
+      "following_url": "https://api.github.com/users/froystig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/froystig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/froystig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/froystig/subscriptions",
+      "organizations_url": "https://api.github.com/users/froystig/orgs",
+      "repos_url": "https://api.github.com/users/froystig/repos",
+      "events_url": "https://api.github.com/users/froystig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/froystig/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2010-06-28T22:27:17Z",
+    "updated_at": "2010-06-28T22:27:17Z",
+    "body": "Teach the typechecker that uints are integral types.  Closed by 66d313d36514f67fb0d8444137faa9692346508f.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/291419/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

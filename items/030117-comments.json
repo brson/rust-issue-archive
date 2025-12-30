@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/160917352",
+    "html_url": "https://github.com/rust-lang/rust/issues/30117#issuecomment-160917352",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30117",
+    "id": 160917352,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MDkxNzM1Mg==",
+    "user": {
+      "login": "oli-obk",
+      "id": 332036,
+      "node_id": "MDQ6VXNlcjMzMjAzNg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332036?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oli-obk",
+      "html_url": "https://github.com/oli-obk",
+      "followers_url": "https://api.github.com/users/oli-obk/followers",
+      "following_url": "https://api.github.com/users/oli-obk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oli-obk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oli-obk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oli-obk/subscriptions",
+      "organizations_url": "https://api.github.com/users/oli-obk/orgs",
+      "repos_url": "https://api.github.com/users/oli-obk/repos",
+      "events_url": "https://api.github.com/users/oli-obk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oli-obk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-01T09:54:57Z",
+    "updated_at": "2015-12-01T09:59:03Z",
+    "body": "The reason this is happening is because the code thinks `four` is an enum variant or a tuple struct.\n\nThe code around this is somewhat redundant and would probably better be solved by making enum variants const evaluable and adding a function that translates `ConstVal`s to [`Constructor`](http://manishearth.github.io/rust-internals-docs/rustc/middle/check_match/enum.Constructor.html)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/160917352/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

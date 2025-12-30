@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/149436832",
+    "html_url": "https://github.com/rust-lang/rust/issues/29173#issuecomment-149436832",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29173",
+    "id": 149436832,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0OTQzNjgzMg==",
+    "user": {
+      "login": "cmlsharp",
+      "id": 3654575,
+      "node_id": "MDQ6VXNlcjM2NTQ1NzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3654575?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/cmlsharp",
+      "html_url": "https://github.com/cmlsharp",
+      "followers_url": "https://api.github.com/users/cmlsharp/followers",
+      "following_url": "https://api.github.com/users/cmlsharp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/cmlsharp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/cmlsharp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/cmlsharp/subscriptions",
+      "organizations_url": "https://api.github.com/users/cmlsharp/orgs",
+      "repos_url": "https://api.github.com/users/cmlsharp/repos",
+      "events_url": "https://api.github.com/users/cmlsharp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/cmlsharp/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-10-20T05:26:30Z",
+    "updated_at": "2015-10-20T05:29:46Z",
+    "body": "/u/crossroads1112 here\n\n```\nrustc 1.2.0-dev\nbinary: rustc\ncommit-hash: unknown\ncommit-date: unknown\nhost: x86_64-unknown-linux-gnu\nrelease: 1.2.0-dev\n```\n\nEDIT: For some reason the code now compiles correctly. I'm not sure what the issue was. I'd recommend closing the issue\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/149436832/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

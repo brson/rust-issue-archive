@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/61699439",
+    "html_url": "https://github.com/rust-lang/rust/issues/18606#issuecomment-61699439",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18606",
+    "id": 61699439,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYxNjk5NDM5",
+    "user": {
+      "login": "mdinger",
+      "id": 4156987,
+      "node_id": "MDQ6VXNlcjQxNTY5ODc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4156987?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mdinger",
+      "html_url": "https://github.com/mdinger",
+      "followers_url": "https://api.github.com/users/mdinger/followers",
+      "following_url": "https://api.github.com/users/mdinger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mdinger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mdinger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mdinger/subscriptions",
+      "organizations_url": "https://api.github.com/users/mdinger/orgs",
+      "repos_url": "https://api.github.com/users/mdinger/repos",
+      "events_url": "https://api.github.com/users/mdinger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mdinger/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-04T19:30:36Z",
+    "updated_at": "2014-11-04T19:30:36Z",
+    "body": "Hmm...I was not aware that `for _ in range(0i,7i) {}` returns types `()`. The error makes sense once that is known so I'll close this. The only easy action against this seems to be expanded documentation about expressions.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/61699439/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62931266",
+    "html_url": "https://github.com/rust-lang/rust/issues/18928#issuecomment-62931266",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18928",
+    "id": 62931266,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYyOTMxMjY2",
+    "user": {
+      "login": "vadimcn",
+      "id": 3203809,
+      "node_id": "MDQ6VXNlcjMyMDM4MDk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3203809?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/vadimcn",
+      "html_url": "https://github.com/vadimcn",
+      "followers_url": "https://api.github.com/users/vadimcn/followers",
+      "following_url": "https://api.github.com/users/vadimcn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/vadimcn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/vadimcn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/vadimcn/subscriptions",
+      "organizations_url": "https://api.github.com/users/vadimcn/orgs",
+      "repos_url": "https://api.github.com/users/vadimcn/repos",
+      "events_url": "https://api.github.com/users/vadimcn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/vadimcn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-13T17:26:48Z",
+    "updated_at": "2014-11-13T17:26:48Z",
+    "body": "@alexcrichton, yes, that should be fine.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62931266/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

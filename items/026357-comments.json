@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/112608136",
+    "html_url": "https://github.com/rust-lang/rust/issues/26357#issuecomment-112608136",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26357",
+    "id": 112608136,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMjYwODEzNg==",
+    "user": {
+      "login": "kurtismullins",
+      "id": 1145691,
+      "node_id": "MDQ6VXNlcjExNDU2OTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1145691?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kurtismullins",
+      "html_url": "https://github.com/kurtismullins",
+      "followers_url": "https://api.github.com/users/kurtismullins/followers",
+      "following_url": "https://api.github.com/users/kurtismullins/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kurtismullins/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kurtismullins/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kurtismullins/subscriptions",
+      "organizations_url": "https://api.github.com/users/kurtismullins/orgs",
+      "repos_url": "https://api.github.com/users/kurtismullins/repos",
+      "events_url": "https://api.github.com/users/kurtismullins/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kurtismullins/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-17T00:10:20Z",
+    "updated_at": "2015-06-17T00:10:20Z",
+    "body": "I solved the issue. Previously, `./configure` had told me that I was missing _gmake_ and that I needed to install it, which I did. Then, I attempted to execute `make` which resulted in the previous errors.\n\nAfter a quick search, I found that `make` was actually calling `pmake` instead of `gmake`.\n\nMy solution is to simply execute `gmake` instead of `make`.\n\nI'm not sure if this should be documented somewhere. It's probably more of a FreeBSD-specific anomaly than anything specific to Rust -- but still; a road-block that I ran into late last night while trying to get things up and running.\n\nSource: https://forums.freebsd.org/threads/error-with-a-makefile.5279/\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/112608136/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

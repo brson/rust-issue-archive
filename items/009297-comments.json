@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/24757985",
+    "html_url": "https://github.com/rust-lang/rust/pull/9297#issuecomment-24757985",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9297",
+    "id": 24757985,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI0NzU3OTg1",
+    "user": {
+      "login": "eugals",
+      "id": 479407,
+      "node_id": "MDQ6VXNlcjQ3OTQwNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/479407?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eugals",
+      "html_url": "https://github.com/eugals",
+      "followers_url": "https://api.github.com/users/eugals/followers",
+      "following_url": "https://api.github.com/users/eugals/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eugals/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eugals/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eugals/subscriptions",
+      "organizations_url": "https://api.github.com/users/eugals/orgs",
+      "repos_url": "https://api.github.com/users/eugals/repos",
+      "events_url": "https://api.github.com/users/eugals/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eugals/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-09-19T17:32:29Z",
+    "updated_at": "2013-09-19T17:32:29Z",
+    "body": "Ouch. Sorry I've merged it wrong\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/24757985/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8273110",
+    "html_url": "https://github.com/rust-lang/rust/issues/3382#issuecomment-8273110",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3382",
+    "id": 8273110,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgyNzMxMTA=",
+    "user": {
+      "login": "jimblandy",
+      "id": 751272,
+      "node_id": "MDQ6VXNlcjc1MTI3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/751272?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jimblandy",
+      "html_url": "https://github.com/jimblandy",
+      "followers_url": "https://api.github.com/users/jimblandy/followers",
+      "following_url": "https://api.github.com/users/jimblandy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jimblandy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jimblandy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jimblandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/jimblandy/orgs",
+      "repos_url": "https://api.github.com/users/jimblandy/repos",
+      "events_url": "https://api.github.com/users/jimblandy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jimblandy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-09-04T18:15:15Z",
+    "updated_at": "2012-09-04T18:15:15Z",
+    "body": "It seems like the \"attributes\" section went away here:\n\ncommit 9eaaceb9f020faca7e2880fdc94946056c0ce4cf\nAuthor: Patrick Walton pcwalton@mimiga.net\nDate:   Fri Aug 31 16:57:37 2012 -0700\n\n```\ndoc: Update the tutorial\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8273110/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

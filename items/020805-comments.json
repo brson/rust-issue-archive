@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/73121266",
+    "html_url": "https://github.com/rust-lang/rust/issues/20805#issuecomment-73121266",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20805",
+    "id": 73121266,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDczMTIxMjY2",
+    "user": {
+      "login": "caryhaynie",
+      "id": 24828,
+      "node_id": "MDQ6VXNlcjI0ODI4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24828?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/caryhaynie",
+      "html_url": "https://github.com/caryhaynie",
+      "followers_url": "https://api.github.com/users/caryhaynie/followers",
+      "following_url": "https://api.github.com/users/caryhaynie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/caryhaynie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/caryhaynie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/caryhaynie/subscriptions",
+      "organizations_url": "https://api.github.com/users/caryhaynie/orgs",
+      "repos_url": "https://api.github.com/users/caryhaynie/repos",
+      "events_url": "https://api.github.com/users/caryhaynie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/caryhaynie/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-05T20:33:49Z",
+    "updated_at": "2015-02-05T20:33:49Z",
+    "body": "This appears to be fixed in latest rust. Thanks!\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/73121266/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

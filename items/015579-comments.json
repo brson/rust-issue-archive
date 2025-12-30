@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71280315",
+    "html_url": "https://github.com/rust-lang/rust/issues/15579#issuecomment-71280315",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15579",
+    "id": 71280315,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjgwMzE1",
+    "user": {
+      "login": "steveklabnik",
+      "id": 27786,
+      "node_id": "MDQ6VXNlcjI3Nzg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27786?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steveklabnik",
+      "html_url": "https://github.com/steveklabnik",
+      "followers_url": "https://api.github.com/users/steveklabnik/followers",
+      "following_url": "https://api.github.com/users/steveklabnik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steveklabnik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steveklabnik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steveklabnik/subscriptions",
+      "organizations_url": "https://api.github.com/users/steveklabnik/orgs",
+      "repos_url": "https://api.github.com/users/steveklabnik/repos",
+      "events_url": "https://api.github.com/users/steveklabnik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steveklabnik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-23T22:51:56Z",
+    "updated_at": "2015-01-23T22:51:56Z",
+    "body": "This error seems to be fixed, at least, it doesn't give the three span issue any more:\n\n```\nhello.rs:1:1: 1:43 error: in type `&'a &'b &'c ()`, reference has a longer lifetime than the data it references\nhello.rs:1 struct Foo<'a,'b,'c> { p: &'a &'b &'c () }\n           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nhello.rs:1:1: 1:43 note: the pointer is valid for the lifetime 'a as defined on the struct at 1:0\nhello.rs:1 struct Foo<'a,'b,'c> { p: &'a &'b &'c () }\n           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nhello.rs:1:1: 1:43 note: but the referenced data is only valid for the lifetime 'b as defined on the struct at 1:0\nhello.rs:1 struct Foo<'a,'b,'c> { p: &'a &'b &'c () }\n           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nhello.rs:1:1: 1:43 error: in type `&'b &'c ()`, reference has a longer lifetime than the data it references\nhello.rs:1 struct Foo<'a,'b,'c> { p: &'a &'b &'c () }\n           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nhello.rs:1:1: 1:43 note: the pointer is valid for the lifetime 'b as defined on the struct at 1:0\nhello.rs:1 struct Foo<'a,'b,'c> { p: &'a &'b &'c () }\n           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nhello.rs:1:1: 1:43 note: but the referenced data is only valid for the lifetime 'c as defined on the struct at 1:0\nhello.rs:1 struct Foo<'a,'b,'c> { p: &'a &'b &'c () }\n           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nerror: aborting due to 2 previous errors\n\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71280315/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/57556335",
+    "html_url": "https://github.com/rust-lang/rust/pull/17682#issuecomment-57556335",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17682",
+    "id": 57556335,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU3NTU2MzM1",
+    "user": {
+      "login": "nodakai",
+      "id": 90726,
+      "node_id": "MDQ6VXNlcjkwNzI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90726?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nodakai",
+      "html_url": "https://github.com/nodakai",
+      "followers_url": "https://api.github.com/users/nodakai/followers",
+      "following_url": "https://api.github.com/users/nodakai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nodakai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nodakai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nodakai/subscriptions",
+      "organizations_url": "https://api.github.com/users/nodakai/orgs",
+      "repos_url": "https://api.github.com/users/nodakai/repos",
+      "events_url": "https://api.github.com/users/nodakai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nodakai/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-01T23:10:22Z",
+    "updated_at": "2014-10-01T23:10:22Z",
+    "body": "@alexcrichton `host_triple()` was reverted back to the original.\n\n``` rust\nextern crate rustc;\nuse rustc::driver;\n\nfn main() {\n    println!(\"{}\", driver::release_str());\n    println!(\"{}\", driver::commit_hash_str());\n    println!(\"{}\", driver::commit_date_str());\n    println!(\"{}\", driver::driver::host_triple());\n}\n```\n\noutputs\n\n```\nSome(0.12.0-dev)\nSome(1dfb23f4cf5c8a7224cf9d71a0d0b74f22ad252d)\nSome(2014-10-02 02:02:43 +0800)\nx86_64-unknown-linux-gnu\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/57556335/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

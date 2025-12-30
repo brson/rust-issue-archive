@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/46889657",
+    "html_url": "https://github.com/rust-lang/rust/issues/15108#issuecomment-46889657",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15108",
+    "id": 46889657,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ2ODg5NjU3",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-23T19:23:12Z",
+    "updated_at": "2014-06-23T19:23:12Z",
+    "body": "Interesting! It turns out that LLVM got real smart recently (or it always has been!)\n\n``` rust\n$ rustc foo.rs -O --emit=ir -o - \n; ModuleID = '-.rs'\ntarget datalayout = \"e-i64:64-f80:128-n8:16:32:64-S128\"\ntarget triple = \"x86_64-unknown-linux-gnu\"\n\n; Function Attrs: nounwind readnone uwtable\ndefine internal void @_ZN4main20hbfcbec594e62aee2eaa4v0.0E() unnamed_addr #0 {\nentry-block:\n  ret void\n}\n\ndefine i64 @main(i64, i8**) unnamed_addr #1 {\ntop:\n  %2 = tail call i64 @_ZN10lang_start20h53a1e3fe8c23b585vme11v0.11.0.preE(i8* bitcast (void ()* @_ZN4main20hbfcbec594e62aee2eaa4v0.0E to i8*), i64 %0, i8** %1)\n  ret i64 %2\n}\n\ndeclare i64 @_ZN10lang_start20h53a1e3fe8c23b585vme11v0.11.0.preE(i8*, i64, i8**) unnamed_addr #1\n\nattributes #0 = { nounwind readnone uwtable \"split-stack\" }\nattributes #1 = { \"split-stack\" }\n```\n\n```\n$ objdump -S foo.o\n\nfoo.o:     file format elf64-x86-64\n\n\nDisassembly of section .text._ZN4main20h22fc21a23bd4f614eaa4v0.0E:\n\n0000000000000000 <_ZN4main20h22fc21a23bd4f614eaa4v0.0E>:\n   0:   c3                      retq   \n\nDisassembly of section .text.main:\n\n0000000000000000 <main>:\n  10:   48 89 f0                mov    %rax,%rdx\n  13:   48 89 f9 48 8d          jmpq   18 <main+0x8>\n  18:   Address 0x0000000000000018 is out of bounds.\n```\n\nBasically, [this comment](https://github.com/rust-lang/rust/blob/master/src/librustc/back/link.rs#L1183-L1185) is not quite accurate.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/46889657/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

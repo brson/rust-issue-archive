@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18082926",
+    "html_url": "https://github.com/rust-lang/rust/issues/5397#issuecomment-18082926",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/5397",
+    "id": 18082926,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4MDgyOTI2",
+    "user": {
+      "login": "nikomatsakis",
+      "id": 155238,
+      "node_id": "MDQ6VXNlcjE1NTIzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nikomatsakis",
+      "html_url": "https://github.com/nikomatsakis",
+      "followers_url": "https://api.github.com/users/nikomatsakis/followers",
+      "following_url": "https://api.github.com/users/nikomatsakis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nikomatsakis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nikomatsakis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nikomatsakis/subscriptions",
+      "organizations_url": "https://api.github.com/users/nikomatsakis/orgs",
+      "repos_url": "https://api.github.com/users/nikomatsakis/repos",
+      "events_url": "https://api.github.com/users/nikomatsakis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nikomatsakis/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-17T19:59:20Z",
+    "updated_at": "2013-05-17T19:59:20Z",
+    "body": "Since mutable fields have been removed, this is a moot point.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18082926/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

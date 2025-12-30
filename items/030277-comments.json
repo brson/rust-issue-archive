@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/163078555",
+    "html_url": "https://github.com/rust-lang/rust/issues/30277#issuecomment-163078555",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30277",
+    "id": 163078555,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MzA3ODU1NQ==",
+    "user": {
+      "login": "Stebalien",
+      "id": 310393,
+      "node_id": "MDQ6VXNlcjMxMDM5Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/310393?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Stebalien",
+      "html_url": "https://github.com/Stebalien",
+      "followers_url": "https://api.github.com/users/Stebalien/followers",
+      "following_url": "https://api.github.com/users/Stebalien/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Stebalien/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Stebalien/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Stebalien/subscriptions",
+      "organizations_url": "https://api.github.com/users/Stebalien/orgs",
+      "repos_url": "https://api.github.com/users/Stebalien/repos",
+      "events_url": "https://api.github.com/users/Stebalien/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Stebalien/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-09T01:36:10Z",
+    "updated_at": "2015-12-09T01:36:10Z",
+    "body": "According to @Aatch,\n\n> For the third error, the issue is due to an inconsistency between how the &<pat> pattern handles DSTs and how ref ident expects DST values to be given to it, so & ref ident has the outer pattern passing along a different value to the one the inner inner pattern expects, yay! I fixed one case in #30245, but not the one you're hitting here.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/163078555/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

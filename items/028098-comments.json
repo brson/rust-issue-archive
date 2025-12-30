@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/142881181",
+    "html_url": "https://github.com/rust-lang/rust/issues/28098#issuecomment-142881181",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28098",
+    "id": 142881181,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0Mjg4MTE4MQ==",
+    "user": {
+      "login": "eddyb",
+      "id": 77424,
+      "node_id": "MDQ6VXNlcjc3NDI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77424?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eddyb",
+      "html_url": "https://github.com/eddyb",
+      "followers_url": "https://api.github.com/users/eddyb/followers",
+      "following_url": "https://api.github.com/users/eddyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eddyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eddyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eddyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/eddyb/orgs",
+      "repos_url": "https://api.github.com/users/eddyb/repos",
+      "events_url": "https://api.github.com/users/eddyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eddyb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-24T10:09:49Z",
+    "updated_at": "2015-09-24T10:15:40Z",
+    "body": "Minimal examples:\n\n``` rust\nfn main() {\n    Iterator::next(&mut false); // 2 errors\n}\n```\n\n``` rust\nfn main() {\n    for _ in false {} // 3 errors\n}\n```\n\nInterestingly enough, when put in the same program, the total number of errors is 4, not 5 (due to some global cache?).\ncc @arielb1\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/142881181/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/117624590",
+    "html_url": "https://github.com/rust-lang/rust/issues/26709#issuecomment-117624590",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26709",
+    "id": 117624590,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNzYyNDU5MA==",
+    "user": {
+      "login": "eddyb",
+      "id": 77424,
+      "node_id": "MDQ6VXNlcjc3NDI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77424?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eddyb",
+      "html_url": "https://github.com/eddyb",
+      "followers_url": "https://api.github.com/users/eddyb/followers",
+      "following_url": "https://api.github.com/users/eddyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eddyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eddyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eddyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/eddyb/orgs",
+      "repos_url": "https://api.github.com/users/eddyb/repos",
+      "events_url": "https://api.github.com/users/eddyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eddyb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-07-01T11:40:31Z",
+    "updated_at": "2015-07-01T11:40:31Z",
+    "body": "Reduced test case:\n\n``` rust\nstruct Wrapper<T: ?Sized>(T);\n\nimpl<T: ?Sized> Drop for Wrapper<T> {\n    fn drop(&mut self) {}\n}\n\nfn main() {\n    let wrapper = Box::new(Wrapper(123));\n    let _: Box<Wrapper<Send>> = wrapper;\n}\n```\n\nThe assert seems to be tripped by #26411, `trans::glue` wants a single argument for a `Drop::drop` call, but it's seeing two (because a fat pointer is now passed in two immediate arguments).\ncc @dotdash\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/117624590/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

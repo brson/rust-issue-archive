@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/164627169",
+    "html_url": "https://github.com/rust-lang/rust/issues/30360#issuecomment-164627169",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30360",
+    "id": 164627169,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2NDYyNzE2OQ==",
+    "user": {
+      "login": "jgallagher",
+      "id": 1435635,
+      "node_id": "MDQ6VXNlcjE0MzU2MzU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1435635?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jgallagher",
+      "html_url": "https://github.com/jgallagher",
+      "followers_url": "https://api.github.com/users/jgallagher/followers",
+      "following_url": "https://api.github.com/users/jgallagher/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jgallagher/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jgallagher/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jgallagher/subscriptions",
+      "organizations_url": "https://api.github.com/users/jgallagher/orgs",
+      "repos_url": "https://api.github.com/users/jgallagher/repos",
+      "events_url": "https://api.github.com/users/jgallagher/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jgallagher/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-15T02:47:35Z",
+    "updated_at": "2015-12-15T02:47:35Z",
+    "body": "Ahh, nevermind, this was fixed sometime between 1.5 beta (b716bc93c 2015-12-02) and nightly (d49e36552 2015-12-05).\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/164627169/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

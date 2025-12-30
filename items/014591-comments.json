@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44799019",
+    "html_url": "https://github.com/rust-lang/rust/pull/14591#issuecomment-44799019",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14591",
+    "id": 44799019,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0Nzk5MDE5",
+    "user": {
+      "login": "klutzy",
+      "id": 1589355,
+      "node_id": "MDQ6VXNlcjE1ODkzNTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1589355?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/klutzy",
+      "html_url": "https://github.com/klutzy",
+      "followers_url": "https://api.github.com/users/klutzy/followers",
+      "following_url": "https://api.github.com/users/klutzy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/klutzy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/klutzy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/klutzy/subscriptions",
+      "organizations_url": "https://api.github.com/users/klutzy/orgs",
+      "repos_url": "https://api.github.com/users/klutzy/repos",
+      "events_url": "https://api.github.com/users/klutzy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/klutzy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-02T03:17:03Z",
+    "updated_at": "2014-06-02T03:17:03Z",
+    "body": "(The three tests are expected to fail on old mingw/gcc, but I don't think we should support them.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44799019/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8531185",
+    "html_url": "https://github.com/rust-lang/rust/issues/3479#issuecomment-8531185",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3479",
+    "id": 8531185,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg1MzExODU=",
+    "user": {
+      "login": "AngryLawyer",
+      "id": 1378607,
+      "node_id": "MDQ6VXNlcjEzNzg2MDc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1378607?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/AngryLawyer",
+      "html_url": "https://github.com/AngryLawyer",
+      "followers_url": "https://api.github.com/users/AngryLawyer/followers",
+      "following_url": "https://api.github.com/users/AngryLawyer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/AngryLawyer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/AngryLawyer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/AngryLawyer/subscriptions",
+      "organizations_url": "https://api.github.com/users/AngryLawyer/orgs",
+      "repos_url": "https://api.github.com/users/AngryLawyer/repos",
+      "events_url": "https://api.github.com/users/AngryLawyer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/AngryLawyer/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-09-13T15:01:55Z",
+    "updated_at": "2012-09-13T15:01:55Z",
+    "body": "Read byte only gets you a single byte (i.e the first ascii character you type in), so gives you a number. You need read_line, which is in ReaderUtil, which Reader can be cast to (I think this is the right way to do it).\n\nAfter that, you can try to convert the string into an int. Someone might put something other than an int in, though, and to stop everything blowing up, Rust instead returns an option<int> instead - which means it might be there, or might not be. So, you check it with 'is_some', to make sure it's really there, and then can unwrap it to get the juicy, juicy number.\n\n``` rust\nfn main(){\n    //First, we read the input line\n    let my_number_string = (io::stdin() as io::ReaderUtil).read_line();\n    io::println(my_number_string);\n    //Then, we try to turn it into an int\n    let maybe_my_int = int::from_str(my_number_string);\n\n    if (option::is_some(maybe_my_int)) {\n        match option::unwrap(maybe_my_int) {\n            0       =>  io::println(\"zero\"),\n            1|2     =>  io::println(\"one or two\"),\n            3..10   =>  io::println(\"three to ten\"),\n            _       =>  io::println(\"something else\")\n        }\n    } else {\n        io::println(\"Not a number!\");\n    }\n}\n```\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8531185/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

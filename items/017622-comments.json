@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69580162",
+    "html_url": "https://github.com/rust-lang/rust/issues/17622#issuecomment-69580162",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17622",
+    "id": 69580162,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5NTgwMTYy",
+    "user": {
+      "login": "erickt",
+      "id": 84711,
+      "node_id": "MDQ6VXNlcjg0NzEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84711?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erickt",
+      "html_url": "https://github.com/erickt",
+      "followers_url": "https://api.github.com/users/erickt/followers",
+      "following_url": "https://api.github.com/users/erickt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erickt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erickt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erickt/subscriptions",
+      "organizations_url": "https://api.github.com/users/erickt/orgs",
+      "repos_url": "https://api.github.com/users/erickt/repos",
+      "events_url": "https://api.github.com/users/erickt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erickt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-12T14:49:54Z",
+    "updated_at": "2015-01-12T14:49:54Z",
+    "body": "Looke like this no longer ICE-s:\n\n``` rust\ntrait A {\n    fn as_A(&self) -> &A {self}\n}\nimpl<T> A for T {}\n\ntrait B: A {\n    fn as_B(&self) -> &B {self}\n}\nimpl<T> B for T{}\n\nfn main() {\n    let i = 5;\n    let a: &A = i.as_A();\n    let b: &B = a.as_B();\n\n}\n```\n\nNow produces:\n\n```\nbad2.rs:2:27: 2:31 error: the trait `core::marker::Sized` is not implemented for the type `Self`\nbad2.rs:2     fn as_A(&self) -> &A {self}\n                                    ^~~~\nbad2.rs:7:27: 7:31 error: the trait `core::marker::Sized` is not implemented for the type `Self`\nbad2.rs:7     fn as_B(&self) -> &B {self}\n                                    ^~~~\n```\n\nWhich seems like the right error message. Please reopen if you are still having trouble.\nPlease reopen if you are still \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69580162/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

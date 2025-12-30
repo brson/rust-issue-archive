@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/122554682",
+    "html_url": "https://github.com/rust-lang/rust/issues/27109#issuecomment-122554682",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/27109",
+    "id": 122554682,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMjU1NDY4Mg==",
+    "user": {
+      "login": "Gankra",
+      "id": 1136864,
+      "node_id": "MDQ6VXNlcjExMzY4NjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1136864?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Gankra",
+      "html_url": "https://github.com/Gankra",
+      "followers_url": "https://api.github.com/users/Gankra/followers",
+      "following_url": "https://api.github.com/users/Gankra/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Gankra/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Gankra/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Gankra/subscriptions",
+      "organizations_url": "https://api.github.com/users/Gankra/orgs",
+      "repos_url": "https://api.github.com/users/Gankra/repos",
+      "events_url": "https://api.github.com/users/Gankra/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Gankra/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-07-18T15:32:28Z",
+    "updated_at": "2015-07-18T15:32:41Z",
+    "body": "[From the trait](https://doc.rust-lang.org/std/borrow/trait.Borrow.html):\n\n> Borrow is very similar to, but different than, AsRef. See the book (link) for more.\n\n[From the book](https://doc.rust-lang.org/book/borrow-and-asref.html):\n\n> We can see how they\u2019re kind of the same: they both deal with owned and borrowed versions of some type. However, they\u2019re a bit different.\n> \n> Choose Borrow when you want to abstract over different kinds of borrowing, or when you\u2019re building a datastructure that treats owned and borrowed values in equivalent ways, such as hashing and comparison.\n\nHowever I agree it could be more prominent.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/122554682/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

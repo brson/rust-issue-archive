@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/63002735",
+    "html_url": "https://github.com/rust-lang/rust/issues/18936#issuecomment-63002735",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18936",
+    "id": 63002735,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYzMDAyNzM1",
+    "user": {
+      "login": "pythonesque",
+      "id": 923144,
+      "node_id": "MDQ6VXNlcjkyMzE0NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/923144?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pythonesque",
+      "html_url": "https://github.com/pythonesque",
+      "followers_url": "https://api.github.com/users/pythonesque/followers",
+      "following_url": "https://api.github.com/users/pythonesque/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pythonesque/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pythonesque/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pythonesque/subscriptions",
+      "organizations_url": "https://api.github.com/users/pythonesque/orgs",
+      "repos_url": "https://api.github.com/users/pythonesque/repos",
+      "events_url": "https://api.github.com/users/pythonesque/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pythonesque/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-14T02:42:05Z",
+    "updated_at": "2014-11-14T15:50:10Z",
+    "body": "I think this is a topic that needs to be approached carefully, since what types are actually `Sync` (resp. `Send`) can be very hard to reason about.  For example, I believe it is currently possible to write (correct) types in Rust that are `Sync` but not `Send` even when bounded by `'static`, which is not obvious currently from any of the documentation I've read.  Also, any complete discussion of `Send` must include `Rc` (which is neither `Sync` nor `Send` no matter what its lifetime) as well as more normal edge cases like `Cell` (`Send` but not `Sync`).  I think these edge cases are critical to understanding the types.  Some of the definitions and rules are also currently in flux (see the default / unsafe traits RFC, for example).\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/63002735/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

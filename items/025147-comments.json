@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/99448526",
+    "html_url": "https://github.com/rust-lang/rust/issues/25147#issuecomment-99448526",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25147",
+    "id": 99448526,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk5NDQ4NTI2",
+    "user": {
+      "login": "banks",
+      "id": 120915,
+      "node_id": "MDQ6VXNlcjEyMDkxNQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/120915?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/banks",
+      "html_url": "https://github.com/banks",
+      "followers_url": "https://api.github.com/users/banks/followers",
+      "following_url": "https://api.github.com/users/banks/following{/other_user}",
+      "gists_url": "https://api.github.com/users/banks/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/banks/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/banks/subscriptions",
+      "organizations_url": "https://api.github.com/users/banks/orgs",
+      "repos_url": "https://api.github.com/users/banks/repos",
+      "events_url": "https://api.github.com/users/banks/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/banks/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-06T13:06:33Z",
+    "updated_at": "2015-05-06T13:06:33Z",
+    "body": "I guess I made my pull request from that commit badly, but it's #25148 I guess this should be closed if that is accepted.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/99448526/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

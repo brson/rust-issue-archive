@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/86362875",
+    "html_url": "https://github.com/rust-lang/rust/issues/23720#issuecomment-86362875",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23720",
+    "id": 86362875,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg2MzYyODc1",
+    "user": {
+      "login": "eddyb",
+      "id": 77424,
+      "node_id": "MDQ6VXNlcjc3NDI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77424?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eddyb",
+      "html_url": "https://github.com/eddyb",
+      "followers_url": "https://api.github.com/users/eddyb/followers",
+      "following_url": "https://api.github.com/users/eddyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eddyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eddyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eddyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/eddyb/orgs",
+      "repos_url": "https://api.github.com/users/eddyb/repos",
+      "events_url": "https://api.github.com/users/eddyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eddyb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-26T06:48:23Z",
+    "updated_at": "2015-03-26T06:48:23Z",
+    "body": "You should provide type parameters to `transmute` wherever inference is not enough - it's less dangerous that way, too:\n\n``` rust\nmacro_rules! make_foo {\n    ($Int:ident) => (\n        #[repr($Int)]\n        enum Foo { A, B, C }\n\n        impl Foo {\n            fn min() -> Foo {\n                unsafe {\n                    ::std::mem::transmute::<$Int, Foo>(0)\n                }\n            }\n        }\n    )\n}\n\nmake_foo!{ u8 }\n```\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/86362875/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

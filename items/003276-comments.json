@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8113624",
+    "html_url": "https://github.com/rust-lang/rust/issues/3276#issuecomment-8113624",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3276",
+    "id": 8113624,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgxMTM2MjQ=",
+    "user": {
+      "login": "erickt",
+      "id": 84711,
+      "node_id": "MDQ6VXNlcjg0NzEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84711?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erickt",
+      "html_url": "https://github.com/erickt",
+      "followers_url": "https://api.github.com/users/erickt/followers",
+      "following_url": "https://api.github.com/users/erickt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erickt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erickt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erickt/subscriptions",
+      "organizations_url": "https://api.github.com/users/erickt/orgs",
+      "repos_url": "https://api.github.com/users/erickt/repos",
+      "events_url": "https://api.github.com/users/erickt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erickt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-08-29T02:27:02Z",
+    "updated_at": "2012-08-29T02:27:02Z",
+    "body": "@brson pointed out that I was using a rather old form of syntax. When I updated to:\n\n```\nstruct Deserializer {\n    x: ()\n}\n\nimpl Deserializer: std::serialization::Deserializer {\n    ...\n}\n```\n\nit worked. I'll file an issue to get this old syntax removed.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8113624/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

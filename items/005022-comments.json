@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/13847236",
+    "html_url": "https://github.com/rust-lang/rust/pull/5022#issuecomment-13847236",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/5022",
+    "id": 13847236,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzODQ3MjM2",
+    "user": {
+      "login": "bnoordhuis",
+      "id": 275871,
+      "node_id": "MDQ6VXNlcjI3NTg3MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/275871?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bnoordhuis",
+      "html_url": "https://github.com/bnoordhuis",
+      "followers_url": "https://api.github.com/users/bnoordhuis/followers",
+      "following_url": "https://api.github.com/users/bnoordhuis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bnoordhuis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bnoordhuis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bnoordhuis/subscriptions",
+      "organizations_url": "https://api.github.com/users/bnoordhuis/orgs",
+      "repos_url": "https://api.github.com/users/bnoordhuis/repos",
+      "events_url": "https://api.github.com/users/bnoordhuis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bnoordhuis/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-02-20T18:15:26Z",
+    "updated_at": "2013-02-20T19:00:01Z",
+    "body": "> Bindings for win32 TLS - this only has pthread bindings\n\nI'm open to landing cross-platform TLS functions in libuv. We have a medium-term need for that in node.js so I don't mind being a little proactive here.\n\n(EDIT: But I see there's another issue about not putting libuv in core so I guess that's a no-go then.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/13847236/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

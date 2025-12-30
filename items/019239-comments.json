@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64122729",
+    "html_url": "https://github.com/rust-lang/rust/pull/19239#issuecomment-64122729",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19239",
+    "id": 64122729,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY0MTIyNzI5",
+    "user": {
+      "login": "retep998",
+      "id": 666308,
+      "node_id": "MDQ6VXNlcjY2NjMwOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/666308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/retep998",
+      "html_url": "https://github.com/retep998",
+      "followers_url": "https://api.github.com/users/retep998/followers",
+      "following_url": "https://api.github.com/users/retep998/following{/other_user}",
+      "gists_url": "https://api.github.com/users/retep998/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/retep998/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/retep998/subscriptions",
+      "organizations_url": "https://api.github.com/users/retep998/orgs",
+      "repos_url": "https://api.github.com/users/retep998/repos",
+      "events_url": "https://api.github.com/users/retep998/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/retep998/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-23T16:02:37Z",
+    "updated_at": "2014-11-23T16:02:37Z",
+    "body": "This PR is confirmed to fix the problem for me :+1: \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/64122729/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

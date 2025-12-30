@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/168747026",
+    "html_url": "https://github.com/rust-lang/rust/issues/29745#issuecomment-168747026",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29745",
+    "id": 168747026,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2ODc0NzAyNg==",
+    "user": {
+      "login": "steveklabnik",
+      "id": 27786,
+      "node_id": "MDQ6VXNlcjI3Nzg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27786?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/steveklabnik",
+      "html_url": "https://github.com/steveklabnik",
+      "followers_url": "https://api.github.com/users/steveklabnik/followers",
+      "following_url": "https://api.github.com/users/steveklabnik/following{/other_user}",
+      "gists_url": "https://api.github.com/users/steveklabnik/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/steveklabnik/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/steveklabnik/subscriptions",
+      "organizations_url": "https://api.github.com/users/steveklabnik/orgs",
+      "repos_url": "https://api.github.com/users/steveklabnik/repos",
+      "events_url": "https://api.github.com/users/steveklabnik/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/steveklabnik/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2016-01-04T17:36:13Z",
+    "updated_at": "2016-01-04T17:36:13Z",
+    "body": "Hey @thibault-ml ! First off, sorry that I left no comment here. New year, finding out old issues that slipped through the cracks. :)\n\nI'm working on a new draft of the book that's basically completely re-written, and so will cover this stuff in a lot more depth. So I'm not as focused on tweaking the existing one. So if you wanted to send a PR with some updates, I would probably accept them, but for now, this isn't super likely to change. I do agree that this is a weakness, but it'd take some work to fix, and would end up going away anyway... thank you for bringing it up!\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/168747026/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/51333617",
+    "html_url": "https://github.com/rust-lang/rust/issues/16299#issuecomment-51333617",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16299",
+    "id": 51333617,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxMzMzNjE3",
+    "user": {
+      "login": "eddyb",
+      "id": 77424,
+      "node_id": "MDQ6VXNlcjc3NDI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77424?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eddyb",
+      "html_url": "https://github.com/eddyb",
+      "followers_url": "https://api.github.com/users/eddyb/followers",
+      "following_url": "https://api.github.com/users/eddyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eddyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eddyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eddyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/eddyb/orgs",
+      "repos_url": "https://api.github.com/users/eddyb/repos",
+      "events_url": "https://api.github.com/users/eddyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eddyb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-08-06T13:28:06Z",
+    "updated_at": "2014-08-06T13:28:06Z",
+    "body": "\"When they go out of scope\" is a phrase I've often heard.\nThere should probably be a mention of RAII, too, since that's what it's called in C++ (though the acronym's wording has long lost its relevance AFAIK).\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/51333617/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

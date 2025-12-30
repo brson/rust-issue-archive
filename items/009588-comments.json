@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25293363",
+    "html_url": "https://github.com/rust-lang/rust/issues/9588#issuecomment-25293363",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9588",
+    "id": 25293363,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MjkzMzYz",
+    "user": {
+      "login": "aarondandy",
+      "id": 404933,
+      "node_id": "MDQ6VXNlcjQwNDkzMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/404933?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aarondandy",
+      "html_url": "https://github.com/aarondandy",
+      "followers_url": "https://api.github.com/users/aarondandy/followers",
+      "following_url": "https://api.github.com/users/aarondandy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aarondandy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aarondandy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aarondandy/subscriptions",
+      "organizations_url": "https://api.github.com/users/aarondandy/orgs",
+      "repos_url": "https://api.github.com/users/aarondandy/repos",
+      "events_url": "https://api.github.com/users/aarondandy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aarondandy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-09-28T07:12:35Z",
+    "updated_at": "2013-09-28T07:12:35Z",
+    "body": "I just solved this issue for myself. It turns out that I forgot to copy the \"rustc\" folder over. I will see if that is the same issue for others who have mentioned this and reopen if anything changes.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25293363/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/6050285",
+    "html_url": "https://github.com/rust-lang/rust/issues/1837#issuecomment-6050285",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/1837",
+    "id": 6050285,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYwNTAyODU=",
+    "user": {
+      "login": "graydon",
+      "id": 14097,
+      "node_id": "MDQ6VXNlcjE0MDk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/graydon",
+      "html_url": "https://github.com/graydon",
+      "followers_url": "https://api.github.com/users/graydon/followers",
+      "following_url": "https://api.github.com/users/graydon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/graydon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/graydon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/graydon/subscriptions",
+      "organizations_url": "https://api.github.com/users/graydon/orgs",
+      "repos_url": "https://api.github.com/users/graydon/repos",
+      "events_url": "https://api.github.com/users/graydon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/graydon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-05-31T23:32:22Z",
+    "updated_at": "2012-05-31T23:32:22Z",
+    "body": "Sorry for the slow reply. The issue here has to do with your code actually, but it's a bit non-obvious. You're testing whether the options \"e\" or \"encrypt\" are given, then only retrieving the option called \"encrypt\". When only \"e\" is given, the condition passes but the retrieval fails. The getopts module doesn't automatically guess that \"e\" and \"encrypt\" are synonymous.\n\nHowever, writing code that uses it that way is a bit convoluted (you wind up with a nesting of the condition _again_ within the extraction clause) so I've taken the liberty of adding convenience functions to getopts that retrieve option strings by _list_ of synonymous options. This lets you request `opts_str(match, [\"e\", \"encrypt\"])` and get back the singular match. Hopefully this is enough.\n\nPushing these additions momentarily.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/6050285/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

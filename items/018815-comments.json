@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/131932483",
+    "html_url": "https://github.com/rust-lang/rust/issues/18815#issuecomment-131932483",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18815",
+    "id": 131932483,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzMTkzMjQ4Mw==",
+    "user": {
+      "login": "edunham",
+      "id": 812892,
+      "node_id": "MDQ6VXNlcjgxMjg5Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/812892?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/edunham",
+      "html_url": "https://github.com/edunham",
+      "followers_url": "https://api.github.com/users/edunham/followers",
+      "following_url": "https://api.github.com/users/edunham/following{/other_user}",
+      "gists_url": "https://api.github.com/users/edunham/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/edunham/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/edunham/subscriptions",
+      "organizations_url": "https://api.github.com/users/edunham/orgs",
+      "repos_url": "https://api.github.com/users/edunham/repos",
+      "events_url": "https://api.github.com/users/edunham/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/edunham/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-08-17T19:09:19Z",
+    "updated_at": "2015-08-17T19:09:19Z",
+    "body": "@l0kod the [current versioning scheme](https://github.com/rust-lang/rust/tags) is x.y.z, sometimes suffixed by `-alpha` or `-beta`. \n\nAnnoyingly, `git tag -l` uses `fnmatch` (aka shell globbing) rather than full regex, so the current most concise way to list only the version number tags (no alphas, betas, old release- tags, or local descriptive tags) seems to be `git tag -l | grep -v [a-zA-Z]` \n\nDo you think that the versioning scheme enstated by the release channels RFC is sufficient to resolve this issue?\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/131932483/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

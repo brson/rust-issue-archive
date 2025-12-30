@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/47730568",
+    "html_url": "https://github.com/rust-lang/rust/issues/14093#issuecomment-47730568",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14093",
+    "id": 47730568,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NzMwNTY4",
+    "user": {
+      "login": "lilyball",
+      "id": 714,
+      "node_id": "MDQ6VXNlcjcxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lilyball",
+      "html_url": "https://github.com/lilyball",
+      "followers_url": "https://api.github.com/users/lilyball/followers",
+      "following_url": "https://api.github.com/users/lilyball/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lilyball/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lilyball/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lilyball/subscriptions",
+      "organizations_url": "https://api.github.com/users/lilyball/orgs",
+      "repos_url": "https://api.github.com/users/lilyball/repos",
+      "events_url": "https://api.github.com/users/lilyball/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lilyball/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-07-02T02:15:23Z",
+    "updated_at": "2014-07-02T02:15:23Z",
+    "body": "I think this is a dupe of #10536.\n\nThe backtrace is a bit different than the original case for #10536, but both end up ICE'ing inside `parse_stmt` for the same reason, and there's already a minimal reproduction case in #10536 for this exact same variant.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/47730568/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

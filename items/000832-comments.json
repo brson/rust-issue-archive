@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1832920",
+    "html_url": "https://github.com/rust-lang/rust/issues/832#issuecomment-1832920",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/832",
+    "id": 1832920,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4MzI5MjA=",
+    "user": {
+      "login": "pcwalton",
+      "id": 157897,
+      "node_id": "MDQ6VXNlcjE1Nzg5Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157897?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pcwalton",
+      "html_url": "https://github.com/pcwalton",
+      "followers_url": "https://api.github.com/users/pcwalton/followers",
+      "following_url": "https://api.github.com/users/pcwalton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pcwalton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pcwalton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pcwalton/subscriptions",
+      "organizations_url": "https://api.github.com/users/pcwalton/orgs",
+      "repos_url": "https://api.github.com/users/pcwalton/repos",
+      "events_url": "https://api.github.com/users/pcwalton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pcwalton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-08-18T02:36:25Z",
+    "updated_at": "2011-08-18T02:36:25Z",
+    "body": "Note that destructuring arguments, as we discussed in Toronto, give us a\nsimple way to do this: just bind it to _.\nOn Aug 17, 2011 4:33 PM, \"catamorphism\" <\nreply@reply.github.com>\nwrote:\n\n> Sometimes, a function needs to have an argument that it doesn't use (for\n> example, if it's passed to `foldl` or another higher-order function). In\n> this case, it would be good to have a naming convention for unused arguments\n> that would suppress the \"unused variable\" warning on a case-by-case basis.\n> One example is \"begin the name with an `_`\". So `fn (_x:int) {}` wouldn't\n> generate any warnings.\n> \n> ## \n> \n> Reply to this email directly or view it on GitHub:\n> https://github.com/graydon/rust/issues/832\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1832920/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39671988",
+    "html_url": "https://github.com/rust-lang/rust/issues/12930#issuecomment-39671988",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12930",
+    "id": 39671988,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NjcxOTg4",
+    "user": {
+      "login": "ben0x539",
+      "id": 24142,
+      "node_id": "MDQ6VXNlcjI0MTQy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24142?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ben0x539",
+      "html_url": "https://github.com/ben0x539",
+      "followers_url": "https://api.github.com/users/ben0x539/followers",
+      "following_url": "https://api.github.com/users/ben0x539/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ben0x539/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ben0x539/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ben0x539/subscriptions",
+      "organizations_url": "https://api.github.com/users/ben0x539/orgs",
+      "repos_url": "https://api.github.com/users/ben0x539/repos",
+      "events_url": "https://api.github.com/users/ben0x539/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ben0x539/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-06T15:59:36Z",
+    "updated_at": "2014-04-06T15:59:36Z",
+    "body": "Looks like `libglob` is generating a list of candidate paths by listing entries in the current directory, and then matching those component for component against the provided glob. Since paths are always normalized, `.` and `..` in a glob can't possibly match.\n\nI'm vaguely looking at fixing this but I can't see any clever way to do it right now.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39671988/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

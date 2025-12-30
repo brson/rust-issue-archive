@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54603434",
+    "html_url": "https://github.com/rust-lang/rust/issues/17014#issuecomment-54603434",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17014",
+    "id": 54603434,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NjAzNDM0",
+    "user": {
+      "login": "oolon9",
+      "id": 8666225,
+      "node_id": "MDQ6VXNlcjg2NjYyMjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8666225?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oolon9",
+      "html_url": "https://github.com/oolon9",
+      "followers_url": "https://api.github.com/users/oolon9/followers",
+      "following_url": "https://api.github.com/users/oolon9/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oolon9/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oolon9/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oolon9/subscriptions",
+      "organizations_url": "https://api.github.com/users/oolon9/orgs",
+      "repos_url": "https://api.github.com/users/oolon9/repos",
+      "events_url": "https://api.github.com/users/oolon9/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oolon9/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-09-05T09:28:56Z",
+    "updated_at": "2014-09-05T09:28:56Z",
+    "body": "Sorry. Just realised that the 'rust-nightly' for raring is really old. This bug doesn't happen in 'rust-nightly' for Ubuntu 14.04\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54603434/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/53147848",
+    "html_url": "https://github.com/rust-lang/rust/issues/12378#issuecomment-53147848",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12378",
+    "id": 53147848,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUzMTQ3ODQ4",
+    "user": {
+      "login": "treeman",
+      "id": 162027,
+      "node_id": "MDQ6VXNlcjE2MjAyNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/162027?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/treeman",
+      "html_url": "https://github.com/treeman",
+      "followers_url": "https://api.github.com/users/treeman/followers",
+      "following_url": "https://api.github.com/users/treeman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/treeman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/treeman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/treeman/subscriptions",
+      "organizations_url": "https://api.github.com/users/treeman/orgs",
+      "repos_url": "https://api.github.com/users/treeman/repos",
+      "events_url": "https://api.github.com/users/treeman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/treeman/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-08-23T09:23:41Z",
+    "updated_at": "2014-08-23T09:23:41Z",
+    "body": "This has been fixed, they are now\n\n```\nfn fail_(expr_file_line: &(&'static str, &'static str, uint)) -> !\nfn fail_bounds_check(file_line: &(&'static str, uint), index: uint, len: uint) -> !\n```\n\nCan close this issue.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/53147848/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

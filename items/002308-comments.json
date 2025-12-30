@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/5480079",
+    "html_url": "https://github.com/rust-lang/rust/issues/2308#issuecomment-5480079",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2308",
+    "id": 5480079,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0ODAwNzk=",
+    "user": {
+      "login": "flaviusb",
+      "id": 64478,
+      "node_id": "MDQ6VXNlcjY0NDc4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64478?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/flaviusb",
+      "html_url": "https://github.com/flaviusb",
+      "followers_url": "https://api.github.com/users/flaviusb/followers",
+      "following_url": "https://api.github.com/users/flaviusb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/flaviusb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/flaviusb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/flaviusb/subscriptions",
+      "organizations_url": "https://api.github.com/users/flaviusb/orgs",
+      "repos_url": "https://api.github.com/users/flaviusb/repos",
+      "events_url": "https://api.github.com/users/flaviusb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/flaviusb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-05-03T03:01:23Z",
+    "updated_at": "2012-05-03T03:01:23Z",
+    "body": "This is fixed in current head.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/5480079/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

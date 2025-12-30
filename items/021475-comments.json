@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71064046",
+    "html_url": "https://github.com/rust-lang/rust/issues/21475#issuecomment-71064046",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21475",
+    "id": 71064046,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcxMDY0MDQ2",
+    "user": {
+      "login": "defuz",
+      "id": 276041,
+      "node_id": "MDQ6VXNlcjI3NjA0MQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/276041?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/defuz",
+      "html_url": "https://github.com/defuz",
+      "followers_url": "https://api.github.com/users/defuz/followers",
+      "following_url": "https://api.github.com/users/defuz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/defuz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/defuz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/defuz/subscriptions",
+      "organizations_url": "https://api.github.com/users/defuz/orgs",
+      "repos_url": "https://api.github.com/users/defuz/repos",
+      "events_url": "https://api.github.com/users/defuz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/defuz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-22T17:47:14Z",
+    "updated_at": "2015-01-22T18:06:08Z",
+    "body": "Also, it doesn't work too (Should?):\n\n``` rust\nstruct Struct {\n    x : u8\n}\n\nconst C : Struct = Struct { x : 5u8 };\n\nfn main() {\n    match 3u8 {\n        C.x ... 2u8 => { println!(\"bad\"); }\n        2u8 ... C.x => { println!(\"bad\"); }\n        _ => {}\n    }\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71064046/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

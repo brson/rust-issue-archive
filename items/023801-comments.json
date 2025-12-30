@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/87158786",
+    "html_url": "https://github.com/rust-lang/rust/issues/23801#issuecomment-87158786",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23801",
+    "id": 87158786,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg3MTU4Nzg2",
+    "user": {
+      "login": "malicote",
+      "id": 2483674,
+      "node_id": "MDQ6VXNlcjI0ODM2NzQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2483674?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/malicote",
+      "html_url": "https://github.com/malicote",
+      "followers_url": "https://api.github.com/users/malicote/followers",
+      "following_url": "https://api.github.com/users/malicote/following{/other_user}",
+      "gists_url": "https://api.github.com/users/malicote/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/malicote/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/malicote/subscriptions",
+      "organizations_url": "https://api.github.com/users/malicote/orgs",
+      "repos_url": "https://api.github.com/users/malicote/repos",
+      "events_url": "https://api.github.com/users/malicote/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/malicote/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-28T04:16:01Z",
+    "updated_at": "2015-03-28T04:16:01Z",
+    "body": "Never mind.  I updated to the latest nightly builds and it worked as expected (after adding a few crate attributes).\n\nrustc 1.0.0-nightly (199bdcfef 2015-03-26) (built 2015-03-26)\nbinary: rustc\ncommit-hash: 199bdcfeff5cfafd1f8e8ff583d7209272469879\ncommit-date: 2015-03-26\nbuild-date: 2015-03-26\nhost: x86_64-apple-darwin\nrelease: 1.0.0-nightly\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/87158786/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

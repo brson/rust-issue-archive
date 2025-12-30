@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66558947",
+    "html_url": "https://github.com/rust-lang/rust/issues/19682#issuecomment-66558947",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/19682",
+    "id": 66558947,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY2NTU4OTQ3",
+    "user": {
+      "login": "norfenstein",
+      "id": 7409615,
+      "node_id": "MDQ6VXNlcjc0MDk2MTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7409615?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/norfenstein",
+      "html_url": "https://github.com/norfenstein",
+      "followers_url": "https://api.github.com/users/norfenstein/followers",
+      "following_url": "https://api.github.com/users/norfenstein/following{/other_user}",
+      "gists_url": "https://api.github.com/users/norfenstein/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/norfenstein/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/norfenstein/subscriptions",
+      "organizations_url": "https://api.github.com/users/norfenstein/orgs",
+      "repos_url": "https://api.github.com/users/norfenstein/repos",
+      "events_url": "https://api.github.com/users/norfenstein/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/norfenstein/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-11T02:10:30Z",
+    "updated_at": "2014-12-11T02:10:30Z",
+    "body": "I'm now confident this is a duplicate of #19340.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/66558947/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

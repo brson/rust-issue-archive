@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139742404",
+    "html_url": "https://github.com/rust-lang/rust/issues/28367#issuecomment-139742404",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28367",
+    "id": 139742404,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzOTc0MjQwNA==",
+    "user": {
+      "login": "jonas-schievink",
+      "id": 1786438,
+      "node_id": "MDQ6VXNlcjE3ODY0Mzg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1786438?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jonas-schievink",
+      "html_url": "https://github.com/jonas-schievink",
+      "followers_url": "https://api.github.com/users/jonas-schievink/followers",
+      "following_url": "https://api.github.com/users/jonas-schievink/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jonas-schievink/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jonas-schievink/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jonas-schievink/subscriptions",
+      "organizations_url": "https://api.github.com/users/jonas-schievink/orgs",
+      "repos_url": "https://api.github.com/users/jonas-schievink/repos",
+      "events_url": "https://api.github.com/users/jonas-schievink/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jonas-schievink/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-12T09:19:57Z",
+    "updated_at": "2015-09-12T09:19:57Z",
+    "body": "- Similar to `HELP` and `ERROR` there's `WARNING` and `NOTE`. The only one that's handled specially is `SUGGESTION`, which must follow a `HELP`, since suggestions don't print with line numbers.\n- Codegen tests run with LLVM's FileCheck, which has its own directives\n- Several header comments are understood:\n  - `// ignore-X` where X is an architecture, OS or stage will ignore the test accordingly\n  - `// ignore-pretty` will not compile the pretty-printed test (this is done to test the pretty-printer, but might not always work)\n  - `ignore-test` always ignores the test\n  - `ignore-lldb` and `ignore-gdb` will skip the debuginfo tests (I don't know much about this)\n  - `min-{gdb,lldb}-version`\n  - And everything in [here](https://github.com/rust-lang/rust/blob/99383f8f5c276d8060f2105ff7e678c81bf4df05/src/compiletest/header.rs#L21)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139742404/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

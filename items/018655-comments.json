@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/67905576",
+    "html_url": "https://github.com/rust-lang/rust/issues/18655#issuecomment-67905576",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18655",
+    "id": 67905576,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY3OTA1NTc2",
+    "user": {
+      "login": "jroesch",
+      "id": 696509,
+      "node_id": "MDQ6VXNlcjY5NjUwOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/696509?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jroesch",
+      "html_url": "https://github.com/jroesch",
+      "followers_url": "https://api.github.com/users/jroesch/followers",
+      "following_url": "https://api.github.com/users/jroesch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jroesch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jroesch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jroesch/subscriptions",
+      "organizations_url": "https://api.github.com/users/jroesch/orgs",
+      "repos_url": "https://api.github.com/users/jroesch/repos",
+      "events_url": "https://api.github.com/users/jroesch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jroesch/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-22T23:40:23Z",
+    "updated_at": "2014-12-22T23:42:49Z",
+    "body": "@nikomatsakis This seems like a bug to me as well. I just encountered it trying to get this code to compile: https://github.com/jroesch/molten/blob/master/src/hlist.rs#L76. \n\nThe way I see it the expansion should be as follows.\n\nGiven a HList of type: `HCons<int, HCons<int, HNil>>` a call to `take(S { pred: Z })` should result in solving an obligation for an impl of `Take<S<Z>> for HCons<int, HCons<int, HNil>>` which incurs a sub obligation to produce an instance of `Take<Z> for HCons<int, HNil>`.\n\nWhen checking this we should know `Take<_>::R` always resolve to an `HList` (in this case to `HNil`) and then `HCons<int, <T as Take<Z>>::R>` should be equivalent to `HCons<int, H0: HList>` for the representability check. So `forall T, H: HList. HCons<T, H>` can be represented as `HCons { head: T, tail: Box<H> }` which looks finite to me.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/67905576/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

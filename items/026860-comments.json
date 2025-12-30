@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/119548800",
+    "html_url": "https://github.com/rust-lang/rust/issues/26860#issuecomment-119548800",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26860",
+    "id": 119548800,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExOTU0ODgwMA==",
+    "user": {
+      "login": "blfpd",
+      "id": 2727048,
+      "node_id": "MDQ6VXNlcjI3MjcwNDg=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2727048?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/blfpd",
+      "html_url": "https://github.com/blfpd",
+      "followers_url": "https://api.github.com/users/blfpd/followers",
+      "following_url": "https://api.github.com/users/blfpd/following{/other_user}",
+      "gists_url": "https://api.github.com/users/blfpd/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/blfpd/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/blfpd/subscriptions",
+      "organizations_url": "https://api.github.com/users/blfpd/orgs",
+      "repos_url": "https://api.github.com/users/blfpd/repos",
+      "events_url": "https://api.github.com/users/blfpd/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/blfpd/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-07-08T11:50:30Z",
+    "updated_at": "2015-07-08T11:50:30Z",
+    "body": "Adding `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib` in my `~/.bashrc` did the trick.\n\nI hope this will be resolved soon in\nhttps://github.com/rust-lang/rust-installer/issues/30\n\nI guess this issue can be close as it doesn't concern Rust itself.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/119548800/reactions",
+      "total_count": 1,
+      "+1": 1,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

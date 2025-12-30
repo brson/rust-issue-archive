@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/35019736",
+    "html_url": "https://github.com/rust-lang/rust/pull/12246#issuecomment-35019736",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12246",
+    "id": 35019736,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM1MDE5NzM2",
+    "user": {
+      "login": "eddyb",
+      "id": 77424,
+      "node_id": "MDQ6VXNlcjc3NDI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77424?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eddyb",
+      "html_url": "https://github.com/eddyb",
+      "followers_url": "https://api.github.com/users/eddyb/followers",
+      "following_url": "https://api.github.com/users/eddyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eddyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eddyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eddyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/eddyb/orgs",
+      "repos_url": "https://api.github.com/users/eddyb/repos",
+      "events_url": "https://api.github.com/users/eddyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eddyb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-02-13T20:05:22Z",
+    "updated_at": "2014-02-13T20:06:22Z",
+    "body": "``` rust\ntrait Foo {\n    fn foo(&self);\n}\npub fn foo(x: &Foo) {\n    x.foo();\n}\n```\n\n``` llvm\n; before\ndefine void @foo::hac36ebd8661e5cd1aj::v0.0({ void (i8*)**, i8* }*) #4 {\nentry-block:\n  %x = alloca { void (i8*)**, i8* }\n  %trait_callee = alloca { void (i8*)**, i8* }\n  %1 = bitcast { void (i8*)**, i8* }* %0 to i8*\n  %2 = bitcast { void (i8*)**, i8* }* %x to i8*\n  call void @llvm.memcpy.p0i8.p0i8.i64(i8* %2, i8* %1, i64 16, i32 8, i1 false)\n  %3 = bitcast { void (i8*)**, i8* }* %x to i8*\n  %4 = bitcast { void (i8*)**, i8* }* %trait_callee to i8*\n  call void @llvm.memcpy.p0i8.p0i8.i64(i8* %4, i8* %3, i64 16, i32 8, i1 false)\n  %5 = getelementptr inbounds { void (i8*)**, i8* }* %trait_callee, i32 0, i32 1\n  %6 = load i8** %5\n  %7 = getelementptr inbounds { void (i8*)**, i8* }* %trait_callee, i32 0, i32 0\n  %8 = bitcast void (i8*)*** %7 to [1 x i8**]**\n  %9 = load [1 x i8**]** %8\n  %10 = getelementptr inbounds [1 x i8**]* %9, i32 0, i32 1\n  %11 = load i8*** %10\n  %12 = bitcast i8** %11 to void (i8*)*\n  call void %12(i8* %6)\n  ret void\n}\n```\n\n``` llvm\n; after\ndefine void @foo::hac36ebd8661e5cd1aj::v0.0({ void (i8*)**, i8* }*) #4 {\nentry-block:\n  %1 = getelementptr inbounds { void (i8*)**, i8* }* %0, i32 0, i32 1\n  %2 = load i8** %1\n  %3 = getelementptr inbounds { void (i8*)**, i8* }* %0, i32 0, i32 0\n  %4 = bitcast void (i8*)*** %3 to [1 x i8**]**\n  %5 = load [1 x i8**]** %4\n  %6 = getelementptr inbounds [1 x i8**]* %5, i32 0, i32 1\n  %7 = load i8*** %6\n  %8 = bitcast i8** %7 to void (i8*)*\n  call void %8(i8* %2)\n  ret void\n}\n```\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/35019736/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

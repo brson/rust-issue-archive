@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/30618582",
+    "html_url": "https://github.com/rust-lang/rust/issues/10976#issuecomment-30618582",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10976",
+    "id": 30618582,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNjE4NTgy",
+    "user": {
+      "login": "erickt",
+      "id": 84711,
+      "node_id": "MDQ6VXNlcjg0NzEx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/84711?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/erickt",
+      "html_url": "https://github.com/erickt",
+      "followers_url": "https://api.github.com/users/erickt/followers",
+      "following_url": "https://api.github.com/users/erickt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/erickt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/erickt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/erickt/subscriptions",
+      "organizations_url": "https://api.github.com/users/erickt/orgs",
+      "repos_url": "https://api.github.com/users/erickt/repos",
+      "events_url": "https://api.github.com/users/erickt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/erickt/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-12-15T19:51:30Z",
+    "updated_at": "2013-12-15T19:51:30Z",
+    "body": "I have an experimental implementation of this in this [gist](https://gist.github.com/erickt/7969451#file-test-rs-L145). It's roughly twice as fast, but I'm not sure if it's safe yet. It's still 10% slower than `v.iter().map(|x| *x)` though.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/30618582/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

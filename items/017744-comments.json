@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69385896",
+    "html_url": "https://github.com/rust-lang/rust/issues/17744#issuecomment-69385896",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17744",
+    "id": 69385896,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5Mzg1ODk2",
+    "user": {
+      "login": "sp3d",
+      "id": 4684824,
+      "node_id": "MDQ6VXNlcjQ2ODQ4MjQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4684824?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sp3d",
+      "html_url": "https://github.com/sp3d",
+      "followers_url": "https://api.github.com/users/sp3d/followers",
+      "following_url": "https://api.github.com/users/sp3d/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sp3d/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sp3d/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sp3d/subscriptions",
+      "organizations_url": "https://api.github.com/users/sp3d/orgs",
+      "repos_url": "https://api.github.com/users/sp3d/repos",
+      "events_url": "https://api.github.com/users/sp3d/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sp3d/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-09T19:31:52Z",
+    "updated_at": "2015-01-09T19:31:52Z",
+    "body": "This works now.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69385896/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

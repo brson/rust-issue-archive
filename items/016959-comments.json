@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58362313",
+    "html_url": "https://github.com/rust-lang/rust/issues/16959#issuecomment-58362313",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16959",
+    "id": 58362313,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU4MzYyMzEz",
+    "user": {
+      "login": "dotdash",
+      "id": 230962,
+      "node_id": "MDQ6VXNlcjIzMDk2Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/230962?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dotdash",
+      "html_url": "https://github.com/dotdash",
+      "followers_url": "https://api.github.com/users/dotdash/followers",
+      "following_url": "https://api.github.com/users/dotdash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dotdash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dotdash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dotdash/subscriptions",
+      "organizations_url": "https://api.github.com/users/dotdash/orgs",
+      "repos_url": "https://api.github.com/users/dotdash/repos",
+      "events_url": "https://api.github.com/users/dotdash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dotdash/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-08T14:06:26Z",
+    "updated_at": "2014-10-08T14:06:26Z",
+    "body": "The static value should be an `i8` not an `i1` (like all in-memory booleans).\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58362313/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

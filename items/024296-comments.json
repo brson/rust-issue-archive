@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/168015914",
+    "html_url": "https://github.com/rust-lang/rust/issues/24296#issuecomment-168015914",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/24296",
+    "id": 168015914,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2ODAxNTkxNA==",
+    "user": {
+      "login": "fhartwig",
+      "id": 83271,
+      "node_id": "MDQ6VXNlcjgzMjcx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83271?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fhartwig",
+      "html_url": "https://github.com/fhartwig",
+      "followers_url": "https://api.github.com/users/fhartwig/followers",
+      "following_url": "https://api.github.com/users/fhartwig/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fhartwig/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fhartwig/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fhartwig/subscriptions",
+      "organizations_url": "https://api.github.com/users/fhartwig/orgs",
+      "repos_url": "https://api.github.com/users/fhartwig/repos",
+      "events_url": "https://api.github.com/users/fhartwig/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fhartwig/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-30T15:02:53Z",
+    "updated_at": "2015-12-30T15:03:40Z",
+    "body": "This seems to have been fixed, though I don't know how/when. Making the `buf` and `str` modules of the bytes crate private, I can't reproduce this problem any more (on nightly). The struct docs now get \"inlined\" into the crate root, which is probably what we want.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/168015914/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

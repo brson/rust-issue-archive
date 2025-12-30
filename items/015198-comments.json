@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/76990121",
+    "html_url": "https://github.com/rust-lang/rust/issues/15198#issuecomment-76990121",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15198",
+    "id": 76990121,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc2OTkwMTIx",
+    "user": {
+      "login": "kmcallister",
+      "id": 444997,
+      "node_id": "MDQ6VXNlcjQ0NDk5Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/444997?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kmcallister",
+      "html_url": "https://github.com/kmcallister",
+      "followers_url": "https://api.github.com/users/kmcallister/followers",
+      "following_url": "https://api.github.com/users/kmcallister/following{/other_user}",
+      "gists_url": "https://api.github.com/users/kmcallister/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/kmcallister/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/kmcallister/subscriptions",
+      "organizations_url": "https://api.github.com/users/kmcallister/orgs",
+      "repos_url": "https://api.github.com/users/kmcallister/repos",
+      "events_url": "https://api.github.com/users/kmcallister/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/kmcallister/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-03T17:18:50Z",
+    "updated_at": "2015-03-03T17:19:07Z",
+    "body": "This is an example of the problem that [RFC 550](https://github.com/rust-lang/rfcs/blob/master/text/0550-macro-future-proofing.md) was meant to prevent, which indeed it does:\n\n```\n<anon>:2:6: 2:21 error: `$condition:expr` is followed by `$action:block`, which is not allowed for `expr` fragments\n<anon>:2     ($condition:expr $action:block) => ({})\n              ^~~~~~~~~~~~~~~\n```\n\nThe ambiguity between struct initializers and blocks is a long-standing wart of the expression grammar.  It's probably responsible for other bugs, but it should again not cause macro breakage like this, thanks to RFC 550.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/76990121/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

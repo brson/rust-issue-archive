@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/55113002",
+    "html_url": "https://github.com/rust-lang/rust/issues/16987#issuecomment-55113002",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16987",
+    "id": 55113002,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1MTEzMDAy",
+    "user": {
+      "login": "uorbe001",
+      "id": 610728,
+      "node_id": "MDQ6VXNlcjYxMDcyOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/610728?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/uorbe001",
+      "html_url": "https://github.com/uorbe001",
+      "followers_url": "https://api.github.com/users/uorbe001/followers",
+      "following_url": "https://api.github.com/users/uorbe001/following{/other_user}",
+      "gists_url": "https://api.github.com/users/uorbe001/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/uorbe001/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/uorbe001/subscriptions",
+      "organizations_url": "https://api.github.com/users/uorbe001/orgs",
+      "repos_url": "https://api.github.com/users/uorbe001/repos",
+      "events_url": "https://api.github.com/users/uorbe001/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/uorbe001/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-09-10T13:16:07Z",
+    "updated_at": "2014-09-10T13:16:07Z",
+    "body": "I forgot to mention, this seems to have been introduced with #16477\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/55113002/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

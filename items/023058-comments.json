@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77670230",
+    "html_url": "https://github.com/rust-lang/rust/issues/23058#issuecomment-77670230",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23058",
+    "id": 77670230,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3NjcwMjMw",
+    "user": {
+      "login": "drewcrawford",
+      "id": 183400,
+      "node_id": "MDQ6VXNlcjE4MzQwMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/183400?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/drewcrawford",
+      "html_url": "https://github.com/drewcrawford",
+      "followers_url": "https://api.github.com/users/drewcrawford/followers",
+      "following_url": "https://api.github.com/users/drewcrawford/following{/other_user}",
+      "gists_url": "https://api.github.com/users/drewcrawford/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/drewcrawford/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/drewcrawford/subscriptions",
+      "organizations_url": "https://api.github.com/users/drewcrawford/orgs",
+      "repos_url": "https://api.github.com/users/drewcrawford/repos",
+      "events_url": "https://api.github.com/users/drewcrawford/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/drewcrawford/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-07T03:07:39Z",
+    "updated_at": "2015-03-07T03:07:39Z",
+    "body": "This looks good now.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77670230/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

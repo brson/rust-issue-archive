@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68361301",
+    "html_url": "https://github.com/rust-lang/rust/issues/20333#issuecomment-68361301",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20333",
+    "id": 68361301,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4MzYxMzAx",
+    "user": {
+      "login": "SimonSapin",
+      "id": 291359,
+      "node_id": "MDQ6VXNlcjI5MTM1OQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/291359?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/SimonSapin",
+      "html_url": "https://github.com/SimonSapin",
+      "followers_url": "https://api.github.com/users/SimonSapin/followers",
+      "following_url": "https://api.github.com/users/SimonSapin/following{/other_user}",
+      "gists_url": "https://api.github.com/users/SimonSapin/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/SimonSapin/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/SimonSapin/subscriptions",
+      "organizations_url": "https://api.github.com/users/SimonSapin/orgs",
+      "repos_url": "https://api.github.com/users/SimonSapin/repos",
+      "events_url": "https://api.github.com/users/SimonSapin/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/SimonSapin/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-30T14:42:07Z",
+    "updated_at": "2014-12-30T14:42:07Z",
+    "body": "Another possibility is to make the `Char` methods private (or not re-exported by libstd), implementation details of the `str` methods.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68361301/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

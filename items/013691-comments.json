@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/41115802",
+    "html_url": "https://github.com/rust-lang/rust/issues/13691#issuecomment-41115802",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13691",
+    "id": 41115802,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQxMTE1ODAy",
+    "user": {
+      "login": "jacob-hegna",
+      "id": 2281666,
+      "node_id": "MDQ6VXNlcjIyODE2NjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2281666?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jacob-hegna",
+      "html_url": "https://github.com/jacob-hegna",
+      "followers_url": "https://api.github.com/users/jacob-hegna/followers",
+      "following_url": "https://api.github.com/users/jacob-hegna/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jacob-hegna/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jacob-hegna/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jacob-hegna/subscriptions",
+      "organizations_url": "https://api.github.com/users/jacob-hegna/orgs",
+      "repos_url": "https://api.github.com/users/jacob-hegna/repos",
+      "events_url": "https://api.github.com/users/jacob-hegna/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jacob-hegna/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-23T01:32:39Z",
+    "updated_at": "2014-04-23T01:32:39Z",
+    "body": "Never mind, it appears that this is already implemented: http://static.rust-lang.org/doc/master/src/std/home/rustbuild/src/rust-buildbot/slave/nightly-linux/build/src/libstd/tuple.rs.html#31-35\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/41115802/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

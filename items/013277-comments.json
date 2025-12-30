@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39470814",
+    "html_url": "https://github.com/rust-lang/rust/pull/13277#issuecomment-39470814",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13277",
+    "id": 39470814,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NDcwODE0",
+    "user": {
+      "login": "Arcterus",
+      "id": 829813,
+      "node_id": "MDQ6VXNlcjgyOTgxMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/829813?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Arcterus",
+      "html_url": "https://github.com/Arcterus",
+      "followers_url": "https://api.github.com/users/Arcterus/followers",
+      "following_url": "https://api.github.com/users/Arcterus/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Arcterus/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Arcterus/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Arcterus/subscriptions",
+      "organizations_url": "https://api.github.com/users/Arcterus/orgs",
+      "repos_url": "https://api.github.com/users/Arcterus/repos",
+      "events_url": "https://api.github.com/users/Arcterus/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Arcterus/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-03T16:11:06Z",
+    "updated_at": "2014-04-03T16:11:06Z",
+    "body": "I'm not sure why this is failing.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39470814/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

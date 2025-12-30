@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39623876",
+    "html_url": "https://github.com/rust-lang/rust/pull/13331#issuecomment-39623876",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13331",
+    "id": 39623876,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NjIzODc2",
+    "user": {
+      "login": "pongad",
+      "id": 1617025,
+      "node_id": "MDQ6VXNlcjE2MTcwMjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1617025?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pongad",
+      "html_url": "https://github.com/pongad",
+      "followers_url": "https://api.github.com/users/pongad/followers",
+      "following_url": "https://api.github.com/users/pongad/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pongad/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pongad/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pongad/subscriptions",
+      "organizations_url": "https://api.github.com/users/pongad/orgs",
+      "repos_url": "https://api.github.com/users/pongad/repos",
+      "events_url": "https://api.github.com/users/pongad/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pongad/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-05T00:33:36Z",
+    "updated_at": "2014-04-05T00:33:36Z",
+    "body": "@thestinger Should be fixed now.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39623876/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18507474",
+    "html_url": "https://github.com/rust-lang/rust/pull/6765#issuecomment-18507474",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6765",
+    "id": 18507474,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NTA3NDc0",
+    "user": {
+      "login": "fdr",
+      "id": 7191,
+      "node_id": "MDQ6VXNlcjcxOTE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7191?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/fdr",
+      "html_url": "https://github.com/fdr",
+      "followers_url": "https://api.github.com/users/fdr/followers",
+      "following_url": "https://api.github.com/users/fdr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/fdr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/fdr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/fdr/subscriptions",
+      "organizations_url": "https://api.github.com/users/fdr/orgs",
+      "repos_url": "https://api.github.com/users/fdr/repos",
+      "events_url": "https://api.github.com/users/fdr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/fdr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-27T17:05:54Z",
+    "updated_at": "2013-05-27T17:05:54Z",
+    "body": "d'oh, and I was pretty sure I used the drop-down too.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18507474/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

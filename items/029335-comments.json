@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/167251749",
+    "html_url": "https://github.com/rust-lang/rust/issues/29335#issuecomment-167251749",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29335",
+    "id": 167251749,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2NzI1MTc0OQ==",
+    "user": {
+      "login": "lesnyrysiek",
+      "id": 1105392,
+      "node_id": "MDQ6VXNlcjExMDUzOTI=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1105392?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lesnyrysiek",
+      "html_url": "https://github.com/lesnyrysiek",
+      "followers_url": "https://api.github.com/users/lesnyrysiek/followers",
+      "following_url": "https://api.github.com/users/lesnyrysiek/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lesnyrysiek/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lesnyrysiek/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lesnyrysiek/subscriptions",
+      "organizations_url": "https://api.github.com/users/lesnyrysiek/orgs",
+      "repos_url": "https://api.github.com/users/lesnyrysiek/repos",
+      "events_url": "https://api.github.com/users/lesnyrysiek/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lesnyrysiek/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-25T17:05:30Z",
+    "updated_at": "2015-12-25T17:05:30Z",
+    "body": "Add a notice that methods .rotate_left() and .rotate_right() are not the same as '<<' '>>'.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/167251749/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

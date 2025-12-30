@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27541599",
+    "html_url": "https://github.com/rust-lang/rust/pull/10210#issuecomment-27541599",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10210",
+    "id": 27541599,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3NTQxNTk5",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-01T01:08:14Z",
+    "updated_at": "2013-11-01T01:08:14Z",
+    "body": "I talked with @thestinger on IRC, and I'm uncomfortable merging this as-is. Right now what happens is that the library crate (`inline_dtor` in this case), will actually compile and emit a symbol for `Foo::drop`, but the metadata for the crate has the inlined version of the function instead of the symbol name (because it's flagged with `#[inline]`), due to [this line](https://github.com/mozilla/rust/blob/master/src/librustc/metadata/encoder.rs#L937). When `get_res_dtor` looks up this function, then it attempts to find the symbol of the function, causing an ICE to happen (because the symbol wasn't encoded).\n\nFrom the looks of this, this sounds like the `get_res_dtor` should not be attempting to duplicate the work on behalf of `trans_fn_ref` and friends inside of `trans::callee`, so I would much rather refactor `trans::callee` to be callable from `trans::glue` instead of continuing to patch up `get_res_dtor` (when it shouldn't exist).\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27541599/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

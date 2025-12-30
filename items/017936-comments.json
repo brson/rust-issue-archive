@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58732239",
+    "html_url": "https://github.com/rust-lang/rust/pull/17936#issuecomment-58732239",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17936",
+    "id": 58732239,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU4NzMyMjM5",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-11T00:45:37Z",
+    "updated_at": "2014-10-11T00:45:37Z",
+    "body": "Yeah it looks like the recommended alternative, `iter_mut` won't quite work here because you'd almost want to clone/reverse a mutable iterator (which isn't quite sound). It's great to get rid of the other warnings, so we may as well land that in the meantime!\n\nIf we do end up removing `mut_shift_ref`, then it may wish to be included locally in the test as a safe function with an unsafe implementation, which is probably just fine as well!\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58732239/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

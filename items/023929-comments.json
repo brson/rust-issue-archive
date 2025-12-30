@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/88310826",
+    "html_url": "https://github.com/rust-lang/rust/issues/23929#issuecomment-88310826",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23929",
+    "id": 88310826,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg4MzEwODI2",
+    "user": {
+      "login": "daboross",
+      "id": 1152146,
+      "node_id": "MDQ6VXNlcjExNTIxNDY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1152146?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/daboross",
+      "html_url": "https://github.com/daboross",
+      "followers_url": "https://api.github.com/users/daboross/followers",
+      "following_url": "https://api.github.com/users/daboross/following{/other_user}",
+      "gists_url": "https://api.github.com/users/daboross/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/daboross/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/daboross/subscriptions",
+      "organizations_url": "https://api.github.com/users/daboross/orgs",
+      "repos_url": "https://api.github.com/users/daboross/repos",
+      "events_url": "https://api.github.com/users/daboross/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/daboross/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-01T01:51:54Z",
+    "updated_at": "2015-04-01T01:51:54Z",
+    "body": "Backtrace!\n\n```\n$ RUST_BACKTRACE=1 rustc thing.rs\nthing.rs:2:15: 2:16 error: internal compiler error: ident only path should have been covered already\nthing.rs:2     for thing(x[]) {\n                         ^\nnote: the compiler unexpectedly panicked. this is a bug.\nnote: we would appreciate a bug report: https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md#bug-reports\nnote: run with `RUST_BACKTRACE=1` for a backtrace\nthread 'rustc' panicked at 'Box<Any>', /home/rustbuild/src/rust-buildbot/slave/nightly-dist-rustc-linux/build/src/libsyntax/diagnostic.rs:130\n\nstack backtrace:\n   1:     0x7f70f09cb849 - sys::backtrace::write::h0f507cf2b119bca1VvD\n   2:     0x7f70f09f62ac - panicking::on_panic::h04ebb6dcfaadcf921LJ\n   3:     0x7f70f091c423 - rt::unwind::begin_unwind_inner::h43d0ccf768b9e081IrJ\n   4:     0x7f70edd1760d - rt::unwind::begin_unwind::h826077241771358402\n   5:     0x7f70edd175b3 - diagnostic::SpanHandler::span_bug::h80ed710d6b368e45ccB\n   6:     0x7f70edd3e7ca - parse::parser::Parser<'a>::parse_pat::h4c0d7251e28e428a3qH\n   7:     0x7f70edd52bfd - parse::parser::Parser<'a>::parse_unspanned_seq::h3679275454620717133\n   8:     0x7f70edd3dc46 - parse::parser::Parser<'a>::parse_pat::h4c0d7251e28e428a3qH\n   9:     0x7f70edd4b0e6 - parse::parser::Parser<'a>::parse_for_expr::hc1b9eb2dc219fc8epbH\n  10:     0x7f70edd46d55 - parse::parser::Parser<'a>::parse_bottom_expr::h362d99c42b2176e7GfG\n  11:     0x7f70edd4d57d - parse::parser::Parser<'a>::parse_dot_or_call_expr::hd16d2c5d19125e72EyG\n  12:     0x7f70edd503ab - parse::parser::Parser<'a>::parse_prefix_expr::h96aa457c8b8ebc6a0SG\n  13:     0x7f70edd509fd - parse::parser::Parser<'a>::parse_binops::hb1d80895ae4d5b970XG\n  14:     0x7f70edd512c6 - parse::parser::Parser<'a>::parse_assign_expr::h6e06d25a36ee4c45H2G\n  15:     0x7f70edd540e6 - parse::parser::Parser<'a>::parse_stmt_::h14eccd81314aa067uLH\n  16:     0x7f70edd4c75a - parse::parser::Parser<'a>::parse_block_tail::ha53e37ba005c5052OVH\n  17:     0x7f70edd37e7d - parse::parser::Parser<'a>::parse_inner_attrs_and_block::he0fab8c5122aa9faHUH\n  18:     0x7f70edd6045a - parse::parser::Parser<'a>::parse_item_fn::h2a46e5272077d7cfSvI\n  19:     0x7f70edd56ff6 - parse::parser::Parser<'a>::parse_item_::h35a25dbfb6a95a1cMlJ\n  20:     0x7f70edd6616a - parse::parser::Parser<'a>::parse_mod_items::heb665d27e9a3b4e8RRI\n  21:     0x7f70edd6c845 - parse::parser::Parser<'a>::parse_crate_mod::h75221af8ec569051AKJ\n  22:     0x7f70edd81555 - parse::parse_crate_from_file::hb8f7065228fc9b9fZxQ\n  23:     0x7f70f1069758 - driver::phase_1_parse_input::closure.15497\n  24:     0x7f70f1040963 - driver::phase_1_parse_input::hb46b4058e9a3285cNqa\n  25:     0x7f70f103cdc7 - driver::compile_input::hef973a4d6868aed2Qba\n  26:     0x7f70f10f5d55 - run_compiler::h7f8cb65ce2d89ffap2b\n  27:     0x7f70f10f380a - thunk::F.Invoke<A, R>::invoke::h2974104229743277102\n  28:     0x7f70f10f2a59 - rt::unwind::try::try_fn::h13662642278760376923\n  29:     0x7f70f0a70768 - rust_try_inner\n  30:     0x7f70f0a70755 - rust_try\n  31:     0x7f70f10f2db7 - thunk::F.Invoke<A, R>::invoke::h8690323944732705129\n  32:     0x7f70f09e1291 - sys::thread::create::thread_start::hf9ba913050908365ulI\n  33:     0x7f70ea7fe181 - start_thread\n  34:     0x7f70f058347c - __clone\n  35:                0x0 - <unknown>\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/88310826/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

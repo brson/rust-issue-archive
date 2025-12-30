@@ -1,0 +1,161 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/28994",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/28994/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/28994/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/28994/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/28994",
+  "id": 110998648,
+  "node_id": "MDU6SXNzdWUxMTA5OTg2NDg=",
+  "number": 28994,
+  "title": "HRTB and Associated Types combine to make fn not implement corresponding Fn trait",
+  "user": {
+    "login": "gereeter",
+    "id": 2328242,
+    "node_id": "MDQ6VXNlcjIzMjgyNDI=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2328242?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gereeter",
+    "html_url": "https://github.com/gereeter",
+    "followers_url": "https://api.github.com/users/gereeter/followers",
+    "following_url": "https://api.github.com/users/gereeter/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gereeter/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/gereeter/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/gereeter/subscriptions",
+    "organizations_url": "https://api.github.com/users/gereeter/orgs",
+    "repos_url": "https://api.github.com/users/gereeter/repos",
+    "events_url": "https://api.github.com/users/gereeter/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/gereeter/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 1775993,
+      "node_id": "MDU6TGFiZWwxNzc1OTkz",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-lifetimes",
+      "name": "A-lifetimes",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Lifetimes / regions"
+    },
+    {
+      "id": 46741598,
+      "node_id": "MDU6TGFiZWw0Njc0MTU5OA==",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/E-needs-test",
+      "name": "E-needs-test",
+      "color": "02e10c",
+      "default": false,
+      "description": "Call for participation: An issue has been fixed and does not reproduce, but no test has been added."
+    },
+    {
+      "id": 149689562,
+      "node_id": "MDU6TGFiZWwxNDk2ODk1NjI=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-associated-items",
+      "name": "A-associated-items",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Associated items (types, constants & functions)"
+    },
+    {
+      "id": 211668100,
+      "node_id": "MDU6TGFiZWwyMTE2NjgxMDA=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-compiler",
+      "name": "T-compiler",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+    },
+    {
+      "id": 650731663,
+      "node_id": "MDU6TGFiZWw2NTA3MzE2NjM=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-bug",
+      "name": "C-bug",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: This is a bug."
+    },
+    {
+      "id": 4172483496,
+      "node_id": "LA_kwDOAAsO6M74swuo",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-types",
+      "name": "T-types",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the types team, which will review and decide on the PR/issue."
+    },
+    {
+      "id": 7511910015,
+      "node_id": "LA_kwDOAAsO6M8AAAABv76mfw",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-higher-ranked",
+      "name": "A-higher-ranked",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Higher-ranked things (e.g., lifetimes, types, trait bounds aka HRTBs)"
+    }
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 5,
+  "created_at": "2015-10-12T15:26:47Z",
+  "updated_at": "2024-10-08T07:07:39Z",
+  "closed_at": "2024-10-08T07:07:38Z",
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "``` rust\ntrait LifetimeToType<'a> {\n    type Out;\n}\n\nimpl<'a> LifetimeToType<'a> for () {\n    type Out = &'a ();\n}\n\nfn id<'a>(val: &'a ()) -> <() as LifetimeToType<'a>>::Out {\n    val\n}\n\nfn assert_fn<F: for<'a> FnOnce(&'a ()) -> <() as LifetimeToType<'a>>::Out>(_func: F) { }\n\nfn main() {\n    assert_fn(id);\n}\n```\n\nfails with\n\n```\ntest.rs:16:5: 16:14 error: type mismatch resolving `for<'a> <fn(&'a ()) -> <() as LifetimeToType<'a>>::Out {id} as core::ops::FnOnce<(&'a (),)>>::Output == <() as LifetimeToType<'a>>::Out`:\n expected &-ptr,\n    found associated type [E0271]\ntest.rs:16     assert_fn(id);\n               ^~~~~~~~~\ntest.rs:16:5: 16:14 help: run `rustc --explain E0271` to see a detailed explanation\ntest.rs:16:5: 16:14 note: required by `assert_fn`\nerror: aborting due to previous error\n```\n",
+  "closed_by": {
+    "login": "bors",
+    "id": 3372342,
+    "node_id": "MDQ6VXNlcjMzNzIzNDI=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/3372342?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/bors",
+    "html_url": "https://github.com/bors",
+    "followers_url": "https://api.github.com/users/bors/followers",
+    "following_url": "https://api.github.com/users/bors/following{/other_user}",
+    "gists_url": "https://api.github.com/users/bors/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/bors/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/bors/subscriptions",
+    "organizations_url": "https://api.github.com/users/bors/orgs",
+    "repos_url": "https://api.github.com/users/bors/repos",
+    "events_url": "https://api.github.com/users/bors/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/bors/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/28994/reactions",
+    "total_count": 0,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/28994/timeline",
+  "performed_via_github_app": null,
+  "state_reason": "completed",
+  "_meta": {
+    "type": "issue"
+  }
+}

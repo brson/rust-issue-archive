@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/11323999",
+    "html_url": "https://github.com/rust-lang/rust/issues/4097#issuecomment-11323999",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/4097",
+    "id": 11323999,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMzIzOTk5",
+    "user": {
+      "login": "brendanzab",
+      "id": 695077,
+      "node_id": "MDQ6VXNlcjY5NTA3Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/695077?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brendanzab",
+      "html_url": "https://github.com/brendanzab",
+      "followers_url": "https://api.github.com/users/brendanzab/followers",
+      "following_url": "https://api.github.com/users/brendanzab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brendanzab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brendanzab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brendanzab/subscriptions",
+      "organizations_url": "https://api.github.com/users/brendanzab/orgs",
+      "repos_url": "https://api.github.com/users/brendanzab/repos",
+      "events_url": "https://api.github.com/users/brendanzab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brendanzab/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-12-13T06:31:35Z",
+    "updated_at": "2012-12-13T16:54:36Z",
+    "body": "Yes, this is a bit of a pain.\n\n`foo.rs`\n\n```\n#[link(name = \"foo\",\n       vers = \"0.1\")];\n#[crate_type = \"lib\"];\n\npub trait Foo {\n    static pub fn foo() -> self;\n}\n\npub impl int: Foo {\n    static pub fn foo() -> int { 42 }\n}\n```\n\n`bar.rs`\n\n```\nextern mod foo;\nuse foo::Foo;\n\nfn main() {\n    assert 42 == Foo::foo();\n}\n```\n\n`error`\n\n```\n$ rustc foo.rs \nwarning: no debug symbols in executable (-arch x86_64)\n\n$ rustc bar.rs -L .\nbar.rs:5:17: 5:25 error: unresolved name\nbar.rs:5     assert 42 == Foo::foo();\n                          ^~~~~~~~\nbar.rs:5:17: 5:25 error: use of undeclared module `Foo`\nbar.rs:5     assert 42 == Foo::foo();\n                          ^~~~~~~~\nbar.rs:5:17: 5:25 error: unresolved name: Foo::foo\nbar.rs:5     assert 42 == Foo::foo();\n                          ^~~~~~~~\nerror: aborting due to 3 previous errors\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/11323999/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

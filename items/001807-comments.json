@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/3926347",
+    "html_url": "https://github.com/rust-lang/rust/issues/1807#issuecomment-3926347",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/1807",
+    "id": 3926347,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MjYzNDc=",
+    "user": {
+      "login": "jwise",
+      "id": 87427,
+      "node_id": "MDQ6VXNlcjg3NDI3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/87427?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jwise",
+      "html_url": "https://github.com/jwise",
+      "followers_url": "https://api.github.com/users/jwise/followers",
+      "following_url": "https://api.github.com/users/jwise/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jwise/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jwise/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jwise/subscriptions",
+      "organizations_url": "https://api.github.com/users/jwise/orgs",
+      "repos_url": "https://api.github.com/users/jwise/repos",
+      "events_url": "https://api.github.com/users/jwise/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jwise/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-02-12T08:01:58Z",
+    "updated_at": "2012-02-12T08:01:58Z",
+    "body": "Similar behavior for a pure fn:\n\n```\njoshua@escape:~/rust/rlambda$ rustc lambda.rc\n./lambda.rs:36:2: 36:6 error: expecting fn, found pure\n./lambda.rs:36\n                 ^~~~\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/3926347/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

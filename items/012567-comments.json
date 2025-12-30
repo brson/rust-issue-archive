@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39530608",
+    "html_url": "https://github.com/rust-lang/rust/issues/12567#issuecomment-39530608",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12567",
+    "id": 39530608,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NTMwNjA4",
+    "user": {
+      "login": "mjhanninen",
+      "id": 82970,
+      "node_id": "MDQ6VXNlcjgyOTcw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/82970?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/mjhanninen",
+      "html_url": "https://github.com/mjhanninen",
+      "followers_url": "https://api.github.com/users/mjhanninen/followers",
+      "following_url": "https://api.github.com/users/mjhanninen/following{/other_user}",
+      "gists_url": "https://api.github.com/users/mjhanninen/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/mjhanninen/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/mjhanninen/subscriptions",
+      "organizations_url": "https://api.github.com/users/mjhanninen/orgs",
+      "repos_url": "https://api.github.com/users/mjhanninen/repos",
+      "events_url": "https://api.github.com/users/mjhanninen/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/mjhanninen/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-04T04:20:49Z",
+    "updated_at": "2014-04-04T04:21:09Z",
+    "body": "I'm having this same problem. Here's backtrace:\n\n```\nrustc --out-dir build src/cat.rs\ntask 'rustc' failed at 'called `Option::unwrap()` on a `None` value', /private/tmp/rust-Q8uz/rust-0.10/src/libstd/option.rs:264\nstack backtrace:\n   1:        0x1084c68e4 - rt::backtrace::imp::write::h2a8a3b7117b6a3bag8b::v0.10\n   2:        0x10842ab56 - rt::unwind::begin_unwind_inner::h13ee063055871ef1KIb::v0.10 \n   3:        0x108429fc8 - rt::unwind::begin_unwind::hcf46aa8743077363kIb::v0.10\n   4:        0x1084b1b11 - fmt::format_unsafe::hd5116fa5c4c9ce50cAS::v0.10\n   5:        0x10845e4d1 - fmt::format::h8bf4d0c9e4e704d3UzS::v0.10\n   6:        0x107ba5bc2 - diagnostic::print_diagnostic::hefa9ac952c0a6cb3u2b::v0.10\n   7:        0x107ba3b1a - diagnostic::EmitterWriter.Emitter::emit::h06089cbc7baed50ax8b::v0.10\n   8:        0x107ba18e4 - diagnostic::Handler::fatal::h345b5e2971fa50cbvSb::v0.10\n   9:        0x105bd6118 - driver::session::Session::fatal::h8002452597140fadteh::v0.10\n  10:        0x10624b573 - back::link::llvm_err::h6cd068d05a4f3b2ehl1::v0.10\n  11:        0x10624b73f - back::link::WriteOutputFile::hd096c6e8f4b782f4dm1::v0.10\n  12:        0x106250f3f - back::link::write::run_passes::closure.83784\n  13:        0x105f3d13f - util::common::time::h9acad76c21817c9aXHh::v0.10\n  14:        0x10624d1cd - back::link::write::run_passes::hbe6513f82bc31607so1::v0.10\n  15:        0x106350aa1 - driver::driver::phase_5_run_llvm_passes::closure.90137\n  16:        0x105f3d13f - util::common::time::h9acad76c21817c9aXHh::v0.10\n  17:        0x10635093d - driver::driver::phase_5_run_llvm_passes::h22117e32ed7247datHf::v0.10\n  18:        0x1063534b2 - driver::driver::compile_input::haa7c9f4729d6243csWf::v0.10\n  19:        0x1063786c4 - run_compiler::hfd5ecc9785222053Yzn::v0.10\n  20:        0x10638c36d - main_args::closure.92066\n  21:        0x10638ab82 - monitor::closure.91951\n  22:        0x10638672b - task::TaskBuilder::try::closure.91726\n  23:        0x105b4649c - task::spawn_opts::closure.7957\n  24:        0x1084c1d08 - rt::task::Task::run::closure.41637\n  25:        0x1084cc5fc - rust_try\n  26:        0x1084c1b87 - rt::task::Task::run::h544c274b867f177dNB9::v0.10\n  27:        0x105b4631f - task::spawn_opts::closure.7929\n  28:        0x1084c52c6 - rt::thread::thread_start::hc06c53d926f6e6a3uga::v0.10\n  29:     0x7fff8edac899 - _pthread_body\n  30:     0x7fff8edac72a - _pthread_struct_init\n```\n\nand output from `rustc -v`:\n\n```\nrustc 0.10\nhost: x86_64-apple-darwin\n```\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39530608/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

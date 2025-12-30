@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68050790",
+    "html_url": "https://github.com/rust-lang/rust/issues/20193#issuecomment-68050790",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20193",
+    "id": 68050790,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4MDUwNzkw",
+    "user": {
+      "login": "japaric",
+      "id": 5018213,
+      "node_id": "MDQ6VXNlcjUwMTgyMTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5018213?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/japaric",
+      "html_url": "https://github.com/japaric",
+      "followers_url": "https://api.github.com/users/japaric/followers",
+      "following_url": "https://api.github.com/users/japaric/following{/other_user}",
+      "gists_url": "https://api.github.com/users/japaric/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/japaric/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/japaric/subscriptions",
+      "organizations_url": "https://api.github.com/users/japaric/orgs",
+      "repos_url": "https://api.github.com/users/japaric/repos",
+      "events_url": "https://api.github.com/users/japaric/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/japaric/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-12-24T12:59:20Z",
+    "updated_at": "2014-12-24T12:59:20Z",
+    "body": "I think this is a duplicate of #19141. Right now, when you assign a closure to a variable you always end with a boxed closure, and using `move` with a boxed closure shouldn't be allowed (the bug is that the compiler lets you do that) because that kind of closure doesn't capture by value. Once you've created this invalid closure, depending on how you created it or what you do with it, you'll get different LLVM assertions.\n\nThe workaround here is to annotate the closure (like `move |:|`) to make the compiler do the Right Thing and give you back an \"unboxed\" closure.\n\ncc @nikomatsakis \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68050790/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

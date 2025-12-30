@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/42112437",
+    "html_url": "https://github.com/rust-lang/rust/pull/13914#issuecomment-42112437",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13914",
+    "id": 42112437,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQyMTEyNDM3",
+    "user": {
+      "login": "adrientetar",
+      "id": 1250894,
+      "node_id": "MDQ6VXNlcjEyNTA4OTQ=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1250894?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/adrientetar",
+      "html_url": "https://github.com/adrientetar",
+      "followers_url": "https://api.github.com/users/adrientetar/followers",
+      "following_url": "https://api.github.com/users/adrientetar/following{/other_user}",
+      "gists_url": "https://api.github.com/users/adrientetar/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/adrientetar/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/adrientetar/subscriptions",
+      "organizations_url": "https://api.github.com/users/adrientetar/orgs",
+      "repos_url": "https://api.github.com/users/adrientetar/repos",
+      "events_url": "https://api.github.com/users/adrientetar/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/adrientetar/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-05-03T18:19:36Z",
+    "updated_at": "2014-05-03T18:19:36Z",
+    "body": "I think that the failure is due to line 1411 of tutorial where code block begins with 3 tildes and ends with 4.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/42112437/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

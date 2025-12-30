@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/97996445",
+    "html_url": "https://github.com/rust-lang/rust/issues/25008#issuecomment-97996445",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25008",
+    "id": 97996445,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk3OTk2NDQ1",
+    "user": {
+      "login": "pnkfelix",
+      "id": 173127,
+      "node_id": "MDQ6VXNlcjE3MzEyNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pnkfelix",
+      "html_url": "https://github.com/pnkfelix",
+      "followers_url": "https://api.github.com/users/pnkfelix/followers",
+      "following_url": "https://api.github.com/users/pnkfelix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pnkfelix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pnkfelix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pnkfelix/subscriptions",
+      "organizations_url": "https://api.github.com/users/pnkfelix/orgs",
+      "repos_url": "https://api.github.com/users/pnkfelix/repos",
+      "events_url": "https://api.github.com/users/pnkfelix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pnkfelix/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-30T23:09:42Z",
+    "updated_at": "2015-04-30T23:09:42Z",
+    "body": "Or at least, the identifier `y` has to be bound in each alternative:\n\n``` rust\nfn main() {\n    #[derive(Debug)]\n    struct Recur<'a>(u8, Option<&'a Recur<'a>>);\n    let r1 = Recur(2, None);\n    let r2 = Recur(1, Some(&r1));\n    match r2 {\n        ref y @ Recur(1, _) | Recur(_, Some(&ref y)) => {\n            println!(\"{:?}\", y);\n        }\n        _ => { println!(\"other\"); }\n    }\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/97996445/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

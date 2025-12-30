@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/36416843",
+    "html_url": "https://github.com/rust-lang/rust/issues/11736#issuecomment-36416843",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11736",
+    "id": 36416843,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM2NDE2ODQz",
+    "user": {
+      "login": "jayanderson",
+      "id": 5899006,
+      "node_id": "MDQ6VXNlcjU4OTkwMDY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5899006?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jayanderson",
+      "html_url": "https://github.com/jayanderson",
+      "followers_url": "https://api.github.com/users/jayanderson/followers",
+      "following_url": "https://api.github.com/users/jayanderson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jayanderson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jayanderson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jayanderson/subscriptions",
+      "organizations_url": "https://api.github.com/users/jayanderson/orgs",
+      "repos_url": "https://api.github.com/users/jayanderson/repos",
+      "events_url": "https://api.github.com/users/jayanderson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jayanderson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-01T05:29:15Z",
+    "updated_at": "2014-03-01T05:29:15Z",
+    "body": "A simpler example:\n\n``` rust\nextern mod extra;\nuse extra::bitv::Bitv;\n\nfn main() {\n  let mut bits: ~Bitv = ~Bitv::new(5, false);\n  bits[0] = true;\n  //bits.set(0, true); // <-- What the above should be.\n}\n```\n\nThe code is wrong (though it'd be very nice if it weren't). However the compiler still has the error which should be fixed.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/36416843/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

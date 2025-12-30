@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58294586",
+    "html_url": "https://github.com/rust-lang/rust/issues/17865#issuecomment-58294586",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17865",
+    "id": 58294586,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU4Mjk0NTg2",
+    "user": {
+      "login": "japaric",
+      "id": 5018213,
+      "node_id": "MDQ6VXNlcjUwMTgyMTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5018213?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/japaric",
+      "html_url": "https://github.com/japaric",
+      "followers_url": "https://api.github.com/users/japaric/followers",
+      "following_url": "https://api.github.com/users/japaric/following{/other_user}",
+      "gists_url": "https://api.github.com/users/japaric/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/japaric/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/japaric/subscriptions",
+      "organizations_url": "https://api.github.com/users/japaric/orgs",
+      "repos_url": "https://api.github.com/users/japaric/repos",
+      "events_url": "https://api.github.com/users/japaric/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/japaric/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-08T01:58:11Z",
+    "updated_at": "2014-10-08T01:58:11Z",
+    "body": "There was a [PR implementing this](https://github.com/rust-lang/rust/pull/16204), but I think it was postponed until [RFC #88](https://github.com/rust-lang/rfcs/pull/88) gets accepted.\n\ncc @kballard \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/58294586/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

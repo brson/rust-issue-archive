@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/33341051",
+    "html_url": "https://github.com/rust-lang/rust/issues/9409#issuecomment-33341051",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9409",
+    "id": 33341051,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzMzQxMDUx",
+    "user": {
+      "login": "MicahChalmer",
+      "id": 698400,
+      "node_id": "MDQ6VXNlcjY5ODQwMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/698400?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MicahChalmer",
+      "html_url": "https://github.com/MicahChalmer",
+      "followers_url": "https://api.github.com/users/MicahChalmer/followers",
+      "following_url": "https://api.github.com/users/MicahChalmer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/MicahChalmer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/MicahChalmer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/MicahChalmer/subscriptions",
+      "organizations_url": "https://api.github.com/users/MicahChalmer/orgs",
+      "repos_url": "https://api.github.com/users/MicahChalmer/repos",
+      "events_url": "https://api.github.com/users/MicahChalmer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/MicahChalmer/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-27T04:07:27Z",
+    "updated_at": "2014-01-27T04:07:27Z",
+    "body": "This does not appear to be an issue anymore, ever since the change to `proc` instead of `fn`.  The syntax is different than a `&fn`, so the compiler can no longer get confused.  The equivalent code after the change: `let _:Option<proc()> = Some(proc() {})` compiles just fine.  Closing this.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/33341051/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

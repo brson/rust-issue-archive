@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69628849",
+    "html_url": "https://github.com/rust-lang/rust/issues/21033#issuecomment-69628849",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21033",
+    "id": 69628849,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY5NjI4ODQ5",
+    "user": {
+      "login": "thchittenden",
+      "id": 3172021,
+      "node_id": "MDQ6VXNlcjMxNzIwMjE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3172021?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thchittenden",
+      "html_url": "https://github.com/thchittenden",
+      "followers_url": "https://api.github.com/users/thchittenden/followers",
+      "following_url": "https://api.github.com/users/thchittenden/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thchittenden/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thchittenden/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thchittenden/subscriptions",
+      "organizations_url": "https://api.github.com/users/thchittenden/orgs",
+      "repos_url": "https://api.github.com/users/thchittenden/repos",
+      "events_url": "https://api.github.com/users/thchittenden/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thchittenden/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-12T19:24:09Z",
+    "updated_at": "2015-01-12T19:24:09Z",
+    "body": "Also, if this IS an issue and it's not super high priority (which I don't think it is), I'd love to take a stab at fixing it. \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/69628849/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

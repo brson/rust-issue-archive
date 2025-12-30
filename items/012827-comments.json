@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38946340",
+    "html_url": "https://github.com/rust-lang/rust/issues/12827#issuecomment-38946340",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12827",
+    "id": 38946340,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4OTQ2MzQw",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-28T17:32:58Z",
+    "updated_at": "2014-03-28T17:32:58Z",
+    "body": "Brain dump of what I know so far\n\n---\n\nThe basic bug is that often when using libuv, our child subprocesses\nhave their stderr/stdout file descriptors closed too early, so the\noutput we read from them is truncated. This basically ends up in lots\nof failing tests because the output was \"te\" instead of \"test\".\n\nI haven't been able to minimize it in just libuv C code yet. Some key things I've noticed\nso far\n- The child must write() multiple times to the output file descriptor\n- I've only reproduced when the parent is multithreaded\n- The child doesn't need to run libuv to expose the bug\n- This only happens on linux\n- The child is receiving an EPIPE when writing to the stderr file descriptor\n\nAfter investigation with strace on linux, I've deduced the following\nset of events:\n- The parent partially reads data from the child pipe\n- The parent then invokes uv__stream_eof because it thinks the pipe is dead\n- The parent then goes through the rust rigamarole to close the stream\n- The child then writes to the stderr file descriptor, receiving EPIPE\n\nI'm not super familiar with epoll, but it looked like the parent was\nreceiving \"POLLHUP | POLLIN\" for the child pipe, causing it to trigger\nthis code: https://github.com/rust-lang/libuv/blob/master/src/unix/stream.c#L1139-L1151\n\nI'm not 100% certain if that code is relevant to this, but I did find\nthat commenting the code out made the tests reliably past, so it seems\nlike it may be closing the stream prematurely sometimes.\n\n---\n\nIf it helps, I was able to get this strace output:\nhttps://gist.github.com/anonymous/9751330 and the most relevant\nportions are https://gist.github.com/anonymous/9751326\n\nThere's a whole lot of stuff there. I modified the child process to\nwrite() a few times, and exit with 101 if it succeeded in write, and\nexit with 100 if it failed in write(). At\nhttps://gist.github.com/anonymous/9751326#file--L329 is where the\nchild exits with 100 because the previous write returned EPIPE (errno\n-32).\n\nThings that I managed to piece together. You'll see a bunch of write()\nsyscalls on fd 0, but I injected those. I added them so they'd show up\nin the strace output and the input pointer is the bit pattern that I\nwas looking for  (and corresponded to various different events).\n1. The parent (pid 2235) called socketpair(), creating fds (79, 82)\n2. The child dup'd 82 into its stderr (fd 2), then closed 79\n3. The parent closed 82\n4. The parent saw EPOLLIN|EPOLLHUP on fd 79\n5. The parent read some data\n6. The parent's uv callback was invoked with the partial data\n7. The parent's uv callback was invoked with UV_EOF\n8. The parent closed fd 79\n9. The child attempted to write again to fd 79, resulting in EPIPE\n\n[1] - https://gist.github.com/anonymous/9751326#file--L1\n[2] - https://gist.github.com/anonymous/9751326#file--L26-L30\n[3] - https://gist.github.com/anonymous/9751326#file--L94\n[4] - https://gist.github.com/anonymous/9751326#file--L287\n[5] - https://gist.github.com/anonymous/9751326#file--L311-L312\n[6] - https://gist.github.com/anonymous/9751326#file--L313-L314\n[7] - https://gist.github.com/anonymous/9751326#file--L315-L316\n[8] - https://gist.github.com/anonymous/9751326#file--L319-L321\n[9] - https://gist.github.com/anonymous/9751326#file--L326-L327\n\nThe first longer gist has a bunch of other successful children, the\nsmaller gist just focuses on pids 2235 and 2243 in what I thought were\nthe relevant areas.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38946340/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

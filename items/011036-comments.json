@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39516868",
+    "html_url": "https://github.com/rust-lang/rust/issues/11036#issuecomment-39516868",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11036",
+    "id": 39516868,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5NTE2ODY4",
+    "user": {
+      "login": "JustAPerson",
+      "id": 789308,
+      "node_id": "MDQ6VXNlcjc4OTMwOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/789308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/JustAPerson",
+      "html_url": "https://github.com/JustAPerson",
+      "followers_url": "https://api.github.com/users/JustAPerson/followers",
+      "following_url": "https://api.github.com/users/JustAPerson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/JustAPerson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/JustAPerson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/JustAPerson/subscriptions",
+      "organizations_url": "https://api.github.com/users/JustAPerson/orgs",
+      "repos_url": "https://api.github.com/users/JustAPerson/repos",
+      "events_url": "https://api.github.com/users/JustAPerson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/JustAPerson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-03T23:21:15Z",
+    "updated_at": "2014-04-03T23:21:15Z",
+    "body": "This issue may be closed.\n\n@cmr's code ultimately  made it into the repository under a different commit (b25a0524) which left out the \"Closes #11036\" from the commit message.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39516868/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

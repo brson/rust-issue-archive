@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/6521687",
+    "html_url": "https://github.com/rust-lang/rust/issues/2244#issuecomment-6521687",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2244",
+    "id": 6521687,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY1MjE2ODc=",
+    "user": {
+      "login": "brson",
+      "id": 147214,
+      "node_id": "MDQ6VXNlcjE0NzIxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/147214?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brson",
+      "html_url": "https://github.com/brson",
+      "followers_url": "https://api.github.com/users/brson/followers",
+      "following_url": "https://api.github.com/users/brson/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brson/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brson/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brson/subscriptions",
+      "organizations_url": "https://api.github.com/users/brson/orgs",
+      "repos_url": "https://api.github.com/users/brson/repos",
+      "events_url": "https://api.github.com/users/brson/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brson/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-06-23T01:57:16Z",
+    "updated_at": "2012-06-23T01:57:16Z",
+    "body": "Fixed by 2f060eb880c5482c4fd5a8dfb3acee1117c6d121\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/6521687/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

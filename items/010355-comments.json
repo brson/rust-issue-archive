@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/28052870",
+    "html_url": "https://github.com/rust-lang/rust/pull/10355#issuecomment-28052870",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10355",
+    "id": 28052870,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4MDUyODcw",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-08T10:14:25Z",
+    "updated_at": "2013-11-08T10:24:01Z",
+    "body": "Summary: this reuses the spans from the `variant` and `struct_field` (ast types) in [`expand_static_enum_body`](https://github.com/huonw/rust/commit/812ea9e169d6edcc138e334e7e2b2cb5f7ba66b3#diff-e8c08470119d6a88394bf24bb23dc4d2R902), [`summarise_struct`](https://github.com/huonw/rust/commit/812ea9e169d6edcc138e334e7e2b2cb5f7ba66b3#diff-e8c08470119d6a88394bf24bb23dc4d2R922), [`create_struct_pattern`](https://github.com/huonw/rust/commit/812ea9e169d6edcc138e334e7e2b2cb5f7ba66b3#diff-e8c08470119d6a88394bf24bb23dc4d2R993) and [`create_enum_pattern`](https://github.com/huonw/rust/commit/812ea9e169d6edcc138e334e7e2b2cb5f7ba66b3#diff-e8c08470119d6a88394bf24bb23dc4d2R1037) to create the `span` field in the [new `FieldInfo` struct](https://github.com/huonw/rust/commit/812ea9e169d6edcc138e334e7e2b2cb5f7ba66b3#diff-e8c08470119d6a88394bf24bb23dc4d2R242) (and [the `Span` parts of `StaticFields`](https://github.com/huonw/rust/commit/812ea9e169d6edcc138e334e7e2b2cb5f7ba66b3#diff-e8c08470119d6a88394bf24bb23dc4d2R256)) which can then be used \"downstream\" ([example](https://github.com/huonw/rust/commit/812ea9e169d6edcc138e334e7e2b2cb5f7ba66b3#diff-e8c08470119d6a88394bf24bb23dc4d2R1111)) to associate the span of the constructed `Expr`s with the fields, so any type errors get displayed as if they were caused by that field.\n\n(Sorry for the noise with the `span` -> `trait_span`.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/28052870/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

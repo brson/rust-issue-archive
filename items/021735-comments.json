@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/72020874",
+    "html_url": "https://github.com/rust-lang/rust/issues/21735#issuecomment-72020874",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21735",
+    "id": 72020874,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcyMDIwODc0",
+    "user": {
+      "login": "nagisa",
+      "id": 679122,
+      "node_id": "MDQ6VXNlcjY3OTEyMg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/679122?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nagisa",
+      "html_url": "https://github.com/nagisa",
+      "followers_url": "https://api.github.com/users/nagisa/followers",
+      "following_url": "https://api.github.com/users/nagisa/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nagisa/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nagisa/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nagisa/subscriptions",
+      "organizations_url": "https://api.github.com/users/nagisa/orgs",
+      "repos_url": "https://api.github.com/users/nagisa/repos",
+      "events_url": "https://api.github.com/users/nagisa/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nagisa/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-29T13:09:06Z",
+    "updated_at": "2015-01-29T13:23:52Z",
+    "body": "The reason is that some scripts in Unicode (such as kana) have no associated case to them (i.e. they are no-case) and the lint only [allows lowercase codepoints](https://github.com/rust-lang/rust/blob/bedd8108dc9b79402d1ea5349d766275f73398ff/src/librustc/lint/builtin.rs#L948-955).\n\nThis is E-easy material, but it is unclear whether the lint should just outright accept any non-uppercase codepoint or we should refine the error message to not have \u201csuch as `\u3092`\u201d suggestion if the lint is triggered by no-case codepoints.\n\nEDIT: I recall some other programming language compiler opting to keep emiting a warning if no-case codepoints are present in snake_case identifiers, but I don\u2019t quite recall which language it was.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/72020874/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

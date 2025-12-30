@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/52260429",
+    "html_url": "https://github.com/rust-lang/rust/issues/16508#issuecomment-52260429",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16508",
+    "id": 52260429,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUyMjYwNDI5",
+    "user": {
+      "login": "pczarn",
+      "id": 3356767,
+      "node_id": "MDQ6VXNlcjMzNTY3Njc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3356767?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pczarn",
+      "html_url": "https://github.com/pczarn",
+      "followers_url": "https://api.github.com/users/pczarn/followers",
+      "following_url": "https://api.github.com/users/pczarn/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pczarn/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pczarn/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pczarn/subscriptions",
+      "organizations_url": "https://api.github.com/users/pczarn/orgs",
+      "repos_url": "https://api.github.com/users/pczarn/repos",
+      "events_url": "https://api.github.com/users/pczarn/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pczarn/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-08-15T00:00:15Z",
+    "updated_at": "2014-08-15T00:02:41Z",
+    "body": "Thanks. I had mistakenly assumed that the type checker is at fault, because I couldn't make it ICE with other combinations of type parameters.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/52260429/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

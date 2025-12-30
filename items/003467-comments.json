@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8514692",
+    "html_url": "https://github.com/rust-lang/rust/issues/3467#issuecomment-8514692",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3467",
+    "id": 8514692,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg1MTQ2OTI=",
+    "user": {
+      "login": "graydon",
+      "id": 14097,
+      "node_id": "MDQ6VXNlcjE0MDk3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/14097?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/graydon",
+      "html_url": "https://github.com/graydon",
+      "followers_url": "https://api.github.com/users/graydon/followers",
+      "following_url": "https://api.github.com/users/graydon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/graydon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/graydon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/graydon/subscriptions",
+      "organizations_url": "https://api.github.com/users/graydon/orgs",
+      "repos_url": "https://api.github.com/users/graydon/repos",
+      "events_url": "https://api.github.com/users/graydon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/graydon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-09-13T00:19:17Z",
+    "updated_at": "2012-09-13T00:19:17Z",
+    "body": "Rust requires installing mingw to use presently, as we (try to) point out everywhere we can. We have a bug open (#1603) to make it at least tell you in a more polite fashion when you don't have it installed, but there's not much else we can do in the short term except just ... require you install mingw. Closing this since it's redundant with the other bugs.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8514692/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/163247724",
+    "html_url": "https://github.com/rust-lang/rust/issues/30282#issuecomment-163247724",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30282",
+    "id": 163247724,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MzI0NzcyNA==",
+    "user": {
+      "login": "dotdash",
+      "id": 230962,
+      "node_id": "MDQ6VXNlcjIzMDk2Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/230962?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dotdash",
+      "html_url": "https://github.com/dotdash",
+      "followers_url": "https://api.github.com/users/dotdash/followers",
+      "following_url": "https://api.github.com/users/dotdash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dotdash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dotdash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dotdash/subscriptions",
+      "organizations_url": "https://api.github.com/users/dotdash/orgs",
+      "repos_url": "https://api.github.com/users/dotdash/repos",
+      "events_url": "https://api.github.com/users/dotdash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dotdash/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-09T14:08:13Z",
+    "updated_at": "2015-12-09T14:08:13Z",
+    "body": "The function was actually inlined. If you check the IR, you'll see that there's no call to `teeest`, neither a direct, nor an indirect one. \n\nWhat's happening is that inside the `black_box` call, you have a closure that captures `func`, so the closure environment holds a reference to the `teeest` function. And by putting that into the `black_box` call, you stop the compiler from removing it. So the function is only kept because its address has been taken. It has been properly inlined and it is never actually called.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/163247724/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

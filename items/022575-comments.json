@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75229406",
+    "html_url": "https://github.com/rust-lang/rust/issues/22575#issuecomment-75229406",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22575",
+    "id": 75229406,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc1MjI5NDA2",
+    "user": {
+      "login": "RalfJung",
+      "id": 330628,
+      "node_id": "MDQ6VXNlcjMzMDYyOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/330628?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RalfJung",
+      "html_url": "https://github.com/RalfJung",
+      "followers_url": "https://api.github.com/users/RalfJung/followers",
+      "following_url": "https://api.github.com/users/RalfJung/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RalfJung/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RalfJung/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RalfJung/subscriptions",
+      "organizations_url": "https://api.github.com/users/RalfJung/orgs",
+      "repos_url": "https://api.github.com/users/RalfJung/repos",
+      "events_url": "https://api.github.com/users/RalfJung/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RalfJung/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-20T12:15:18Z",
+    "updated_at": "2015-02-20T12:15:18Z",
+    "body": "Oh, and of course the \"&\" has to be escaped as well, or else it will become an entity.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/75229406/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

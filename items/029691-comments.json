@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/154835945",
+    "html_url": "https://github.com/rust-lang/rust/issues/29691#issuecomment-154835945",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29691",
+    "id": 154835945,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1NDgzNTk0NQ==",
+    "user": {
+      "login": "hroi",
+      "id": 204064,
+      "node_id": "MDQ6VXNlcjIwNDA2NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/204064?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/hroi",
+      "html_url": "https://github.com/hroi",
+      "followers_url": "https://api.github.com/users/hroi/followers",
+      "following_url": "https://api.github.com/users/hroi/following{/other_user}",
+      "gists_url": "https://api.github.com/users/hroi/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/hroi/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/hroi/subscriptions",
+      "organizations_url": "https://api.github.com/users/hroi/orgs",
+      "repos_url": "https://api.github.com/users/hroi/repos",
+      "events_url": "https://api.github.com/users/hroi/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/hroi/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-11-08T16:14:00Z",
+    "updated_at": "2015-11-08T16:14:00Z",
+    "body": "Ipv6Addr has a similar issue:\n\n``` rust\nuse std::net::Ipv6Addr;\nuse std::str::FromStr;\n\nfn main() {\n    let mut ips = vec![Ipv6Addr::from_str(\"2001:db8:f00::1002\").unwrap(),\n                       Ipv6Addr::from_str(\"2001:db8:f00::1004\").unwrap(),\n                       Ipv6Addr::from_str(\"2001:db8:f00::2001\").unwrap(),\n                       Ipv6Addr::from_str(\"2001:db8:f00::2003\").unwrap(),\n                       Ipv6Addr::from_str(\"2001:db8:baa::1002\").unwrap(),\n                       Ipv6Addr::from_str(\"2001:db8:baa::1004\").unwrap(),\n                       Ipv6Addr::from_str(\"2001:db8:baa::2001\").unwrap(),\n                       Ipv6Addr::from_str(\"2001:db8:baa::2003\").unwrap(),];\n\n    ips.sort();\n    for ip in ips.iter() {\n        println!(\"ip: {}\", ip);\n    }\n}\n```\n\noutputs:\n\n```\nip: 2001:db8:f00::2001\nip: 2001:db8:f00::1002\nip: 2001:db8:f00::2003\nip: 2001:db8:f00::1004\nip: 2001:db8:baa::2001\nip: 2001:db8:baa::1002\nip: 2001:db8:baa::2003\nip: 2001:db8:baa::1004\n```\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/154835945/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

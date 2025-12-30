@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/128081447",
+    "html_url": "https://github.com/rust-lang/rust/issues/23808#issuecomment-128081447",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23808",
+    "id": 128081447,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyODA4MTQ0Nw==",
+    "user": {
+      "login": "TimNN",
+      "id": 1178249,
+      "node_id": "MDQ6VXNlcjExNzgyNDk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1178249?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/TimNN",
+      "html_url": "https://github.com/TimNN",
+      "followers_url": "https://api.github.com/users/TimNN/followers",
+      "following_url": "https://api.github.com/users/TimNN/following{/other_user}",
+      "gists_url": "https://api.github.com/users/TimNN/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/TimNN/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/TimNN/subscriptions",
+      "organizations_url": "https://api.github.com/users/TimNN/orgs",
+      "repos_url": "https://api.github.com/users/TimNN/repos",
+      "events_url": "https://api.github.com/users/TimNN/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/TimNN/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-08-05T17:18:56Z",
+    "updated_at": "2015-08-05T17:18:56Z",
+    "body": "By the way, the warning goes away if you explicitly specify the trait who's static method you are calling, like so:\n\n``` rust\n<Foo as Bar>::bar();\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/128081447/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

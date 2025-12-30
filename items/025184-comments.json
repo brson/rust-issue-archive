@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/99939841",
+    "html_url": "https://github.com/rust-lang/rust/issues/25184#issuecomment-99939841",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25184",
+    "id": 99939841,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk5OTM5ODQx",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-07T17:04:20Z",
+    "updated_at": "2015-05-07T17:04:20Z",
+    "body": "We do actually [call closedir](https://github.com/rust-lang/rust/blob/master/src/libstd/sys/unix/fs2.rs#L169-L174) when the [`ReadDir` value goes out of scope](https://github.com/rust-lang/rust/blob/master/src/libstd/sys/unix/fs2.rs#L36), so I don't believe that's a problem. This is likely a dupe of #23715, however, so I'm going to close in favor of that, but thanks for the report!\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/99939841/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

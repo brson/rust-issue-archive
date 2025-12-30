@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/33559916",
+    "html_url": "https://github.com/rust-lang/rust/issues/11902#issuecomment-33559916",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11902",
+    "id": 33559916,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMzNTU5OTE2",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-29T06:28:25Z",
+    "updated_at": "2014-01-29T06:33:32Z",
+    "body": "This is a fundamental problem of micro-benchmarks with an optimising compiler: it can and will change code in unexpected ways (including removing code that it sees as dead, i.e. results that are not used where the computation is has no external effects).\n\nOne way around this is to trick the compiler into thinking that a result is used. E.g. for a sufficiently compilcated computation (so the optimiser cannot constant-fold it):\n\n``` rust\nbh.iter(|| {\n    let result = /* calculation */;\n    if result == 0 { println!(\"no dead code elimination\"); }\n})\n```\n\n(works best if `result` is never zero, or choosing some other value to compare against.)\n\nEven the stdlib has many instances of benchmarks that have their contents removed with optimisations on.\n\nI would think that the change that LTO introduces is (a) just giving LLVM more passes with which to reduce and eliminate code, and (b) allowing the benchmarking harness (specifically the `.iter` function) itself to be inlined. (Compiling with `--opt-level=3` may show a similar elimination of dead code.)\n\nIn any case, I believe this is a dupe of https://github.com/mozilla/rust/issues/8261.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/33559916/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

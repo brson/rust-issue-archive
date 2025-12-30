@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18675239",
+    "html_url": "https://github.com/rust-lang/rust/issues/6824#issuecomment-18675239",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6824",
+    "id": 18675239,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4Njc1MjM5",
+    "user": {
+      "login": "caitp",
+      "id": 2294695,
+      "node_id": "MDQ6VXNlcjIyOTQ2OTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2294695?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/caitp",
+      "html_url": "https://github.com/caitp",
+      "followers_url": "https://api.github.com/users/caitp/followers",
+      "following_url": "https://api.github.com/users/caitp/following{/other_user}",
+      "gists_url": "https://api.github.com/users/caitp/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/caitp/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/caitp/subscriptions",
+      "organizations_url": "https://api.github.com/users/caitp/orgs",
+      "repos_url": "https://api.github.com/users/caitp/repos",
+      "events_url": "https://api.github.com/users/caitp/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/caitp/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-30T11:43:37Z",
+    "updated_at": "2013-05-30T11:43:37Z",
+    "body": "Closed by #6825\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18675239/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

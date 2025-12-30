@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/43699296",
+    "html_url": "https://github.com/rust-lang/rust/pull/14305#issuecomment-43699296",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/14305",
+    "id": 43699296,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQzNjk5Mjk2",
+    "user": {
+      "login": "lilyball",
+      "id": 714,
+      "node_id": "MDQ6VXNlcjcxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lilyball",
+      "html_url": "https://github.com/lilyball",
+      "followers_url": "https://api.github.com/users/lilyball/followers",
+      "following_url": "https://api.github.com/users/lilyball/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lilyball/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lilyball/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lilyball/subscriptions",
+      "organizations_url": "https://api.github.com/users/lilyball/orgs",
+      "repos_url": "https://api.github.com/users/lilyball/repos",
+      "events_url": "https://api.github.com/users/lilyball/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lilyball/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-05-21T00:17:32Z",
+    "updated_at": "2014-05-21T00:17:32Z",
+    "body": "This isn't a `uint`. This is a `u8`. `bytes!()` doesn't accept `uint`s.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/43699296/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/34060797",
+    "html_url": "https://github.com/rust-lang/rust/issues/10257#issuecomment-34060797",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10257",
+    "id": 34060797,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM0MDYwNzk3",
+    "user": {
+      "login": "sfackler",
+      "id": 1455697,
+      "node_id": "MDQ6VXNlcjE0NTU2OTc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1455697?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/sfackler",
+      "html_url": "https://github.com/sfackler",
+      "followers_url": "https://api.github.com/users/sfackler/followers",
+      "following_url": "https://api.github.com/users/sfackler/following{/other_user}",
+      "gists_url": "https://api.github.com/users/sfackler/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/sfackler/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/sfackler/subscriptions",
+      "organizations_url": "https://api.github.com/users/sfackler/orgs",
+      "repos_url": "https://api.github.com/users/sfackler/repos",
+      "events_url": "https://api.github.com/users/sfackler/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/sfackler/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-02-04T13:55:00Z",
+    "updated_at": "2014-02-04T13:55:00Z",
+    "body": "rustpkg doesn't exist anymore, closing\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/34060797/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

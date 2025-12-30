@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/161362444",
+    "html_url": "https://github.com/rust-lang/rust/issues/30076#issuecomment-161362444",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/30076",
+    "id": 161362444,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MTM2MjQ0NA==",
+    "user": {
+      "login": "bluss",
+      "id": 3209739,
+      "node_id": "MDQ6VXNlcjMyMDk3Mzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3209739?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bluss",
+      "html_url": "https://github.com/bluss",
+      "followers_url": "https://api.github.com/users/bluss/followers",
+      "following_url": "https://api.github.com/users/bluss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bluss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bluss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bluss/subscriptions",
+      "organizations_url": "https://api.github.com/users/bluss/orgs",
+      "repos_url": "https://api.github.com/users/bluss/repos",
+      "events_url": "https://api.github.com/users/bluss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bluss/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-12-02T16:52:54Z",
+    "updated_at": "2015-12-02T16:52:54Z",
+    "body": "Of course memrchr, I did in fact miss the position vs rposition difference on first reading.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/161362444/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

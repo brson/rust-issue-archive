@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/51784345",
+    "html_url": "https://github.com/rust-lang/rust/issues/16410#issuecomment-51784345",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16410",
+    "id": 51784345,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUxNzg0MzQ1",
+    "user": {
+      "login": "pcwalton",
+      "id": 157897,
+      "node_id": "MDQ6VXNlcjE1Nzg5Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/157897?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pcwalton",
+      "html_url": "https://github.com/pcwalton",
+      "followers_url": "https://api.github.com/users/pcwalton/followers",
+      "following_url": "https://api.github.com/users/pcwalton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pcwalton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pcwalton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pcwalton/subscriptions",
+      "organizations_url": "https://api.github.com/users/pcwalton/orgs",
+      "repos_url": "https://api.github.com/users/pcwalton/repos",
+      "events_url": "https://api.github.com/users/pcwalton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pcwalton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-08-11T14:06:39Z",
+    "updated_at": "2014-08-11T14:06:39Z",
+    "body": "+1, good suggestion.\nOn Aug 11, 2014 12:59 AM, \"Arpad Borsos\" notifications@github.com wrote:\n\n> I\u2019m trying to learn Rust from scratch right now, and I still have some\n> difficulty grasping the concepts of mutability and move-semantics.\n> \n> I think especially for mutability, the compiler could do a better job for\n> suggesting fixes.\n> Consider the following code:\n> \n> fn iter<T: Iterator<int>>(l: T) {\n>     for e in l {\n>         println!(\"{}\", e);\n>     }\n> }\n> \n> It simply says:\n> \n> error: cannot borrow immutable argument `l` as mutable\n>     for e in l {\n>              ^\n> \n> Which is kind of confusing. It should suggest to me that I add mut to the\n> function argument.\n> \n> \u2014\n> Reply to this email directly or view it on GitHub\n> https://github.com/rust-lang/rust/issues/16410.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/51784345/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

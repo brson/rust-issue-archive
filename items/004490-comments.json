@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/12252276",
+    "html_url": "https://github.com/rust-lang/rust/issues/4490#issuecomment-12252276",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/4490",
+    "id": 12252276,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEyMjUyMjc2",
+    "user": {
+      "login": "nikomatsakis",
+      "id": 155238,
+      "node_id": "MDQ6VXNlcjE1NTIzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nikomatsakis",
+      "html_url": "https://github.com/nikomatsakis",
+      "followers_url": "https://api.github.com/users/nikomatsakis/followers",
+      "following_url": "https://api.github.com/users/nikomatsakis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nikomatsakis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nikomatsakis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nikomatsakis/subscriptions",
+      "organizations_url": "https://api.github.com/users/nikomatsakis/orgs",
+      "repos_url": "https://api.github.com/users/nikomatsakis/repos",
+      "events_url": "https://api.github.com/users/nikomatsakis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nikomatsakis/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-01-15T03:43:42Z",
+    "updated_at": "2013-01-15T03:43:42Z",
+    "body": "By the way, I think the only way to implement this safely is for \nvectors, because they can use a while loop. For other code that uses a \ngeneric `each()` method, I believe unsafe code is needed to manage the \nmoves. I have not come up with a simple way for the type system to prove \nthe absence of troublesome recursion (once fns are complex enough to \nprove safe---and they don't address this problem). But I think the \ninterface should still be correct, as @brson says, even if it requires \nan unsafe impl for the generic case.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/12252276/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

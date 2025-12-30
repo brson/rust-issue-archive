@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10936614",
+    "html_url": "https://github.com/rust-lang/rust/issues/4092#issuecomment-10936614",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/4092",
+    "id": 10936614,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwOTM2NjE0",
+    "user": {
+      "login": "rntz",
+      "id": 16143,
+      "node_id": "MDQ6VXNlcjE2MTQz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16143?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rntz",
+      "html_url": "https://github.com/rntz",
+      "followers_url": "https://api.github.com/users/rntz/followers",
+      "following_url": "https://api.github.com/users/rntz/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rntz/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rntz/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rntz/subscriptions",
+      "organizations_url": "https://api.github.com/users/rntz/orgs",
+      "repos_url": "https://api.github.com/users/rntz/repos",
+      "events_url": "https://api.github.com/users/rntz/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rntz/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-12-02T22:43:35Z",
+    "updated_at": "2012-12-02T22:43:35Z",
+    "body": "This is due to the code committed in https://github.com/rntz/rust/commit/d718bc292d342a99580ec971dc7e873e5fc6e5c4, specifically the pattern match `let &(ref a, ref b) = &self;`. I'll go write up a workaround that avoids this pattern so that you can use `HashMap<(@str,T),T>` etc., but the real bug is in the compiler.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10936614/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

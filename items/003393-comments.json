@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8306256",
+    "html_url": "https://github.com/rust-lang/rust/issues/3393#issuecomment-8306256",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3393",
+    "id": 8306256,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDgzMDYyNTY=",
+    "user": {
+      "login": "burg",
+      "id": 70680,
+      "node_id": "MDQ6VXNlcjcwNjgw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/70680?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/burg",
+      "html_url": "https://github.com/burg",
+      "followers_url": "https://api.github.com/users/burg/followers",
+      "following_url": "https://api.github.com/users/burg/following{/other_user}",
+      "gists_url": "https://api.github.com/users/burg/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/burg/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/burg/subscriptions",
+      "organizations_url": "https://api.github.com/users/burg/orgs",
+      "repos_url": "https://api.github.com/users/burg/repos",
+      "events_url": "https://api.github.com/users/burg/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/burg/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-09-05T17:12:39Z",
+    "updated_at": "2012-09-05T17:12:39Z",
+    "body": "Duplicate of #3027\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/8306256/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

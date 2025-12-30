@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/135993528",
+    "html_url": "https://github.com/rust-lang/rust/issues/28082#issuecomment-135993528",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28082",
+    "id": 135993528,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNTk5MzUyOA==",
+    "user": {
+      "login": "astraw",
+      "id": 30176,
+      "node_id": "MDQ6VXNlcjMwMTc2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/30176?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/astraw",
+      "html_url": "https://github.com/astraw",
+      "followers_url": "https://api.github.com/users/astraw/followers",
+      "following_url": "https://api.github.com/users/astraw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/astraw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/astraw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/astraw/subscriptions",
+      "organizations_url": "https://api.github.com/users/astraw/orgs",
+      "repos_url": "https://api.github.com/users/astraw/repos",
+      "events_url": "https://api.github.com/users/astraw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/astraw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-08-29T14:37:40Z",
+    "updated_at": "2015-08-29T14:37:40Z",
+    "body": "Now I see that this is actually described in the documentation chapter [here](https://doc.rust-lang.org/book/documentation.html#documentation-as-tests). However, I was looking at the testing chapter [here](https://doc.rust-lang.org/book/testing.html#documentation-tests). So the bug report should now be changed to \"cross-referece the doctest part of the documentation chapter from the doctest part of the testing chapter\" since I completely missed the relevant section despite looking for it rather extensively.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/135993528/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/11242453",
+    "html_url": "https://github.com/rust-lang/rust/issues/3671#issuecomment-11242453",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3671",
+    "id": 11242453,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExMjQyNDUz",
+    "user": {
+      "login": "bstrie",
+      "id": 865233,
+      "node_id": "MDQ6VXNlcjg2NTIzMw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/865233?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bstrie",
+      "html_url": "https://github.com/bstrie",
+      "followers_url": "https://api.github.com/users/bstrie/followers",
+      "following_url": "https://api.github.com/users/bstrie/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bstrie/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bstrie/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bstrie/subscriptions",
+      "organizations_url": "https://api.github.com/users/bstrie/orgs",
+      "repos_url": "https://api.github.com/users/bstrie/repos",
+      "events_url": "https://api.github.com/users/bstrie/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bstrie/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-12-11T13:01:11Z",
+    "updated_at": "2012-12-11T13:01:11Z",
+    "body": "I've recently discovered that rust-dev is mirrored to Gmane:\n\nhttp://thread.gmane.org/gmane.comp.lang.rust.devel/\n\n...which doesn't provide the commenting facilities of Google Groups, but at least now browsing and searching is possible. Closing this.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/11242453/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

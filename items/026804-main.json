@@ -1,0 +1,114 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/26804",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/26804/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/26804/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/26804/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/26804",
+  "id": 93127999,
+  "node_id": "MDU6SXNzdWU5MzEyNzk5OQ==",
+  "number": 26804,
+  "title": "Confusing error messages when invariant type is involved",
+  "user": {
+    "login": "jonas-schievink",
+    "id": 1786438,
+    "node_id": "MDQ6VXNlcjE3ODY0Mzg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/1786438?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jonas-schievink",
+    "html_url": "https://github.com/jonas-schievink",
+    "followers_url": "https://api.github.com/users/jonas-schievink/followers",
+    "following_url": "https://api.github.com/users/jonas-schievink/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jonas-schievink/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jonas-schievink/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jonas-schievink/subscriptions",
+    "organizations_url": "https://api.github.com/users/jonas-schievink/orgs",
+    "repos_url": "https://api.github.com/users/jonas-schievink/repos",
+    "events_url": "https://api.github.com/users/jonas-schievink/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jonas-schievink/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 234902,
+      "node_id": "MDU6TGFiZWwyMzQ5MDI=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-enhancement",
+      "name": "C-enhancement",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: An issue proposing an enhancement or a PR with one."
+    },
+    {
+      "id": 235791,
+      "node_id": "MDU6TGFiZWwyMzU3OTE=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-diagnostics",
+      "name": "A-diagnostics",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Messages for errors, warnings, and lints"
+    },
+    {
+      "id": 1775993,
+      "node_id": "MDU6TGFiZWwxNzc1OTkz",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-lifetimes",
+      "name": "A-lifetimes",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Lifetimes / regions"
+    },
+    {
+      "id": 211668100,
+      "node_id": "MDU6TGFiZWwyMTE2NjgxMDA=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-compiler",
+      "name": "T-compiler",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the compiler team, which will review and decide on the PR/issue."
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 3,
+  "created_at": "2015-07-05T17:26:43Z",
+  "updated_at": "2024-04-22T08:39:07Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "#### Reproducer\r\n\r\n```rs\r\nuse std::{cell::RefCell, fmt::Debug};\r\n\r\n#[derive(Default)]\r\nstruct S<'a> {\r\n    c: RefCell<Option<Box<dyn Debug + 'a>>>,\r\n}\r\n\r\nimpl<'a> S<'a> {\r\n    fn r(&'a self) -> &'a () {\r\n        panic!()\r\n    }\r\n}\r\n\r\nfn main() {\r\n    let s = S::default();\r\n    let _ = s.r();\r\n}\r\n\r\n```\r\n\r\n<details><summary>Original now malfunctioning reproducer from 2015</summary>\r\n\r\nPlaypen: http://is.gd/f1SPdn\r\n\r\n``` rust\r\n#[derive(Default)]\r\nstruct S<'a> {\r\n    c: RefCell<Option<Box<Sized + 'a>>>,    // Doesn't work\r\n    //c: RefCell<Option<Box<&'a Sized>>>,   // Works\r\n    //c: Option<Box<Sized + 'a>>,           // Also works\r\n}\r\n\r\nimpl <'a> S<'a> {\r\n    fn r(&'a self) -> &'a () {\r\n        panic!();\r\n    }\r\n}\r\n\r\nfn main() {\r\n    let s = S::default();\r\n    let r = s.r(); //~ ERROR `s` does not live long enough [E0597]\r\n}\r\n```\r\n\r\n</details>\r\n\r\n#### Compiler Output\r\n\r\n```\r\nerror[E0597]: `s` does not live long enough\r\n  --> src/main.rs:16:13\r\n   |\r\n15 |     let s = S::default();\r\n   |         - binding `s` declared here\r\n16 |     let _ = s.r();\r\n   |             ^ borrowed value does not live long enough\r\n17 | }\r\n   | -\r\n   | |\r\n   | `s` dropped here while still borrowed\r\n   | borrow might be used here, when `s` is dropped and runs the destructor for type `S<'_>`\r\n```\r\n\r\n<details><summary>Original compiler output from 2015</summary>\r\n\r\n```\r\n<anon>:19:13: 19:14 error: `s` does not live long enough\r\n<anon>:19     let r = s.r();\r\n                      ^\r\n<anon>:17:11: 20:2 note: reference must be valid for the block at 17:10...\r\n<anon>:17 fn main() {\r\n<anon>:18     let s = S::default();\r\n<anon>:19     let r = s.r();\r\n<anon>:20 }\r\n<anon>:18:26: 20:2 note: ...but borrowed value is only valid for the block suffix following statement 0 at 18:25\r\n<anon>:18     let s = S::default();\r\n<anon>:19     let r = s.r();\r\n<anon>:20 }\r\n```\r\n\r\n</details>\r\n\r\nThis is confusing, since the compiler seems to demand that `s` is valid in the line before it is declared (the only difference between the regions is that the first one includes the `fn main() {`). It is never mentioned that this is caused by `S` being invariant on `'a`, which disallows rustc to enlarge the lifetime to include the whole block.\r\n\r\nI think rustc should give a better error is this case (maybe something like `` note: cannot extend lifetime of `s` since its type `S` is invariant with respect to `'a` ``).\r\n",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/26804/reactions",
+    "total_count": 0,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/26804/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/251441957",
+    "html_url": "https://github.com/rust-lang/rust/issues/29803#issuecomment-251441957",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29803",
+    "id": 251441957,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MTQ0MTk1Nw==",
+    "user": {
+      "login": "0xmohit",
+      "id": 8176079,
+      "node_id": "MDQ6VXNlcjgxNzYwNzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8176079?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/0xmohit",
+      "html_url": "https://github.com/0xmohit",
+      "followers_url": "https://api.github.com/users/0xmohit/followers",
+      "following_url": "https://api.github.com/users/0xmohit/following{/other_user}",
+      "gists_url": "https://api.github.com/users/0xmohit/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/0xmohit/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/0xmohit/subscriptions",
+      "organizations_url": "https://api.github.com/users/0xmohit/orgs",
+      "repos_url": "https://api.github.com/users/0xmohit/repos",
+      "events_url": "https://api.github.com/users/0xmohit/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/0xmohit/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2016-10-04T16:36:50Z",
+    "updated_at": "2016-10-04T16:36:50Z",
+    "body": "The second example produces warning with 1.12.0 -- https://is.gd/Pz7wkc.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/251441957/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/22389691",
+    "html_url": "https://github.com/rust-lang/rust/pull/8388#issuecomment-22389691",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8388",
+    "id": 22389691,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMzg5Njkx",
+    "user": {
+      "login": "dim-an",
+      "id": 88889,
+      "node_id": "MDQ6VXNlcjg4ODg5",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88889?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dim-an",
+      "html_url": "https://github.com/dim-an",
+      "followers_url": "https://api.github.com/users/dim-an/followers",
+      "following_url": "https://api.github.com/users/dim-an/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dim-an/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dim-an/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dim-an/subscriptions",
+      "organizations_url": "https://api.github.com/users/dim-an/orgs",
+      "repos_url": "https://api.github.com/users/dim-an/repos",
+      "events_url": "https://api.github.com/users/dim-an/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dim-an/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-08-09T11:53:32Z",
+    "updated_at": "2013-08-09T11:53:32Z",
+    "body": "@thestinger, I rebased (there were some conflicts), could you please reapprove?\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/22389691/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

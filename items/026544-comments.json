@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/114948952",
+    "html_url": "https://github.com/rust-lang/rust/issues/26544#issuecomment-114948952",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/26544",
+    "id": 114948952,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDExNDk0ODk1Mg==",
+    "user": {
+      "login": "agrover",
+      "id": 2305,
+      "node_id": "MDQ6VXNlcjIzMDU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2305?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/agrover",
+      "html_url": "https://github.com/agrover",
+      "followers_url": "https://api.github.com/users/agrover/followers",
+      "following_url": "https://api.github.com/users/agrover/following{/other_user}",
+      "gists_url": "https://api.github.com/users/agrover/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/agrover/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/agrover/subscriptions",
+      "organizations_url": "https://api.github.com/users/agrover/orgs",
+      "repos_url": "https://api.github.com/users/agrover/repos",
+      "events_url": "https://api.github.com/users/agrover/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/agrover/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-06-24T17:30:18Z",
+    "updated_at": "2015-06-24T17:30:18Z",
+    "body": "I'm opening a new PR https://github.com/rust-lang/rust/pull/26546 for this since it's not clear how to repurpose an issue into a PR.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/114948952/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

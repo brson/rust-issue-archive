@@ -1,0 +1,141 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/8995",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/8995/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/8995/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/8995/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/8995",
+  "id": 19036506,
+  "node_id": "MDU6SXNzdWUxOTAzNjUwNg==",
+  "number": 8995,
+  "title": "Tracking issue for inherent associated types",
+  "user": {
+    "login": "pnkfelix",
+    "id": 173127,
+    "node_id": "MDQ6VXNlcjE3MzEyNw==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/173127?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/pnkfelix",
+    "html_url": "https://github.com/pnkfelix",
+    "followers_url": "https://api.github.com/users/pnkfelix/followers",
+    "following_url": "https://api.github.com/users/pnkfelix/following{/other_user}",
+    "gists_url": "https://api.github.com/users/pnkfelix/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/pnkfelix/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/pnkfelix/subscriptions",
+    "organizations_url": "https://api.github.com/users/pnkfelix/orgs",
+    "repos_url": "https://api.github.com/users/pnkfelix/repos",
+    "events_url": "https://api.github.com/users/pnkfelix/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/pnkfelix/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 89436934,
+      "node_id": "MDU6TGFiZWw4OTQzNjkzNA==",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/B-RFC-approved",
+      "name": "B-RFC-approved",
+      "color": "d304cb",
+      "default": false,
+      "description": "Blocker: Approved by a merged RFC but not yet implemented."
+    },
+    {
+      "id": 149689562,
+      "node_id": "MDU6TGFiZWwxNDk2ODk1NjI=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-associated-items",
+      "name": "A-associated-items",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Associated items (types, constants & functions)"
+    },
+    {
+      "id": 211668019,
+      "node_id": "MDU6TGFiZWwyMTE2NjgwMTk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-lang",
+      "name": "T-lang",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the language team"
+    },
+    {
+      "id": 650846969,
+      "node_id": "MDU6TGFiZWw2NTA4NDY5Njk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-tracking-issue",
+      "name": "C-tracking-issue",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: An issue tracking the progress of sth. like the implementation of an RFC"
+    },
+    {
+      "id": 2773757079,
+      "node_id": "MDU6TGFiZWwyNzczNzU3MDc5",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/F-inherent_associated_types",
+      "name": "F-inherent_associated_types",
+      "color": "f9c0cc",
+      "default": false,
+      "description": "`#![feature(inherent_associated_types)]`"
+    },
+    {
+      "id": 3537211959,
+      "node_id": "LA_kwDOAAsO6M7S1ZI3",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/S-tracking-impl-incomplete",
+      "name": "S-tracking-impl-incomplete",
+      "color": "4682b4",
+      "default": false,
+      "description": "Status: The implementation is incomplete."
+    },
+    {
+      "id": 4172483496,
+      "node_id": "LA_kwDOAAsO6M74swuo",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-types",
+      "name": "T-types",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the types team, which will review and decide on the PR/issue."
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 34,
+  "created_at": "2013-09-05T10:41:35Z",
+  "updated_at": "2025-09-29T09:57:23Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "This is a tracking issue for the [\"inherent associate type\" part of \"inherent associated items\" part of the RFC 195 \"associated items\"](https://github.com/rust-lang/rfcs/blob/master/text/0195-associated-items.md#inherent-associated-items)\n\n<details><summary>Original description for historic preservation</summary>\n\nWhen developing a type-parametric impl, I found myself writing code somewhat like this:\n\n```rust\n    struct Grammar<T, NT> { ... }\n\n    impl<T:Clone,NT:Eq+Hash+Clone+Primable> Grammar<T,NT> {\n        fn to_nt_map(&self) -> HashMap<NT, ~[Prod<T,NT>]>\n        {\n            type Rules = ~[Prod<T,NT>];\n            type NTMap = HashMap<NT, Rules>;        \n          ...\n        }\n\n        fn from_nt_map(start: &NT, rules: &HashMap<NT, ~[Prod<T,NT>]>)\n            -> Grammar<T,NT>\n        {\n            type Rules = ~[Prod<T,NT>];\n            type NTMap = HashMap<NT, Rules>;\n          ...\n        }\n\n        pub fn eliminate_left_recursion(&self) -> Grammar<T,NT>\n        {\n          ...\n        }\n\n        ...\n\n    }\n```\n\nI cannot make a `type` definition for `HashMap<NT, ~[Prod<T,NT>]>` outside of the `impl` because it then those free references to `NT` and `T` would be unbound.\n\nAnd I cannot put a `type` definition within the impl, even an impl for a struct such as this (it simply does not parse with the current grammar).\n\n(Being able to put type definitions within impls will probably arise naturally from #5033, when we get around to that.  But that is nonetheless a separate issue from this: Associated Types (and Associated Items) are about enabling certain patterns for the _user_ of a trait, while this ticket describes a convenience for the _implementor_ of a struct.)\n\n</details>\n\n### About tracking issues\n\nTracking issues are used to record the overall progress of implementation.\nThey are also used as hubs connecting to other relevant issues, e.g., bugs or open design questions.\nA tracking issue is however not meant for large scale discussion, questions, or bug reports about a feature.\nInstead, open a dedicated issue for the specific matter and add the relevant feature gate label.\n\n### Steps\n\n- [ ] Implement the RFC\n- [ ] Adjust documentation ([see instructions on rustc-dev-guide][doc-guide])\n- [ ] Stabilization PR ([see instructions on rustc-dev-guide][stabilization-guide])\n\n[stabilization-guide]: https://rustc-dev-guide.rust-lang.org/stabilization_guide.html#stabilization-pr\n[doc-guide]: https://rustc-dev-guide.rust-lang.org/stabilization_guide.html#documentation-prs\n\n### Unresolved Questions\n\n*None*\n\n### Implementation history\n\n* #82516\n* #103621\n* #104348\n* #105224\n* #105315\n* #105768\n* #105961\n* #109410\n* #110945\n* #111486\n* #114594\n* #118118\n* #118262\n* #140247",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/8995/reactions",
+    "total_count": 115,
+    "+1": 99,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 7,
+    "confused": 0,
+    "heart": 2,
+    "rocket": 1,
+    "eyes": 6
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/8995/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

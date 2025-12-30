@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29967031",
+    "html_url": "https://github.com/rust-lang/rust/pull/10832#issuecomment-29967031",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10832",
+    "id": 29967031,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5OTY3MDMx",
+    "user": {
+      "login": "chris-morgan",
+      "id": 392868,
+      "node_id": "MDQ6VXNlcjM5Mjg2OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/392868?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/chris-morgan",
+      "html_url": "https://github.com/chris-morgan",
+      "followers_url": "https://api.github.com/users/chris-morgan/followers",
+      "following_url": "https://api.github.com/users/chris-morgan/following{/other_user}",
+      "gists_url": "https://api.github.com/users/chris-morgan/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/chris-morgan/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/chris-morgan/subscriptions",
+      "organizations_url": "https://api.github.com/users/chris-morgan/orgs",
+      "repos_url": "https://api.github.com/users/chris-morgan/repos",
+      "events_url": "https://api.github.com/users/chris-morgan/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/chris-morgan/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-12-06T06:51:41Z",
+    "updated_at": "2013-12-06T06:51:41Z",
+    "body": "@alexcrichton not needing to keep track of the numbers at all _would_ be handy; to do that, we'd need a (a) a counter syntax extension (something like the CSS counters module) which can be used inside a repeat, and (b) some way of counting repeats in macros (to get the number 41). Those are certainly out of scope for this particular thing.\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29967031/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/149013471",
+    "html_url": "https://github.com/rust-lang/rust/issues/15935#issuecomment-149013471",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15935",
+    "id": 149013471,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE0OTAxMzQ3MQ==",
+    "user": {
+      "login": "liigo",
+      "id": 346530,
+      "node_id": "MDQ6VXNlcjM0NjUzMA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/346530?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/liigo",
+      "html_url": "https://github.com/liigo",
+      "followers_url": "https://api.github.com/users/liigo/followers",
+      "following_url": "https://api.github.com/users/liigo/following{/other_user}",
+      "gists_url": "https://api.github.com/users/liigo/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/liigo/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/liigo/subscriptions",
+      "organizations_url": "https://api.github.com/users/liigo/orgs",
+      "repos_url": "https://api.github.com/users/liigo/repos",
+      "events_url": "https://api.github.com/users/liigo/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/liigo/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-10-18T13:09:51Z",
+    "updated_at": "2015-10-18T13:09:51Z",
+    "body": "Closing. Things have changed a lot.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/149013471/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

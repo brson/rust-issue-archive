@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18473865",
+    "html_url": "https://github.com/rust-lang/rust/pull/6754#issuecomment-18473865",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6754",
+    "id": 18473865,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4NDczODY1",
+    "user": {
+      "login": "Aatch",
+      "id": 342416,
+      "node_id": "MDQ6VXNlcjM0MjQxNg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/342416?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Aatch",
+      "html_url": "https://github.com/Aatch",
+      "followers_url": "https://api.github.com/users/Aatch/followers",
+      "following_url": "https://api.github.com/users/Aatch/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Aatch/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Aatch/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Aatch/subscriptions",
+      "organizations_url": "https://api.github.com/users/Aatch/orgs",
+      "repos_url": "https://api.github.com/users/Aatch/repos",
+      "events_url": "https://api.github.com/users/Aatch/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Aatch/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-27T00:47:20Z",
+    "updated_at": "2013-05-27T00:47:20Z",
+    "body": "As far as I'm aware, `noalias` just means that the two pointers don't directly point to overlapping ranges. Since you can imagine the fields of a struct as individual unique pointers within a \"top-level\" unique pointer, you couldn't get an overlapping range, since there would then be multiple pointers to the same data. The same logic applies to vectors/arrays.\n\nFinally, `noalias` only really matters if you are doing something that is affected by potential aliasing, I'm not too familiar with the scope of LLVM's inter-procedural optimization but short of deliberately constructing a pair of aliasing unique pointers, I'm having a hard time imagining a case that might cause LLVM to perform an invalid optimization.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18473865/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

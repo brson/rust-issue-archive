@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27921446",
+    "html_url": "https://github.com/rust-lang/rust/issues/10265#issuecomment-27921446",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10265",
+    "id": 27921446,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3OTIxNDQ2",
+    "user": {
+      "login": "tautologico",
+      "id": 62906,
+      "node_id": "MDQ6VXNlcjYyOTA2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/62906?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tautologico",
+      "html_url": "https://github.com/tautologico",
+      "followers_url": "https://api.github.com/users/tautologico/followers",
+      "following_url": "https://api.github.com/users/tautologico/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tautologico/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tautologico/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tautologico/subscriptions",
+      "organizations_url": "https://api.github.com/users/tautologico/orgs",
+      "repos_url": "https://api.github.com/users/tautologico/repos",
+      "events_url": "https://api.github.com/users/tautologico/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tautologico/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-06T22:42:11Z",
+    "updated_at": "2013-11-06T22:42:11Z",
+    "body": "After some investigation, I found out that the 'extern mod foo(name=\"bar\")' form creates a view item with attached metaitem having key \"name\" and value \"bar\". The 'extern mod foo = \"bar\"' form creates a view item with two metaitems, one with key \"name\" and value \"bar\", and other with key \"package_id\" and also value \"bar\". This happens in rustc::metadata::creader, function visit_view_item, and it appends the whole path as package_id and only the filestem as name, but in this case both are equal. So in rustc::metadata::loader, find_library_crate_aux finds the crate to load but metadata_matches requires the \"package_id\" metaitem to be present in the \"bar\" crate. \n\nI confirmed this with my above example by adding 'package_id=\"world\"' item in the link attribute above (world.rs), and it worked even with 'extern mod w = \"world\"' in main.rs. \n\nSo this amounts to the \"package_id\" being mandatory in external crates. \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27921446/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

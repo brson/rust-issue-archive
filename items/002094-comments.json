@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/4894819",
+    "html_url": "https://github.com/rust-lang/rust/issues/2094#issuecomment-4894819",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2094",
+    "id": 4894819,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ4OTQ4MTk=",
+    "user": {
+      "login": "olsonjeffery",
+      "id": 10408,
+      "node_id": "MDQ6VXNlcjEwNDA4",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10408?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/olsonjeffery",
+      "html_url": "https://github.com/olsonjeffery",
+      "followers_url": "https://api.github.com/users/olsonjeffery/followers",
+      "following_url": "https://api.github.com/users/olsonjeffery/following{/other_user}",
+      "gists_url": "https://api.github.com/users/olsonjeffery/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/olsonjeffery/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/olsonjeffery/subscriptions",
+      "organizations_url": "https://api.github.com/users/olsonjeffery/orgs",
+      "repos_url": "https://api.github.com/users/olsonjeffery/repos",
+      "events_url": "https://api.github.com/users/olsonjeffery/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/olsonjeffery/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-04-03T05:32:43Z",
+    "updated_at": "2012-04-03T05:32:43Z",
+    "body": "I noticed this just now, as well.. was really confusing because the record in question has, like, 3 different representations because of various OS/Arch combinations. Good times.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/4894819/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

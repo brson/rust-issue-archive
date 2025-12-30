@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/86387215",
+    "html_url": "https://github.com/rust-lang/rust/issues/23729#issuecomment-86387215",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23729",
+    "id": 86387215,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDg2Mzg3MjE1",
+    "user": {
+      "login": "dls",
+      "id": 63391,
+      "node_id": "MDQ6VXNlcjYzMzkx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/63391?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/dls",
+      "html_url": "https://github.com/dls",
+      "followers_url": "https://api.github.com/users/dls/followers",
+      "following_url": "https://api.github.com/users/dls/following{/other_user}",
+      "gists_url": "https://api.github.com/users/dls/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/dls/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/dls/subscriptions",
+      "organizations_url": "https://api.github.com/users/dls/orgs",
+      "repos_url": "https://api.github.com/users/dls/repos",
+      "events_url": "https://api.github.com/users/dls/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/dls/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-26T08:06:16Z",
+    "updated_at": "2015-03-26T08:06:16Z",
+    "body": "if you add:\n\n``` rust\n            type Item = u64;\n```\n\nTo the iterator declaration the compiler no longer panics.\n\n``` rust\n        impl Iterator for Recurrence {\n            type Item = u64;\n\n            #[inline]\n            fn next(&mut self) -> Option<u64> {\n                if self.pos < 2 {\n                    let next_val = self.mem[self.pos];\n                    self.pos += 1;\n                    Some(next_val)\n                } else {\n                    let next_val = (self.mem[0] + self.mem[1]);\n                    self.mem[0] = self.mem[1];\n                    self.mem[1] = next_val;\n                    Some(next_val)\n                }\n            }\n        }\n```\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/86387215/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

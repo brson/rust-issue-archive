@@ -1,0 +1,141 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/20041",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/20041/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/20041/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/20041/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/20041",
+  "id": 52522748,
+  "node_id": "MDU6SXNzdWU1MjUyMjc0OA==",
+  "number": 20041,
+  "title": "Tracking issue for type equality constraints in where clauses",
+  "user": {
+    "login": "jroesch",
+    "id": 696509,
+    "node_id": "MDQ6VXNlcjY5NjUwOQ==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/696509?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jroesch",
+    "html_url": "https://github.com/jroesch",
+    "followers_url": "https://api.github.com/users/jroesch/followers",
+    "following_url": "https://api.github.com/users/jroesch/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jroesch/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jroesch/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jroesch/subscriptions",
+    "organizations_url": "https://api.github.com/users/jroesch/orgs",
+    "repos_url": "https://api.github.com/users/jroesch/repos",
+    "events_url": "https://api.github.com/users/jroesch/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jroesch/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 37544,
+      "node_id": "MDU6TGFiZWwzNzU0NA==",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-type-system",
+      "name": "A-type-system",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Type system"
+    },
+    {
+      "id": 211668019,
+      "node_id": "MDU6TGFiZWwyMTE2NjgwMTk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-lang",
+      "name": "T-lang",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the language team"
+    },
+    {
+      "id": 650846969,
+      "node_id": "MDU6TGFiZWw2NTA4NDY5Njk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-tracking-issue",
+      "name": "C-tracking-issue",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: An issue tracking the progress of sth. like the implementation of an RFC"
+    },
+    {
+      "id": 1405345617,
+      "node_id": "MDU6TGFiZWwxNDA1MzQ1NjE3",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-lazy-normalization",
+      "name": "A-lazy-normalization",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: Lazy normalization (tracking issue: #60471)"
+    },
+    {
+      "id": 3537215072,
+      "node_id": "LA_kwDOAAsO6M7S1Z5g",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/S-tracking-unimplemented",
+      "name": "S-tracking-unimplemented",
+      "color": "4682b4",
+      "default": false,
+      "description": "Status: The feature has not been implemented."
+    },
+    {
+      "id": 3537216018,
+      "node_id": "LA_kwDOAAsO6M7S1aIS",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/S-tracking-design-concerns",
+      "name": "S-tracking-design-concerns",
+      "color": "4682b4",
+      "default": false,
+      "description": "Status: There are blocking design concerns."
+    },
+    {
+      "id": 4172483496,
+      "node_id": "LA_kwDOAAsO6M74swuo",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-types",
+      "name": "T-types",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the types team, which will review and decide on the PR/issue."
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 49,
+  "created_at": "2014-12-19T20:03:31Z",
+  "updated_at": "2025-10-06T16:31:21Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "> [!IMPORTANT]\n> This type-system feature is currently **not** on track to be implemented / become part of the language!\n\nImplement the missing type equality constraint specified in [RFC 135](https://github.com/rust-lang/rfcs/pull/135).\n\n### Examples\n\n```rs\nfn sum<I: Iterator>(_: I) -> i32\nwhere\n    I::Item == i32 // or `I::Item = i32`\n{\n    // ...    \n}\n```\n\n### Note\n\nAs a matter of fact, `$type = $type` and `$type == $type` are syntactically valid and don't raise any feature gate warning/error if `cfg`'ed out! This is likely unintentional and should be ironed out.",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/20041/reactions",
+    "total_count": 143,
+    "+1": 131,
+    "-1": 0,
+    "laugh": 1,
+    "hooray": 3,
+    "confused": 0,
+    "heart": 4,
+    "rocket": 2,
+    "eyes": 2
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/20041/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

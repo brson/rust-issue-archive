@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27945784",
+    "html_url": "https://github.com/rust-lang/rust/issues/8537#issuecomment-27945784",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/8537",
+    "id": 27945784,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI3OTQ1Nzg0",
+    "user": {
+      "login": "huonw",
+      "id": 1203825,
+      "node_id": "MDQ6VXNlcjEyMDM4MjU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1203825?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/huonw",
+      "html_url": "https://github.com/huonw",
+      "followers_url": "https://api.github.com/users/huonw/followers",
+      "following_url": "https://api.github.com/users/huonw/following{/other_user}",
+      "gists_url": "https://api.github.com/users/huonw/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/huonw/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/huonw/subscriptions",
+      "organizations_url": "https://api.github.com/users/huonw/orgs",
+      "repos_url": "https://api.github.com/users/huonw/repos",
+      "events_url": "https://api.github.com/users/huonw/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/huonw/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-07T08:39:08Z",
+    "updated_at": "2013-11-07T08:39:08Z",
+    "body": "Triage: this seems to be fixed in that the error is reported with a span, except it points to the next token. E.g.\n\n``` rust\nextern \"foo\" {}\ntype Foo = extern \"foo\" fn();\nextern \"foo\" fn foo() {}\n\nfn main() {}\n```\n\n```\n8537.rs:1:13: 1:14 error: illegal ABI: expected one of [cdecl, stdcall, fastcall, aapcs, Rust, C, rust-intrinsic], found `foo`\n8537.rs:1 extern \"foo\" {}\n                       ^\n8537.rs:2:24: 2:26 error: illegal ABI: expected one of [cdecl, stdcall, fastcall, aapcs, Rust, C, rust-intrinsic], found `foo`\n8537.rs:2 type Foo = extern \"foo\" fn();\n                                  ^~\n8537.rs:3:13: 3:15 error: illegal ABI: expected one of [cdecl, stdcall, fastcall, aapcs, Rust, C, rust-intrinsic], found `foo`\n8537.rs:3 extern \"foo\" fn foo() {}\n                       ^~\nerror: aborting due to 3 previous errors\ntask '<unnamed>' failed at 'explicit failure', /home/huon/rust/src/libsyntax/diagnostic.rs:101\ntask '<unnamed>' failed at 'explicit failure', /home/huon/rust/src/librustc/rustc.rs:396\n```\n\n(repurposing this bug for the incorrect spans.)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/27945784/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10671902",
+    "html_url": "https://github.com/rust-lang/rust/issues/3905#issuecomment-10671902",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/3905",
+    "id": 10671902,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNjcxOTAy",
+    "user": {
+      "login": "eholk",
+      "id": 105766,
+      "node_id": "MDQ6VXNlcjEwNTc2Ng==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/105766?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eholk",
+      "html_url": "https://github.com/eholk",
+      "followers_url": "https://api.github.com/users/eholk/followers",
+      "following_url": "https://api.github.com/users/eholk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eholk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eholk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eholk/subscriptions",
+      "organizations_url": "https://api.github.com/users/eholk/orgs",
+      "repos_url": "https://api.github.com/users/eholk/repos",
+      "events_url": "https://api.github.com/users/eholk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eholk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-11-23T23:54:13Z",
+    "updated_at": "2012-11-23T23:54:13Z",
+    "body": "Wow, I should pay more attention to these threads :)\n\nThe original behavior (closed pipes return true) was intentional on my part. The rational is that `peek` returns true when something has happened on the pipe that you might care about. For example, if we had a loop that kept using `peek` to test for a message, we'd want to know if the pipe closed so we could terminate the loop.\n\nThat said, I can see the argument for the new behavior, so I'm fine if people would rather it be the other way. Perhaps we could have peek that returns an enum of `MessageWaiting`, `Terminated` or `NoData`.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/10671902/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/5480324",
+    "html_url": "https://github.com/rust-lang/rust/issues/2332#issuecomment-5480324",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2332",
+    "id": 5480324,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0ODAzMjQ=",
+    "user": {
+      "login": "nikomatsakis",
+      "id": 155238,
+      "node_id": "MDQ6VXNlcjE1NTIzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155238?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nikomatsakis",
+      "html_url": "https://github.com/nikomatsakis",
+      "followers_url": "https://api.github.com/users/nikomatsakis/followers",
+      "following_url": "https://api.github.com/users/nikomatsakis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nikomatsakis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nikomatsakis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nikomatsakis/subscriptions",
+      "organizations_url": "https://api.github.com/users/nikomatsakis/orgs",
+      "repos_url": "https://api.github.com/users/nikomatsakis/repos",
+      "events_url": "https://api.github.com/users/nikomatsakis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nikomatsakis/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-05-03T03:30:56Z",
+    "updated_at": "2012-05-03T03:30:56Z",
+    "body": "I think this inference failure is actually legitimate.  The problem is the type declaration `type chan<T> = T`, which is pretty meaningless.  So, in effect, you wind up with an expected type for the closure of `fn~(T)`, which means that when we go to invoke the method, sure enough, we know nothing about what `po` is expected to be (it's T!).\n\nIf you change `type chan<T> = T` to `enum chan<T> = uint` or some such, it works fine.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/5480324/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29169922",
+    "html_url": "https://github.com/rust-lang/rust/pull/10600#issuecomment-29169922",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10600",
+    "id": 29169922,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI5MTY5OTIy",
+    "user": {
+      "login": "ktt3ja",
+      "id": 1735399,
+      "node_id": "MDQ6VXNlcjE3MzUzOTk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1735399?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ktt3ja",
+      "html_url": "https://github.com/ktt3ja",
+      "followers_url": "https://api.github.com/users/ktt3ja/followers",
+      "following_url": "https://api.github.com/users/ktt3ja/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ktt3ja/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ktt3ja/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ktt3ja/subscriptions",
+      "organizations_url": "https://api.github.com/users/ktt3ja/orgs",
+      "repos_url": "https://api.github.com/users/ktt3ja/repos",
+      "events_url": "https://api.github.com/users/ktt3ja/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ktt3ja/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-24T23:40:09Z",
+    "updated_at": "2013-11-24T23:40:09Z",
+    "body": "r? @huonw \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/29169922/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

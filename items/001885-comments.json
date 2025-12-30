@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7413804",
+    "html_url": "https://github.com/rust-lang/rust/issues/1885#issuecomment-7413804",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/1885",
+    "id": 7413804,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc0MTM4MDQ=",
+    "user": {
+      "login": "paulstansifer",
+      "id": 1431,
+      "node_id": "MDQ6VXNlcjE0MzE=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1431?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/paulstansifer",
+      "html_url": "https://github.com/paulstansifer",
+      "followers_url": "https://api.github.com/users/paulstansifer/followers",
+      "following_url": "https://api.github.com/users/paulstansifer/following{/other_user}",
+      "gists_url": "https://api.github.com/users/paulstansifer/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/paulstansifer/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/paulstansifer/subscriptions",
+      "organizations_url": "https://api.github.com/users/paulstansifer/orgs",
+      "repos_url": "https://api.github.com/users/paulstansifer/repos",
+      "events_url": "https://api.github.com/users/paulstansifer/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/paulstansifer/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2012-07-31T23:01:47Z",
+    "updated_at": "2012-07-31T23:01:47Z",
+    "body": "I think this has been fixed: the code in question successfully expands, and, after fixing errors caused by language and library changes, compiles, also. The functioning code is below:\n\n```\n// Old comment:\n// This program hangs in the compilation phase.\n// The only difference is that the closure in #macro is replaced with a block\n\nuse std;\nimport rand;\nimport io::println;\n\niface is_even { fn is_even() -> bool; }\n\nimpl of is_even for int { fn is_even() -> bool { self % 2 == 0 } }\n\nfn main() {\n    let rng = rand::rng();\n\n    let gen_even = {|| (rng.next() as int) * 2};\n    let gen_float = {|| rng.gen_float()};\n\n    fn assert_even<T: is_even>(num_gen: fn() -> T) -> bool {\n        let num = num_gen();\n        let prop_holds = num.is_even();\n        if !prop_holds {\n            println(#fmt(\"Failure: %? is not even\", num));\n        }\n        ret prop_holds;\n    }\n\n    fn assert_divisible(num_gen1: fn() -> float,\n                        num_gen2: fn() -> float) -> bool {\n        let dividend = num_gen1(),\n            divisor = num_gen2();\n        let prop_holds = dividend / divisor == 0f;\n        if !prop_holds {\n            println(#fmt(\"Failure: %? are not divisible\", (dividend, divisor)));\n        }\n        ret prop_holds;\n    }\n\n                                        // Change closure to block\n    #macro[[#for_all[prop, [gen, ...]], {\n        let mut passed_tests = 0;\n        let mut prop_holds = true;\n        while passed_tests < 100 && prop_holds {\n            prop_holds = prop(gen, ...);\n            if prop_holds { passed_tests += 1; }\n        }\n        println(#fmt(\"Tests passed: %d\", passed_tests));\n    }]]; // Close block\n\n    #for_all[assert_even, [gen_even]];\n    #for_all[assert_divisible, [gen_float, gen_float]];\n}\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/7413804/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

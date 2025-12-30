@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/94990105",
+    "html_url": "https://github.com/rust-lang/rust/issues/22314#issuecomment-94990105",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22314",
+    "id": 94990105,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk0OTkwMTA1",
+    "user": {
+      "login": "tamird",
+      "id": 1535036,
+      "node_id": "MDQ6VXNlcjE1MzUwMzY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1535036?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tamird",
+      "html_url": "https://github.com/tamird",
+      "followers_url": "https://api.github.com/users/tamird/followers",
+      "following_url": "https://api.github.com/users/tamird/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tamird/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tamird/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tamird/subscriptions",
+      "organizations_url": "https://api.github.com/users/tamird/orgs",
+      "repos_url": "https://api.github.com/users/tamird/repos",
+      "events_url": "https://api.github.com/users/tamird/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tamird/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-22T01:11:21Z",
+    "updated_at": "2015-04-22T01:11:21Z",
+    "body": "This now compiles without error.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/94990105/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

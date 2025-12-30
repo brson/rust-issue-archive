@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77438192",
+    "html_url": "https://github.com/rust-lang/rust/issues/22615#issuecomment-77438192",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/22615",
+    "id": 77438192,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3NDM4MTky",
+    "user": {
+      "login": "killercup",
+      "id": 20063,
+      "node_id": "MDQ6VXNlcjIwMDYz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20063?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/killercup",
+      "html_url": "https://github.com/killercup",
+      "followers_url": "https://api.github.com/users/killercup/followers",
+      "following_url": "https://api.github.com/users/killercup/following{/other_user}",
+      "gists_url": "https://api.github.com/users/killercup/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/killercup/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/killercup/subscriptions",
+      "organizations_url": "https://api.github.com/users/killercup/orgs",
+      "repos_url": "https://api.github.com/users/killercup/repos",
+      "events_url": "https://api.github.com/users/killercup/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/killercup/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-05T19:51:42Z",
+    "updated_at": "2015-03-05T19:51:42Z",
+    "body": "Just ran into this at the docs for [HashMap](http://doc.rust-lang.org/std/collections/struct.HashMap.html).\n\nLooks like [this line of JavaScript](https://github.com/rust-lang/rust/blob/68740b405404a3f885e388c8d31722797d519c30/src/librustdoc/html/static/playpen.js#L18) selects to much code when building the code for the playpen link. I guess it should be `prev` instead of `siblings`. I'll look into writing a short PR.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77438192/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

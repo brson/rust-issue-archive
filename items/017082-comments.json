@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54759495",
+    "html_url": "https://github.com/rust-lang/rust/issues/17082#issuecomment-54759495",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17082",
+    "id": 54759495,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU0NzU5NDk1",
+    "user": {
+      "login": "bluss",
+      "id": 3209739,
+      "node_id": "MDQ6VXNlcjMyMDk3Mzk=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3209739?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bluss",
+      "html_url": "https://github.com/bluss",
+      "followers_url": "https://api.github.com/users/bluss/followers",
+      "following_url": "https://api.github.com/users/bluss/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bluss/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bluss/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bluss/subscriptions",
+      "organizations_url": "https://api.github.com/users/bluss/orgs",
+      "repos_url": "https://api.github.com/users/bluss/repos",
+      "events_url": "https://api.github.com/users/bluss/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bluss/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-09-07T20:29:55Z",
+    "updated_at": "2014-09-07T20:29:55Z",
+    "body": "dup of #5941\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/54759495/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/49434704",
+    "html_url": "https://github.com/rust-lang/rust/pull/15779#issuecomment-49434704",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15779",
+    "id": 49434704,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ5NDM0NzA0",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-07-18T14:09:49Z",
+    "updated_at": "2014-07-18T14:09:49Z",
+    "body": "Example logs:\n\nhttp://buildbot.rust-lang.org/builders/nightly-mac/builds/21/steps/compile/logs/stdio\nhttp://buildbot.rust-lang.org/builders/nightly-mac/builds/26/steps/compile/logs/stdio\nhttp://buildbot.rust-lang.org/builders/nightly-mac/builds/33/steps/compile/logs/stdio\n\nThe relevant bit is:\n\n```\nAssertion failed: ((!RequiresNullTerminator || BufEnd[0] == 0) && \"Buffer is not null terminated!\"), function init, file /Users/rustbuild/src/rust-buildbot/slave/nightly-mac/build/src/llvm/lib/Support/MemoryBuffer.cpp, line 49.\n```\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/49434704/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

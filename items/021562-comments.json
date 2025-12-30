@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71264098",
+    "html_url": "https://github.com/rust-lang/rust/issues/21562#issuecomment-71264098",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/21562",
+    "id": 71264098,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcxMjY0MDk4",
+    "user": {
+      "login": "goertzenator",
+      "id": 605072,
+      "node_id": "MDQ6VXNlcjYwNTA3Mg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/605072?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/goertzenator",
+      "html_url": "https://github.com/goertzenator",
+      "followers_url": "https://api.github.com/users/goertzenator/followers",
+      "following_url": "https://api.github.com/users/goertzenator/following{/other_user}",
+      "gists_url": "https://api.github.com/users/goertzenator/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/goertzenator/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/goertzenator/subscriptions",
+      "organizations_url": "https://api.github.com/users/goertzenator/orgs",
+      "repos_url": "https://api.github.com/users/goertzenator/repos",
+      "events_url": "https://api.github.com/users/goertzenator/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/goertzenator/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-23T20:54:59Z",
+    "updated_at": "2015-01-23T20:54:59Z",
+    "body": "A minimal program to demonstrate the crash is...\n\n``` rust\nextern crate core;\nuse core::marker::Sync;\n\nstatic SARRAY: [i32; 1] = [11];\n\nstruct MyStruct {\n    pub arr: *const [i32],\n}\nunsafe impl Sync for MyStruct {}\n\nstatic mystruct: MyStruct = MyStruct {\n    arr: &SARRAY\n};\n\nfn main() {}\n\n```\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/71264098/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

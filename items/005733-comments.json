@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/15944590",
+    "html_url": "https://github.com/rust-lang/rust/pull/5733#issuecomment-15944590",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/5733",
+    "id": 15944590,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE1OTQ0NTkw",
+    "user": {
+      "login": "thestinger",
+      "id": 1505226,
+      "node_id": "MDQ6VXNlcjE1MDUyMjY=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1505226?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/thestinger",
+      "html_url": "https://github.com/thestinger",
+      "followers_url": "https://api.github.com/users/thestinger/followers",
+      "following_url": "https://api.github.com/users/thestinger/following{/other_user}",
+      "gists_url": "https://api.github.com/users/thestinger/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/thestinger/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/thestinger/subscriptions",
+      "organizations_url": "https://api.github.com/users/thestinger/orgs",
+      "repos_url": "https://api.github.com/users/thestinger/repos",
+      "events_url": "https://api.github.com/users/thestinger/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/thestinger/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-04-05T08:41:03Z",
+    "updated_at": "2013-04-05T08:49:01Z",
+    "body": "Two more things that can be turned into issues and dealt with in the future:\n- #5737: It would be convenient to have the representation of complex numbers be compatible with C by making it packed, but I don't think that's currently possible. Luckily that can be changed later without even touching the interface at all. \n- #5738: There's also the question about how frequently the rational number should normalize - `Mpq` does it after each operation, and then exposes a raw interface for doing a few operations without normalizing. If it's always guaranteed to be normalized, `#[deriving(Eq)]` might as well be used. That would probably also mean making the fields `priv` and using scary names for raw manipulation methods.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/15944590/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

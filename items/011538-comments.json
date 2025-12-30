@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32284846",
+    "html_url": "https://github.com/rust-lang/rust/pull/11538#issuecomment-32284846",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11538",
+    "id": 32284846,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMyMjg0ODQ2",
+    "user": {
+      "login": "eddyb",
+      "id": 77424,
+      "node_id": "MDQ6VXNlcjc3NDI0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/77424?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/eddyb",
+      "html_url": "https://github.com/eddyb",
+      "followers_url": "https://api.github.com/users/eddyb/followers",
+      "following_url": "https://api.github.com/users/eddyb/following{/other_user}",
+      "gists_url": "https://api.github.com/users/eddyb/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/eddyb/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/eddyb/subscriptions",
+      "organizations_url": "https://api.github.com/users/eddyb/orgs",
+      "repos_url": "https://api.github.com/users/eddyb/repos",
+      "events_url": "https://api.github.com/users/eddyb/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/eddyb/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-01-14T17:10:33Z",
+    "updated_at": "2014-01-14T17:11:59Z",
+    "body": "Notably, `abort` in libstd wasn't getting the `noreturn` attribute:\n\n``` rust\nfn main() {let x = ~3; assert_eq!(*x, 3);}\n```\n\n``` llvm\n; before\ndefine internal void @main::h56d0d172826fda0bah::v0.0({ i64, %tydesc*, i8*, i8*, i8 }* nocapture readnone) unnamed_addr #2 {\n\"function top level\":\n  %__self.i = alloca { %\"enum.std::fmt::rt::Piece[#1]\"*, i64 }, align 8\n  %__self2.i = alloca { %\"struct.std::fmt::Argument[#1]\"*, i64 }, align 8\n  %1 = alloca %str_slice, align 8\n  %2 = call %\"enum.std::libc::types::common::c95::c_void[#1]\"* @malloc(i64 8)\n  %3 = icmp eq %\"enum.std::libc::types::common::c95::c_void[#1]\"* %2, null\n  br i1 %3, label %next.thread, label %cond.i.i\n\nnext.thread:                                      ; preds = %\"function top level\"\n  call void @abort()\n  %4 = bitcast %\"enum.std::libc::types::common::c95::c_void[#1]\"* %2 to i64*\n  store i64 3, i64* %4, align 8\n  br label %\"_ZN8_$UP$u329glue_drop19hb6a3c7b062d25f8faFE.exit\"\n\ncond.i.i:                                         ; preds = %\"function top level\"\n  %5 = bitcast %\"enum.std::libc::types::common::c95::c_void[#1]\"* %2 to i64*\n  store i64 3, i64* %5, align 8\n  call void @free(%\"enum.std::libc::types::common::c95::c_void[#1]\"* %2) #0\n  br label %\"_ZN8_$UP$u329glue_drop19hb6a3c7b062d25f8faFE.exit\"\n\n\"_ZN8_$UP$u329glue_drop19hb6a3c7b062d25f8faFE.exit\": ; preds = %next.thread, %cond.i.i\n  ret void\n}\n```\n\n``` llvm\n;after\ndefine internal void @main::h56d0d172826fda0bah::v0.0({ i64, %tydesc*, i8*, i8*, i8 }* nocapture readnone) unnamed_addr #2 {\n\"function top level\":\n  %__self.i = alloca { %\"enum.std::fmt::rt::Piece[#1]\"*, i64 }, align 8\n  %__self2.i = alloca { %\"struct.std::fmt::Argument[#1]\"*, i64 }, align 8\n  %1 = alloca %str_slice, align 8\n  %2 = call %\"enum.std::libc::types::common::c95::c_void[#1]\"* @malloc(i64 8)\n  %3 = icmp eq %\"enum.std::libc::types::common::c95::c_void[#1]\"* %2, null\n  br i1 %3, label %then.i, label %\"_ZN13_$UP$$LP$$RP$9glue_drop19hbc5ddb2494333fa7asE.exit\"\n\nthen.i:                                           ; preds = %\"function top level\"\n  call void @abort()\n  unreachable\n\n\"_ZN13_$UP$$LP$$RP$9glue_drop19hbc5ddb2494333fa7asE.exit\": ; preds = %\"function top level\"\n  %4 = bitcast %\"enum.std::libc::types::common::c95::c_void[#1]\"* %2 to i64*\n  store i64 3, i64* %4, align 8\n  call void @free(%\"enum.std::libc::types::common::c95::c_void[#1]\"* %2) #0\n  ret void\n}\n```\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/32284846/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

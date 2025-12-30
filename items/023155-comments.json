@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77733446",
+    "html_url": "https://github.com/rust-lang/rust/issues/23155#issuecomment-77733446",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23155",
+    "id": 77733446,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDc3NzMzNDQ2",
+    "user": {
+      "login": "andydude",
+      "id": 10523,
+      "node_id": "MDQ6VXNlcjEwNTIz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10523?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/andydude",
+      "html_url": "https://github.com/andydude",
+      "followers_url": "https://api.github.com/users/andydude/followers",
+      "following_url": "https://api.github.com/users/andydude/following{/other_user}",
+      "gists_url": "https://api.github.com/users/andydude/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/andydude/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/andydude/subscriptions",
+      "organizations_url": "https://api.github.com/users/andydude/orgs",
+      "repos_url": "https://api.github.com/users/andydude/repos",
+      "events_url": "https://api.github.com/users/andydude/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/andydude/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-03-08T05:00:21Z",
+    "updated_at": "2015-03-08T05:00:21Z",
+    "body": "I think this is a duplicate of https://github.com/rust-lang/rust/issues/23037\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/77733446/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

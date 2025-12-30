@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44361883",
+    "html_url": "https://github.com/rust-lang/rust/issues/9293#issuecomment-44361883",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9293",
+    "id": 44361883,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ0MzYxODgz",
+    "user": {
+      "login": "klutzy",
+      "id": 1589355,
+      "node_id": "MDQ6VXNlcjE1ODkzNTU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1589355?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/klutzy",
+      "html_url": "https://github.com/klutzy",
+      "followers_url": "https://api.github.com/users/klutzy/followers",
+      "following_url": "https://api.github.com/users/klutzy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/klutzy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/klutzy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/klutzy/subscriptions",
+      "organizations_url": "https://api.github.com/users/klutzy/orgs",
+      "repos_url": "https://api.github.com/users/klutzy/repos",
+      "events_url": "https://api.github.com/users/klutzy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/klutzy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-05-28T03:24:24Z",
+    "updated_at": "2014-05-28T03:24:24Z",
+    "body": "I now think this is non-issue since macro can accept `$b:tt` and invoke other macro which accepts `$b:expr` or `$b:pat`.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/44361883/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70764196",
+    "html_url": "https://github.com/rust-lang/rust/issues/20981#issuecomment-70764196",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/20981",
+    "id": 70764196,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcwNzY0MTk2",
+    "user": {
+      "login": "aturon",
+      "id": 709807,
+      "node_id": "MDQ6VXNlcjcwOTgwNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/709807?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/aturon",
+      "html_url": "https://github.com/aturon",
+      "followers_url": "https://api.github.com/users/aturon/followers",
+      "following_url": "https://api.github.com/users/aturon/following{/other_user}",
+      "gists_url": "https://api.github.com/users/aturon/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/aturon/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/aturon/subscriptions",
+      "organizations_url": "https://api.github.com/users/aturon/orgs",
+      "repos_url": "https://api.github.com/users/aturon/repos",
+      "events_url": "https://api.github.com/users/aturon/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/aturon/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-21T00:41:04Z",
+    "updated_at": "2015-01-21T00:41:04Z",
+    "body": "Note: this will be resolved in https://github.com/rust-lang/rust/pull/21258, which removes `Step` (in favor of direct, custom iterator implementations for e.g. bignums).\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/70764196/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

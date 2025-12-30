@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/100545387",
+    "html_url": "https://github.com/rust-lang/rust/issues/23301#issuecomment-100545387",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23301",
+    "id": 100545387,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwMDU0NTM4Nw==",
+    "user": {
+      "login": "Stebalien",
+      "id": 310393,
+      "node_id": "MDQ6VXNlcjMxMDM5Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/310393?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Stebalien",
+      "html_url": "https://github.com/Stebalien",
+      "followers_url": "https://api.github.com/users/Stebalien/followers",
+      "following_url": "https://api.github.com/users/Stebalien/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Stebalien/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Stebalien/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Stebalien/subscriptions",
+      "organizations_url": "https://api.github.com/users/Stebalien/orgs",
+      "repos_url": "https://api.github.com/users/Stebalien/repos",
+      "events_url": "https://api.github.com/users/Stebalien/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Stebalien/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-09T20:59:06Z",
+    "updated_at": "2015-05-09T20:59:06Z",
+    "body": "IMHO, this is a bug in `libsyntax/codemap.rs:lookup_filemap_idx` (reproduced below). The comment incorrectly states that we can't possibly be looking for a length zero filemap but, in this case, we're looking for a zero-length span in a zero-length filemap. I don't know if there's any clean way to fix this because of the way filemaps work. The simple fix is to say that one must not pass empty strings to `parse_*_from_source_str` functions. Something like (untested):\n\n``` diff\ndiff --git a/src/librustc/session/config.rs b/src/librustc/session/config.rs\nindex b999929..dc8f9fe 100644\n--- a/src/librustc/session/config.rs\n+++ b/src/librustc/session/config.rs\n@@ -849,6 +849,9 @@ pub fn rustc_optgroups() -> Vec<RustcOptGroup> {\n // Convert strings provided as --cfg [cfgspec] into a crate_cfg\n pub fn parse_cfgspecs(cfgspecs: Vec<String> ) -> ast::CrateConfig {\n     cfgspecs.into_iter().map(|s| {\n+        if &s == \"\" {\n+            early_error(\"empty --cfg argument\");\n+        }\n         parse::parse_meta_from_source_str(\"cfgspec\".to_string(),\n                                           s.to_string(),\n                                           Vec::new(),\n```\n\n``` rust\n    fn lookup_filemap_idx(&self, pos: BytePos) -> usize {\n        let files = self.files.borrow();\n        let files = &*files;\n        let len = files.len();\n        let mut a = 0;\n        let mut b = len;\n        while b - a > 1 {\n            let m = (a + b) / 2;\n            if files[m].start_pos > pos {\n                b = m;\n            } else {\n                a = m;\n            }\n        }\n        // There can be filemaps with length 0. These have the same start_pos as\n        // the previous filemap, but are not the filemaps we want (because they\n        // are length 0, they cannot contain what we are looking for). So,\n        // rewind until we find a useful filemap.\n        loop {\n            let lines = files[a].lines.borrow();\n            let lines = lines;\n            if !lines.is_empty() {\n                break;\n            }\n            if a == 0 {\n                panic!(\"position {} does not resolve to a source location\",\n                      pos.to_usize());\n            }\n            a -= 1;\n        }\n        if a >= len {\n            panic!(\"position {} does not resolve to a source location\",\n                  pos.to_usize())\n        }\n\n        return a;\n    }\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/100545387/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

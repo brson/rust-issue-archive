@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1626371",
+    "html_url": "https://github.com/rust-lang/rust/issues/718#issuecomment-1626371",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/718",
+    "id": 1626371,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE2MjYzNzE=",
+    "user": {
+      "login": "lkuper",
+      "id": 535218,
+      "node_id": "MDQ6VXNlcjUzNTIxOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/535218?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lkuper",
+      "html_url": "https://github.com/lkuper",
+      "followers_url": "https://api.github.com/users/lkuper/followers",
+      "following_url": "https://api.github.com/users/lkuper/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lkuper/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lkuper/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lkuper/subscriptions",
+      "organizations_url": "https://api.github.com/users/lkuper/orgs",
+      "repos_url": "https://api.github.com/users/lkuper/repos",
+      "events_url": "https://api.github.com/users/lkuper/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lkuper/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2011-07-21T19:48:35Z",
+    "updated_at": "2011-07-21T19:48:35Z",
+    "body": "Poking around in gdb reveals that a forwarding fn is being called in an infinite loop.  Two forwarding fns are being generated.  In the executable I'm looking at now, the one for my_b.foo() is called forwarding_fn1 and the one for my_c.foo() is forwarding_fn13.\n\nFirst, the call to my_b.foo() takes us to forwarding_fn1, which takes us to my_a.foo().  This works fine.  Then, the call to my_c.foo() takes us to forwarding_fn13, which takes us to fowarding_fn1.  But then we get stuck on forwarding_fn1.\n\nSo, we don't _always_ get stuck on forwarding_fn1.  We only seem to get stuck when we arrive at it via another forwarding fn.  We call my_c.foo(); my_c protests and says \"oh, no, I'm not self, my_b is!\"; we head to my_b.foo(), but since my_c has already insisted that my_b is self, we don't hear my_b telling us that actually my_a is self.  I'll look at this some more when I get a chance to talk about it with graydon.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/1626371/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

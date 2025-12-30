@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/47078757",
+    "html_url": "https://github.com/rust-lang/rust/issues/13696#issuecomment-47078757",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13696",
+    "id": 47078757,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3MDc4NzU3",
+    "user": {
+      "login": "alexchandel",
+      "id": 637714,
+      "node_id": "MDQ6VXNlcjYzNzcxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/637714?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexchandel",
+      "html_url": "https://github.com/alexchandel",
+      "followers_url": "https://api.github.com/users/alexchandel/followers",
+      "following_url": "https://api.github.com/users/alexchandel/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexchandel/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexchandel/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexchandel/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexchandel/orgs",
+      "repos_url": "https://api.github.com/users/alexchandel/repos",
+      "events_url": "https://api.github.com/users/alexchandel/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexchandel/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-06-25T09:23:32Z",
+    "updated_at": "2014-06-25T09:23:32Z",
+    "body": "Apparently it was removed in 7a93beef7f692b34168ad69633f56483d38ad8fc.\n\nAnd that's too bad. Native support for quad precision floats made Rust special to me, like Fortran's `real(real128)` or Python's `numpy.float128`. Even if there aren't native instructions for 128 bit operations, there could be in the near future, and I like the sound of `i128`, `u128`, and `f128`.\n\nIf these features aren't anticipated then Rust might have to staple them on later, like C to C++.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/47078757/reactions",
+      "total_count": 2,
+      "+1": 2,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

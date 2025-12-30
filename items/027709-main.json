@@ -1,0 +1,123 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/27709",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/27709/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/27709/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/27709/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/27709",
+  "id": 100595518,
+  "node_id": "MDU6SXNzdWUxMDA1OTU1MTg=",
+  "number": 27709,
+  "title": "Tracking issue for Ipv{4,6}Addr convenience methods",
+  "user": {
+    "login": "alexcrichton",
+    "id": 64996,
+    "node_id": "MDQ6VXNlcjY0OTk2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/alexcrichton",
+    "html_url": "https://github.com/alexcrichton",
+    "followers_url": "https://api.github.com/users/alexcrichton/followers",
+    "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+    "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+    "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+    "repos_url": "https://api.github.com/users/alexcrichton/repos",
+    "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 211668062,
+      "node_id": "MDU6TGFiZWwyMTE2NjgwNjI=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-libs-api",
+      "name": "T-libs-api",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the library API team, which will review and decide on the PR/issue."
+    },
+    {
+      "id": 246778137,
+      "node_id": "MDU6TGFiZWwyNDY3NzgxMzc=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/B-unstable",
+      "name": "B-unstable",
+      "color": "d304cb",
+      "default": false,
+      "description": "Blocker: Implemented in the nightly compiler and unstable."
+    },
+    {
+      "id": 650846969,
+      "node_id": "MDU6TGFiZWw2NTA4NDY5Njk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-tracking-issue",
+      "name": "C-tracking-issue",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: An issue tracking the progress of sth. like the implementation of an RFC"
+    },
+    {
+      "id": 2238437210,
+      "node_id": "MDU6TGFiZWwyMjM4NDM3MjEw",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-io",
+      "name": "A-io",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: `std::io`, `std::fs`, `std::net` and `std::path`"
+    },
+    {
+      "id": 2240305001,
+      "node_id": "MDU6TGFiZWwyMjQwMzA1MDAx",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/Libs-Tracked",
+      "name": "Libs-Tracked",
+      "color": "d4c5f9",
+      "default": false,
+      "description": "Libs issues that are tracked on the team's project board."
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 82,
+  "created_at": "2015-08-12T17:38:00Z",
+  "updated_at": "2025-09-23T10:17:49Z",
+  "closed_at": null,
+  "author_association": "MEMBER",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "The below is a list of methods left to be stabilized under the `ip` feature. The path forward today is unclear; if you'd like to push through any method on here the libs team is interested in a PR with links to the associated RFCs or other official documentation. Let us know!\n\n - [ ] [`IpAddr::is_documentation`](https://doc.rust-lang.org/nightly/std/net/enum.IpAddr.html#method.is_documentation)\n - [ ] [`Ipv6Addr::is_documentation`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.is_documentation)\n\n****\n\n - [ ] [`IpAddr::is_global`](https://doc.rust-lang.org/nightly/std/net/enum.IpAddr.html#method.is_global) \n - [ ] [`Ipv4Addr::is_global`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv4Addr.html#method.is_global)\n - [ ] [`Ipv6Addr::is_global`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.is_global)\n\n****\n\n - [ ] [`Ipv4Addr::is_shared`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv4Addr.html#method.is_shared)\n - ~~[`Ipv4Addr::is_ietf_protocol_assignment`](https://doc.rust-lang.org/1.55.0/std/net/struct.Ipv4Addr.html#method.is_ietf_protocol_assignment)~~ https://github.com/rust-lang/rust/pull/86439\n - [ ] [`Ipv4Addr::is_benchmarking`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv4Addr.html#method.is_benchmarking)\n- [ ] [`Ipv4Addr::is_reserved`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv4Addr.html#method.is_reserved)\n\n****\n\n - [ ] [`Ipv6Addr::is_unicast_global`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.is_unicast_global)\n - [ ] [`Ipv6Addr::is_unicast_link_local`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.is_unicast_link_local)\n - ~~[`Ipv6Addr::is_unicast_link_local_strict`](https://doc.rust-lang.org/1.53.0/std/net/struct.Ipv6Addr.html#method.is_unicast_link_local_strict)~~ https://github.com/rust-lang/rust/pull/85819\n - ~~[`Ipv6Addr::is_unicast_site_local`](https://doc.rust-lang.org/1.54.0/std/net/struct.Ipv6Addr.html#method.is_unicast_site_local)~~ https://github.com/rust-lang/rust/pull/85820\n - [ ] [`Ipv6Addr::is_unique_local`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.is_unique_local)\n - [ ] [`Ipv6Addr::multicast_scope`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.multicast_scope)\n\n****\n\n- [ ] [`Ipv6Addr::is_ipv4_mapped`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.is_ipv4_mapped)\n- [x] [`Ipv6Addr::to_ipv4_mapped`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.to_ipv4_mapped) https://github.com/rust-lang/rust/pull/96906\n- [x] [`Ipv6Addr::to_canonical`](https://doc.rust-lang.org/nightly/std/net/struct.Ipv6Addr.html#method.to_canonical) https://github.com/rust-lang/rust/pull/115955\n- [x] [`IpAddr::to_canonical`](https://doc.rust-lang.org/nightly/std/net/enum.IpAddr.html#method.to_canonical) https://github.com/rust-lang/rust/pull/115955\n\n## Steps\n\n- [ ] Implementation https://github.com/rust-lang/rust/pull/22015\n- [ ] Implementation https://github.com/rust-lang/rust/pull/34694\n- [ ] Stabilization attempt https://github.com/rust-lang/rust/pull/66584\n- [ ] Stabilization attempt https://github.com/rust-lang/rust/pull/76098\n- [ ] Stabilization PR(s)\n\nSubsets of the listed methods can be stabilized, rather than attempting to stabilize everything at once.\n\n## Unresolved Questions\n\n- [ ] `is_documentation` is not up to date #137821 \n- [ ] Differences between Rust and other languages https://github.com/rust-lang/rust/pull/76098#issuecomment-761234042\n- [ ] More specific case of the above: does the IPv6 unicast interface do what we expect? https://github.com/rust-lang/rust/issues/85604\n- [ ] Do the provided methods pass ipcheck? https://github.com/rust-lang/libs-team/tree/93b78eef2e0d455a3e69c05333cd8f276e4e95f1/tools/ipcheck. Last known run: https://github.com/rust-lang/rust/pull/76098#issuecomment-760651861\n\nFrom @KodrAus in https://github.com/rust-lang/rust/pull/76098#issuecomment-760841554:\n\n- [ ] Should we replace the `Ipv6Addr::is_unicast_*` methods with a `Ipv6Addr::unicast_scope` method that returns a `Ipv6UnicastScope` enum (https://github.com/rust-lang/rust/pull/76098#issuecomment-735019872)?\n- [ ] Should we change the behavior of `Ipv6Addr::to_ipv4` to ignore deprecated IPv4-compatible addresses, or deprecate the whole method in favor of the more correct `Ipv6Addr::to_ipv4_mapped` method (https://github.com/rust-lang/rust/pull/76098#discussion_r530465408)?\n- [ ] Are we ok with `Ipv6Addr::is_*` methods now properly considering mapped (non-deprecated) IPv4 addresses? I'd personally be comfortable considering the old behavior a bug.\n- [ ] Are there any behavioral differences between other language implementations that we should investigate? (https://github.com/rust-lang/rust/pull/76098#issuecomment-760651861)",
+  "closed_by": null,
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/27709/reactions",
+    "total_count": 29,
+    "+1": 28,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 1
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/27709/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "url": "https://api.github.com/repos/rust-lang/rust/issues/15701",
+  "repository_url": "https://api.github.com/repos/rust-lang/rust",
+  "labels_url": "https://api.github.com/repos/rust-lang/rust/issues/15701/labels{/name}",
+  "comments_url": "https://api.github.com/repos/rust-lang/rust/issues/15701/comments",
+  "events_url": "https://api.github.com/repos/rust-lang/rust/issues/15701/events",
+  "html_url": "https://github.com/rust-lang/rust/issues/15701",
+  "id": 37933340,
+  "node_id": "MDU6SXNzdWUzNzkzMzM0MA==",
+  "number": 15701,
+  "title": "Tracking issue for stmt_expr_attributes: Add attributes to expressions, etc.",
+  "user": {
+    "login": "brson",
+    "id": 147214,
+    "node_id": "MDQ6VXNlcjE0NzIxNA==",
+    "avatar_url": "https://avatars.githubusercontent.com/u/147214?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/brson",
+    "html_url": "https://github.com/brson",
+    "followers_url": "https://api.github.com/users/brson/followers",
+    "following_url": "https://api.github.com/users/brson/following{/other_user}",
+    "gists_url": "https://api.github.com/users/brson/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/brson/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/brson/subscriptions",
+    "organizations_url": "https://api.github.com/users/brson/orgs",
+    "repos_url": "https://api.github.com/users/brson/repos",
+    "events_url": "https://api.github.com/users/brson/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/brson/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+    {
+      "id": 235777,
+      "node_id": "MDU6TGFiZWwyMzU3Nzc=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/A-grammar",
+      "name": "A-grammar",
+      "color": "f7e101",
+      "default": false,
+      "description": "Area: The grammar of Rust"
+    },
+    {
+      "id": 211668019,
+      "node_id": "MDU6TGFiZWwyMTE2NjgwMTk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/T-lang",
+      "name": "T-lang",
+      "color": "bfd4f2",
+      "default": false,
+      "description": "Relevant to the language team"
+    },
+    {
+      "id": 246778137,
+      "node_id": "MDU6TGFiZWwyNDY3NzgxMzc=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/B-unstable",
+      "name": "B-unstable",
+      "color": "d304cb",
+      "default": false,
+      "description": "Blocker: Implemented in the nightly compiler and unstable."
+    },
+    {
+      "id": 433146169,
+      "node_id": "MDU6TGFiZWw0MzMxNDYxNjk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/B-RFC-implemented",
+      "name": "B-RFC-implemented",
+      "color": "d304cb",
+      "default": false,
+      "description": "Blocker: Approved by a merged RFC and implemented but not stabilized."
+    },
+    {
+      "id": 650846969,
+      "node_id": "MDU6TGFiZWw2NTA4NDY5Njk=",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/C-tracking-issue",
+      "name": "C-tracking-issue",
+      "color": "f5f1fd",
+      "default": false,
+      "description": "Category: An issue tracking the progress of sth. like the implementation of an RFC"
+    },
+    {
+      "id": 3537216018,
+      "node_id": "LA_kwDOAAsO6M7S1aIS",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/S-tracking-design-concerns",
+      "name": "S-tracking-design-concerns",
+      "color": "4682b4",
+      "default": false,
+      "description": "Status: There are blocking design concerns."
+    },
+    {
+      "id": 3537250192,
+      "node_id": "LA_kwDOAAsO6M7S1ieQ",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/S-tracking-needs-summary",
+      "name": "S-tracking-needs-summary",
+      "color": "4682b4",
+      "default": false,
+      "description": "Status: It's hard to tell what's been done and what hasn't! Someone should do some investigation."
+    },
+    {
+      "id": 7401973541,
+      "node_id": "LA_kwDOAAsO6M8AAAABuTEnJQ",
+      "url": "https://api.github.com/repos/rust-lang/rust/labels/F-stmt_expr_attributes",
+      "name": "F-stmt_expr_attributes",
+      "color": "f9c0cc",
+      "default": false,
+      "description": "`#![feature(stmt_expr_attributes)]`"
+    }
+  ],
+  "state": "open",
+  "locked": false,
+  "assignee": null,
+  "assignees": [],
+  "milestone": null,
+  "comments": 115,
+  "created_at": "2014-07-15T22:40:32Z",
+  "updated_at": "2025-09-25T07:12:32Z",
+  "closed_at": null,
+  "author_association": "CONTRIBUTOR",
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "This is the tracking issue for https://github.com/rust-lang/rfcs/pull/16\nThe feature gate for the issue is `#![feature(stmt_expr_attributes)]`\n\n### About tracking issues\n\nTracking issues are used to record the overall progress of implementation.\nThey are also used as hubs connecting to other relevant issues, e.g., bugs or open design questions.\nA tracking issue is however *not* meant for large scale discussion, questions, or bug reports about a feature.\nInstead, open a dedicated issue for the specific matter and add the relevant feature gate label.\nDiscussion comments will get marked as off-topic or deleted.\nRepeated discussions on the tracking issue may lead to the tracking issue getting locked.\n\n### Steps\n\n- [x] Implement the RFC\n  - https://github.com/rust-lang/rust/pull/29850\n- [ ] https://github.com/rust-lang/rust/issues/127436\n- [ ] Adjust documentation ([see instructions on rustc-dev-guide][doc-guide])\n- [ ] Formatting for new syntax has been added to the [Style Guide] ([nightly-style-procedure])\n- [ ] Stabilization PR ([see instructions on rustc-dev-guide][stabilization-guide])\n\n[stabilization-guide]: https://rustc-dev-guide.rust-lang.org/stabilization_guide.html#stabilization-pr\n[doc-guide]: https://rustc-dev-guide.rust-lang.org/stabilization_guide.html#documentation-prs\n[nightly-style-procedure]: https://github.com/rust-lang/style-team/blob/main/nightly-style-procedure.md \n[Style Guide]: https://github.com/rust-lang/rust/tree/master/src/doc/style-guide\n\n### Unresolved Questions\n\n-\n\n### Implementation history\n\n- https://github.com/rust-lang/rust/pull/29850\n- https://github.com/rust-lang/rust/pull/134661",
+  "closed_by": {
+    "login": "Kimundi",
+    "id": 2903206,
+    "node_id": "MDQ6VXNlcjI5MDMyMDY=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/2903206?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Kimundi",
+    "html_url": "https://github.com/Kimundi",
+    "followers_url": "https://api.github.com/users/Kimundi/followers",
+    "following_url": "https://api.github.com/users/Kimundi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Kimundi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Kimundi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Kimundi/subscriptions",
+    "organizations_url": "https://api.github.com/users/Kimundi/orgs",
+    "repos_url": "https://api.github.com/users/Kimundi/repos",
+    "events_url": "https://api.github.com/users/Kimundi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Kimundi/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "reactions": {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/15701/reactions",
+    "total_count": 73,
+    "+1": 55,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 9,
+    "rocket": 9,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/rust-lang/rust/issues/15701/timeline",
+  "performed_via_github_app": null,
+  "state_reason": null,
+  "_meta": {
+    "type": "issue"
+  }
+}

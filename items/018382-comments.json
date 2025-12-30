@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/60715833",
+    "html_url": "https://github.com/rust-lang/rust/issues/18382#issuecomment-60715833",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18382",
+    "id": 60715833,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYwNzE1ODMz",
+    "user": {
+      "login": "bkoropoff",
+      "id": 2101303,
+      "node_id": "MDQ6VXNlcjIxMDEzMDM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2101303?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/bkoropoff",
+      "html_url": "https://github.com/bkoropoff",
+      "followers_url": "https://api.github.com/users/bkoropoff/followers",
+      "following_url": "https://api.github.com/users/bkoropoff/following{/other_user}",
+      "gists_url": "https://api.github.com/users/bkoropoff/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/bkoropoff/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/bkoropoff/subscriptions",
+      "organizations_url": "https://api.github.com/users/bkoropoff/orgs",
+      "repos_url": "https://api.github.com/users/bkoropoff/repos",
+      "events_url": "https://api.github.com/users/bkoropoff/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/bkoropoff/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-10-28T06:45:07Z",
+    "updated_at": "2014-10-28T06:45:07Z",
+    "body": "Likely a duplicate of #18061 \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/60715833/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

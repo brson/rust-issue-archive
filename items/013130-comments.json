@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38595245",
+    "html_url": "https://github.com/rust-lang/rust/issues/13130#issuecomment-38595245",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13130",
+    "id": 38595245,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4NTk1MjQ1",
+    "user": {
+      "login": "tfogal",
+      "id": 60981,
+      "node_id": "MDQ6VXNlcjYwOTgx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/60981?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/tfogal",
+      "html_url": "https://github.com/tfogal",
+      "followers_url": "https://api.github.com/users/tfogal/followers",
+      "following_url": "https://api.github.com/users/tfogal/following{/other_user}",
+      "gists_url": "https://api.github.com/users/tfogal/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/tfogal/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/tfogal/subscriptions",
+      "organizations_url": "https://api.github.com/users/tfogal/orgs",
+      "repos_url": "https://api.github.com/users/tfogal/repos",
+      "events_url": "https://api.github.com/users/tfogal/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/tfogal/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-25T17:30:21Z",
+    "updated_at": "2014-03-25T17:30:21Z",
+    "body": "This is likely joyent/libuv#1215.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38595245/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

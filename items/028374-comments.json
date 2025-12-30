@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139775064",
+    "html_url": "https://github.com/rust-lang/rust/issues/28374#issuecomment-139775064",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28374",
+    "id": 139775064,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzOTc3NTA2NA==",
+    "user": {
+      "login": "savv",
+      "id": 747519,
+      "node_id": "MDQ6VXNlcjc0NzUxOQ==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/747519?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/savv",
+      "html_url": "https://github.com/savv",
+      "followers_url": "https://api.github.com/users/savv/followers",
+      "following_url": "https://api.github.com/users/savv/following{/other_user}",
+      "gists_url": "https://api.github.com/users/savv/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/savv/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/savv/subscriptions",
+      "organizations_url": "https://api.github.com/users/savv/orgs",
+      "repos_url": "https://api.github.com/users/savv/repos",
+      "events_url": "https://api.github.com/users/savv/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/savv/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-12T14:28:59Z",
+    "updated_at": "2015-09-12T14:32:21Z",
+    "body": "```\neibwen  savv: the problem is that SipHasher also defines its own \"write\" method, which is private\neibwen  savv: since that is an inherent method, it is preferred to a trait method, even though you can't access it\n```\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/139775064/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

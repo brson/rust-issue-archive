@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/137343627",
+    "html_url": "https://github.com/rust-lang/rust/issues/28177#issuecomment-137343627",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/28177",
+    "id": 137343627,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNzM0MzYyNw==",
+    "user": {
+      "login": "xiaochuanyu",
+      "id": 1718745,
+      "node_id": "MDQ6VXNlcjE3MTg3NDU=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1718745?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/xiaochuanyu",
+      "html_url": "https://github.com/xiaochuanyu",
+      "followers_url": "https://api.github.com/users/xiaochuanyu/followers",
+      "following_url": "https://api.github.com/users/xiaochuanyu/following{/other_user}",
+      "gists_url": "https://api.github.com/users/xiaochuanyu/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/xiaochuanyu/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/xiaochuanyu/subscriptions",
+      "organizations_url": "https://api.github.com/users/xiaochuanyu/orgs",
+      "repos_url": "https://api.github.com/users/xiaochuanyu/repos",
+      "events_url": "https://api.github.com/users/xiaochuanyu/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/xiaochuanyu/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-03T05:53:38Z",
+    "updated_at": "2015-09-03T05:53:38Z",
+    "body": "Just a note. Comparing to [Rust By Example section about bindings](http://rustbyexample.com/variable_bindings.html), shadowing and declaring uninitialized bindings have been left out.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/137343627/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

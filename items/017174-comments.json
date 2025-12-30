@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/55952311",
+    "html_url": "https://github.com/rust-lang/rust/issues/17174#issuecomment-55952311",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/17174",
+    "id": 55952311,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDU1OTUyMzEx",
+    "user": {
+      "login": "rndr",
+      "id": 8740177,
+      "node_id": "MDQ6VXNlcjg3NDAxNzc=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8740177?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/rndr",
+      "html_url": "https://github.com/rndr",
+      "followers_url": "https://api.github.com/users/rndr/followers",
+      "following_url": "https://api.github.com/users/rndr/following{/other_user}",
+      "gists_url": "https://api.github.com/users/rndr/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/rndr/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/rndr/subscriptions",
+      "organizations_url": "https://api.github.com/users/rndr/orgs",
+      "repos_url": "https://api.github.com/users/rndr/repos",
+      "events_url": "https://api.github.com/users/rndr/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/rndr/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-09-17T20:11:04Z",
+    "updated_at": "2014-09-17T20:13:09Z",
+    "body": "fixed for me\n`rustc 0.12.0-pre-nightly (0e784e168 2014-09-16 23:26:11 +0000)`\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/55952311/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

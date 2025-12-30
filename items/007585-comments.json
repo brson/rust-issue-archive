@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20487883",
+    "html_url": "https://github.com/rust-lang/rust/pull/7585#issuecomment-20487883",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/7585",
+    "id": 20487883,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIwNDg3ODgz",
+    "user": {
+      "login": "Blei",
+      "id": 52674,
+      "node_id": "MDQ6VXNlcjUyNjc0",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52674?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Blei",
+      "html_url": "https://github.com/Blei",
+      "followers_url": "https://api.github.com/users/Blei/followers",
+      "following_url": "https://api.github.com/users/Blei/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Blei/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Blei/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Blei/subscriptions",
+      "organizations_url": "https://api.github.com/users/Blei/orgs",
+      "repos_url": "https://api.github.com/users/Blei/repos",
+      "events_url": "https://api.github.com/users/Blei/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Blei/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-07-04T17:49:25Z",
+    "updated_at": "2013-07-04T17:49:25Z",
+    "body": "@huonw Thanks for the feedback, new version has been pushed.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/20487883/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

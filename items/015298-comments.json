@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/47657732",
+    "html_url": "https://github.com/rust-lang/rust/issues/15298#issuecomment-47657732",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/15298",
+    "id": 47657732,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQ3NjU3NzMy",
+    "user": {
+      "login": "japaric",
+      "id": 5018213,
+      "node_id": "MDQ6VXNlcjUwMTgyMTM=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5018213?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/japaric",
+      "html_url": "https://github.com/japaric",
+      "followers_url": "https://api.github.com/users/japaric/followers",
+      "following_url": "https://api.github.com/users/japaric/following{/other_user}",
+      "gists_url": "https://api.github.com/users/japaric/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/japaric/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/japaric/subscriptions",
+      "organizations_url": "https://api.github.com/users/japaric/orgs",
+      "repos_url": "https://api.github.com/users/japaric/repos",
+      "events_url": "https://api.github.com/users/japaric/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/japaric/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-07-01T13:48:11Z",
+    "updated_at": "2014-07-01T13:48:11Z",
+    "body": "TL;DR Use `&'static str` instead of `&str` when dealing with string literals (like `\"foo\"`). The correct/valid signature for your function would be: `fn mkmap() -> HashMap<&'static str, int>`.\n\nBeing able to return anonymous references (`&str` or `&int`) is [a bug](https://github.com/rust-lang/rust/issues/2478). Once that bug gets fixed, `&str` would be forbidden to appear in the return position of a function/method.\n\n> The following used to work:\n\nIt's actually an improvement that it no longer works.\n\n> The error can be avoided by adding type parameters to the HashMap::new() call.\n\nThat second example shouldn't work, and it's probably related to the bug I mentioned.\n\n@pnkfelix or @nikomatsakis may want to look at the second example.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/47657732/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25342923",
+    "html_url": "https://github.com/rust-lang/rust/pull/9617#issuecomment-25342923",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/9617",
+    "id": 25342923,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI1MzQyOTIz",
+    "user": {
+      "login": "lucab",
+      "id": 98086,
+      "node_id": "MDQ6VXNlcjk4MDg2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98086?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lucab",
+      "html_url": "https://github.com/lucab",
+      "followers_url": "https://api.github.com/users/lucab/followers",
+      "following_url": "https://api.github.com/users/lucab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lucab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lucab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lucab/subscriptions",
+      "organizations_url": "https://api.github.com/users/lucab/orgs",
+      "repos_url": "https://api.github.com/users/lucab/repos",
+      "events_url": "https://api.github.com/users/lucab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lucab/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-09-30T07:54:27Z",
+    "updated_at": "2013-09-30T07:54:27Z",
+    "body": "At least on ARM this is shown in the triplet (eg. arm-linux-gnueabihf vs. arm-linux-gnueabi). But I couldn't find any hf ABI for mips in glibc https://sourceware.org/git/?p=glibc.git;a=blob;f=ports/sysdeps/mips/preconfigure;h=b215eb2c17a738d21b1b62404fc6e6054757d8c3;hb=HEAD\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/25342923/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

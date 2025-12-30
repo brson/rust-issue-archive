@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/50387477",
+    "html_url": "https://github.com/rust-lang/rust/issues/16015#issuecomment-50387477",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/16015",
+    "id": 50387477,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDUwMzg3NDc3",
+    "user": {
+      "login": "nixpulvis",
+      "id": 715947,
+      "node_id": "MDQ6VXNlcjcxNTk0Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/715947?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nixpulvis",
+      "html_url": "https://github.com/nixpulvis",
+      "followers_url": "https://api.github.com/users/nixpulvis/followers",
+      "following_url": "https://api.github.com/users/nixpulvis/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nixpulvis/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nixpulvis/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nixpulvis/subscriptions",
+      "organizations_url": "https://api.github.com/users/nixpulvis/orgs",
+      "repos_url": "https://api.github.com/users/nixpulvis/repos",
+      "events_url": "https://api.github.com/users/nixpulvis/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nixpulvis/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-07-28T19:35:41Z",
+    "updated_at": "2014-07-28T19:35:41Z",
+    "body": "The documentation at http://doc.rust-lang.org/std/slice/ I find particularly hard to follow.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/50387477/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

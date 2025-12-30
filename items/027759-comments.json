@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/137903414",
+    "html_url": "https://github.com/rust-lang/rust/issues/27759#issuecomment-137903414",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/27759",
+    "id": 137903414,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEzNzkwMzQxNA==",
+    "user": {
+      "login": "durka",
+      "id": 47007,
+      "node_id": "MDQ6VXNlcjQ3MDA3",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47007?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/durka",
+      "html_url": "https://github.com/durka",
+      "followers_url": "https://api.github.com/users/durka/followers",
+      "following_url": "https://api.github.com/users/durka/following{/other_user}",
+      "gists_url": "https://api.github.com/users/durka/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/durka/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/durka/subscriptions",
+      "organizations_url": "https://api.github.com/users/durka/orgs",
+      "repos_url": "https://api.github.com/users/durka/repos",
+      "events_url": "https://api.github.com/users/durka/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/durka/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-09-05T03:50:57Z",
+    "updated_at": "2015-09-05T03:50:57Z",
+    "body": "This is fixed.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/137903414/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

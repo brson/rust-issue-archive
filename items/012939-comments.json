@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39066346",
+    "html_url": "https://github.com/rust-lang/rust/issues/12939#issuecomment-39066346",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/12939",
+    "id": 39066346,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM5MDY2MzQ2",
+    "user": {
+      "login": "ipetkov",
+      "id": 1638690,
+      "node_id": "MDQ6VXNlcjE2Mzg2OTA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1638690?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ipetkov",
+      "html_url": "https://github.com/ipetkov",
+      "followers_url": "https://api.github.com/users/ipetkov/followers",
+      "following_url": "https://api.github.com/users/ipetkov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ipetkov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ipetkov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ipetkov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ipetkov/orgs",
+      "repos_url": "https://api.github.com/users/ipetkov/repos",
+      "events_url": "https://api.github.com/users/ipetkov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ipetkov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-31T08:53:13Z",
+    "updated_at": "2014-03-31T08:53:13Z",
+    "body": "I'll take a shot at fixing this over the next few days\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/39066346/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

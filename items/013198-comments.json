@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/40678723",
+    "html_url": "https://github.com/rust-lang/rust/issues/13198#issuecomment-40678723",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13198",
+    "id": 40678723,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNjc4NzIz",
+    "user": {
+      "login": "ipetkov",
+      "id": 1638690,
+      "node_id": "MDQ6VXNlcjE2Mzg2OTA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1638690?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ipetkov",
+      "html_url": "https://github.com/ipetkov",
+      "followers_url": "https://api.github.com/users/ipetkov/followers",
+      "following_url": "https://api.github.com/users/ipetkov/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ipetkov/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ipetkov/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ipetkov/subscriptions",
+      "organizations_url": "https://api.github.com/users/ipetkov/orgs",
+      "repos_url": "https://api.github.com/users/ipetkov/repos",
+      "events_url": "https://api.github.com/users/ipetkov/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ipetkov/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-17T04:00:32Z",
+    "updated_at": "2014-04-17T04:00:32Z",
+    "body": "Seems like the culprit is wrapping the static value in a [pre tag if it has a line break](https://github.com/mozilla/rust/blob/master/src/librustdoc/html/render.rs#L1136).\n\nRemoving wouldn't be a complete solution since for multi-line values it makes sense for a `pre` html tag to be used over `code` such as [here](http://static.rust-lang.org/doc/master/term/terminfo/parser/compiled/index.html#statics) or [here](http://static.rust-lang.org/doc/master/rustc/metadata/encoder/index.html#statics).\n\nAlthough in certain situations displaying the literal code in a `pre` tag isn't correct either because the [whitespace can get messed up](http://static.rust-lang.org/doc/master/std/sync/atomics/index.html#statics) when the code declaration is indented. I think rustdoc should take into account the length of the declaration before the equals sign and trim it from subsequent lines if it is there.\n\n![screen shot 2014-04-16 at 8 41 47 pm](https://cloud.githubusercontent.com/assets/1638690/2727955/b2db51ae-c5e4-11e3-97fc-dcd5fb90f8e1.png)\n\nMaybe a simple fix for the above mentioned issue would be for rustdoc to strip out any newlines immediately following an operator (other than a comma)? That way we would remove ambiguity from a short declaration that wraps on a new line from an actual large declaration.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/40678723/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

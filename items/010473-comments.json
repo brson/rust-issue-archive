@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/28454158",
+    "html_url": "https://github.com/rust-lang/rust/pull/10473#issuecomment-28454158",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/10473",
+    "id": 28454158,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDI4NDU0MTU4",
+    "user": {
+      "login": "jschaf",
+      "id": 22385,
+      "node_id": "MDQ6VXNlcjIyMzg1",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22385?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jschaf",
+      "html_url": "https://github.com/jschaf",
+      "followers_url": "https://api.github.com/users/jschaf/followers",
+      "following_url": "https://api.github.com/users/jschaf/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jschaf/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jschaf/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jschaf/subscriptions",
+      "organizations_url": "https://api.github.com/users/jschaf/orgs",
+      "repos_url": "https://api.github.com/users/jschaf/repos",
+      "events_url": "https://api.github.com/users/jschaf/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jschaf/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-11-14T02:16:07Z",
+    "updated_at": "2013-11-14T02:16:07Z",
+    "body": "Hopefully the first commit of many.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/28454158/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

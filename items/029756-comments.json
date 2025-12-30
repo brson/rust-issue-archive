@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/221410459",
+    "html_url": "https://github.com/rust-lang/rust/issues/29756#issuecomment-221410459",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/29756",
+    "id": 221410459,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDIyMTQxMDQ1OQ==",
+    "user": {
+      "login": "alexcrichton",
+      "id": 64996,
+      "node_id": "MDQ6VXNlcjY0OTk2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64996?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/alexcrichton",
+      "html_url": "https://github.com/alexcrichton",
+      "followers_url": "https://api.github.com/users/alexcrichton/followers",
+      "following_url": "https://api.github.com/users/alexcrichton/following{/other_user}",
+      "gists_url": "https://api.github.com/users/alexcrichton/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/alexcrichton/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/alexcrichton/subscriptions",
+      "organizations_url": "https://api.github.com/users/alexcrichton/orgs",
+      "repos_url": "https://api.github.com/users/alexcrichton/repos",
+      "events_url": "https://api.github.com/users/alexcrichton/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/alexcrichton/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2016-05-24T21:42:29Z",
+    "updated_at": "2016-05-24T21:42:29Z",
+    "body": "This is more possible with today's rustbuild build system, but I think it's pretty unlikely to happen for awhile. We're bootstrapping from nightlies so we do actually have a libstd to use, but a prerequisite for this is probably to get the compiler off unstable APIs from the standard library, which would likely be a pretty major effort in itself.\n\nFor now though I'm gonna close as hopefully rustbuild targets a number of concerns with build times and such, and also targets the concern of building with a stable rustc (as in theory `cargo build` would \"just work\" if it's only using stable libstd APIs)\n",
+    "author_association": "MEMBER",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/221410459/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

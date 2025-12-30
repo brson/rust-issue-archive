@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68652373",
+    "html_url": "https://github.com/rust-lang/rust/issues/13970#issuecomment-68652373",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13970",
+    "id": 68652373,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDY4NjUyMzcz",
+    "user": {
+      "login": "Twisol",
+      "id": 61392,
+      "node_id": "MDQ6VXNlcjYxMzky",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61392?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Twisol",
+      "html_url": "https://github.com/Twisol",
+      "followers_url": "https://api.github.com/users/Twisol/followers",
+      "following_url": "https://api.github.com/users/Twisol/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Twisol/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Twisol/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Twisol/subscriptions",
+      "organizations_url": "https://api.github.com/users/Twisol/orgs",
+      "repos_url": "https://api.github.com/users/Twisol/repos",
+      "events_url": "https://api.github.com/users/Twisol/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Twisol/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-01-04T22:27:36Z",
+    "updated_at": "2015-01-04T22:27:36Z",
+    "body": "/cc @eddyb\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/68652373/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

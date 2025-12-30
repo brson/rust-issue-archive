@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38126527",
+    "html_url": "https://github.com/rust-lang/rust/issues/13021#issuecomment-38126527",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13021",
+    "id": 38126527,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDM4MTI2NTI3",
+    "user": {
+      "login": "retep998",
+      "id": 666308,
+      "node_id": "MDQ6VXNlcjY2NjMwOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/666308?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/retep998",
+      "html_url": "https://github.com/retep998",
+      "followers_url": "https://api.github.com/users/retep998/followers",
+      "following_url": "https://api.github.com/users/retep998/following{/other_user}",
+      "gists_url": "https://api.github.com/users/retep998/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/retep998/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/retep998/subscriptions",
+      "organizations_url": "https://api.github.com/users/retep998/orgs",
+      "repos_url": "https://api.github.com/users/retep998/repos",
+      "events_url": "https://api.github.com/users/retep998/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/retep998/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-03-20T01:20:03Z",
+    "updated_at": "2014-03-20T01:20:03Z",
+    "body": "Oh, it seems this is probably just a duplicate of #9307 \n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/38126527/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

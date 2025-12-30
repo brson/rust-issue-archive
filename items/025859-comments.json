@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/106782076",
+    "html_url": "https://github.com/rust-lang/rust/issues/25859#issuecomment-106782076",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/25859",
+    "id": 106782076,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDEwNjc4MjA3Ng==",
+    "user": {
+      "login": "RoxasShadow",
+      "id": 805144,
+      "node_id": "MDQ6VXNlcjgwNTE0NA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/805144?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/RoxasShadow",
+      "html_url": "https://github.com/RoxasShadow",
+      "followers_url": "https://api.github.com/users/RoxasShadow/followers",
+      "following_url": "https://api.github.com/users/RoxasShadow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/RoxasShadow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/RoxasShadow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/RoxasShadow/subscriptions",
+      "organizations_url": "https://api.github.com/users/RoxasShadow/orgs",
+      "repos_url": "https://api.github.com/users/RoxasShadow/repos",
+      "events_url": "https://api.github.com/users/RoxasShadow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/RoxasShadow/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-05-29T11:52:14Z",
+    "updated_at": "2015-05-29T12:45:20Z",
+    "body": "Seems to be a duplicate of #25071. I'm closing this, in the meanwhile I'll check if with the nightly will be fix it.\n\n**Edit**: Works with the latest nightly.\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/106782076/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

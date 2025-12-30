@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/170653251",
+    "html_url": "https://github.com/rust-lang/rust/issues/11704#issuecomment-170653251",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11704",
+    "id": 170653251,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MDY1MzI1MQ==",
+    "user": {
+      "login": "ranma42",
+      "id": 1506030,
+      "node_id": "MDQ6VXNlcjE1MDYwMzA=",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1506030?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ranma42",
+      "html_url": "https://github.com/ranma42",
+      "followers_url": "https://api.github.com/users/ranma42/followers",
+      "following_url": "https://api.github.com/users/ranma42/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ranma42/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ranma42/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ranma42/subscriptions",
+      "organizations_url": "https://api.github.com/users/ranma42/orgs",
+      "repos_url": "https://api.github.com/users/ranma42/repos",
+      "events_url": "https://api.github.com/users/ranma42/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ranma42/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2016-01-11T19:00:26Z",
+    "updated_at": "2016-01-11T19:00:26Z",
+    "body": "Used as workaround in #30625, but still discovered from other people instead of documentation.\n#30625. Mentioning `rust_panic` in the panic message and possibly in the documentation for `panic!` might be a good idea. If nobody is already doing this, I will :)\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/170653251/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

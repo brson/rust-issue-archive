@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62864766",
+    "html_url": "https://github.com/rust-lang/rust/issues/18913#issuecomment-62864766",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18913",
+    "id": 62864766,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDYyODY0NzY2",
+    "user": {
+      "login": "nodakai",
+      "id": 90726,
+      "node_id": "MDQ6VXNlcjkwNzI2",
+      "avatar_url": "https://avatars.githubusercontent.com/u/90726?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/nodakai",
+      "html_url": "https://github.com/nodakai",
+      "followers_url": "https://api.github.com/users/nodakai/followers",
+      "following_url": "https://api.github.com/users/nodakai/following{/other_user}",
+      "gists_url": "https://api.github.com/users/nodakai/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/nodakai/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/nodakai/subscriptions",
+      "organizations_url": "https://api.github.com/users/nodakai/orgs",
+      "repos_url": "https://api.github.com/users/nodakai/repos",
+      "events_url": "https://api.github.com/users/nodakai/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/nodakai/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-11-13T09:37:52Z",
+    "updated_at": "2014-11-13T09:44:31Z",
+    "body": "I think the `u` option given to `ar` [doesn't examine timestamps with sub-second accuracy](https://sourceware.org/git/gitweb.cgi?p=binutils-gdb.git;a=blob;f=binutils/ar.c;h=117826d18e8b10079fdc01726641945e7e412ec1;hb=HEAD#l1365) and thus sometimes ignores the new object file.\n\n``` sh\necho 'extern crate foo; fn main() { println!(\"{}\", foo::foo()); }' > bar.rs\necho 'pub fn foo() -> int { 0 }' > foo.rs\nstrace -f -s 200 -e process -e open rustc foo.rs --crate-type lib\nstat libfoo.rlib\nrustc bar.rs -L .\n./bar\n\necho 'pub fn foo() -> int { 1 }' > foo.rs\nstrace -f -s 200 -e process -e open rustc foo.rs --crate-type lib\nstat libfoo.rlib\nrustc bar.rs -L .\n./bar\n\nsleep 1\nstrace -f -s 200 -e process -e open rustc foo.rs --crate-type lib\nstat libfoo.rlib\nrustc bar.rs -L .\n./bar\n```\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/62864766/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

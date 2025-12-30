@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/17163915",
+    "html_url": "https://github.com/rust-lang/rust/issues/2933#issuecomment-17163915",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/2933",
+    "id": 17163915,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE3MTYzOTE1",
+    "user": {
+      "login": "pnkfelix",
+      "id": 173127,
+      "node_id": "MDQ6VXNlcjE3MzEyNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/173127?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/pnkfelix",
+      "html_url": "https://github.com/pnkfelix",
+      "followers_url": "https://api.github.com/users/pnkfelix/followers",
+      "following_url": "https://api.github.com/users/pnkfelix/following{/other_user}",
+      "gists_url": "https://api.github.com/users/pnkfelix/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/pnkfelix/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/pnkfelix/subscriptions",
+      "organizations_url": "https://api.github.com/users/pnkfelix/orgs",
+      "repos_url": "https://api.github.com/users/pnkfelix/repos",
+      "events_url": "https://api.github.com/users/pnkfelix/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/pnkfelix/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-04-29T12:32:24Z",
+    "updated_at": "2013-04-29T12:32:24Z",
+    "body": "Porting Niko's original example to more modern syntax:\n\n``` rust\ntrait methods         { fn foo(&self) -> ~str;            }\nimpl methods for uint { fn foo(&self) -> ~str { ~\"uint\" } }\nimpl methods for int  { fn foo(&self) -> ~str { ~\"int\"  } }\n\nfn main() {\n    assert!(22.foo() == ~\"int\");\n}\n```\n\nI indeed get an error due to multiple applicable methods:\n\n```\n% rustc /tmp/bug5.rs\n/tmp/bug5.rs:6:12: 6:23 error: multiple applicable methods in scope\n/tmp/bug5.rs:6     assert!(22.foo() == ~\"int\");\n                           ^~~~~~~~~~~\n<core-macros>:52:4: 69:5 note: in expansion of assert!\n/tmp/bug5.rs:6:4: 6:32 note: expansion site\n/tmp/bug5.rs:2:24: 2:57 note: candidate #1 is `__extensions__::foo`\n/tmp/bug5.rs:2 impl methods for uint { fn foo(&self) -> ~str { ~\"uint\" } }\n                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n/tmp/bug5.rs:3:24: 3:57 note: candidate #2 is `__extensions__::foo`\n/tmp/bug5.rs:3 impl methods for int  { fn foo(&self) -> ~str { ~\"int\"  } }\n                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nerror: aborting due to previous error\n```\n\nwhich seems like the right thing to me in this context.  Niko, feel free to re-open if I have misunderstood the crux of the bug.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/17163915/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

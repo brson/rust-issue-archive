@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/72823559",
+    "html_url": "https://github.com/rust-lang/rust/issues/18956#issuecomment-72823559",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/18956",
+    "id": 72823559,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDcyODIzNTU5",
+    "user": {
+      "login": "oli-obk",
+      "id": 332036,
+      "node_id": "MDQ6VXNlcjMzMjAzNg==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/332036?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/oli-obk",
+      "html_url": "https://github.com/oli-obk",
+      "followers_url": "https://api.github.com/users/oli-obk/followers",
+      "following_url": "https://api.github.com/users/oli-obk/following{/other_user}",
+      "gists_url": "https://api.github.com/users/oli-obk/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/oli-obk/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/oli-obk/subscriptions",
+      "organizations_url": "https://api.github.com/users/oli-obk/orgs",
+      "repos_url": "https://api.github.com/users/oli-obk/repos",
+      "events_url": "https://api.github.com/users/oli-obk/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/oli-obk/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-02-04T09:39:22Z",
+    "updated_at": "2015-02-04T09:44:01Z",
+    "body": "not sure if this is the same or a new bug with the same symptom:\n\n``` rust\nuse std::ops::Add;\n\nfn main() {\n    let x = 5;\n    let y = x as Add;\n}\n```\n\nyields\n\n```\n<anon>:5:18: 5:21 error: internal compiler error: Type parameter `Self/SelfSpace.0` (Self/SelfSpace/0) out of range when substituting (root type=Self) substs=Substs[types=[[];[];[]], regions=[[];[];[]]]\n```\n\nAnd even funkier:\n\n``` rust\nuse std::ops::Add;\n\nfn main() {\n    let x = 5;\n    let y = x as Add<i32>;\n}\n```\n\nsays that the error is in the `use` line, not in the `let y` line\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/72823559/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

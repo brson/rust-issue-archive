@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/40746477",
+    "html_url": "https://github.com/rust-lang/rust/pull/13525#issuecomment-40746477",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/13525",
+    "id": 40746477,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDQwNzQ2NDc3",
+    "user": {
+      "login": "Ryman",
+      "id": 994978,
+      "node_id": "MDQ6VXNlcjk5NDk3OA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/994978?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ryman",
+      "html_url": "https://github.com/Ryman",
+      "followers_url": "https://api.github.com/users/Ryman/followers",
+      "following_url": "https://api.github.com/users/Ryman/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Ryman/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Ryman/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Ryman/subscriptions",
+      "organizations_url": "https://api.github.com/users/Ryman/orgs",
+      "repos_url": "https://api.github.com/users/Ryman/repos",
+      "events_url": "https://api.github.com/users/Ryman/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Ryman/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2014-04-17T18:28:04Z",
+    "updated_at": "2014-04-17T18:28:04Z",
+    "body": "Had to distinguish another error (forwardly declared type params) to get this clean without confusing/unhelpful errors.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/40746477/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

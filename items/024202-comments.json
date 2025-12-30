@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/91018149",
+    "html_url": "https://github.com/rust-lang/rust/issues/24202#issuecomment-91018149",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/24202",
+    "id": 91018149,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDkxMDE4MTQ5",
+    "user": {
+      "login": "lilyball",
+      "id": 714,
+      "node_id": "MDQ6VXNlcjcxNA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/714?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/lilyball",
+      "html_url": "https://github.com/lilyball",
+      "followers_url": "https://api.github.com/users/lilyball/followers",
+      "following_url": "https://api.github.com/users/lilyball/following{/other_user}",
+      "gists_url": "https://api.github.com/users/lilyball/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/lilyball/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/lilyball/subscriptions",
+      "organizations_url": "https://api.github.com/users/lilyball/orgs",
+      "repos_url": "https://api.github.com/users/lilyball/repos",
+      "events_url": "https://api.github.com/users/lilyball/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/lilyball/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-08T19:56:05Z",
+    "updated_at": "2015-04-08T19:56:21Z",
+    "body": "This is correct behavior. Calling `.min()` or `.max()` on an iterator that yields no elements returns `None` (this is why the method has an `Option` return type). Calling `.unwrap()` on `None` panics.\n\nI'm closing this report as there appears to be no bug here. If you have any questions, please comment on the ticket, or reopen it if you think there's still an issue here.\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/91018149/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

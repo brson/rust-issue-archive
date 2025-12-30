@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/94530167",
+    "html_url": "https://github.com/rust-lang/rust/issues/23057#issuecomment-94530167",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/23057",
+    "id": 94530167,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDk0NTMwMTY3",
+    "user": {
+      "login": "Popog",
+      "id": 761307,
+      "node_id": "MDQ6VXNlcjc2MTMwNw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/761307?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Popog",
+      "html_url": "https://github.com/Popog",
+      "followers_url": "https://api.github.com/users/Popog/followers",
+      "following_url": "https://api.github.com/users/Popog/following{/other_user}",
+      "gists_url": "https://api.github.com/users/Popog/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/Popog/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/Popog/subscriptions",
+      "organizations_url": "https://api.github.com/users/Popog/orgs",
+      "repos_url": "https://api.github.com/users/Popog/repos",
+      "events_url": "https://api.github.com/users/Popog/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/Popog/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2015-04-20T18:24:05Z",
+    "updated_at": "2015-04-20T18:24:05Z",
+    "body": "Occurs with const as well:\n\n``` rust\nconst ONE: i32 = (||{1})();\n```\n\nResults in:\n\n```\nerror: internal compiler error: unexpected panic\nnote: the compiler unexpectedly panicked. this is a bug.\nnote: we would appreciate a bug report: https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md#bug-reports\nnote: run with `RUST_BACKTRACE=1` for a backtrace\nthread 'rustc' panicked at 'assertion failed: fcx.inh.deferred_call_resolutions.borrow().is_empty()', /home/rustbuild/src/rust-buildbot/slave/nightly-dist-rustc-linux/build/src/librustc_typeck/check/vtable.rs:150\n```\n\n[playpen](http://is.gd/wyev8Q)\n",
+    "author_association": "NONE",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/94530167/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

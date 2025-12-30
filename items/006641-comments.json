@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18144873",
+    "html_url": "https://github.com/rust-lang/rust/issues/6641#issuecomment-18144873",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/6641",
+    "id": 18144873,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDE4MTQ0ODcz",
+    "user": {
+      "login": "brendanzab",
+      "id": 695077,
+      "node_id": "MDQ6VXNlcjY5NTA3Nw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/695077?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/brendanzab",
+      "html_url": "https://github.com/brendanzab",
+      "followers_url": "https://api.github.com/users/brendanzab/followers",
+      "following_url": "https://api.github.com/users/brendanzab/following{/other_user}",
+      "gists_url": "https://api.github.com/users/brendanzab/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/brendanzab/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/brendanzab/subscriptions",
+      "organizations_url": "https://api.github.com/users/brendanzab/orgs",
+      "repos_url": "https://api.github.com/users/brendanzab/repos",
+      "events_url": "https://api.github.com/users/brendanzab/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/brendanzab/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-05-20T12:31:02Z",
+    "updated_at": "2013-05-20T12:31:02Z",
+    "body": "Woops, this is a duplicate of #3080\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/18144873/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]

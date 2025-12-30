@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/30754776",
+    "html_url": "https://github.com/rust-lang/rust/pull/11020#issuecomment-30754776",
+    "issue_url": "https://api.github.com/repos/rust-lang/rust/issues/11020",
+    "id": 30754776,
+    "node_id": "MDEyOklzc3VlQ29tbWVudDMwNzU0Nzc2",
+    "user": {
+      "login": "jhasse",
+      "id": 80071,
+      "node_id": "MDQ6VXNlcjgwMDcx",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80071?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jhasse",
+      "html_url": "https://github.com/jhasse",
+      "followers_url": "https://api.github.com/users/jhasse/followers",
+      "following_url": "https://api.github.com/users/jhasse/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jhasse/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jhasse/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jhasse/subscriptions",
+      "organizations_url": "https://api.github.com/users/jhasse/orgs",
+      "repos_url": "https://api.github.com/users/jhasse/repos",
+      "events_url": "https://api.github.com/users/jhasse/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jhasse/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2013-12-17T14:30:08Z",
+    "updated_at": "2013-12-17T14:30:08Z",
+    "body": "@huonw Okay based on your suggestion I've created a new pull requests which gets rid of the isatty part and only enables ANSI color for the msys terminal: https://github.com/mozilla/rust/pull/11028\n",
+    "author_association": "CONTRIBUTOR",
+    "reactions": {
+      "url": "https://api.github.com/repos/rust-lang/rust/issues/comments/30754776/reactions",
+      "total_count": 0,
+      "+1": 0,
+      "-1": 0,
+      "laugh": 0,
+      "hooray": 0,
+      "confused": 0,
+      "heart": 0,
+      "rocket": 0,
+      "eyes": 0
+    },
+    "performed_via_github_app": null
+  }
+]
