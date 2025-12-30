@@ -11,7 +11,7 @@ import os
 import random
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 import httpx
@@ -169,9 +169,45 @@ def write_failed(path: Path, error: str, component: str) -> None:
     data = {
         "error": error,
         "component": component,
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
     }
     path.write_text(json.dumps(data) + "\n")
+
+
+def extract_xrefs(timeline: list) -> list:
+    """Extract cross-references and commit references from timeline."""
+    xrefs = []
+    for event in timeline:
+        if not isinstance(event, dict):
+            continue
+
+        event_type = event.get("event")
+        actor = event.get("actor")
+        actor_login = actor.get("login") if isinstance(actor, dict) else None
+
+        if event_type == "cross-referenced":
+            source = event.get("source") or {}
+            issue = source.get("issue") or {}
+            if issue.get("number"):
+                xrefs.append({
+                    "event": "cross-referenced",
+                    "from": issue["number"],
+                    "type": source.get("type", "issue"),
+                    "actor": actor_login,
+                    "date": event.get("created_at"),
+                })
+
+        elif event_type == "referenced":
+            commit_id = event.get("commit_id")
+            if commit_id:
+                xrefs.append({
+                    "event": "referenced",
+                    "commit": commit_id,
+                    "actor": actor_login,
+                    "date": event.get("created_at"),
+                })
+
+    return xrefs
 
 
 def discover_latest(client: GitHubClient) -> int:
@@ -191,6 +227,7 @@ def process_item(
     do_main: bool,
     do_comments: bool,
     do_timeline: bool,
+    do_xrefs: bool,
 ) -> dict:
     """Process a single item. Returns stats dict."""
     stats = {"fetched": 0, "skip_404": 0, "skip_date": 0, "skip_exists": 0, "failed": 0}
@@ -204,6 +241,8 @@ def process_item(
     path_comments_failed = ITEMS_DIR / f"{prefix}-comments.failed"
     path_timeline = ITEMS_DIR / f"{prefix}-timeline.json"
     path_timeline_failed = ITEMS_DIR / f"{prefix}-timeline.failed"
+    path_xrefs = ITEMS_DIR / f"{prefix}-xrefs.json"
+    path_xrefs_failed = ITEMS_DIR / f"{prefix}-xrefs.failed"
 
     status_parts = []
 
@@ -252,10 +291,10 @@ def process_item(
                 log(f"#{prefix} {' '.join(status_parts)}")
                 return stats
 
-    # Need main data for comments/timeline; read it if we didn't just fetch
-    if (do_comments or do_timeline) and not do_main:
+    # Need main data for comments/timeline/xrefs; read it if we didn't just fetch
+    if (do_comments or do_timeline or do_xrefs) and not do_main:
         if not path_main.exists():
-            # Can't fetch comments/timeline without main
+            # Can't fetch comments/timeline/xrefs without main
             return stats
 
     # Comments
@@ -292,6 +331,24 @@ def process_item(
                 status_parts.append("timeline=FAIL")
                 stats["failed"] += 1
 
+    # Xrefs (extracted from timeline)
+    if do_xrefs:
+        if path_xrefs.exists():
+            status_parts.append("xrefs=EXISTS")
+            stats["skip_exists"] += 1
+        else:
+            try:
+                timeline = client.fetch_paginated(f"/repos/{REPO}/issues/{num}/timeline")
+                xrefs = extract_xrefs(timeline)
+                path_xrefs.write_text(json.dumps(xrefs, indent=2) + "\n")
+                path_xrefs_failed.unlink(missing_ok=True)
+                status_parts.append(f"xrefs=OK ({len(xrefs)})")
+                stats["fetched"] += 1
+            except Exception as e:
+                write_failed(path_xrefs_failed, str(e), "xrefs")
+                status_parts.append("xrefs=FAIL")
+                stats["failed"] += 1
+
     if status_parts:
         log(f"#{prefix} {' '.join(status_parts)}")
 
@@ -307,6 +364,7 @@ def main() -> None:
     parser.add_argument("--comments", dest="comments", action="store_true", default=True)
     parser.add_argument("--no-comments", dest="comments", action="store_false")
     parser.add_argument("--timeline", dest="timeline", action="store_true", default=False)
+    parser.add_argument("--xrefs", dest="xrefs", action="store_true", default=False)
     parser.add_argument("--discover", action="store_true", help="Print latest issue number and exit")
     args = parser.parse_args()
 
@@ -323,13 +381,13 @@ def main() -> None:
             parser.error("--start and --end are required")
 
         log(f"Fetching #{args.start} to #{args.end}")
-        log(f"Components: main={args.main} comments={args.comments} timeline={args.timeline}")
+        log(f"Components: main={args.main} comments={args.comments} timeline={args.timeline} xrefs={args.xrefs}")
         log(f"Cutoff date: {CUTOFF_DATE}")
 
         totals = {"fetched": 0, "skip_404": 0, "skip_date": 0, "skip_exists": 0, "failed": 0}
 
         for num in range(args.start, args.end + 1):
-            stats = process_item(client, num, args.main, args.comments, args.timeline)
+            stats = process_item(client, num, args.main, args.comments, args.timeline, args.xrefs)
             for k, v in stats.items():
                 totals[k] += v
 
