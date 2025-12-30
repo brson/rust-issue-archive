@@ -72,6 +72,7 @@ class GitHubClient:
             base_url="https://api.github.com",
             headers=headers,
             timeout=30.0,
+            follow_redirects=True,
         )
         self.rate_remaining: int | None = None
         self.rate_reset: int | None = None
