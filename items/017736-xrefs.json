@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d3ca26cf0a122b0336848a88aa4b272bcfacbb9b",
+    "actor": "tomjakubowski",
+    "date": "2014-10-05T13:04:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17796,
+    "type": "issue",
+    "actor": "tomjakubowski",
+    "date": "2014-10-05T13:04:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0b431d5325a36d4a6ad3059e479d67a09508478f",
+    "actor": "tomjakubowski",
+    "date": "2014-10-05T16:36:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "942bed7aa6225b63b9633b4540dd4498c0a44623",
+    "actor": "tomjakubowski",
+    "date": "2014-10-06T08:52:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3edcdbb0c01187a0cc6456ca29cd858579459b18",
+    "actor": "bors",
+    "date": "2014-10-06T14:57:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28270,
+    "type": "issue",
+    "actor": "arielb1",
+    "date": "2015-09-06T13:15:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6aac80375ee8ec63522affc09e0cd5c4f888b44",
+    "actor": "bors",
+    "date": "2015-09-06T23:24:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "51130d8222c3228a9576e3e114a0016510a9da0f",
+    "actor": "RalfJung",
+    "date": "2024-08-01T11:02:38Z"
+  }
+]

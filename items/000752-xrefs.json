@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 584,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2011-10-12T23:04:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c73c5a1a25e65bd906ce074d5fc26bfa1c146bd4",
+    "actor": "pdietl",
+    "date": "2020-04-23T21:22:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:39:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8b6ffe3a2ab63197e3265422bb056faa32ec4a80",
+    "actor": "noscripter",
+    "date": "2025-09-08T12:00:27Z"
+  }
+]

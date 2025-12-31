@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "bb8a4a0ebba6994a7f10b27fe6943add8f4bfe3c",
+    "actor": "nrc",
+    "date": "2015-07-03T05:32:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 122,
+    "type": "issue",
+    "actor": "cassiersg",
+    "date": "2015-07-03T09:16:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7ea2674c753b254e0eb414cac53817a400cced0a",
+    "actor": "bors",
+    "date": "2015-07-13T01:07:51Z"
+  }
+]

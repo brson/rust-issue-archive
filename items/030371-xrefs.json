@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "3b65e2cee3a2f2464441e523fbd096e9aaa98d05",
+    "actor": "durka",
+    "date": "2015-12-14T18:37:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30374,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2015-12-14T18:53:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4a855c60710caa594a9e3e08d8ef77596af5994",
+    "actor": "durka",
+    "date": "2015-12-14T19:25:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4c0c4e554631b01280d29a0a951fb804e319e7d9",
+    "actor": "durka",
+    "date": "2015-12-14T23:10:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "29ea4eef9fa6e36f40bc1f31eb1e56bf5941ee72",
+    "actor": "bors",
+    "date": "2015-12-18T17:06:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c196cdc0362435be25e9a43bab7b4cc1461f8959",
+    "actor": "fhahn",
+    "date": "2015-12-28T22:51:09Z"
+  }
+]

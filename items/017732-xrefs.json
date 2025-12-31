@@ -1,0 +1,68 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 17307,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-11-06T01:00:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18768,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-11-08T10:12:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18819,
+    "type": "issue",
+    "actor": "mitsuhiko",
+    "date": "2014-11-09T23:17:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76,
+    "type": "issue",
+    "actor": "tomaka",
+    "date": "2014-11-18T09:42:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19121,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2014-11-19T23:32:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "182db6e7f884bba3fb9f70cead259994c3c45722",
+    "actor": "japaric",
+    "date": "2015-01-01T16:54:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20404,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-01-01T16:55:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b51ff9f06a3f6acdb8fb3641afedce69cde748ad",
+    "actor": "alexcrichton",
+    "date": "2015-01-02T17:27:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1056720a1fd1df5c792bbbfdd3314a0cffc31773",
+    "actor": "lnicola",
+    "date": "2024-07-28T14:46:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "48fb66be7a657839bdf8f42ae06fc17893c2d162",
+    "actor": "RalfJung",
+    "date": "2024-08-01T11:02:37Z"
+  }
+]

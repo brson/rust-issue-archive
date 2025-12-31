@@ -1,0 +1,28 @@
+[
+  {
+    "event": "referenced",
+    "commit": "3ebe24920bf6a4a8ab5323fb1f5650c9fe9ea3b0",
+    "actor": "Manishearth",
+    "date": "2015-03-15T10:10:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23387,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-03-15T10:10:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23394,
+    "type": "issue",
+    "actor": "killercup",
+    "date": "2015-03-15T15:21:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4f5e78b467fff62bcb5287f34940fd0037f2216",
+    "actor": "bors",
+    "date": "2015-03-15T16:06:05Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3723,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2013-07-02T18:47:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d33c603d26f5645808f9e7cdcd2d2c9806cb23c7",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5df8c8f7e554e036fcb14a2d93d145c92d56bc2e",
+    "actor": "calebcartwright",
+    "date": "2022-03-30T04:17:50Z"
+  }
+]

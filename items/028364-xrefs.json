@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 28388,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2015-09-13T12:52:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 803,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-09-18T18:14:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e9d2587766a30d30491ec96dab5cc5d741ae043a",
+    "actor": "bors",
+    "date": "2015-09-22T01:12:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28715,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2015-09-28T21:32:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "59eb44407652f5b66a66231f12f66f89c5df5c5f",
+    "actor": "bors",
+    "date": "2015-09-29T21:32:40Z"
+  }
+]

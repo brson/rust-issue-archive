@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fa1286d67e2d581df8ff25d466d8b724bf021fc6",
+    "actor": "erickt",
+    "date": "2013-01-24T15:14:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "35d58d5202e259768884508fe3f126d174adcbde",
+    "actor": "erickt",
+    "date": "2013-01-24T20:43:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6a94acea43816c0aa048afd8de06530b2375507",
+    "actor": "erickt",
+    "date": "2013-01-24T21:49:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c24419c196c8693118d2f72fb1947d2b6aec73f",
+    "actor": "erickt",
+    "date": "2013-01-25T00:25:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4246,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2013-07-16T11:04:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "908b33ebffa202df9a92932051bad634871e80ea",
+    "actor": "RalfJung",
+    "date": "2024-03-03T11:38:37Z"
+  }
+]

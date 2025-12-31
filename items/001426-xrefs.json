@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 42256,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2017-05-27T09:16:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cecd55f6d85dd1cfddf4a68fd6ae64671c891be7",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "39b2f86623bd7f45b45563624e7262cafd2801e0",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0b10fbcd964505f35c5051d8854949bdea59c196",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:58Z"
+  }
+]

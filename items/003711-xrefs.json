@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 124268,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-04-22T17:00:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "000d0f9116c24c0e24a30e18bfd84f913b099520",
+    "actor": "GuillaumeGomez",
+    "date": "2024-04-22T18:26:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e74733c0d760f98f0d0acb0759371f7d77522dc3",
+    "actor": "rust-timer",
+    "date": "2024-04-23T02:08:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fc94ce216ede9f89a1032b13e2563ddba0ae4194",
+    "actor": "RalfJung",
+    "date": "2024-06-29T11:10:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 163,
+    "type": "issue",
+    "actor": "Yenyun035",
+    "date": "2024-11-14T01:17:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 150,
+    "type": "issue",
+    "actor": "Yenyun035",
+    "date": "2024-11-22T04:30:23Z"
+  }
+]

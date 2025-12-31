@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 28440,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-09-16T16:56:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d636258bea33d4bd37a4b01f39f8696972a534e6",
+    "actor": "matklad",
+    "date": "2015-09-16T18:23:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28444,
+    "type": "issue",
+    "actor": "matklad",
+    "date": "2015-09-16T18:27:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a9cb51cf0cf8adc8188097c019daeaf10822d20f",
+    "actor": "nagisa",
+    "date": "2015-09-17T09:47:59Z"
+  }
+]

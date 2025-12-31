@@ -1,0 +1,62 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 29249,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-10-23T14:06:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1471,
+    "type": "issue",
+    "actor": "main--",
+    "date": "2016-01-22T17:18:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29722,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2016-04-08T20:34:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a3891cdd26d1c5d35257c351c7c86fa7e72604bb",
+    "actor": "Alexendoo",
+    "date": "2020-04-20T12:53:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 78,
+    "type": "issue",
+    "actor": "Alexendoo",
+    "date": "2020-04-20T12:56:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 815,
+    "type": "issue",
+    "actor": "rust-lang-glacier-bot",
+    "date": "2021-06-07T23:53:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 818,
+    "type": "issue",
+    "actor": "rust-lang-glacier-bot",
+    "date": "2021-06-08T00:02:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d08f1c3dff1827d401bafb82ab509a9d1e954008",
+    "actor": "bors",
+    "date": "2022-10-18T07:46:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a53614a910310130ac75ce15a73a8c4dbd795826",
+    "actor": "bors",
+    "date": "2024-09-24T17:41:11Z"
+  }
+]

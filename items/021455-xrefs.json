@@ -1,0 +1,15 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30303,
+    "type": "issue",
+    "actor": "mitaa",
+    "date": "2015-12-10T16:12:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "611e8b447c5b733057d1ded727f9a6acc8057d17",
+    "actor": "bors",
+    "date": "2015-12-10T21:36:09Z"
+  }
+]

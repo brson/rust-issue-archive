@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "85bb25f08c2a24a0c61ec96d3ec2014d64ec71f4",
+    "actor": "nagisa",
+    "date": "2014-12-23T16:16:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7f32a41e3166b75eb3e3af7927e474de65c3e9fa",
+    "actor": "nagisa",
+    "date": "2014-12-24T12:57:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "26117e7c85f37bb60984b5decae07fa79ef0889d",
+    "actor": "nagisa",
+    "date": "2014-12-24T13:47:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20199,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2014-12-24T13:58:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b506ca0e1821e71fd8a6c7434dc02b5bd432a34",
+    "actor": "lnicola",
+    "date": "2025-07-07T07:46:38Z"
+  }
+]

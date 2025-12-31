@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 12938,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2014-07-08T10:52:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "35e21346216cc4c5a3b22bb6fb316f8c867f8c92",
+    "actor": "bors",
+    "date": "2014-07-08T16:01:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 119169,
+    "type": "issue",
+    "actor": "fmease",
+    "date": "2023-12-20T19:43:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "15dc9f5bee8ba12df5545e8cd05215fb24f845ba",
+    "actor": "matthiaskrgr",
+    "date": "2023-12-22T18:01:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8f6c827a388a63d9683447672deee418f437c371",
+    "actor": "rust-timer",
+    "date": "2023-12-22T20:28:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "65bac187bd8c808229d5f683f0a8d2a8c8b718c5",
+    "actor": "flip1995",
+    "date": "2025-09-04T22:27:47Z"
+  }
+]

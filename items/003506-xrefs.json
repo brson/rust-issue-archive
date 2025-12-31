@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3501,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-09-15T20:40:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d0df47fc58e305bd7817f81956e72bb27c060ced",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a3fddf2384f9dc0d67252a2ec3481c8e27121aa3",
+    "actor": "RalfJung",
+    "date": "2024-04-25T10:26:06Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 318,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2017-05-02T20:40:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 101834,
+    "type": "issue",
+    "actor": "compiler-errors",
+    "date": "2022-09-15T00:45:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ca32f9e285911b5b8b447631fe27510e500238f",
+    "actor": "bors",
+    "date": "2022-09-15T00:46:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6718ea1cff98da785c10079cac1c1ecc30c12d52",
+    "actor": "bors",
+    "date": "2022-11-04T00:51:40Z"
+  }
+]

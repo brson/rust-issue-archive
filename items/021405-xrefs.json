@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "849a38ad86bc94832f2a931557a92e528c0d32e7",
+    "actor": "huonw",
+    "date": "2015-01-20T12:10:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21420,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-01-20T12:24:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21421,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-01-20T12:26:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf77f6ca0393021b449646972645e9d1bc211aca",
+    "actor": "alexcrichton",
+    "date": "2015-01-21T18:18:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31323,
+    "type": "issue",
+    "actor": "AndiDog",
+    "date": "2016-01-31T16:55:33Z"
+  }
+]

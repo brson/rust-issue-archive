@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "52124d7c807404a551c499a43736722ade9d9890",
+    "actor": "rprichard",
+    "date": "2015-03-08T06:59:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23167,
+    "type": "issue",
+    "actor": "rprichard",
+    "date": "2015-03-08T07:08:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ead9ab84b80ba3b172d529b1d2a2917bb05b4820",
+    "actor": "bors",
+    "date": "2015-03-08T12:10:42Z"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a3dae61201aadf7481055bd9722f31ef6212575a",
+    "actor": "bors",
+    "date": "2013-03-15T23:06:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dc5ad5070d06015d6a45f656882ae245197d0ff8",
+    "actor": "bors",
+    "date": "2013-03-16T04:15:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12798,
+    "type": "issue",
+    "actor": "pczarn",
+    "date": "2014-03-12T19:22:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "98fa0f89b1cd406594bedc5803a1b6db53990a15",
+    "actor": "bors",
+    "date": "2014-03-14T01:41:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "09fe163c9290b8aa573decb25d5b4b02f33e481e",
+    "actor": "bors",
+    "date": "2020-05-02T16:25:12Z"
+  }
+]

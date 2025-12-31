@@ -1,0 +1,48 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1107,
+    "type": "issue",
+    "actor": "tomaka",
+    "date": "2015-01-03T14:33:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28394,
+    "type": "issue",
+    "actor": null,
+    "date": "2015-09-13T21:29:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28504,
+    "type": "issue",
+    "actor": null,
+    "date": "2015-09-19T00:10:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ad82e0ac180deef65b5757a6e4d7fa79aab5521a",
+    "actor": "bors",
+    "date": "2015-09-22T22:42:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17,
+    "type": "issue",
+    "actor": "d3lio",
+    "date": "2016-04-21T18:53:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2271b820072d6ab83069c7831b32e6435fe04828",
+    "actor": "bors",
+    "date": "2024-01-08T18:25:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "533cbc57bad2de60bfacec32fb60336bdd579bae",
+    "actor": "flip1995",
+    "date": "2025-12-25T15:45:17Z"
+  }
+]

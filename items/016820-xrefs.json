@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 16898,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-08-31T08:34:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3ca53d3a100a4466ed91df6d5a696d112db82b68",
+    "actor": "pcwalton",
+    "date": "2014-09-08T17:50:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17101,
+    "type": "issue",
+    "actor": "pcwalton",
+    "date": "2014-09-08T17:51:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 8372,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2014-09-13T15:48:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9bc1eb49b533898e24fd62b564fbf41381fd5bf2",
+    "actor": "bors",
+    "date": "2024-03-17T10:48:12Z"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "2aa685817ea29224af34393d5a60d7b3116c997b",
+    "actor": "bors",
+    "date": "2015-03-23T18:33:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "753efb5042563dd34a4a524197fa14a129ddf449",
+    "actor": "alexcrichton",
+    "date": "2015-03-23T23:16:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "beb33d4160e0615af8dc44b4cefb3683e1c64afe",
+    "actor": "bors",
+    "date": "2015-03-24T05:52:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ffd5f008b445970bbd6a0a752e680bd0831dfb77",
+    "actor": "bors",
+    "date": "2015-03-24T07:03:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "de8a23bbc3a7b9cbd7574b5b91a34af59bf030e6",
+    "actor": "bors",
+    "date": "2015-03-24T10:01:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22826,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-03-26T21:42:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 59527,
+    "type": "issue",
+    "actor": "matklad",
+    "date": "2019-03-29T14:23:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "47f4f94676fbdd494dd2c2dc9ac377a13fc78e00",
+    "actor": "bors",
+    "date": "2019-03-29T14:38:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c3d3c1777041200bb7ed7a65b6562d62899778c",
+    "actor": "bors",
+    "date": "2019-04-17T19:18:56Z"
+  }
+]

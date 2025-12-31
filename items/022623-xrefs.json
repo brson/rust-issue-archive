@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0e36a27ec3dada93256622af20b2f8a2c85286ba",
+    "actor": "Manishearth",
+    "date": "2015-02-24T21:51:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0e5d8b868a75ac776ea12357935bf79507257eb3",
+    "actor": "bors",
+    "date": "2015-02-25T08:54:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 62678,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2019-07-16T10:23:42Z"
+  }
+]

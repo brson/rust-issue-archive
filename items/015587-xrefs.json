@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "50af5d9abf256b7b3a9e5a28699027ac851ed5ac",
+    "actor": "Kimundi",
+    "date": "2015-01-08T20:50:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c163effc2b4704e3ec9d0011c90a8bd0bab4cb6c",
+    "actor": "Kimundi",
+    "date": "2015-01-08T20:53:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20771,
+    "type": "issue",
+    "actor": "Kimundi",
+    "date": "2015-01-08T20:59:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5855bd857948b609496dcbb971589fe3e94429dd",
+    "actor": "bors",
+    "date": "2023-11-13T23:43:37Z"
+  }
+]

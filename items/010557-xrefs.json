@@ -1,0 +1,57 @@
+[
+  {
+    "event": "referenced",
+    "commit": "9647d582ee13fcf581415c3ab642ec0bff00d2f1",
+    "actor": "bors",
+    "date": "2013-11-19T09:41:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "32f6c11dfab019181b77fe48a876c3ba38b0c72a",
+    "actor": "bors",
+    "date": "2013-11-19T12:06:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c271264775123444fee627fff5812f70cda530e",
+    "actor": "mbrubeck",
+    "date": "2014-04-30T00:38:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2272,
+    "type": "issue",
+    "actor": "mbrubeck",
+    "date": "2014-04-30T00:39:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8af9ce07f8ec9dddc926c1f76ade9e84427034db",
+    "actor": "bors-servo",
+    "date": "2014-04-30T10:32:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7758fa469d970f18738ee8afc5636adf2a32cc0d",
+    "actor": "Manishearth",
+    "date": "2014-05-02T05:37:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1d6959be51a78a0f6402aa349763427f8034d9d3",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:39:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7dc5ad0ead9402139ea185539824d69ebfde8734",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T23:45:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "39d475933943b8217912e19ce225cfb5139b1de4",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:00:49Z"
+  }
+]

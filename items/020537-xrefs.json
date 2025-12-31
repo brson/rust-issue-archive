@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20513,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-01-04T20:46:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "af265370b2d936b8f3e1f608763a7417ec080ced",
+    "actor": "SimonSapin",
+    "date": "2015-01-13T13:46:50Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23530,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-03-22T19:02:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1005,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-03-23T16:52:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "05a61993a20479083b5fca9adaf8d5f7f7e776bf",
+    "actor": "lnicola",
+    "date": "2025-09-01T11:36:28Z"
+  }
+]

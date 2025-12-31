@@ -1,0 +1,57 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f735c4c7647596643b72cff5d235d4277cc6166f",
+    "actor": "alexcrichton",
+    "date": "2014-03-12T17:42:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "373d2d4966d7ee91e59dbf2ec063782ce162f475",
+    "actor": "alexcrichton",
+    "date": "2014-03-12T18:18:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "959f7da392cdc5b7b2216accd5c7c3e68d544d70",
+    "actor": "alexcrichton",
+    "date": "2014-03-12T20:47:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f2434eee3f7fa72bf7a8693aef3932d563cf8d5",
+    "actor": "alexcrichton",
+    "date": "2014-03-12T22:01:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7f76bf73aad414df03a8a5470bd6e8ede9c08bdf",
+    "actor": "jxs",
+    "date": "2014-04-02T00:59:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 57233,
+    "type": "issue",
+    "actor": "Smibu",
+    "date": "2018-12-31T12:02:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ac58493295468a264e0137e9ea2fc2099d50f786",
+    "actor": "Mark-Simulacrum",
+    "date": "2019-01-03T18:40:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3d8e5d40c5cd63b59ab12cf96bae40fdaa03927a",
+    "actor": "kennytm",
+    "date": "2019-01-05T15:56:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "28bab681e935b850cf31c17b5082c6e82fd74463",
+    "actor": "fasterthanlime",
+    "date": "2022-07-22T13:04:08Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30472,
+    "type": "issue",
+    "actor": "soltanmm",
+    "date": "2015-12-30T07:05:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31580,
+    "type": "issue",
+    "actor": "jonas-schievink",
+    "date": "2016-02-11T18:57:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 131355,
+    "type": "issue",
+    "actor": "clubby789",
+    "date": "2024-10-07T11:47:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a0df1154b857209528b968ce7844150f753405fc",
+    "actor": "bors",
+    "date": "2024-10-07T22:45:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cc5a24caf664f772bb6ad9202de39a62e937dca8",
+    "actor": "Zalathar",
+    "date": "2024-10-08T02:19:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e2fa6453878f1bb97377fdc02117e51ba049fdd8",
+    "actor": "rust-timer",
+    "date": "2024-10-08T07:08:45Z"
+  }
+]

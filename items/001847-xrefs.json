@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1851,
+    "type": "issue",
+    "actor": "jruderman",
+    "date": "2012-02-16T03:57:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c38527f735463dcffa3691a59bf4a797e6644999",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5d499f04efe7776c8ff9ecba91e3f9efe5098172",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "853bc7255671c665aa1a66c0c297658d85ef2c35",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:17Z"
+  }
+]

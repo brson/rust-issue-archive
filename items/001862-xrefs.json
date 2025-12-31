@@ -1,0 +1,91 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1861,
+    "type": "issue",
+    "actor": "thoughtpolice",
+    "date": "2012-02-20T00:11:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2084,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2012-03-31T00:21:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2377,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-05-12T20:12:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2014-05-15T11:05:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 120467,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-01-29T17:00:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "63a8885fcc015e903ac3e3316c91f6eaac79eaa8",
+    "actor": "GuillaumeGomez",
+    "date": "2024-01-30T10:19:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "48c550d7727a47d9fd2dc51287447d5cb47c5fc6",
+    "actor": "rust-timer",
+    "date": "2024-01-30T15:50:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e7095c16759a887e5073f7daed23410fe114557",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "81d075765d4059538ccb4b315daca51507ddd116",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d112519db91b831797ed2a299579241e10cc7d85",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9d0ed10bbd388d5418d461ab0b6b9c4ed974a9d1",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "02847e40a1ebb403f665a4be39e866bb4ea44f69",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9b7d31c851cabc2e6e541d3cf146787d597a9166",
+    "actor": "Kobzol",
+    "date": "2025-07-20T14:52:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b813d2ad838eed7b5d4b49595db47d8d5bea320",
+    "actor": "github-actions[bot]",
+    "date": "2025-07-30T07:07:54Z"
+  }
+]

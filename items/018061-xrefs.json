@@ -1,0 +1,100 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e03d19797cb6b13e64f8f06a9dc06f67423787db",
+    "actor": "nrc",
+    "date": "2014-10-17T05:48:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "92db3335d3e9e6cac874fa790c97a99ec3bc837a",
+    "actor": "nrc",
+    "date": "2014-10-19T22:27:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18177,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2014-10-20T01:34:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18175,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2014-10-20T03:31:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18237,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2014-10-22T20:07:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18263,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-10-23T20:27:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18281,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-10-24T15:34:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18249,
+    "type": "issue",
+    "actor": "bkoropoff",
+    "date": "2014-10-28T06:02:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18382,
+    "type": "issue",
+    "actor": "bkoropoff",
+    "date": "2014-10-28T06:45:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "58ccd9757020f4b674950fbd3df7e833248322ea",
+    "actor": "nrc",
+    "date": "2014-10-30T04:30:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cc1807f24a7c34aa70dede79d67f0d1cfce397e5",
+    "actor": "bors",
+    "date": "2014-10-30T08:32:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "333d5f2388fa806b509bd1813940cdb28a5fdf89",
+    "actor": "nrc",
+    "date": "2014-10-31T02:01:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4e7d86c079d9b4862bcf72a2a3b1093264fc5731",
+    "actor": "nrc",
+    "date": "2014-10-31T23:02:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "88b6e93d35c34e143ba060a617e71c8af10fa15e",
+    "actor": "bors",
+    "date": "2014-10-31T23:36:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18501,
+    "type": "issue",
+    "actor": "bkoropoff",
+    "date": "2014-11-01T17:19:18Z"
+  }
+]

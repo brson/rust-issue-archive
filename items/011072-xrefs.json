@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "3906823765b1ec241df4906527a990ec945c4392",
+    "actor": "bors",
+    "date": "2013-12-19T20:01:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "22055802cf03e498c56c55ce8375ca4e3935a5e5",
+    "actor": "chris-morgan",
+    "date": "2013-12-19T22:34:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11079,
+    "type": "issue",
+    "actor": "chris-morgan",
+    "date": "2013-12-19T22:34:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a070f82cd6d4914caded627a316748ca3f929950",
+    "actor": "bors",
+    "date": "2013-12-20T11:56:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "35fc0c8fe4210517508d624695e81c47bda00602",
+    "actor": "bors",
+    "date": "2013-12-21T02:46:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "01d50ae441a65e863c341aa4001522f6729aa7c6",
+    "actor": "fhahn",
+    "date": "2013-12-21T17:54:43Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 6150,
+    "type": "issue",
+    "actor": "yichoi",
+    "date": "2013-05-01T09:57:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bd5fd6e42a904723c99383e684ddeaf02f01d972",
+    "actor": "bors",
+    "date": "2013-05-06T20:15:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3aa8da3e072651d9c68a579dcf598609983d2234",
+    "actor": "bors",
+    "date": "2020-05-02T16:25:06Z"
+  }
+]

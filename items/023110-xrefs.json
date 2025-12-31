@@ -1,0 +1,49 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 372,
+    "type": "issue",
+    "actor": "pyfisch",
+    "date": "2015-03-15T14:25:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 111,
+    "type": "issue",
+    "actor": "Ogeon",
+    "date": "2015-03-17T20:29:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c42f0d92f30633e2b3dd5c644423eee1a169244b",
+    "actor": "Ogeon",
+    "date": "2015-03-22T11:00:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 116,
+    "type": "issue",
+    "actor": "Ogeon",
+    "date": "2015-03-28T13:25:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29249,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-10-23T14:06:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 346,
+    "type": "issue",
+    "actor": "jimblandy",
+    "date": "2018-07-01T22:18:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "de1b2afda48c8881d8113f98a9392fa5824ae11e",
+    "actor": "bors-servo",
+    "date": "2018-07-01T23:35:31Z"
+  }
+]

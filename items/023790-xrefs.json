@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 23860,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-03-30T13:37:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cdcc0422122a99fd0940a747c84de2e969feaac4",
+    "actor": "Manishearth",
+    "date": "2015-04-01T18:00:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dd6ea91de3b134082073c9a225fd70b66693466a",
+    "actor": "actimehl",
+    "date": "2015-04-03T12:28:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22543,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-04-03T18:05:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "52695ac681f114cb2aa03de10e2639fe1fa80cef",
+    "actor": "jedisct1",
+    "date": "2015-10-20T12:17:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1521,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2016-03-02T01:30:57Z"
+  }
+]

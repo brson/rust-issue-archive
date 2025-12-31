@@ -1,0 +1,47 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1783,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2016-11-04T05:58:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6,
+    "type": "issue",
+    "actor": "vext01",
+    "date": "2017-12-06T20:11:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1fc4ddcac8bf518030737420e06d2fca132b1d7b",
+    "actor": "jacob-hughes",
+    "date": "2018-02-26T12:35:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b0c5d9d57aee17db804c5657fa60facac3cc6016",
+    "actor": "jacob-hughes",
+    "date": "2018-02-26T12:39:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "931b6783de157edc5db3feb30d82286e57d9d647",
+    "actor": "jacob-hughes",
+    "date": "2018-02-26T18:29:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 35645,
+    "type": "issue",
+    "actor": "niansa",
+    "date": "2025-03-11T12:38:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "94f0994b1b78fe042ea173e23bc66a3fa80bb34c",
+    "actor": "bors",
+    "date": "2025-04-22T20:43:00Z"
+  }
+]

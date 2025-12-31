@@ -1,0 +1,113 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 29938,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2015-12-01T21:33:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "114eea7b49ad6a760da4d1dda8dcaa808b204fd0",
+    "actor": "bors",
+    "date": "2015-12-28T18:39:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1cfb7dac2b8ea97c3ea13494458c1aa6e8aa41c9",
+    "actor": "Manishearth",
+    "date": "2015-12-29T05:34:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30604,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-12-29T05:34:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6e2a64b57a74f35bef215972adf1b803cff288bd",
+    "actor": "bors",
+    "date": "2015-12-30T01:07:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 165,
+    "type": "issue",
+    "actor": "niconii",
+    "date": "2016-01-01T22:50:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30783,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2016-01-08T20:15:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30784,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2016-01-08T20:18:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a04888e3368c48a3eafa83237e108c2bdf4461ea",
+    "actor": "lhecker",
+    "date": "2016-01-10T12:57:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9093,
+    "type": "issue",
+    "actor": "larsbergstrom",
+    "date": "2016-01-11T13:20:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30913,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2016-01-14T19:20:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c12c42de0ac3f4ab50f2c138e53e6e94f8da11ec",
+    "actor": "bors",
+    "date": "2016-01-14T20:32:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19395,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2017-11-27T23:10:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 140525,
+    "type": "issue",
+    "actor": "lqd",
+    "date": "2025-04-30T18:27:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4c9bad7b6d211ac05539154d62699983451eed61",
+    "actor": "rust-bors[bot]",
+    "date": "2025-07-08T13:39:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6473859a0f47ae442cec3db9d4d20a8b84115109",
+    "actor": "bors",
+    "date": "2025-07-08T20:34:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "34097a38afc9efdedf776d3f1c84a190ff334886",
+    "actor": "bors",
+    "date": "2025-07-08T22:24:13Z"
+  }
+]

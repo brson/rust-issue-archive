@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 19838,
+    "type": "issue",
+    "actor": "vhbit",
+    "date": "2014-12-17T12:15:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3dc33d94b4a554c7e4667f3668c7e1eebb8fecd7",
+    "actor": "bors",
+    "date": "2015-01-21T01:53:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "83af23ea49a907ddda8915775cfb5d8c4cff5682",
+    "actor": "alexcrichton",
+    "date": "2015-01-21T18:18:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e07199ad465cb2bd1bcc72eef7160bc1014e9cb6",
+    "actor": "lnicola",
+    "date": "2025-06-09T16:44:55Z"
+  }
+]

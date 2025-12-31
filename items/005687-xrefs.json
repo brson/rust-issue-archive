@@ -1,0 +1,22 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b16d10117abded20f3a04f9467cb1de0e3295b6d",
+    "actor": "flip1995",
+    "date": "2020-06-05T23:03:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:44Z"
+  }
+]

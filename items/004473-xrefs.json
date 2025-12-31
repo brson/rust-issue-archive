@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "03467dec31b9e88d10a2a547d653117e1d2a4806",
+    "actor": "jld",
+    "date": "2013-01-14T03:07:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0e1985eda6ee0f6b84ff5998e58164e1b25f0abf",
+    "actor": "jld",
+    "date": "2013-01-14T03:08:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4477,
+    "type": "issue",
+    "actor": "jld",
+    "date": "2013-01-14T03:09:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4551,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2013-01-20T11:07:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0131e38aa2443a5f116aba4c3b95c92fdd29e8cd",
+    "actor": "RalfJung",
+    "date": "2025-07-20T20:21:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a1ac259f0e783881d39df3c8ebe96fbb481660a1",
+    "actor": "Muscraft",
+    "date": "2025-07-21T20:59:47Z"
+  }
+]

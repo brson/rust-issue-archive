@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 4447,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2013-01-11T20:51:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "55c78d0453d553d804f9c276066f6679e0a6aee4",
+    "actor": "catamorphism",
+    "date": "2013-06-27T23:55:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76b910d8cca5535774cc94637dc6b7e1fda6de1c",
+    "actor": "catamorphism",
+    "date": "2013-06-27T23:57:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 81387,
+    "type": "issue",
+    "actor": "c410-f3r",
+    "date": "2021-01-25T17:03:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "69f036404ced673cda4b1c0fe46b447b946c273f",
+    "actor": "JohnTitor",
+    "date": "2021-02-01T10:13:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "11eb176da5c1e066cb27c5a0ca9242eb6cfefaec",
+    "actor": "henryboisdequin",
+    "date": "2021-02-01T12:18:39Z"
+  }
+]

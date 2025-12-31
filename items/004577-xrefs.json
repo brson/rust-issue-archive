@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18252,
+    "type": "issue",
+    "actor": "osa1",
+    "date": "2014-10-23T11:50:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "71a5379bda71f19539dabac0232330561e19be1a",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "166af83c692acadcdd5d4d931ae54342f8fd3520",
+    "actor": "RalfJung",
+    "date": "2025-09-18T21:18:56Z"
+  }
+]

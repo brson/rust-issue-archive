@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21510,
+    "type": "issue",
+    "actor": "dgrunwald",
+    "date": "2015-01-24T16:48:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21637,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-26T11:00:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "05ffdc58248f7d5f2626a31d7272ad608d3984ec",
+    "actor": "nikomatsakis",
+    "date": "2015-01-28T11:01:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e176c6f3b35bfb844bedc460d6c8f4f12ef6b33a",
+    "actor": "lnicola",
+    "date": "2025-12-22T13:48:34Z"
+  }
+]

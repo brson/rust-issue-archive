@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5307,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-03-10T15:07:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2285a017777f28f908243b46db7f5c23658ef7c1",
+    "actor": "bors",
+    "date": "2013-03-10T22:54:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ab5472a7244896df20ceb7a12d9d30afc838f004",
+    "actor": "bors",
+    "date": "2013-03-13T21:57:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "23bd427f925e44a9244a40187659ca2a2eb0a6ee",
+    "actor": "bors",
+    "date": "2020-05-02T16:25:06Z"
+  }
+]

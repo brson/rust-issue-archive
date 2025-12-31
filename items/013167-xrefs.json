@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 17721,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-10-02T20:22:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4f8153e4a543d00126b402c24e9c119d8c76e74b",
+    "actor": "JohnTitor",
+    "date": "2022-09-06T22:44:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d9c4523e6cded5fb1fc3cffc8af45a0a003599a9",
+    "actor": "bors",
+    "date": "2024-09-24T17:41:10Z"
+  }
+]

@@ -1,0 +1,54 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 55,
+    "type": "issue",
+    "actor": "pczarn",
+    "date": "2014-04-29T15:46:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bb475f2bbd16b6923b505a3d778c824eafeabddc",
+    "actor": "alexcrichton",
+    "date": "2014-05-07T02:00:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14005,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-05-07T02:03:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "08237cad8d2ce9287aedf99e57384407cc9dc42d",
+    "actor": "alexcrichton",
+    "date": "2014-05-07T04:04:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c217a844793034c181bd4457b9797b97a2c66f58",
+    "actor": "bors",
+    "date": "2014-05-07T21:56:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d6566ba050cbedbe0d37c4145c34100a7558ab2a",
+    "actor": "michaelwoerister",
+    "date": "2014-06-05T08:31:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28179,
+    "type": "issue",
+    "actor": "geofft",
+    "date": "2015-09-02T23:36:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 493,
+    "type": "issue",
+    "actor": "ZKing1000",
+    "date": "2020-02-12T18:04:03Z"
+  }
+]

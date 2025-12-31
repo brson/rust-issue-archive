@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "781dcc0d696dd8544d406bec89399a0634efe210",
+    "actor": "catamorphism",
+    "date": "2013-08-12T21:40:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9f63b4a8f42e7b28ecce1dfb2389f101c11886e3",
+    "actor": "catamorphism",
+    "date": "2013-08-12T21:40:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 8477,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-08-12T21:42:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "db2d9caeda41bbda7490166c63af3a0481c210a5",
+    "actor": "catamorphism",
+    "date": "2013-08-12T21:42:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0efbb25a26d9a793ce5aa67e030b3d0bee43f5fa",
+    "actor": "bors",
+    "date": "2013-08-14T06:59:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e6d1bf5acba29a8944f3bd537bcefb5e5972e5f1",
+    "actor": "calebcartwright",
+    "date": "2021-12-03T03:35:48Z"
+  }
+]

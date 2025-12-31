@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 6364,
+    "type": "issue",
+    "actor": "metajack",
+    "date": "2013-05-10T04:24:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 8,
+    "type": "issue",
+    "actor": "metajack",
+    "date": "2013-05-10T04:25:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d546493096f35e68cbcd9b5d3d7654e7a9345744",
+    "actor": "bors",
+    "date": "2013-05-10T20:10:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8a47901bac1550982fb4e1a63faed513c72d5266",
+    "actor": "flip1995",
+    "date": "2021-02-25T10:26:49Z"
+  }
+]

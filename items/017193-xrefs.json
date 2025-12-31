@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "926cfb7a3b8d62caa4934348f155f970a54b4c4d",
+    "actor": "bluss",
+    "date": "2015-05-25T22:50:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43602,
+    "type": "issue",
+    "actor": "QuietMisdreavus",
+    "date": "2017-08-01T22:11:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5c385bef7a2429db496f809f2e5042774fe7079b",
+    "actor": "bors",
+    "date": "2017-08-02T08:49:13Z"
+  }
+]

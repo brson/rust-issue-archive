@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "7d72bdb226b9f7918de997e2e10315c9d9a0a62d",
+    "actor": "nrc",
+    "date": "2014-09-03T03:23:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16953,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2014-09-03T03:24:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3b5d92c92336be12d0390cf8e93b76514c20d810",
+    "actor": "bors",
+    "date": "2014-09-03T21:31:07Z"
+  }
+]

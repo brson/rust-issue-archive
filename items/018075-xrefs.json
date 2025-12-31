@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f8de324113fca4be7d8ae3bd0baa13726a0bb6c8",
+    "actor": "jooert",
+    "date": "2015-05-12T09:28:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1d1570acc9ac9d76394da05f63fa7881b6492ab9",
+    "actor": "jooert",
+    "date": "2015-05-12T10:24:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 77678,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2020-10-07T23:16:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "51cc5a74fc50a5ca82858c059cebf256f5d71e7b",
+    "actor": "lnicola",
+    "date": "2024-09-25T06:58:25Z"
+  }
+]

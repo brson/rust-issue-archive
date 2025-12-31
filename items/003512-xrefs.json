@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 12023,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2014-02-04T01:36:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1bcc73fe9d5bddb43816fd9a15303b784fbfa40f",
+    "actor": "bors",
+    "date": "2014-02-05T07:46:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 37127,
+    "type": "issue",
+    "actor": "jseyfried",
+    "date": "2016-10-30T01:24:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "efa3a62b56f793ab13a85486ad99da1432f88aa3",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e22a73c6d0c1173b8f3309bae43b9bea1df3c36b",
+    "actor": "RalfJung",
+    "date": "2024-04-25T10:26:07Z"
+  }
+]

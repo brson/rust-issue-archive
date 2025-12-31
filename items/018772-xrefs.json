@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18101,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-11-10T11:06:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "77668ea379b6d50aa49c3447cded3ef947d34c04",
+    "actor": "nikomatsakis",
+    "date": "2014-11-25T12:49:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19186,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-11-25T18:08:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "21d5d139fc6e04781b7f9d9eeab0f8f0255ac06b",
+    "actor": "nikomatsakis",
+    "date": "2014-11-26T16:42:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "19507fd247fe9a14d9b53c4932fc119c4a63551c",
+    "actor": "nikomatsakis",
+    "date": "2014-11-26T17:52:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b219bd5062c327f0eb25df2deff7fedd04c4754d",
+    "actor": "nikomatsakis",
+    "date": "2014-11-26T19:15:18Z"
+  }
+]

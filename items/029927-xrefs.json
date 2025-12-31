@@ -1,0 +1,46 @@
+[
+  {
+    "event": "referenced",
+    "commit": "bea2f2753bcdb4325b12b01d07e8fa5f50b96b6c",
+    "actor": "oli-obk",
+    "date": "2015-12-01T16:37:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10480a13d7cd084a22bb1f6b1efa05d9e4b602cf",
+    "actor": "oli-obk",
+    "date": "2015-12-02T08:49:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30141,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2015-12-02T10:02:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30216,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2015-12-05T15:30:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "93fd504001d3ddca37083843257de9588d8bde6b",
+    "actor": "oli-obk",
+    "date": "2015-12-05T15:47:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e1276a694f9b0e738a6a2068cff101a051b0a35",
+    "actor": "oli-obk",
+    "date": "2015-12-06T12:00:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a33d02b41da6d7d52fcfe2fb79b6099baf7ec126",
+    "actor": "fhahn",
+    "date": "2015-12-28T22:51:09Z"
+  }
+]

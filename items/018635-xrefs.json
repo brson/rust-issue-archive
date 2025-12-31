@@ -1,0 +1,84 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 378,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2014-11-04T23:25:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6cf007c5913a1eba95be937b167939a8dbbed8e3",
+    "actor": "pcwalton",
+    "date": "2014-11-14T17:23:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18958,
+    "type": "issue",
+    "actor": "pcwalton",
+    "date": "2014-11-14T17:24:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf5e242177472de7ac2d79fdf38145f386bd52bf",
+    "actor": "pcwalton",
+    "date": "2014-11-14T17:25:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "67c1b03b855abf8f50eff9d1fcc570e760cff2b7",
+    "actor": "pcwalton",
+    "date": "2014-11-19T05:14:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b38bbae62771b64a550b5d6c27de6ff276eed36c",
+    "actor": "pcwalton",
+    "date": "2014-11-19T05:15:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6a855f6057ec5fadcd272468aa854fdd8d9eb1b3",
+    "actor": "pcwalton",
+    "date": "2014-11-19T05:29:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ddb2466f6a1bb66f22824334022a4cee61c73bdc",
+    "actor": "japaric",
+    "date": "2014-12-18T17:09:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19984,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-12-18T17:12:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f9a48492a82f805aa40d8b6fea290badbab0d1b1",
+    "actor": "bors",
+    "date": "2014-12-18T17:32:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "037667a4f7dfb2cbd692b5bc82db73465995a039",
+    "actor": "michaelwoerister",
+    "date": "2014-12-23T09:36:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13937,
+    "type": "issue",
+    "actor": "shepmaster",
+    "date": "2014-12-28T20:18:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c6e8a0e209f29baad078a728a82b39db55269e4c",
+    "actor": "lnicola",
+    "date": "2024-12-11T12:41:09Z"
+  }
+]

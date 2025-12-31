@@ -1,0 +1,112 @@
+[
+  {
+    "event": "referenced",
+    "commit": "6d3c88c061d01a5bac016e261785ae39c65caa9d",
+    "actor": "oli-obk",
+    "date": "2017-09-19T07:10:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ac752505bd619425d7a32a376b5f7310de3863d7",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5cf1db06b2b0b1a75256b375764797e6d57484c8",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "17af1781082ffe38e57a1ef64fa861b029f4e7f1",
+    "actor": "bors",
+    "date": "2021-07-16T16:37:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9e0bddae0e3963ad4e1059a2fbc67b8f924065f2",
+    "actor": "bors",
+    "date": "2021-07-16T16:37:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0fff204789eb121043fca503bf40c5945b2b8cc0",
+    "actor": "bors",
+    "date": "2021-07-16T17:51:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cbce48a16e4e575ed3fd942ad01f1f6731fd8fa0",
+    "actor": "bors",
+    "date": "2021-07-16T18:00:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d91836fb51bd35245372be45e2d8ed184eb46e4f",
+    "actor": "bors",
+    "date": "2021-07-16T19:37:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "532fc783a82edd5e8503640b96eeb4ad58dec438",
+    "actor": "bors",
+    "date": "2021-07-16T19:37:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5d3f2874e1f963ee36c024ddacc5a583f7e985f5",
+    "actor": "bors",
+    "date": "2021-07-22T18:29:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e3d53a8dda3f4013ee67323592b615c981b50816",
+    "actor": "bors",
+    "date": "2021-07-22T18:29:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6ebaa581fcddde8735fcb573a63a73429b7ebfe7",
+    "actor": "bors",
+    "date": "2021-07-26T09:39:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "defc718414c86608b71678b9b687a295290502c4",
+    "actor": "bors",
+    "date": "2021-07-26T09:40:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "45d4dcbeabb8b3c074ef40aeb0e816704c293f31",
+    "actor": "gi-dellav",
+    "date": "2021-12-09T14:51:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a98fce7f5d20e2835c3c0a2888db6a1ada7237b2",
+    "actor": "Mark-Simulacrum",
+    "date": "2022-02-22T02:31:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 84970,
+    "type": "issue",
+    "actor": "orf",
+    "date": "2023-01-01T18:49:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4d8c6d35024666cf1486e84c12a7b2a86b211e22",
+    "actor": "antoyo",
+    "date": "2023-06-19T22:52:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 132601,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-11-04T17:01:33Z"
+  }
+]

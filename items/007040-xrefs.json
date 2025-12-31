@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 6945,
+    "type": "issue",
+    "actor": "Blei",
+    "date": "2013-06-10T17:43:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "443a48ea095689ac37134bed5dcecab0eac82f83",
+    "actor": "bors",
+    "date": "2013-06-11T16:04:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7006,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-06-11T18:54:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "da9172af60e04d40aad2f0184e81e2a74916eeba",
+    "actor": "bors",
+    "date": "2013-06-11T20:46:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7071,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-06-11T21:42:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "75b616e92f6cad9c44bd4faf10e034439a5757f2",
+    "actor": "flip1995",
+    "date": "2022-03-14T11:03:26Z"
+  }
+]

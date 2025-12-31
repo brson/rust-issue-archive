@@ -1,0 +1,46 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3050,
+    "type": "issue",
+    "actor": "fsouza",
+    "date": "2012-07-29T18:06:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "50f2db4a0e57a03a799a93f95dfd8ce10ffa21dc",
+    "actor": "graydon",
+    "date": "2012-07-30T22:47:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3106,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2012-08-04T19:44:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6dc9b9665167fb8f3ac3b576bcf6d224f956ea5d",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d2f5dc9745defa7cb90a88dd8adc7d347f42d0bc",
+    "actor": "RalfJung",
+    "date": "2023-09-03T08:41:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5a7c1345f3429d2722d6b800cc8b2eb6db9e6061",
+    "actor": "RalfJung",
+    "date": "2023-10-27T10:02:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9b9094ddfbec1101cfc244b623dd14a2d538869f",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:48Z"
+  }
+]

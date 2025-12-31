@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5022,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-02-19T01:13:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4419,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-05-01T22:02:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3309,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-07-11T00:12:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20ab30fc583baeb87bb58bb369e97003a76a8a10",
+    "actor": "alexcrichton",
+    "date": "2013-10-01T22:35:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "68500388b2c3462528599642646fb39c1c107bd4",
+    "actor": "alexcrichton",
+    "date": "2013-10-01T23:35:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "23ebed728406bca8e1ff409425f4f65411274c66",
+    "actor": "alexcrichton",
+    "date": "2013-10-02T16:55:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "88593fc3fc808e78dd89be95c997c94ba4c816da",
+    "actor": "alexcrichton",
+    "date": "2013-10-03T16:16:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0da0ae3aa6abf1bd7a6e7fd725ad256ced438f50",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:50Z"
+  }
+]

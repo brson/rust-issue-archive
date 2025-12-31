@@ -1,0 +1,70 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 42415,
+    "type": "issue",
+    "actor": "stephen-lazaro",
+    "date": "2017-06-03T19:47:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f99a07d9ff2bbc9b8d5c2919ab1c954284fa6e7b",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-06-05T15:44:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "915b19d7c356f546f859a24dc34c930e0d75d02e",
+    "actor": "frewsxcv",
+    "date": "2017-06-07T02:36:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 59146,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2019-03-12T21:57:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fd3de6ab3464222f1f5702320d9add1af3568295",
+    "actor": "pietroalbini",
+    "date": "2019-03-13T15:56:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "156fec081cafa23cf705fc09cdc18b8be55db46b",
+    "actor": "Centril",
+    "date": "2019-03-13T20:50:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6d1c5193eceb0c471ff9d6765e3cf15356ce8f26",
+    "actor": "Mark-Simulacrum",
+    "date": "2019-03-14T15:05:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d93e460524ee67288582b2a918ee0afeb5d473b4",
+    "actor": "kennytm",
+    "date": "2019-03-15T11:15:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "06c2a0f79b1e62231b7d27d59870327fdf5114e0",
+    "actor": "Centril",
+    "date": "2019-03-16T01:13:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b21b3a38e501bc5330760b27294e8b1ce8b5635f",
+    "actor": "kennytm",
+    "date": "2019-03-16T06:56:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bbe5f3d08b780940bf9c8c25cadc6a377e3258a5",
+    "actor": "kennytm",
+    "date": "2019-03-16T14:43:06Z"
+  }
+]

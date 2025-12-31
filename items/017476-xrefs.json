@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20700,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-04-07T04:20:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e60c8b2dcd69bb1f5815f089361302d4c755ff29",
+    "actor": "alexcrichton",
+    "date": "2015-04-08T00:54:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "641bca06c82e2fa744e7b14bc45cfa501baf57e6",
+    "actor": "alexcrichton",
+    "date": "2015-04-08T00:55:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25001,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-05-03T17:06:47Z"
+  }
+]

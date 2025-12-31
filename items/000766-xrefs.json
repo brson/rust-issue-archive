@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e96c8b9266f5d7b3b6ac18e286ea5c23d2cdda61",
+    "actor": "pdietl",
+    "date": "2020-04-23T21:22:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:39:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ddfebe42e505542e5ed149f26fd8ccc164352d3b",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1c8a353a119e14a1434b827cc9beb0345f08b415",
+    "actor": "GuillaumeGomez",
+    "date": "2025-11-04T15:02:12Z"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "77de84b4f629b63c784903ed7cc08c024b10496b",
+    "actor": "catamorphism",
+    "date": "2013-05-27T18:48:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6769,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-05-27T18:50:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fe7f528e5d537adab4c9c87dbbabbd0382869516",
+    "actor": "bors",
+    "date": "2013-05-28T07:44:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8b72b7251c09be25037e9f2ad224d0002efec869",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:51Z"
+  }
+]

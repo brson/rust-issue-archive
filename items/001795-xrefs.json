@@ -1,0 +1,39 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1760,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-02-09T21:45:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b06cb0df5a6db06bbc93b0d1c69a7da2770f4a6b",
+    "actor": "tychosci",
+    "date": "2012-02-20T09:20:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "102896897067960341c17dae75958e955c6d7cb2",
+    "actor": "graydon",
+    "date": "2012-02-20T19:27:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5739d48719d44aa5b10c607c35bab8099a5999b5",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0861c4a8ff12dfb57207ad2af8e1c8ba2ffd30f0",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "73f589b05a935aa7f28f1bb605ab014091574cd4",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:15Z"
+  }
+]

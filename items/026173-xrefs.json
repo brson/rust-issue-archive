@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "661a5ad38e79f336976b529aa717871d177ab7ed",
+    "actor": "bors",
+    "date": "2015-07-28T15:15:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27180,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-07-28T16:54:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e9b28d22fb1fe343ddb03c456516973abe15afcd",
+    "actor": "pnkfelix",
+    "date": "2015-08-07T14:22:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27582,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2015-08-07T14:41:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e13c184b719fe4dab688113ecb2a6f14e8d8f211",
+    "actor": "bors",
+    "date": "2015-08-07T14:59:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1b5d52122e4dfa1cfd9d8c5afab931150269a7ff",
+    "actor": "bors",
+    "date": "2015-08-07T16:24:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a49eb83acdeaa765b598fa9623f59df93c8e92cb",
+    "actor": "brson",
+    "date": "2015-08-10T22:27:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "91f5d3275f110f627931646fb19f22d8c4dd41c3",
+    "actor": "sfackler",
+    "date": "2015-08-11T00:04:27Z"
+  }
+]

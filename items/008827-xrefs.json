@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e0c36d987528a1203dbf082855c66d7fea6a285c",
+    "actor": "alexcrichton",
+    "date": "2014-02-03T19:03:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a0c5a5c738191fae2900e3adfa404ffbcdabc34f",
+    "actor": "alexcrichton",
+    "date": "2014-02-03T23:54:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5818f131e60e27c26cce353298e20402a3243c17",
+    "actor": "alexcrichton",
+    "date": "2014-02-03T23:55:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "35f295d2a9c9df56c10200b26df79b421ec5fcbf",
+    "actor": "alexcrichton",
+    "date": "2014-04-28T03:38:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13811,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-04-28T03:38:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7a19a82d119ca51ed872ed207bed396cdf4a3283",
+    "actor": "bors",
+    "date": "2014-04-28T06:06:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c10bfae6585c1f4291dabab618f0bd0b24577293",
+    "actor": "xFrednet",
+    "date": "2022-05-21T11:24:18Z"
+  }
+]

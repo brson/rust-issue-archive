@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "killercup",
+    "date": "2015-05-15T12:44:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cdc733c35084be3c971a38ecb30a6567cecb8894",
+    "actor": "killercup",
+    "date": "2015-05-15T13:27:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1a0cfd8ea0f7f1cbf9d2d3a977bbfb9c44ff5404",
+    "actor": "bors",
+    "date": "2015-05-15T20:11:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "daaf71553929a63d619d2a7337588fed1baf6bfe",
+    "actor": "bors",
+    "date": "2015-05-15T22:55:03Z"
+  }
+]

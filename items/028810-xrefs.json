@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 28125,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-10-02T15:56:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28818,
+    "type": "issue",
+    "actor": "Stebalien",
+    "date": "2015-10-02T22:42:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6999c421ef7a80104c0799ce8d800a98d0ae85c0",
+    "actor": "bors",
+    "date": "2015-10-03T06:03:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f492ec4bf4f2d8a69fd02ac186d1589bdfadd3bd",
+    "actor": "bors",
+    "date": "2015-10-03T06:03:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d95cef2c8df4c93c8ead507e1cd15c45a7131c4c",
+    "actor": "steveklabnik",
+    "date": "2016-01-07T19:05:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30766,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2016-01-07T19:05:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6ba952020fbc91bad64be1ea0650bfba52e6aab4",
+    "actor": "steveklabnik",
+    "date": "2016-01-09T19:03:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1345d188b7b71c6c0450b7bbb1945ab07e29dd37",
+    "actor": "steveklabnik",
+    "date": "2016-01-09T19:04:20Z"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "efed3919a53d3d913fe07e91c876ae7b3f48fe5c",
+    "actor": "semarie",
+    "date": "2015-04-12T16:55:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2628ed9a43b94ac11bfd783b70c28df6a0b82df7",
+    "actor": "semarie",
+    "date": "2015-04-13T04:20:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24369,
+    "type": "issue",
+    "actor": "semarie",
+    "date": "2015-04-13T10:07:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "45bc248d825fc4e2cf665a530e04765a54c4ff01",
+    "actor": "semarie",
+    "date": "2015-04-14T06:00:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0089f84fcd885b10bd4d0f8436d30b6898fd261a",
+    "actor": "semarie",
+    "date": "2015-04-14T16:22:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43,
+    "type": "issue",
+    "actor": "antonbaliasnikov",
+    "date": "2024-09-18T16:50:03Z"
+  }
+]

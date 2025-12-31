@@ -1,0 +1,111 @@
+[
+  {
+    "event": "referenced",
+    "commit": "18ba1dc16bd3cf49163c91a1fca6b4fdcd9d2a5b",
+    "actor": "nikomatsakis",
+    "date": "2013-03-26T19:07:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7b0c7bc83e1b95f213f0da91f1815d2c78a40bb7",
+    "actor": "nikomatsakis",
+    "date": "2013-03-27T11:15:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0bef245136d4d9e8182f5d2acbb4cc9f06360fe2",
+    "actor": "nikomatsakis",
+    "date": "2013-03-27T15:00:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "069529bc5cc14f63035609cdfae5b21ca7999d4b",
+    "actor": "nikomatsakis",
+    "date": "2013-03-27T17:05:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3682,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-05-23T09:06:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 8895,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-09-06T15:07:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 283,
+    "type": "issue",
+    "actor": "rust-highfive",
+    "date": "2014-09-24T04:59:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16918,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-10-27T20:15:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18070,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-10-30T14:03:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18467,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-10-30T22:34:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18486,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-10-31T10:08:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4554d906531988ce7cdcc2e61ec442ac1611cd18",
+    "actor": "bors",
+    "date": "2014-11-02T11:27:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b8055df80d348a1484eaacef41fd16b86d95699b",
+    "actor": "bors",
+    "date": "2014-11-04T13:31:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "841bfcfb2b7310f082efc739ba0c1b070cc4c1fa",
+    "actor": "bors",
+    "date": "2014-11-05T16:31:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6717906763330657904c60a1b799ed1c927cb834",
+    "actor": "bors",
+    "date": "2014-11-05T16:36:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "63c4f22f2bf9f1c070311cdc08c6ceb279434733",
+    "actor": "bors",
+    "date": "2014-11-05T22:31:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bfd479d5afa63068e82b48b56312f385e162879d",
+    "actor": "calebcartwright",
+    "date": "2021-07-26T03:57:42Z"
+  }
+]

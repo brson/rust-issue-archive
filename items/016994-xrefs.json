@@ -1,0 +1,76 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 16628,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-09-04T19:57:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c4bd9daedf2a0b22f1d6f83e3d917f18faa90411",
+    "actor": "nikomatsakis",
+    "date": "2014-09-04T20:10:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bcb38287dda187a724d2b339ec17cb49e51502ff",
+    "actor": "pczarn",
+    "date": "2014-09-04T22:22:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0ad4644ae1474b5443e34d273e5553612c6d9364",
+    "actor": "pczarn",
+    "date": "2014-09-05T00:24:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b8be73d2de5c7cabe87201f16eccd478938657bf",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-04-29T14:04:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "efe8872784e7c8c8af8e47540c589bd4ecbec84d",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-04-29T14:31:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41632,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-04-29T14:35:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7a0814cc998bfe882e1ea304c9ebe39ad073e3c7",
+    "actor": "bors",
+    "date": "2017-04-30T11:16:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9bc53c83d536b1eb09f03c8681f8ea4aab89e0dc",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-04-30T12:23:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "510d89c2af84bf46ebda413ba5e8fb785c7a7b3d",
+    "actor": "bors",
+    "date": "2017-04-30T12:53:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3b003233fd8439d36e5b8a1d72f3f3871d5d14c9",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-04-30T14:53:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "526d39948af4004bb60c04dc82d60b7b395966bb",
+    "actor": "bors",
+    "date": "2017-05-01T12:13:33Z"
+  }
+]

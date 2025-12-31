@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 38643,
+    "type": "issue",
+    "actor": "chriskrycho",
+    "date": "2016-12-30T17:16:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bd32f4a1301a935f3219a09c13ed7013d3e45413",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f24518948220486be647936cdc3347dd363fbd43",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:09Z"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "event": "referenced",
+    "commit": "72483f58e355c6ec9016cbaba4d9b8d3adbd3867",
+    "actor": "bors",
+    "date": "2015-07-13T22:14:50Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26653,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-07-13T23:47:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26292,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-07-18T17:39:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27492,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2015-08-03T13:47:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27494,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2015-08-03T14:02:04Z"
+  }
+]

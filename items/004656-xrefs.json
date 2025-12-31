@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 4711,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-01-31T19:56:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e14f760c5064a3993c487198ad2cf4a748a2c96",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9cb215ada42fa5b16b5abebe0efd2cd2e259e001",
+    "actor": "RalfJung",
+    "date": "2025-11-01T22:50:22Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 7847,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-07-17T08:52:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3bcc196f8297af16ffcfeae98f20ed0496344e84",
+    "actor": "bors",
+    "date": "2013-07-18T22:34:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7926851bb015a31ca9174cde9214aa27aac0d7af",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5,
+    "type": "issue",
+    "actor": "Kingcrypto38",
+    "date": "2024-04-03T00:09:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4,
+    "type": "issue",
+    "actor": "aravindb26",
+    "date": "2024-04-03T14:13:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c74ffd88cb0fc13b1399eb4b75abc8b386386e5a",
+    "actor": "RalfJung",
+    "date": "2024-08-18T11:26:58Z"
+  }
+]

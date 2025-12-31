@@ -1,0 +1,78 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 29249,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-10-23T14:06:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7a115d098f95e2303fd9fc5a3c072d606507542c",
+    "actor": "bltavares",
+    "date": "2015-10-31T21:33:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 108,
+    "type": "issue",
+    "actor": "bltavares",
+    "date": "2015-10-31T21:33:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8e5014086e4e88bc9c1151509e700d09b8d1edd6",
+    "actor": "euclio",
+    "date": "2018-10-19T00:48:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 55193,
+    "type": "issue",
+    "actor": "euclio",
+    "date": "2018-10-19T00:49:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4dd0dcb0c2e98a34778cd00c3734d41e049567da",
+    "actor": "Manishearth",
+    "date": "2018-10-20T18:07:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "43ae7a186de93b2365cdf3fb359c09be50584f79",
+    "actor": "euclio",
+    "date": "2019-03-16T18:21:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "599f937b3bd73d1c299418f9a7fefd6d2800da64",
+    "actor": "euclio",
+    "date": "2019-03-16T20:16:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 59242,
+    "type": "issue",
+    "actor": "euclio",
+    "date": "2019-03-16T20:19:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d70b19841a28e0b6188b07f1fbbc65c025b7dab6",
+    "actor": "kennytm",
+    "date": "2019-03-24T07:32:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f36ac4e835dfa0af77d5261a444a674ec9da3a5",
+    "actor": "bors",
+    "date": "2019-03-25T09:05:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f50089c9e5ddfe2752fc44b1eb42ca8c8864fb9f",
+    "actor": "steveklabnik",
+    "date": "2019-08-13T13:23:32Z"
+  }
+]

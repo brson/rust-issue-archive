@@ -1,0 +1,90 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f41a8ea4c15885bc757edec934b333a00b22d5ee",
+    "actor": "alexcrichton",
+    "date": "2014-08-05T22:16:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16282,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-08-05T22:16:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "954235e738b78d562d61d85e90d55d989b0b02cd",
+    "actor": "alexcrichton",
+    "date": "2014-08-05T23:15:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "74ae05ad90d1e809663702f374bba6e62671692c",
+    "actor": "alexcrichton",
+    "date": "2014-08-06T00:03:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2d161d44cff0ab1449162c31b83bc9ed3d007197",
+    "actor": "mrmonday",
+    "date": "2014-08-25T16:28:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19955,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2018-09-11T21:29:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8a580baa278a1826d898f5f8c76ea4c40c35b2c3",
+    "actor": "pnkfelix",
+    "date": "2018-09-11T21:33:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1fed251927ec14db621b7705b9cf10f267477254",
+    "actor": "kennytm",
+    "date": "2018-09-12T04:17:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 54146,
+    "type": "issue",
+    "actor": "kennytm",
+    "date": "2018-09-12T04:17:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "289c63e897edc0a2fc53465f2141b7b0ad7172fb",
+    "actor": "bors",
+    "date": "2018-09-12T04:36:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8586ec6980462c99a8926646201b2444d8938d29",
+    "actor": "bors",
+    "date": "2018-09-12T08:08:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 60169,
+    "type": "issue",
+    "actor": "kennytm",
+    "date": "2019-04-23T09:55:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e5889c9b43646c2e6a713c2f3ef08599589afa66",
+    "actor": "matthiaskrgr",
+    "date": "2024-03-10T12:51:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b946ba1ad3f0f9e532bb987b5758db762b644c4b",
+    "actor": "flip1995",
+    "date": "2025-12-25T15:45:17Z"
+  }
+]

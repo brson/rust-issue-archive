@@ -1,0 +1,67 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 47763,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-01-26T01:07:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 88065,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2021-08-16T09:18:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 88719,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2021-09-07T12:00:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "633c54588419b027ba35ce87ff6ba15061de8ad7",
+    "actor": "bors",
+    "date": "2021-09-16T08:38:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e36621057d9f497c822eb800934b5933c10510cf",
+    "actor": "bors",
+    "date": "2021-09-16T22:17:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 104690,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2022-11-22T16:32:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c1bfd46c7b2b5ec21275fdab2fa931c54f9b1f9c",
+    "actor": "estebank",
+    "date": "2023-10-23T21:07:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 117106,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2023-10-23T21:07:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d09c9887914667266f3568517ff0e1a4d3c3498b",
+    "actor": "matthiaskrgr",
+    "date": "2023-10-26T20:26:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b23feceeef39ab9f0fb7fb9fe045f5dd9a2fc88",
+    "actor": "rust-timer",
+    "date": "2023-10-27T00:06:00Z"
+  }
+]

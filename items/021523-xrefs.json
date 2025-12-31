@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21485,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-22T20:39:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fdc7ecbd09a9140d4666c1068e05b97294928e6c",
+    "actor": "bors",
+    "date": "2015-01-23T22:46:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21353,
+    "type": "issue",
+    "actor": "sanxiyn",
+    "date": "2015-01-27T13:52:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3d8a0704c77c01f60aa5c582d22aee98f5095ff1",
+    "actor": "bors",
+    "date": "2015-01-27T16:47:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "92ff8ea52816982ad4cbfac8168e216d32d74c77",
+    "actor": "bors",
+    "date": "2015-01-27T23:08:13Z"
+  }
+]

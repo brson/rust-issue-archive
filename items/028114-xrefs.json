@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4637d42b58b7abc77cf63d86dff403a37c2e1abb",
+    "actor": "Aatch",
+    "date": "2015-08-31T12:03:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28123,
+    "type": "issue",
+    "actor": "Aatch",
+    "date": "2015-08-31T12:04:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6d6bf81b33abf3c8e200532b5f6f9e72ba540e92",
+    "actor": "bors",
+    "date": "2015-08-31T15:00:50Z"
+  }
+]

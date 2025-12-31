@@ -1,0 +1,15 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 10,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2016-01-02T21:31:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3ed6e9e6f0213bec36b92fd8e8aa71f954fef99e",
+    "actor": "bors",
+    "date": "2016-01-07T01:26:47Z"
+  }
+]

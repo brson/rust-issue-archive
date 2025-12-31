@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "13b9a16a7b98f2308d7fae01ad122a3f94032c63",
+    "actor": "marijnh",
+    "date": "2012-01-16T10:19:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "96f1eda6d0ae0cf4f91d28304ded3996efda356a",
+    "actor": "marijnh",
+    "date": "2012-01-16T10:19:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1537,
+    "type": "issue",
+    "actor": "marijnh",
+    "date": "2012-01-16T10:20:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cf76024441c9614265cec47353174694c54fcc23",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "527483db4fd8c0f77b60a157f4fb6f65341eebe4",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d0834eda8af44dc064817e1ae17cda27cc17e98e",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:16Z"
+  }
+]

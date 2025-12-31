@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a5a6bbf83804167999c9cd9e35ec2c709c65fbda",
+    "actor": "nikomatsakis",
+    "date": "2014-12-05T01:28:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19544,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-12-05T01:29:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2f3eab2f4b3acd0a05d1fd22fa6a0295ae9abcd6",
+    "actor": "nikomatsakis",
+    "date": "2014-12-05T15:46:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "faf753cb59fabfefe9bf6f97f60f47099221d624",
+    "actor": "nikomatsakis",
+    "date": "2014-12-07T14:30:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19617,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-12-07T14:35:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bc444e5d4f1069a7bacce2bb54b473040e00ee9c",
+    "actor": "bors",
+    "date": "2014-12-10T03:11:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ca98fefd04b2a0ccd784f96538c824c49210a418",
+    "actor": "nikomatsakis",
+    "date": "2014-12-11T09:16:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2ea38750e92e199654968aa4dbb3462de71f7b50",
+    "actor": "bors",
+    "date": "2014-12-12T13:21:58Z"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fd9ccb38cd48ef61b8e3c46ee4e27a91c9386421",
+    "actor": "dschatzberg",
+    "date": "2014-09-04T19:25:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16993,
+    "type": "issue",
+    "actor": "dschatzberg",
+    "date": "2014-09-04T19:30:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4184396f28d5612520f7b30718df9fff6918d239",
+    "actor": "dschatzberg",
+    "date": "2014-10-02T18:07:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "544f7cc8112095f45f5fab75fa3aa3f2e0d9c89f",
+    "actor": "bors",
+    "date": "2014-10-02T18:32:17Z"
+  }
+]

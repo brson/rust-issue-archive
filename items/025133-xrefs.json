@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 36409,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2016-11-11T02:32:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 39231,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2017-01-21T20:47:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d45dd9596ffa37c1a81efd1f4263856fbe262cce",
+    "actor": "estebank",
+    "date": "2017-07-26T05:08:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43484,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2017-07-26T05:08:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d96f9d47ac35b637906edb1d5d112549164e096c",
+    "actor": "estebank",
+    "date": "2017-07-26T05:11:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f142499539d038ef60f4e22cafe11ecdd8a29a1d",
+    "actor": "bors",
+    "date": "2017-08-09T19:50:09Z"
+  }
+]

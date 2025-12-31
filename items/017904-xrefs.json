@@ -1,0 +1,54 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20424,
+    "type": "issue",
+    "actor": "jroesch",
+    "date": "2015-01-02T12:08:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "57aa12d2aa2e05a554c208caae3bb5c5cdbe4372",
+    "actor": "bors",
+    "date": "2015-01-04T13:16:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1663b4809bfbb35834585a3184173ca1f8d3d466",
+    "actor": "alexcrichton",
+    "date": "2015-01-05T08:16:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3d9923d0d5b1c3e9ad9756751cb54ec22492cff1",
+    "actor": "alexcrichton",
+    "date": "2015-01-06T03:32:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 486,
+    "type": "issue",
+    "actor": "DJMcNab",
+    "date": "2019-01-10T18:31:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 65270,
+    "type": "issue",
+    "actor": "leesongun",
+    "date": "2019-10-10T12:38:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 90076,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2021-11-05T19:48:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ec72a9978aeeb66d63fca21c5352aa44641427d9",
+    "actor": "lnicola",
+    "date": "2024-09-25T06:58:24Z"
+  }
+]

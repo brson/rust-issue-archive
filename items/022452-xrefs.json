@@ -1,0 +1,28 @@
+[
+  {
+    "event": "referenced",
+    "commit": "051322e207e4d5152f6292b4b345f489e998b3e3",
+    "actor": "alexcrichton",
+    "date": "2015-02-17T23:24:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "261364d45d6a90dbe1e6702455f7a6ea661e74c9",
+    "actor": "alexcrichton",
+    "date": "2015-02-19T00:19:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 756,
+    "type": "issue",
+    "actor": "ehuss",
+    "date": "2020-02-10T17:39:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1437,
+    "type": "issue",
+    "actor": "ehuss",
+    "date": "2023-12-13T01:23:34Z"
+  }
+]

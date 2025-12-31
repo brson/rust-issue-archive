@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 9684,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-10-02T23:21:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8f40641e01fe7f79e21f606733646c600820bbd8",
+    "actor": "bors",
+    "date": "2013-10-03T07:56:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cdb7701434be0ee463fa1dcce7e92647c5b5828c",
+    "actor": "alexcrichton",
+    "date": "2013-10-03T17:27:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9704,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-10-03T17:27:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dfe29e2211d160f4c96f1604da4f0458cba3124e",
+    "actor": "bors",
+    "date": "2013-10-04T12:51:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 60278,
+    "type": "issue",
+    "actor": "ehuss",
+    "date": "2019-04-25T18:45:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2ae06976e47f06bcf0b9d50fe2603add1204bf26",
+    "actor": "Manishearth",
+    "date": "2019-05-16T19:31:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b62ef608d751925398ef33d1946acde2eab90d49",
+    "actor": "flip1995",
+    "date": "2022-10-23T13:19:07Z"
+  }
+]

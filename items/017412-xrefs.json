@@ -1,0 +1,34 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b395d053f291ea37d4392349123222d6debca08d",
+    "actor": "bors",
+    "date": "2014-09-21T15:05:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8d3728fae0fa1979349836be112562aa6d455e76",
+    "actor": "bors",
+    "date": "2014-09-21T16:30:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18325,
+    "type": "issue",
+    "actor": "vadimcn",
+    "date": "2014-10-25T23:08:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31131,
+    "type": "issue",
+    "actor": "vadimcn",
+    "date": "2016-01-22T22:04:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "66ec9772b54ab19ef2e3b752247215325fe4a404",
+    "actor": "lnicola",
+    "date": "2024-06-23T14:47:08Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "event": "referenced",
+    "commit": "71982c21245489fd316fc9e82bf7bec4b09d45a6",
+    "actor": "alexcrichton",
+    "date": "2015-03-17T17:33:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23450,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-03-17T17:33:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0730c1623b3324040e8ae362a713156a7d5d3708",
+    "actor": "Manishearth",
+    "date": "2015-03-18T09:13:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bcdf5b2e04e262b2dffa9ee56bec5f1b4be26a70",
+    "actor": "Manishearth",
+    "date": "2015-03-18T12:40:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c341fe9f8cfb6d1aef6c9fb8ba7531a4c0324eef",
+    "actor": "Manishearth",
+    "date": "2015-03-18T16:50:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 496,
+    "type": "issue",
+    "actor": "fiveop",
+    "date": "2017-01-10T19:34:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ebb6b0113ef845b58913d2ecb10f9e3b944788c1",
+    "actor": "homu",
+    "date": "2017-01-11T06:44:34Z"
+  }
+]

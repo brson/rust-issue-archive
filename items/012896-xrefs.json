@@ -1,0 +1,28 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fc7a112808fa918fa76c39ebd324bc5d19bc66e1",
+    "actor": "bors",
+    "date": "2014-03-15T06:11:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 65,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-03-16T01:31:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f23560f2446e2b397370e4063a13a0a10622bd42",
+    "actor": "Kroisse",
+    "date": "2014-03-17T08:47:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": "Kroisse",
+    "date": "2014-03-17T08:56:41Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "86ee2f022dd0850d6b9f5f097edfd132f7a408f2",
+    "actor": "andersk",
+    "date": "2015-03-23T05:02:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0090e01f08f7ed564a62fb3cd2e3b652317d39d7",
+    "actor": "andersk",
+    "date": "2015-03-23T05:05:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23631,
+    "type": "issue",
+    "actor": "andersk",
+    "date": "2015-03-23T05:07:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "28fcdc0df70c360ef9892ff45b4fd91ef60500ab",
+    "actor": "alexcrichton",
+    "date": "2015-03-23T23:16:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 82974,
+    "type": "issue",
+    "actor": "joshtriplett",
+    "date": "2021-03-17T18:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 90263,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2021-11-10T23:13:58Z"
+  }
+]

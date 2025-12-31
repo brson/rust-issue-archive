@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "43ec66a627e2d62d1bafcc742fa750e3170ef22d",
+    "actor": "Byron",
+    "date": "2015-02-26T10:46:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "482613a34c17d7993acd5bb507048b5fa2bb037d",
+    "actor": "nham",
+    "date": "2016-05-17T08:59:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33692,
+    "type": "issue",
+    "actor": "nham",
+    "date": "2016-05-17T18:42:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "af93e79f9dcca4dacc1fe82c18145c7235506b97",
+    "actor": "nham",
+    "date": "2016-05-20T21:39:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7d78436359da05a256107a179c7098fef465dd7c",
+    "actor": "nham",
+    "date": "2016-05-23T18:18:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7480f6e1d6740846b6041682699955c4c51ef5bd",
+    "actor": "GuillaumeGomez",
+    "date": "2016-05-24T07:39:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "890c3f9641982904552360146d07a38f9269339d",
+    "actor": "GuillaumeGomez",
+    "date": "2016-05-24T10:58:18Z"
+  }
+]

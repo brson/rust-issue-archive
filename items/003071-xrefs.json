@@ -1,0 +1,33 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3082,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-08-02T01:23:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "31c5cec55bd8b43e6082f79dff888f52b585621d",
+    "actor": "nikomatsakis",
+    "date": "2012-08-03T05:36:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a64b7698a44c2bf090049798a6fac906e96296ec",
+    "actor": "flip1995",
+    "date": "2021-09-28T17:03:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5b8695b6bcbb90b6e92fe748eaa822eedf1c5c00",
+    "actor": "RalfJung",
+    "date": "2023-09-25T07:40:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7a4d835fa5b0e81356ec96399270fbdcce7af01",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:51Z"
+  }
+]

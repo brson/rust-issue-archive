@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "74c384bc8efcd17b28688f94cdae5500d7f1d1bf",
+    "actor": "durka",
+    "date": "2015-12-16T01:26:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30405,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2015-12-16T01:26:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ccaa7e5146ba0ee47d3b7301121a05da6e484f49",
+    "actor": "steveklabnik",
+    "date": "2015-12-29T20:55:09Z"
+  }
+]

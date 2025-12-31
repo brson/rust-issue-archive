@@ -1,0 +1,29 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 528,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2015-02-18T04:26:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23952,
+    "type": "issue",
+    "actor": "Kimundi",
+    "date": "2015-04-01T20:39:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b2e65ee6e4e1523b1d4c56ea0ec430e28946f2f4",
+    "actor": "bors",
+    "date": "2015-04-07T00:57:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27721,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2015-08-16T20:08:16Z"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "3520512a8c9cb55661910318a6fb169a75c02a59",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "da9af0e20d79e5a6091e95fecd4b3c918c34158c",
+    "actor": "Mark-Simulacrum",
+    "date": "2022-02-22T02:31:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:39:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9aff64dbe736b69502284150e8a7394d041cded0",
+    "actor": "ZuseZ4",
+    "date": "2023-03-07T00:49:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d41e606004b90ab6500d4a8d96e9078ec99d739d",
+    "actor": "tgross35",
+    "date": "2025-06-03T05:23:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "482e8540a1b757ed7bccc2041c5400f051fdb01e",
+    "actor": "GuillaumeGomez",
+    "date": "2025-08-04T08:49:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0cc792c3aae3d28da253ec6ae51755ad0814679a",
+    "actor": "noscripter",
+    "date": "2025-09-08T12:00:26Z"
+  }
+]

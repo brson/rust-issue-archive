@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "eae265271089011c309ce6b8386bdd98f29f2aaf",
+    "actor": "bors",
+    "date": "2014-04-04T15:41:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2135,
+    "type": "issue",
+    "actor": "mbrubeck",
+    "date": "2014-04-16T23:55:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "aafadb65f2f5e318805a03f3bc9814eb1a8a50cc",
+    "actor": "bors-servo",
+    "date": "2014-04-16T23:58:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "338b0a768d522e4a9fcd2d4f46cb44120cd29b71",
+    "actor": "mbrubeck",
+    "date": "2014-04-17T00:02:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 57,
+    "type": "issue",
+    "actor": "mbrubeck",
+    "date": "2014-04-17T00:03:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9a88bd1cd33381ddcc2250bb5191187d1183cd4a",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:39:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f2b9c9f4eebbaa77638a86b5d2922f8adbbf4837",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T23:45:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "12b2b7b510a46c29c465402f3ec74294a36d6fe5",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:00:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ad752bd52115186ab5ebe2fd27f09867112747c1",
+    "actor": "matthiaskrgr",
+    "date": "2022-10-11T16:59:57Z"
+  }
+]

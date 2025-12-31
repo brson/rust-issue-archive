@@ -1,0 +1,77 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 17317,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-09-29T15:06:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4728,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-01-27T17:24:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a4eaaa99496de4c76768c4ccfb9907d61109a2f7",
+    "actor": "Swatinem",
+    "date": "2015-02-03T12:58:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4815,
+    "type": "issue",
+    "actor": "Swatinem",
+    "date": "2015-02-03T13:16:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "02d750adba9b2313ffcce8392965177738a35d62",
+    "actor": "Swatinem",
+    "date": "2015-02-03T19:02:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eb47130f951f13a3257bfab8764228298e5e8e7a",
+    "actor": "bors-servo",
+    "date": "2015-02-03T20:18:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7da63b69fa84bdb7a52bbd3a04b1f651a56040e8",
+    "actor": "bors-servo",
+    "date": "2015-02-03T22:24:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "902c16497c40684930819693a7e90f0862eb7f56",
+    "actor": "bors-servo",
+    "date": "2015-02-04T00:09:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "037c0454c502fef471eb6dfce34fc3d4120aa877",
+    "actor": "jrmuizel",
+    "date": "2017-06-12T20:57:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10f58f78cff63df85c194e1564ae10ce4cfcafe1",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:47:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8d9152e798b820bb6ae4b67591759ae96d83c9c9",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:11:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10c0ede8d02efa0d0beed7961386914c7f9124e7",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:25:51Z"
+  }
+]

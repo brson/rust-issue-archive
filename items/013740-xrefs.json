@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "34c88ef4d6bf13d06ee469c4cc4b18d64a9c83f0",
+    "actor": "BurntSushi",
+    "date": "2014-04-25T21:28:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13766,
+    "type": "issue",
+    "actor": "BurntSushi",
+    "date": "2014-04-25T21:28:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a692e9b1234ff6573b0cfbc39394d9222eb38f81",
+    "actor": "bors",
+    "date": "2014-04-26T08:16:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "579571d9cf95678048f2ad8527d039cc24683a0f",
+    "actor": "bors",
+    "date": "2025-01-28T23:11:39Z"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 11848,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-01-28T06:29:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b3d10f43833f065ec0e635ce6cdb2332f4ee5049",
+    "actor": "bors",
+    "date": "2014-01-28T13:11:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21774,
+    "type": "issue",
+    "actor": "ejjeong",
+    "date": "2015-02-12T12:05:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "989aa98a0398f0954054bc5bb322738e51072a12",
+    "actor": "amshafer",
+    "date": "2020-10-09T19:18:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 77765,
+    "type": "issue",
+    "actor": "amshafer",
+    "date": "2020-10-09T19:27:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a7af4497c68a9317ce9da80d0d43bca69728daa9",
+    "actor": "amshafer",
+    "date": "2020-10-11T01:59:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "596235281c1a8a44389f675bf78ac3e5f9a2bb84",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-10-14T00:30:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3664d6328d12cdb1dc6dd4b226d2c635b7400bcc",
+    "actor": "bors",
+    "date": "2023-12-01T23:55:57Z"
+  }
+]

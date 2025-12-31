@@ -1,0 +1,60 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1570,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-02-23T02:04:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22020,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2015-03-19T18:24:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 91237,
+    "type": "issue",
+    "actor": "RalfJung",
+    "date": "2022-03-06T02:05:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b7f6c369ea39cb84377c7bd636bf194241edab5",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "45f809eda5bd6dff5c277a50bfebd627cbbd37b7",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4c8f9d37a0caf077f0da5ce1b9b7a185c6c49480",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76de7566e4dabeebdb1ff623b2836da76981fb32",
+    "actor": "Kobzol",
+    "date": "2025-07-20T14:52:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "044efa5c53791614a1df8dccf0176091a3f00f94",
+    "actor": "github-actions[bot]",
+    "date": "2025-07-30T07:07:53Z"
+  }
+]

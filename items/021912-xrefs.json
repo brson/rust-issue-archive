@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20790,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-02-03T21:27:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "466df2120abc2924357dd81699cac01aad067189",
+    "actor": "bors",
+    "date": "2015-02-07T09:02:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "74b8740719c1b427f79b67d6bc51e9d448dd9c49",
+    "actor": "bors",
+    "date": "2015-02-08T00:24:03Z"
+  }
+]

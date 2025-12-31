@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 926,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-03-06T02:26:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7299745141036fc89fdbb2dbc9604c993c7c748f",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "14b888574f1a60ee5e399bae018716a2b603dec8",
+    "actor": "Kobzol",
+    "date": "2025-11-02T13:26:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "40b18da35571b9d84caf3c2a6449c34b5cc1312a",
+    "actor": "github-actions[bot]",
+    "date": "2025-11-30T14:09:58Z"
+  }
+]

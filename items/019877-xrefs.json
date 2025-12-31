@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 19909,
+    "type": "issue",
+    "actor": "tomjakubowski",
+    "date": "2014-12-16T10:49:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19836,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-08T19:31:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "70b911d78f2d70ed2deebdea24661946390f396d",
+    "actor": "lnicola",
+    "date": "2025-05-28T13:40:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f67ee9c7defc2fcde73c92cbe64c2bb139fcb483",
+    "actor": "lnicola",
+    "date": "2025-05-28T13:49:53Z"
+  }
+]

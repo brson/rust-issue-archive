@@ -1,0 +1,98 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 27897,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-08-20T17:03:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28663,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-09-25T17:45:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "db76ac73309332927d04e4f8bf5d235dc6f32360",
+    "actor": "alexcrichton",
+    "date": "2015-10-02T16:01:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28811,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-10-02T16:01:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e362679bb6a76064442492fdd5e07f06854f5605",
+    "actor": "bors",
+    "date": "2015-10-08T00:46:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "11eda66df859f53754788044476af753a012332f",
+    "actor": "bors",
+    "date": "2015-10-08T20:53:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3457d40c81693eda53e81fad454c2fe590366f25",
+    "actor": "Nemo157",
+    "date": "2018-07-21T11:57:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c3c7bc98aff945faa2d1483e9506402772868cec",
+    "actor": "Nemo157",
+    "date": "2018-07-21T12:31:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1109,
+    "type": "issue",
+    "actor": "Nemo157",
+    "date": "2018-07-21T12:33:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b675cb7a88bc0d9f24e015b6b3b7472192a4e1a",
+    "actor": "Nemo157",
+    "date": "2018-07-21T13:52:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d6b7b15d8ade9e46d7c15e0c2379b5de6a35f275",
+    "actor": "cramertj",
+    "date": "2018-07-23T21:19:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 67415,
+    "type": "issue",
+    "actor": "kennytm",
+    "date": "2019-12-19T06:12:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 92663,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2022-01-08T02:48:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e2cb2813430bf5736c2cbae75eeb4df97cbafb76",
+    "actor": "Dylan-DPC",
+    "date": "2022-03-19T01:01:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e9f63fdf86de2a515da26bb905c1470e6363caf3",
+    "actor": "Dylan-DPC",
+    "date": "2022-03-19T01:02:02Z"
+  }
+]

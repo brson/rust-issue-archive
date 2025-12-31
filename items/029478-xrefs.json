@@ -1,0 +1,28 @@
+[
+  {
+    "event": "referenced",
+    "commit": "33424a8050c738fac3ed41845ede3b378c0eab64",
+    "actor": "bors",
+    "date": "2015-11-03T22:58:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cc403b6c33ded2c99ff75207cd2c83290942bc39",
+    "actor": "bors",
+    "date": "2015-11-04T06:07:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29659,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-11-06T18:30:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29977,
+    "type": "issue",
+    "actor": "gandro",
+    "date": "2015-11-21T21:55:02Z"
+  }
+]

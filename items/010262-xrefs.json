@@ -1,0 +1,34 @@
+[
+  {
+    "event": "referenced",
+    "commit": "48b22fa7d7f5d74f557e466de895401388450f44",
+    "actor": "johnwalker",
+    "date": "2014-01-02T20:25:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11278,
+    "type": "issue",
+    "actor": "johnwalker",
+    "date": "2014-01-02T20:45:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-02-02T10:16:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cd36b25c4f7f9e667701f3b73752ece35490b664",
+    "actor": "matthiaskrgr",
+    "date": "2024-03-21T22:40:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b667d0234015e079e669f01dbe6f27d47149dbba",
+    "actor": "matthiaskrgr",
+    "date": "2024-03-21T22:40:10Z"
+  }
+]

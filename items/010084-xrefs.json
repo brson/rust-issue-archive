@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f73cfcd10e3c0d8992438aa7b868f95eba322ee1",
+    "actor": "huonw",
+    "date": "2013-10-27T10:22:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10099,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2013-10-27T10:33:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10196,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2013-10-31T12:53:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1e2283de433f6a3dff85b8d16ad741f37651eb81",
+    "actor": "huonw",
+    "date": "2013-10-31T12:53:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "986d1f78be2f01496b625a2921adf46015a3a2df",
+    "actor": "bors",
+    "date": "2013-11-01T08:16:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 357,
+    "type": "issue",
+    "actor": "pitdicker",
+    "date": "2018-03-30T11:49:47Z"
+  }
+]

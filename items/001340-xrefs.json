@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b31b74e8fb45800e9f86c84b1f78e36bf76c498c",
+    "actor": "bjorn3",
+    "date": "2023-01-24T17:57:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d84b123afdfb8290f3ca7ba277d6122f0f20e2b4",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 134223,
+    "type": "issue",
+    "actor": "rust-timer",
+    "date": "2024-12-12T21:40:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "de3b2d59929c31fd1a277fb8b395383c2289a989",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:19:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ccde9c81b77959d51422d413c9c57bc06233dfd3",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:53Z"
+  }
+]

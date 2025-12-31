@@ -1,0 +1,47 @@
+[
+  {
+    "event": "referenced",
+    "commit": "64e5527fa5ee339932290eae38b456caf3bd10cf",
+    "actor": "alexcrichton",
+    "date": "2014-01-27T17:48:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11848,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-01-27T17:48:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ea7b20d8f279ea8c63b9a4b8e9129fce0e3c2b5d",
+    "actor": "comex",
+    "date": "2014-01-28T06:25:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11864,
+    "type": "issue",
+    "actor": "comex",
+    "date": "2014-01-28T06:25:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b3d10f43833f065ec0e635ce6cdb2332f4ee5049",
+    "actor": "bors",
+    "date": "2014-01-28T13:11:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "97370add58b5e3d9867e71a09041e45d646981fe",
+    "actor": "jfager",
+    "date": "2014-01-29T04:22:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21774,
+    "type": "issue",
+    "actor": "ejjeong",
+    "date": "2015-02-12T12:05:18Z"
+  }
+]

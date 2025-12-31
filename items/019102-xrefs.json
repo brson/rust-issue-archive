@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "943a8943d528044ba3b5a82c303750f25c421ea1",
+    "actor": "chris-morgan",
+    "date": "2014-11-19T08:15:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27239,
+    "type": "issue",
+    "actor": "apasel422",
+    "date": "2015-07-23T17:27:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4c996499a1bcf747b12f8290eeff3024e59da529",
+    "actor": "bors",
+    "date": "2015-08-24T18:43:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 71969,
+    "type": "issue",
+    "actor": "varkor",
+    "date": "2020-06-18T10:35:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 99485,
+    "type": "issue",
+    "actor": "mdholloway",
+    "date": "2022-07-20T00:57:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3257c3401d68057e83089f3b8da27f7ecc21e228",
+    "actor": "Dylan-DPC",
+    "date": "2022-07-20T10:47:24Z"
+  }
+]

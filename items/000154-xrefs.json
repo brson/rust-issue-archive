@@ -1,0 +1,76 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c2db2720b48425789642c8248781188ab8a015c5",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5941675d20123d17f987d626fc51dee73d7dc8df",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ab6e166a5bab220c8d6583d0e3a966e8dbb7688e",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f42b7c8ca9dad966d0315fa106a5c8638c3dceb5",
+    "actor": "Aaron1011",
+    "date": "2020-10-26T19:38:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d42875302dd9e924f8d667b32e88989388989b79",
+    "actor": "bors",
+    "date": "2021-10-01T01:37:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "403e198f4a91fae3314869d0ce7cec1aa30d1fca",
+    "actor": "antoyo",
+    "date": "2022-06-07T02:04:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 123297,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2024-04-05T14:01:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 123568,
+    "type": "issue",
+    "actor": "Oneirical",
+    "date": "2024-04-06T19:52:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c14b468cca583f194bae0329f88397b0974a2a69",
+    "actor": "matthiaskrgr",
+    "date": "2024-04-10T02:27:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f691ebcdbc421b9c20bb3b1a266b7229dbb0ac25",
+    "actor": "rust-timer",
+    "date": "2024-04-10T04:47:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7ec618ed98619ebb2b587c8916687e487eb88653",
+    "actor": "celinval",
+    "date": "2024-06-04T02:18:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4c86400ea7d9f606c7f1da1e0943f16d1542a635",
+    "actor": "celinval",
+    "date": "2024-11-29T21:07:33Z"
+  }
+]

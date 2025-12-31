@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "1daad878933de52c6d33160b8e9f094a3318faf1",
+    "actor": "Manishearth",
+    "date": "2015-08-06T06:12:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27557,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-08-06T06:12:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "859d2954ed974e4d81ea4c20140f6f15f4c6077e",
+    "actor": "bors",
+    "date": "2015-08-06T06:59:19Z"
+  }
+]

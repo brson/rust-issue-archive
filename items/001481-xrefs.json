@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "7c9a68ae4f2c0aa10005a4b2f18b3183cb32ae25",
+    "actor": "lht",
+    "date": "2012-01-15T16:33:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1195,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2012-04-12T21:57:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "49ad3ae2f81d4739967a56e84a30901068c77a47",
+    "actor": "bjorn3",
+    "date": "2024-04-23T09:37:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6d629ab29fe4b111396830cd533e092e1ef160d6",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "aeaad3d8eb7806d7f46c961df138876bad771db1",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:00Z"
+  }
+]

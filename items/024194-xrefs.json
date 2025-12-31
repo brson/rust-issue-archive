@@ -1,0 +1,110 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1232,
+    "type": "issue",
+    "actor": "Gankra",
+    "date": "2015-08-10T06:47:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42156,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2017-05-22T18:58:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4193615df5a9a19f8599026656f14e6da22d2779",
+    "actor": "nagisa",
+    "date": "2017-06-03T17:41:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bbbd71c74b73d310478ddafd1ca4546593e64b38",
+    "actor": "nagisa",
+    "date": "2017-06-03T17:42:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42410,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2017-06-03T17:42:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8938269db63bf1f9c0f17f3c2c39d3449b4d652e",
+    "actor": "nagisa",
+    "date": "2017-06-08T14:18:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42562,
+    "type": "issue",
+    "actor": "wesleywiser",
+    "date": "2017-06-09T15:17:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c3b65c1f75b74d2faa13f77a38bd9fa453ffc70",
+    "actor": "bors",
+    "date": "2017-06-10T12:31:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f3c99778358c4216bf229fba504c7c987432e662",
+    "actor": "bors",
+    "date": "2017-06-10T16:39:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f520e3608198596674d887a35de2474c162b6288",
+    "actor": "bors",
+    "date": "2017-06-14T20:54:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 88905,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2021-09-13T11:02:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 90032,
+    "type": "issue",
+    "actor": "nikic",
+    "date": "2021-10-19T19:58:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "da8bd063cc5a32f864fc4405cf865762a8f40259",
+    "actor": "durin42",
+    "date": "2022-07-22T17:24:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "88afb16fabaf0d86480abf1abd1ba793743d6239",
+    "actor": "durin42",
+    "date": "2022-07-25T14:26:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6b611ead820d00af78f0c5a410ada1007b305a36",
+    "actor": "bors",
+    "date": "2022-07-26T07:09:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "130a1df71ea73ab9d66d3cb8fc9cdb43155d514b",
+    "actor": "durin42",
+    "date": "2022-07-26T13:43:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4337d10d834547b4fda1dc24c6a7309b09af1cd8",
+    "actor": "workingjubilee",
+    "date": "2022-09-15T10:11:38Z"
+  }
+]

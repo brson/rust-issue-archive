@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e7339e84eae1db40cf34bbe31950deda1072dc61",
+    "actor": "huonw",
+    "date": "2014-02-27T08:45:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "49efab8ac9044e2cb8ea31ac16fa088af88faf4d",
+    "actor": "alexcrichton",
+    "date": "2014-05-06T23:46:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14001,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-05-06T23:47:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e87e26fe272474bcea0c5c1b992a36e91d530ebe",
+    "actor": "bors",
+    "date": "2014-05-08T23:11:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c0a25e4fdc1fcdde8378b4177a6f06c58001a3be",
+    "actor": "bors",
+    "date": "2014-05-09T02:12:05Z"
+  }
+]

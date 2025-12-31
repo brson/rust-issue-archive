@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "9318babf6cf5c2d053d78dfb788575905226215e",
+    "actor": "jld",
+    "date": "2013-02-08T10:15:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4844,
+    "type": "issue",
+    "actor": "jld",
+    "date": "2013-02-08T10:26:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f529af0d5020a1d635a18304f138c9247fd10ec5",
+    "actor": "bors",
+    "date": "2013-02-08T18:53:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c0e4e1bdb6fbcd1a4850e0ca674a19f568f0d918",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:57Z"
+  }
+]

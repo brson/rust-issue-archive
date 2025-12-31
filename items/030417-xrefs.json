@@ -1,0 +1,72 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b2b8f4ed4a0cc0ce6718ba1204161402cabe54dc",
+    "actor": "bors",
+    "date": "2015-12-22T05:15:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "42c3ef8f9fd4b0dd1f881c49323bad456163f202",
+    "actor": "bors",
+    "date": "2015-12-22T09:15:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30678,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2016-01-02T23:06:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29594,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2016-02-17T07:39:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32047,
+    "type": "issue",
+    "actor": "rillian",
+    "date": "2016-03-04T19:41:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9ed9708e0f54c88472a8b115d0aa5a6eb87a406a",
+    "actor": "rillian",
+    "date": "2017-05-01T22:04:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41687,
+    "type": "issue",
+    "actor": "rillian",
+    "date": "2017-05-01T22:05:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0eb05d7a801ad6cc05ef823c7b749cccccfb9a1a",
+    "actor": "rillian",
+    "date": "2017-05-01T22:12:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "19cab639fba8c9c9e288d2625c800e993fafe3f2",
+    "actor": "rillian",
+    "date": "2017-05-02T18:39:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "222971f7d2a098b4b8b57520452ab475bc5ea45f",
+    "actor": "bors",
+    "date": "2017-05-04T11:51:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c9fbfc6ed0e580f5e83291ffc8e9e308f46ba17f",
+    "actor": "hackeryarn",
+    "date": "2017-05-09T15:28:51Z"
+  }
+]

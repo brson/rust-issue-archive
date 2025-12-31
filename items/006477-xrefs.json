@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "3e0db5ecbd043087851553395f3f43dbb6f7c57b",
+    "actor": "frewsxcv",
+    "date": "2014-12-24T02:30:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "frewsxcv",
+    "date": "2014-12-24T02:30:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7565337c769275e40b4701c8bbc6f048e3a8ec69",
+    "actor": "frewsxcv",
+    "date": "2014-12-24T02:31:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43261,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-07-19T20:31:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "12a35abba12f003bfc12c2b982051c3f49d9b70e",
+    "actor": "flip1995",
+    "date": "2020-12-20T16:59:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5c981359a8ef753e87978d0323ba0eaf7def0769",
+    "actor": "flip1995",
+    "date": "2021-01-02T15:30:14Z"
+  }
+]

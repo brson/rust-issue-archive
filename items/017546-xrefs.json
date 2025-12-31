@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 11341,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2014-11-10T10:31:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21225,
+    "type": "issue",
+    "actor": "mdinger",
+    "date": "2015-01-16T06:48:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b416762a5f39415c1482abbb4b8a327df3bf1b4a",
+    "actor": "Ryman",
+    "date": "2015-07-17T14:26:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27085,
+    "type": "issue",
+    "actor": "Ryman",
+    "date": "2015-07-17T14:27:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f50dca3865fa510a1d80c94f2272c5ff78dc373",
+    "actor": "bors",
+    "date": "2015-07-18T06:02:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c412ea9ac4c43149a8b442223ff924aa896e8947",
+    "actor": "lnicola",
+    "date": "2024-07-11T17:48:41Z"
+  }
+]

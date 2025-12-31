@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 22170,
+    "type": "issue",
+    "actor": "richo",
+    "date": "2015-02-11T07:06:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "af6d6aec58776d9973ce536112c9665a550bcac2",
+    "actor": "richo",
+    "date": "2015-02-11T07:06:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "92e7aebf4b97cb5033320cf36ad4ff8037dc2f75",
+    "actor": "alexcrichton",
+    "date": "2015-02-11T22:46:54Z"
+  }
+]

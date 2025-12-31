@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0669a432a2e09ad08886cb2138dbe9f5d681fb7f",
+    "actor": "bors",
+    "date": "2014-12-15T22:11:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19895,
+    "type": "issue",
+    "actor": "jbranchaud",
+    "date": "2014-12-17T00:16:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20125,
+    "type": "issue",
+    "actor": "csouth3",
+    "date": "2014-12-22T04:42:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2cc9baccc783d5ff6e0f8fa27c38e2ddddfd71b7",
+    "actor": "alexcrichton",
+    "date": "2014-12-22T21:57:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20175,
+    "type": "issue",
+    "actor": "csouth3",
+    "date": "2014-12-23T16:55:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "51d3d8cfb1445eeaa9db819acfb3fe333b085eaa",
+    "actor": "lnicola",
+    "date": "2025-04-28T08:47:43Z"
+  }
+]

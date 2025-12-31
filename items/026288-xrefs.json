@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30128,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2017-09-29T22:10:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 55292,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-10-23T17:10:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "02dd239769522ee72678fc6d63a0c75eef086757",
+    "actor": "kennytm",
+    "date": "2018-10-26T02:55:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e5ad50460ee81520954c2cdab90252791f24c3ec",
+    "actor": "kennytm",
+    "date": "2018-10-26T10:25:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c6cd57dd860efbe0cb7506dfad93462bcb520d74",
+    "actor": "kennytm",
+    "date": "2018-10-26T15:11:12Z"
+  }
+]

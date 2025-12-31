@@ -1,0 +1,51 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d8ac555fa5b3d3be31ac7a884beb2201d5f7eb5b",
+    "actor": "birkenfeld",
+    "date": "2016-05-03T17:16:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dd7ef0063a54cb39b5e9d98da8bcf7af4bef2525",
+    "actor": "birkenfeld",
+    "date": "2016-05-03T17:19:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33382,
+    "type": "issue",
+    "actor": "birkenfeld",
+    "date": "2016-05-03T17:21:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7a0d317290a57caa8d874e8dbd64dd94a9f3f935",
+    "actor": "birkenfeld",
+    "date": "2016-05-04T07:09:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "89aa04299451baf73750c8480d14471dfced44db",
+    "actor": "birkenfeld",
+    "date": "2016-05-06T06:19:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0abdb1e670797789df5ce72973dd85cde06f5127",
+    "actor": "GuillaumeGomez",
+    "date": "2016-05-07T14:51:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6a92ac7fbf9782bac833de2d6de993a4c32c67c1",
+    "actor": "steveklabnik",
+    "date": "2016-05-07T19:32:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76d6030e80910a9de4c2919e141ee3b8c5171c7a",
+    "actor": "steveklabnik",
+    "date": "2016-05-07T19:35:17Z"
+  }
+]

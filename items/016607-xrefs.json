@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a85bc283402b2bb2016435f395a32956b612a57f",
+    "actor": "Manishearth",
+    "date": "2014-08-20T21:12:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16636,
+    "type": "issue",
+    "actor": "lilyball",
+    "date": "2014-08-20T21:37:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8e41809035601674e1ccf82ea6e6c97b021db512",
+    "actor": "Manishearth",
+    "date": "2014-08-20T23:31:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "543d7e98dbcc0668528dbf3f5b32d752882baa33",
+    "actor": "bors",
+    "date": "2024-02-25T10:20:25Z"
+  }
+]

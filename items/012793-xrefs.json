@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 9876,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2014-03-09T21:41:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b63cd004fc22089fbec7d74fc5a54536d093b1b4",
+    "actor": "bors",
+    "date": "2014-03-11T05:42:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "56d888689b7f58094ee5b082eaf94a0b8179ff32",
+    "actor": "JohnTitor",
+    "date": "2022-09-06T22:44:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6dfd8aebdfa1ee1824446f01daf5bdb229b32f92",
+    "actor": "matthiaskrgr",
+    "date": "2022-09-13T20:25:40Z"
+  }
+]

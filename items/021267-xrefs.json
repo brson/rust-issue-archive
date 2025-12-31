@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b766a6b8c0225de9e077d595a63955e76c6ee34f",
+    "actor": "bors",
+    "date": "2015-01-17T13:08:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "696a6967a17ae521aecfe7450b023fae68860a01",
+    "actor": "bors",
+    "date": "2015-01-17T13:11:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bd8a43c668ba93d29e9671c0c8dc6b67428bf492",
+    "actor": "bors",
+    "date": "2015-01-19T01:45:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20381,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-02-11T18:43:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "58e94697e72cde63113e96d612faf89cf19984f2",
+    "actor": "sagesharp",
+    "date": "2016-11-04T23:50:56Z"
+  }
+]

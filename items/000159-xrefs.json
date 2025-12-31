@@ -1,0 +1,52 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 35900,
+    "type": "issue",
+    "actor": "dtolnay",
+    "date": "2016-10-03T07:19:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "14ba6d9599e4c88bc1eba0800a3f8753eefcb464",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e19ff6dd1144b9e0eabe7cef5bb852c37f632510",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 81513,
+    "type": "issue",
+    "actor": "matthieu-m",
+    "date": "2021-12-18T15:41:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f82eae11e5923b6cfc79f0ff89edd47bc87e91dd",
+    "actor": "Mark-Simulacrum",
+    "date": "2022-02-22T02:31:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a71b92e93404ac2d2efae5a848cd6cf5a2391510",
+    "actor": "celinval",
+    "date": "2024-06-04T02:18:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d1600b09b3a5275cf2772f1d0f049915e90dc6ba",
+    "actor": "celinval",
+    "date": "2024-11-09T01:14:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e8b9457f661ed15fb97b3db84e0c6e69db8066ce",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:36Z"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1446,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2016-01-11T10:30:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7428806bf9a4efb1ec9ebb737fadabf882e7b255",
+    "actor": "MaloJaffre",
+    "date": "2017-10-04T13:13:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45020,
+    "type": "issue",
+    "actor": "MaloJaffre",
+    "date": "2017-10-04T13:14:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ade0b01ebf18550e41d24c6e36f91afaccd7f389",
+    "actor": "bors",
+    "date": "2017-10-08T14:44:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e069e673e59d530e50f2402c0b27a85a4d16c6ca",
+    "actor": "Badel2",
+    "date": "2017-10-12T20:48:51Z"
+  }
+]

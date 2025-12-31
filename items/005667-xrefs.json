@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "78b53718a8e1c21b10390b925383ce5361000e0b",
+    "actor": "bors",
+    "date": "2013-04-02T00:00:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7447,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-06-28T06:53:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8aa8f425565975e283461dbfdc2c4ac0b4273934",
+    "actor": "tesuji",
+    "date": "2020-06-04T04:49:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:44Z"
+  }
+]

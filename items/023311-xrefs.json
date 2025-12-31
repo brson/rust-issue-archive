@@ -1,0 +1,55 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f9bbe4d664204f8c4c19b76fff658caca7e0aa3a",
+    "actor": "eefriedman",
+    "date": "2015-07-15T05:18:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27050,
+    "type": "issue",
+    "actor": "eefriedman",
+    "date": "2015-07-15T05:21:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29249,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-10-23T14:06:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7ed33ce9bd3a9a8544944e4776155cdba52152b5",
+    "actor": "bltavares",
+    "date": "2015-10-31T21:21:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 106,
+    "type": "issue",
+    "actor": "bltavares",
+    "date": "2015-10-31T21:21:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23121,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2017-01-08T14:14:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 40296,
+    "type": "issue",
+    "actor": "topecongiro",
+    "date": "2017-03-06T15:41:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c58fc810fb84ef6a7fd2b1d5594a9ddb0b34618",
+    "actor": "steveklabnik",
+    "date": "2018-04-23T15:43:26Z"
+  }
+]

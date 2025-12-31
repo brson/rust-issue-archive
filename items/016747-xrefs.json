@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 16760,
+    "type": "issue",
+    "actor": "kennytm",
+    "date": "2014-08-26T09:07:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18099,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-10-16T20:29:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "41a79104a412989b802852f9ee6e589b06391d61",
+    "actor": "bors",
+    "date": "2014-10-18T13:22:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "99a1b8f7a81d85e328ff3531315bef186909bbba",
+    "actor": "matthiaskrgr",
+    "date": "2024-03-10T12:51:06Z"
+  }
+]

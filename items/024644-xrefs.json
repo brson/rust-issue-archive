@@ -1,0 +1,46 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a4dbdfef48c786ffc2dd60ba84cc7b725d67ed1c",
+    "actor": "Valloric",
+    "date": "2015-05-17T04:47:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25748,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-05-24T12:34:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d957e04d0160953d73112dbfb9a6ee3e01d7653b",
+    "actor": "eddyb",
+    "date": "2015-05-26T14:58:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25797,
+    "type": "issue",
+    "actor": "eddyb",
+    "date": "2015-05-26T14:59:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "efcc1d1bcb48122ae1c522b0f4a996188791f38a",
+    "actor": "bors",
+    "date": "2015-05-27T12:37:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3957672a0c99f804d8a10bebcf6c568e68d66aad",
+    "actor": "XMPPwocky",
+    "date": "2015-05-29T18:44:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a3ded4a590d62faa1efe40869dbdac0e6f1ad55c",
+    "actor": "eddyb",
+    "date": "2017-03-08T19:04:23Z"
+  }
+]

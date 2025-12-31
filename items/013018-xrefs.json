@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21418,
+    "type": "issue",
+    "actor": "Aatch",
+    "date": "2015-01-20T11:51:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "229243c136ddeb653c6ad5bcb451a78fef9e7a99",
+    "actor": "alexcrichton",
+    "date": "2015-01-21T18:18:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 35981,
+    "type": "issue",
+    "actor": "nox",
+    "date": "2018-04-02T15:40:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 53080,
+    "type": "issue",
+    "actor": "dshynkev",
+    "date": "2018-08-05T03:37:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d43445d36457be55114d64ba93025cec9fc07ad8",
+    "actor": "bors",
+    "date": "2018-08-20T19:23:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7aff6fccfef5b3ae375672b3e9c542cddf09c3d3",
+    "actor": "bors",
+    "date": "2018-08-21T02:58:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "70c33bb8e2649a019e48515128a0b447dfe66f6b",
+    "actor": "bors",
+    "date": "2018-08-21T06:40:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7d17e6cb2d0250617761e7fe5e85837074e6d64",
+    "actor": "flip1995",
+    "date": "2024-07-25T16:29:33Z"
+  }
+]

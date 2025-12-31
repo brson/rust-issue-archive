@@ -1,0 +1,46 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21361,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-01-18T15:15:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "12d7be9a283d6b57682bbaa1da3db91b636583a7",
+    "actor": "japaric",
+    "date": "2015-01-24T01:18:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21574,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-01-24T01:19:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "47621db62cf9ffa82624576059b6af5e54d935a5",
+    "actor": "bors",
+    "date": "2015-01-25T23:55:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "078e8d06d1f87429b8fb1fd4828a5dc528606670",
+    "actor": "japaric",
+    "date": "2015-01-28T15:39:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7df8b7b6a6d9e82606aa820f13b2e29eb986536b",
+    "actor": "japaric",
+    "date": "2015-01-28T21:52:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "09ba9f5c87a24f82d9a332fdb913511eedf5a4ec",
+    "actor": "japaric",
+    "date": "2015-01-29T12:49:12Z"
+  }
+]

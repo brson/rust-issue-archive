@@ -1,0 +1,76 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4f64a14d090e9b934d7d0128c0b2e5af903a0dc0",
+    "actor": "adrientetar",
+    "date": "2013-11-11T15:15:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10421,
+    "type": "issue",
+    "actor": "adrientetar",
+    "date": "2013-11-11T15:25:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "75da23a191021e0b4e17f1752812e7593c74a3fc",
+    "actor": "adrientetar",
+    "date": "2013-11-12T19:26:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5f4f9830b1680a7957723d2f620af6757ee525c",
+    "actor": "adrientetar",
+    "date": "2013-11-12T21:01:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fa76ac9e38d735876f149ae69efa9dcc376886a5",
+    "actor": "bors",
+    "date": "2013-11-12T21:26:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5a01dbe67b43660bf1df96074f34a635aad50e56",
+    "actor": "adrientetar",
+    "date": "2013-11-13T08:35:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e3ab3cf41e27e75bd01287d103ce6b8c842901c3",
+    "actor": "bors",
+    "date": "2013-11-13T19:26:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "49c6ae10cb2a67a3e673507213ffed3201e43c9c",
+    "actor": "bors",
+    "date": "2013-11-13T22:41:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12783,
+    "type": "issue",
+    "actor": "adrientetar",
+    "date": "2014-03-09T12:27:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9297d5576108405ffee18615c8b36d73a1634c9f",
+    "actor": "bors",
+    "date": "2014-03-11T05:12:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "74bfa7108a62c053fdeae2bb093f8035e19e2ef2",
+    "actor": "bors",
+    "date": "2014-03-11T19:36:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "51ec465cc3dfb62a2dad7e808b399fa76a1c9170",
+    "actor": "flip1995",
+    "date": "2022-11-21T19:35:55Z"
+  }
+]

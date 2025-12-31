@@ -1,0 +1,51 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4730d45d55d207523ad8b534f2899b13940d9b8c",
+    "actor": "Arcterus",
+    "date": "2014-12-06T10:57:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8d0480065abfa74ed79f2544ad681c1eb8f303fb",
+    "actor": "Arcterus",
+    "date": "2014-12-06T10:59:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9b638d99a76bbc954030b795e8be599ffddb80c2",
+    "actor": "Arcterus",
+    "date": "2014-12-06T19:00:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 466,
+    "type": "issue",
+    "actor": "Arcterus",
+    "date": "2014-12-06T19:15:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d0ad3c7f933d575d3700d8f5124e5474dfcdbd63",
+    "actor": "alexcrichton",
+    "date": "2014-12-09T18:27:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9aec1611df6ae9868c141ac8e4e022a3cc116e3c",
+    "actor": "Cynede",
+    "date": "2014-12-10T05:19:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "09980d359b94c7dea56c87bf60bebdda3f3db611",
+    "actor": "jbcrail",
+    "date": "2015-04-29T04:01:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ad86f098c1109af14493533c68bab46a1516484c",
+    "actor": "jbcrail",
+    "date": "2015-04-29T04:01:14Z"
+  }
+]

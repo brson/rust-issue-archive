@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a742641aa93701928d35711e74c9f6bcfaa2ab9c",
+    "actor": "hanna-kruppe",
+    "date": "2015-10-14T17:30:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6ce1b1e2b0d1337d3fcfd93ee402996c1ecd4ca7",
+    "actor": "hanna-kruppe",
+    "date": "2015-10-14T17:34:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "71dcd7f70c084ea4f8e7788b617c9c2ea786e6b7",
+    "actor": "hanna-kruppe",
+    "date": "2015-10-14T17:56:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29050,
+    "type": "issue",
+    "actor": "hanna-kruppe",
+    "date": "2015-10-14T17:56:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "be3d390cf51545b880c5cd78585fa408c087f786",
+    "actor": "bors",
+    "date": "2015-10-15T14:43:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "30f4ffff33450a51f04ea229e68527422ebd6951",
+    "actor": "brson",
+    "date": "2015-10-16T20:00:12Z"
+  }
+]

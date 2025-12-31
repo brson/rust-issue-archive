@@ -1,0 +1,60 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 23,
+    "type": "issue",
+    "actor": "QuietMisdreavus",
+    "date": "2017-08-14T16:42:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10d418a8b955c2c53bcfc59acbac089ef8fa33d6",
+    "actor": "zackmdavis",
+    "date": "2017-09-20T06:58:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44713,
+    "type": "issue",
+    "actor": "zackmdavis",
+    "date": "2017-09-20T07:07:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0b2bac424c7b47277dd748974e61dddabd7b57be",
+    "actor": "zackmdavis",
+    "date": "2017-09-22T01:38:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9f68d62e0cbefe6d54f920d905f06147b4b15d8e",
+    "actor": "zackmdavis",
+    "date": "2017-09-26T23:01:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1fd3a42c624faf91e9402942419ec409699fb94a",
+    "actor": "bors",
+    "date": "2017-09-27T10:56:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33731,
+    "type": "issue",
+    "actor": "QuietMisdreavus",
+    "date": "2018-05-31T16:33:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 54861,
+    "type": "issue",
+    "actor": "repnop",
+    "date": "2018-10-05T23:35:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6d69fe7a2fa31108ee7d23515cec7dd151d08331",
+    "actor": "bors",
+    "date": "2018-11-04T01:43:48Z"
+  }
+]

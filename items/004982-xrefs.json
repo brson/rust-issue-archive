@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2249,
+    "type": "issue",
+    "actor": "msullivan",
+    "date": "2013-06-21T23:12:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9538128395ae5ba9d23afa5c90aa1803aeec2d08",
+    "actor": "poiru",
+    "date": "2013-07-22T18:24:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7974,
+    "type": "issue",
+    "actor": "poiru",
+    "date": "2013-07-22T18:24:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "339295a45011d41d14b369617f76d2d53443bfef",
+    "actor": "poiru",
+    "date": "2013-07-22T18:29:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6f27cb7b662299b6a28a29851994d7fc5e36f5d4",
+    "actor": "bors",
+    "date": "2013-07-23T14:01:43Z"
+  }
+]

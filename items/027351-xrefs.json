@@ -1,0 +1,22 @@
+[
+  {
+    "event": "referenced",
+    "commit": "efdbc0ec7e9bd8d2dadbe78b003fd7facf2a7aae",
+    "actor": "bors",
+    "date": "2015-08-04T22:55:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27023,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-08-13T20:28:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26403,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-11-05T18:56:52Z"
+  }
+]

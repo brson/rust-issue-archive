@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e20ea0b67dbd5428bc3d355862692f1efecd378c",
+    "actor": "erickt",
+    "date": "2014-12-05T19:29:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19574,
+    "type": "issue",
+    "actor": "erickt",
+    "date": "2014-12-05T19:32:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "84a7615418749d663d54dd9223a15098b834e2a0",
+    "actor": "bors",
+    "date": "2014-12-08T18:42:21Z"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e66bde4fcce9f7e96109a493a747d3f20c059928",
+    "actor": "dotdash",
+    "date": "2014-07-05T20:27:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1cbdd709f17378c515a2f4a340f88e7e986f6f71",
+    "actor": "dotdash",
+    "date": "2014-07-05T22:06:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "394c1011561af834fc12482f5756e1be2719cd37",
+    "actor": "dotdash",
+    "date": "2014-07-05T22:34:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15464,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2014-07-05T22:55:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "550105ffdf1bad5dd931ac7da7e42b9b2f9835a7",
+    "actor": "dotdash",
+    "date": "2014-07-06T07:58:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dd4112bf7924767a6074b54ffe297c877f8b042d",
+    "actor": "dotdash",
+    "date": "2014-07-06T20:12:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d9db7f6137122c1cf174518cc402e04d54c3c8c3",
+    "actor": "bors",
+    "date": "2014-07-07T03:01:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "82ef6991d78e3e4259eb15b0904efa16fe86b9a0",
+    "actor": "bors",
+    "date": "2023-07-17T13:54:59Z"
+  }
+]

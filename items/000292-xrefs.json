@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a6096fbfba1042d1f4ad3b7c7144692d1286f71a",
+    "actor": "oli-obk",
+    "date": "2017-09-19T07:10:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e88693700ef25cadbb32f5dff33d3a90dc233fa2",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f67eb4e18c005273a1c891e6c79a5cb343a1c548",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 58414,
+    "type": "issue",
+    "actor": "venkag",
+    "date": "2019-02-13T19:49:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2d9d9fcd5d35fa9bfb1b69fa7ab83da7d206eac5",
+    "actor": "carolynzech",
+    "date": "2025-04-17T20:33:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "34114c2a5e7d8c4531fed6978cd3c8cb9dfcb90d",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:44Z"
+  }
+]

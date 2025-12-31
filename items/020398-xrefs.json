@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20402,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-01-01T16:24:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20410,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-01-01T20:33:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "194c641ea6cebcdc448d12e42cb16ee44a50f9c4",
+    "actor": "bors",
+    "date": "2015-01-01T21:51:09Z"
+  }
+]

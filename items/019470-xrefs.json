@@ -1,0 +1,178 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5527,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-12-05T23:28:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "15e00c7af057f9caf5fb12aea3616f506ceb1b63",
+    "actor": "nikomatsakis",
+    "date": "2014-12-26T20:52:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b73ca53eeb908f40fb529ad09989dbd82920b67c",
+    "actor": "nikomatsakis",
+    "date": "2014-12-26T21:20:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d313f4513253756ed46f3e7ffb7ddd60cce43a0a",
+    "actor": "nikomatsakis",
+    "date": "2014-12-29T19:42:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e8ae1c2642a47f34b6f2e0a8554caf6254b42777",
+    "actor": "nikomatsakis",
+    "date": "2014-12-29T20:01:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "34c1f129f7e7a75056df8a8623dd0af8f2d9768b",
+    "actor": "nikomatsakis",
+    "date": "2015-01-01T21:59:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20416,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-02T02:43:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c61a0092bc236c4be4cb691fcd50ff50e91ab0d6",
+    "actor": "nikomatsakis",
+    "date": "2015-01-02T09:06:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20523,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2015-01-04T17:26:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20594,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-05T21:46:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20749,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-01-08T13:52:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21792,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-31T00:48:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e8489d3cc7a44dc31030b17ec0faad795d3895df",
+    "actor": "bors",
+    "date": "2015-02-01T01:34:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d790e791a2938458aef384fbb943c355060a2c22",
+    "actor": "alexcrichton",
+    "date": "2015-03-11T20:59:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "df746cc69d951edbbffa9e9ad63ee742fda88dbd",
+    "actor": "alexcrichton",
+    "date": "2015-03-11T21:00:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23288,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-03-11T21:00:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b2d783760fdc36a602a49d5f44f5f4a4984e7e2b",
+    "actor": "alexcrichton",
+    "date": "2015-03-17T17:50:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9cd61bdca4e7b35e39e4a4341c7073c6369d4c76",
+    "actor": "alexcrichton",
+    "date": "2015-03-24T22:14:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "715bc93378c7635dcb2164f5cc87ad8c548acf93",
+    "actor": "alexcrichton",
+    "date": "2015-03-24T22:14:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b24825bf85e0258d81a893afeb9d81d60b22f6e5",
+    "actor": "alexcrichton",
+    "date": "2015-03-27T01:43:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ee248842f5d0e857ef7a4e7b5a4b8e9b2a9e130f",
+    "actor": "alexcrichton",
+    "date": "2015-03-28T02:04:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5cf126ae2f6af1cdac901f6995e3c2bab35e587f",
+    "actor": "alexcrichton",
+    "date": "2015-03-31T20:41:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0f33de14c97467baf1826765adc66d8d3048ff58",
+    "actor": "alexcrichton",
+    "date": "2015-03-31T20:44:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1a48efccbab00662e11a14f5da17803d838af39a",
+    "actor": "bors",
+    "date": "2015-03-31T21:53:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7c61a4f174a319bb91d8473353849de4e4f37a94",
+    "actor": "alexcrichton",
+    "date": "2015-03-31T22:55:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b0c40c12eb8e8127393912043bde3560d1ef212a",
+    "actor": "alexcrichton",
+    "date": "2015-03-31T22:55:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3422be3666cba57f1a6fb6ab3deb1a6df66b7695",
+    "actor": "alexcrichton",
+    "date": "2015-03-31T23:20:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  }
+]

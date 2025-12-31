@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2569,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-06-11T19:39:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6d4ef3186087df5f8988b95ae377162acb85ad8f",
+    "actor": "oli-obk",
+    "date": "2022-09-28T12:39:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:39:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ee4b0c84c971117c613fddba3899cb2800d8ae5d",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:16Z"
+  }
+]

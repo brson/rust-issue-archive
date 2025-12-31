@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "db3a58ae2950bd9e27c9317ddb9c737da6c0da83",
+    "actor": "pnkfelix",
+    "date": "2015-04-29T17:00:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24952,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2015-04-29T17:02:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5d85d8d80081211ca26cdf5a19671e7462ef4fe2",
+    "actor": "alexcrichton",
+    "date": "2015-04-29T23:32:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "50b3dce47ea75af5d66d382fff3417926f757a2f",
+    "actor": "alexcrichton",
+    "date": "2015-04-29T23:32:35Z"
+  }
+]

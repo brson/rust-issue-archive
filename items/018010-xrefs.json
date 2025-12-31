@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "ae8d42937dbffa58003814b9ed2745d0c1f55a82",
+    "actor": "Gankra",
+    "date": "2014-10-16T17:26:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18096,
+    "type": "issue",
+    "actor": "Gankra",
+    "date": "2014-10-16T17:28:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b064a59cc84409829b536071073dca5e8dd209e",
+    "actor": "bors",
+    "date": "2014-10-18T08:27:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "63bb576f5ed00810d8aaae1086c1c60831f5de99",
+    "actor": "lnicola",
+    "date": "2024-09-25T06:58:18Z"
+  }
+]

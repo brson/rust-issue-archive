@@ -1,0 +1,58 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18199,
+    "type": "issue",
+    "actor": "crumblingstatue",
+    "date": "2014-10-20T21:33:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "049f858c5a17993ad0cb04d141c2116f9e0e56ac",
+    "actor": "steveklabnik",
+    "date": "2014-10-27T18:35:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18374,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2014-10-27T18:35:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "033431d0c380af25f0e928f950e160831ebcdd7f",
+    "actor": "steveklabnik",
+    "date": "2014-10-28T16:13:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "72fb8f36881784c24acc3febd429d642ddb64c2c",
+    "actor": "steveklabnik",
+    "date": "2014-10-28T19:56:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "92048d515c4d602664797761fc6d5bf516ee4e1c",
+    "actor": "bors",
+    "date": "2014-10-29T13:11:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "abb3b9c505f31f4f28cf238cf553efc22bf68790",
+    "actor": "bors",
+    "date": "2014-10-30T13:57:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5fcfd95dbf7ad63b9c3ddd9f45590616a891bce8",
+    "actor": "lnicola",
+    "date": "2024-10-08T11:42:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4866fb457a396669fc2d96a8cf5938f4cce5e162",
+    "actor": "lnicola",
+    "date": "2024-12-11T12:41:04Z"
+  }
+]

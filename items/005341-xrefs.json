@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5342,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-03-12T19:24:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b53da4b9dd977fdffba3f10e570d7c025238dec3",
+    "actor": "bors",
+    "date": "2013-03-16T21:27:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "606e3285b213d699a2885175751a10e40a437070",
+    "actor": "bors",
+    "date": "2020-05-02T16:25:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d8e6e4cfcd83d555bd7717ea24224b777ed75773",
+    "actor": "bors",
+    "date": "2020-05-02T16:25:09Z"
+  }
+]

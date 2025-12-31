@@ -1,0 +1,86 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 983,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-11-26T18:20:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23158,
+    "type": "issue",
+    "actor": "sfackler",
+    "date": "2015-03-08T03:08:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "98fbacde4caed0e253a082570597d9ea29ba8156",
+    "actor": "ryanhiebert",
+    "date": "2015-04-04T23:53:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18,
+    "type": "issue",
+    "actor": "felinira",
+    "date": "2015-05-01T13:17:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "33ad7e8eba47c78758ec53b88ce8bcb701860a46",
+    "actor": "felinira",
+    "date": "2015-05-01T13:19:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24,
+    "type": "issue",
+    "actor": "sgkim126",
+    "date": "2015-07-13T11:01:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20753a85d84d85ccd72cbe6a9a59dd66c7afaf7b",
+    "actor": "steveklabnik",
+    "date": "2015-07-21T19:45:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32,
+    "type": "issue",
+    "actor": null,
+    "date": "2015-07-31T04:51:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "15d6837a16d727a3d37a703eaedf48e62c260290",
+    "actor": "wthrowe",
+    "date": "2015-08-25T03:18:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27992,
+    "type": "issue",
+    "actor": "wthrowe",
+    "date": "2015-08-25T03:30:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a48c29dcea0d0107c3e0bf761f97d65941a3d73d",
+    "actor": "bors",
+    "date": "2015-08-26T18:29:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e146499b6e9120deaed1b5ed87fcb077cd2562cf",
+    "actor": "sourcefrog",
+    "date": "2016-07-05T19:14:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c8d9a2dbdbf422ad2c3acaa9583846ebab02ae9a",
+    "actor": "bors",
+    "date": "2022-07-25T00:20:56Z"
+  }
+]

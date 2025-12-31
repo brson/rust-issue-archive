@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c6f62b637422783fc44de92e4011344e46f17498",
+    "actor": "brson",
+    "date": "2012-01-15T01:03:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1496,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-01-15T01:04:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "31166438063236e6d2ad021cf2169fce2b3839b4",
+    "actor": "eholk",
+    "date": "2012-02-02T02:54:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1734,
+    "type": "issue",
+    "actor": "jdm",
+    "date": "2012-02-02T08:46:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1737,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-02-02T15:46:13Z"
+  }
+]

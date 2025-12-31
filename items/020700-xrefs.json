@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "207cf11a4ea2dad5cbb57ee54146360e896f9485",
+    "actor": "hinsley",
+    "date": "2015-02-05T16:04:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21967,
+    "type": "issue",
+    "actor": "hinsley",
+    "date": "2015-02-05T16:19:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23553,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-03-20T13:12:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25001,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-05-03T17:07:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6170ec3f56cafa7c27e921c410155edbcb992d8",
+    "actor": "lnicola",
+    "date": "2025-10-01T05:38:28Z"
+  }
+]

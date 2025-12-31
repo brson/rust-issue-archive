@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "39d6483bc1156190b0c3296049e887b0f4adfd8c",
+    "actor": "estebank",
+    "date": "2016-12-22T08:39:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 38538,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2016-12-22T08:40:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "17d873c2db77d029b8fe26d57b676e5797e99441",
+    "actor": "bors",
+    "date": "2016-12-22T10:36:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6c117f632121f0a4d31499cb105b549c545116d3",
+    "actor": "RalfJung",
+    "date": "2024-02-17T09:23:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d926482f7a724770d8f6818f312e8dda7b17738b",
+    "actor": "jaisnan",
+    "date": "2024-07-29T17:32:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "068f63cc32ab638b039ef29e1fb061559efe14d6",
+    "actor": "jaisnan",
+    "date": "2024-07-29T17:32:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "96d1147fc3b59bf71ac6618aca957ac6ba40073a",
+    "actor": "jaisnan",
+    "date": "2024-07-29T17:32:19Z"
+  }
+]

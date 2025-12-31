@@ -1,0 +1,65 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2089,
+    "type": "issue",
+    "actor": "evanmcc",
+    "date": "2012-04-03T21:31:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3fe45572c1c23b225fcfb408934362fa32cac22b",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d7253abe8288642ddc993a854f656d7de80cdcf0",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bd2c74784e71a4fe3917bb79395ec9e103d12269",
+    "actor": "eddyb",
+    "date": "2020-06-30T20:29:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 82515,
+    "type": "issue",
+    "actor": "Plecra",
+    "date": "2021-02-25T10:50:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ddb015a09e9512a035b5c2017feb65d8b9a44bd8",
+    "actor": "bjorn3",
+    "date": "2021-12-31T15:26:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 112522,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2023-06-12T19:00:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3e8fb6019a910e8806c360eece3ab9e9b50d6e5c",
+    "actor": "celinval",
+    "date": "2024-06-04T02:18:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d8ce85e0960e6ebd5458fadfd0a0740a4e620d34",
+    "actor": "jmikedupont2",
+    "date": "2025-10-16T02:51:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d936908adda9a19bb8616022ec7a39d9fe1b168a",
+    "actor": "meng-xu-cs",
+    "date": "2025-11-02T15:04:12Z"
+  }
+]

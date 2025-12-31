@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "9a328927e495ebbc7d1b66156bea39c88ef4b187",
+    "actor": "ftxqxd",
+    "date": "2014-08-29T05:17:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b220db03bd334b2e74c4dfd62ed1318941b82a3c",
+    "actor": "ftxqxd",
+    "date": "2014-08-29T05:25:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16836,
+    "type": "issue",
+    "actor": "ftxqxd",
+    "date": "2014-08-29T05:25:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4d2af38611cdeeb804659b5e0695ad2c251db51a",
+    "actor": "bors",
+    "date": "2014-09-17T15:51:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6e8a54d0f68702cf7981c8299357838eb0f4d5b2",
+    "actor": "arcnmx",
+    "date": "2022-12-17T23:25:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a10fd831209f97327f747ea095dd358057ed7891",
+    "actor": "bors",
+    "date": "2023-06-05T13:31:43Z"
+  }
+]

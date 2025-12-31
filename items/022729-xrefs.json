@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 22500,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2015-02-23T20:33:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6c6f2317bae63261123cd94ebe214e80fb6ad78e",
+    "actor": "Manishearth",
+    "date": "2015-02-25T05:00:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "36e6aedd6b2c4f90f5e33c96987c80a3694ac928",
+    "actor": "bors",
+    "date": "2015-02-25T11:16:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45606,
+    "type": "issue",
+    "actor": "dtolnay",
+    "date": "2017-10-29T04:46:53Z"
+  }
+]

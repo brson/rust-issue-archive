@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 7,
+    "type": "issue",
+    "actor": "SSheldon",
+    "date": "2014-12-14T01:39:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "35a8a6665b296525cd9fef9489fd006c01c8942c",
+    "actor": "bors",
+    "date": "2014-12-14T18:27:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6085a71623b0d4cb5042fae1432760a8a6d87c32",
+    "actor": "bors",
+    "date": "2014-12-14T19:07:30Z"
+  }
+]

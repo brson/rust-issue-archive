@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "45cd09cab9dbc55a4fdef8eedf7ab10b9a8e67fa",
+    "actor": "metajack",
+    "date": "2013-11-20T16:30:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1292,
+    "type": "issue",
+    "actor": "metajack",
+    "date": "2013-11-20T16:30:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eb9b82fed8717dc9970489e2856ac95b73a6e9eb",
+    "actor": "bors-servo",
+    "date": "2013-11-20T16:34:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10461,
+    "type": "issue",
+    "actor": "metajack",
+    "date": "2013-11-20T17:37:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3b4dfc3b0eb45f65a57e4ea7064e9eee9ab922ea",
+    "actor": "june0cho",
+    "date": "2013-11-20T23:56:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "15109d9106206ce32dd733a00289c9fea53071eb",
+    "actor": "therealglazou",
+    "date": "2014-02-20T10:13:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "192ed1c8f40b62ee81a638c5fb3e6e9334cd19f3",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:38:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ffcbbc66a8f388230f9d54af55aa06967bb2be09",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T23:45:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "90c691e4fd90b2ba1d00ed1e1d87192498a6788b",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:00:45Z"
+  }
+]

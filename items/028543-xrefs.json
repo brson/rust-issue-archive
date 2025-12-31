@@ -1,0 +1,42 @@
+[
+  {
+    "event": "referenced",
+    "commit": "9c1aaeb7b97e34b6688f31c6921d636d27c02e73",
+    "actor": "bors",
+    "date": "2015-09-22T19:13:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28598,
+    "type": "issue",
+    "actor": "semarie",
+    "date": "2015-09-23T04:44:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28,
+    "type": "issue",
+    "actor": "semarie",
+    "date": "2015-09-23T07:56:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f0666b45dd9adef751340e86badbef4daedb2dc2",
+    "actor": "bors",
+    "date": "2015-09-24T00:02:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76,
+    "type": "issue",
+    "actor": "gandro",
+    "date": "2015-11-26T17:28:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 181,
+    "type": "issue",
+    "actor": "gandro",
+    "date": "2016-02-17T19:55:33Z"
+  }
+]

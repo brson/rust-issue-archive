@@ -1,0 +1,62 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c5a91418e1638943a24cb1a9c71fbddf4b23931f",
+    "actor": "gz",
+    "date": "2015-07-03T04:50:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "669b9663f2a87552193b69a9769c7d75078858f5",
+    "actor": "gz",
+    "date": "2015-07-03T04:50:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "939a76e5b16e768bfbd84846d6a7c7e602ebd9bf",
+    "actor": "gz",
+    "date": "2015-07-03T04:50:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6,
+    "type": "issue",
+    "actor": "thepowersgang",
+    "date": "2015-07-03T14:53:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26749,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-07-06T16:41:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29390,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-10-27T04:06:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1364,
+    "type": "issue",
+    "actor": "emk",
+    "date": "2015-11-11T12:04:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 47410,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2018-01-15T12:46:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 65844,
+    "type": "issue",
+    "actor": "hanna-kruppe",
+    "date": "2019-11-20T12:43:21Z"
+  }
+]

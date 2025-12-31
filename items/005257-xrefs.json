@@ -1,0 +1,54 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 8545,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2013-08-15T22:12:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e185b049af214cc7900beaae557a12863f4b3ce3",
+    "actor": "bors",
+    "date": "2013-08-18T19:42:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27108,
+    "type": "issue",
+    "actor": "chris-morgan",
+    "date": "2015-07-18T14:07:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27713,
+    "type": "issue",
+    "actor": "Gankra",
+    "date": "2015-08-23T13:33:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "329923edec41d0ddbea7f30ab12fca0436d459ae",
+    "actor": "bors",
+    "date": "2020-05-02T16:25:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "560daecccb72eff824b30ccce9b9a024e47b13ac",
+    "actor": "niklasf",
+    "date": "2022-06-11T19:10:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "befa410e3731e668a2f12bde805953371e6a2635",
+    "actor": "niklasf",
+    "date": "2022-06-11T19:11:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 50,
+    "type": "issue",
+    "actor": "niklasf",
+    "date": "2022-06-11T19:12:18Z"
+  }
+]

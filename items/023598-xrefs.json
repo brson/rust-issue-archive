@@ -1,0 +1,76 @@
+[
+  {
+    "event": "referenced",
+    "commit": "eabe701c87b372dd932d6f76bf081537102f157d",
+    "actor": "brson",
+    "date": "2015-03-23T17:09:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e0673405e181a0e78ea3b749e457188002f7d093",
+    "actor": "bors",
+    "date": "2015-03-23T21:26:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "56bdd12d2cf4ff3f059dbd5fd200a89e8938251d",
+    "actor": "bors",
+    "date": "2015-03-23T21:42:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c608084ff595c9c31e78ad3cde07093e68ee1848",
+    "actor": "alexcrichton",
+    "date": "2015-03-23T23:16:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7e441d45473ba1ccb6fa34cf231a0504414118b0",
+    "actor": "bors",
+    "date": "2015-03-24T03:09:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23616,
+    "type": "issue",
+    "actor": "jethrogb",
+    "date": "2019-04-19T19:59:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "636b39368f17127d419a2fa3539a4a05b38d389e",
+    "actor": "jieyouxu",
+    "date": "2024-11-25T17:23:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 133470,
+    "type": "issue",
+    "actor": "jieyouxu",
+    "date": "2024-11-25T18:13:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f62753f84f355d2c8c67b257db6746c7ae58be2e",
+    "actor": "jieyouxu",
+    "date": "2024-11-25T18:51:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8160668a29ea0cb5a82c9639de10f4faa0f55d69",
+    "actor": "jhpratt",
+    "date": "2024-11-26T08:45:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0d9a57d979e4978bbf59e17a82781ff4f1e7a4d7",
+    "actor": "GuillaumeGomez",
+    "date": "2024-11-26T14:32:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dc911b3d3c6c41388205ef08f1ad8c14bf96bfb8",
+    "actor": "rust-timer",
+    "date": "2024-11-26T19:15:03Z"
+  }
+]

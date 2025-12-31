@@ -1,0 +1,53 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c8c77548e513d2a3b7ecf2ec2416980ef3d18cf1",
+    "actor": "alexcrichton",
+    "date": "2015-03-27T20:45:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "990202cd0e14421a49734bb463aa323e79066062",
+    "actor": "alexcrichton",
+    "date": "2015-03-27T23:10:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 351,
+    "type": "issue",
+    "actor": "andersk",
+    "date": "2015-03-28T23:25:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a6c3c92f781c5f1c9bd0dab2b1a1ab0ca83fc006",
+    "actor": "simnalamburt",
+    "date": "2015-03-30T16:08:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22820,
+    "type": "issue",
+    "actor": "lgrz",
+    "date": "2015-04-20T23:17:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 67712,
+    "type": "issue",
+    "actor": "Centril",
+    "date": "2019-12-30T00:43:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a4014b66067450d726908a7affb342ff741bca2d",
+    "actor": "tmandry",
+    "date": "2020-01-18T00:34:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "733c7f440e7777f35bb527f8b75cb9351d31c14d",
+    "actor": "Centril",
+    "date": "2020-01-18T18:36:03Z"
+  }
+]

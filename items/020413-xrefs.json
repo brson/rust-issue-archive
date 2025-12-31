@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20414,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-01-02T12:22:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "27bfe381d981a0cfc197290887e097560a992f06",
+    "actor": "milibopp",
+    "date": "2015-02-03T18:19:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 87,
+    "type": "issue",
+    "actor": "milibopp",
+    "date": "2015-02-03T18:19:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "56ad5e44b7561b8ca5c510808f1c8552fc08de00",
+    "actor": "jooert",
+    "date": "2015-05-12T09:28:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "23300a39a1ceffdba4c4695fc2e527e47ea2c95d",
+    "actor": "jooert",
+    "date": "2015-05-12T10:24:49Z"
+  }
+]

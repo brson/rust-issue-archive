@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "07ca1ab1ec32ac99a61312ec07d66db5f3657040",
+    "actor": "bors",
+    "date": "2015-09-23T03:56:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d704c1d6da2559d99ea85fcb721c7e6cab4d6c42",
+    "actor": "nnethercote",
+    "date": "2023-11-09T02:45:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 117737,
+    "type": "issue",
+    "actor": "nnethercote",
+    "date": "2023-11-09T02:45:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2e40d11f8cd9d0e2f9c62e40311f64161d3071cb",
+    "actor": "nnethercote",
+    "date": "2023-11-10T03:01:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a35f9c1a7867876fbb9f3501c2fdb3524c22580c",
+    "actor": "bors",
+    "date": "2023-11-10T03:03:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf8cf456b68d4318ef4f0b73c613b9b3f246e185",
+    "actor": "TaKO8Ki",
+    "date": "2023-11-13T15:54:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "aaf9e92085b319e3b90d1aa2fe9b7ed4c0ce8482",
+    "actor": "rust-timer",
+    "date": "2023-11-13T19:41:51Z"
+  }
+]

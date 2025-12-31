@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "7926aeeca496297ecd6939def26c003c2a8f3a66",
+    "actor": "ftxqxd",
+    "date": "2014-07-05T00:56:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15441,
+    "type": "issue",
+    "actor": "ftxqxd",
+    "date": "2014-07-05T00:56:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ea037d02deb753c1cd5bcbd2bad2e2534e4e173a",
+    "actor": "bors",
+    "date": "2014-07-06T05:46:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1fde334195f0a8ac43d242bc871e6723e963620d",
+    "actor": "bors",
+    "date": "2023-08-21T11:17:00Z"
+  }
+]

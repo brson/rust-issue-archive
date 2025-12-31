@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5491,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2013-03-24T04:08:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eaffd0e41837dd952d0854a2f2aea35cccbb6319",
+    "actor": "bors",
+    "date": "2020-10-24T18:21:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "725db880228e15cc1247ce2317304e85c89349b7",
+    "actor": "RalfJung",
+    "date": "2025-11-16T11:25:57Z"
+  }
+]

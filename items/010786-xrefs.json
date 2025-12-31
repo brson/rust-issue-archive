@@ -1,0 +1,95 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fe78af4e754678336b6dc55586da4224e2c3a2fe",
+    "actor": "alexcrichton",
+    "date": "2014-04-07T20:18:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dfc4592b2db3cbe8868c3cf24b23c50fa131d608",
+    "actor": "alexcrichton",
+    "date": "2014-04-08T05:28:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cced02fcacfe4a6d1598e987003e00aa65713efb",
+    "actor": "alexcrichton",
+    "date": "2014-04-08T07:03:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6bf41bfdda8489142b9689061f0842d3e5319bae",
+    "actor": "vhbit",
+    "date": "2014-04-14T12:20:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 68298,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2020-01-20T16:56:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 93945,
+    "type": "issue",
+    "actor": "bjorn3",
+    "date": "2022-02-12T17:58:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "86e45ec336f0ccde044af1ace8b3c425239d01f2",
+    "actor": "bors",
+    "date": "2022-02-12T17:59:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3e62ae8cce9be671b29a9715b3d390e4ad0c92d2",
+    "actor": "bors",
+    "date": "2022-02-12T18:20:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9cd483d5c915893dd675e43dc2c9945d513313bb",
+    "actor": "flip1995",
+    "date": "2023-05-20T13:39:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 113695,
+    "type": "issue",
+    "actor": "bjorn3",
+    "date": "2023-07-14T15:01:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b0d1df2c2e875462902ed1ccb6318a28dd82d484",
+    "actor": "bors",
+    "date": "2023-07-14T15:05:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2da07d23d194da9a54d3161894b3db0bd64bcb43",
+    "actor": "bors",
+    "date": "2023-07-15T10:06:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e094c70bbf1faa6bb972d7ecfd47860795d6c7a2",
+    "actor": "bors",
+    "date": "2023-07-19T20:06:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b14fd2359f47fb9a14bbfe55359db4bb3af11861",
+    "actor": "bors",
+    "date": "2023-07-20T09:00:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5007aff3355d11c4aabcb74cdc2f5ec764fdfd5f",
+    "actor": "github-actions[bot]",
+    "date": "2023-07-22T06:37:00Z"
+  }
+]

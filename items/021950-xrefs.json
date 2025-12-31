@@ -1,0 +1,76 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24259,
+    "type": "issue",
+    "actor": "lgrz",
+    "date": "2015-04-10T06:25:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a8bfb4b6ec57066f6071d89c7987dfcee2717c4c",
+    "actor": "Manishearth",
+    "date": "2015-04-10T11:18:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2cb82b6be9ed835f8a703f8570dbd65b432fb377",
+    "actor": "steveklabnik",
+    "date": "2015-04-10T13:25:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "88efb5ced2666afe21294c981bc3069cd20899f2",
+    "actor": "steveklabnik",
+    "date": "2015-04-10T16:44:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bbec37813b0cbaba44489d0a927afa6aa256be5f",
+    "actor": "steveklabnik",
+    "date": "2015-04-10T18:43:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "66594c98cc7c24b11b33d989a91542805a200ae2",
+    "actor": "steveklabnik",
+    "date": "2015-04-10T19:22:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bbad292de1191240bb2e515d8fce3250afdc4e76",
+    "actor": "steveklabnik",
+    "date": "2015-04-10T20:29:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b6cb73b5344edca5ad8c08d5921886d80f67f19d",
+    "actor": "Manishearth",
+    "date": "2015-04-11T14:05:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 146536,
+    "type": "issue",
+    "actor": "omskscream",
+    "date": "2025-09-14T09:13:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1c1d5c71e0ab458ba3d3ae215dfa79f8666070c3",
+    "actor": "jdonszelmann",
+    "date": "2025-09-17T18:29:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5d56cac3cf4fc606501d24e680f4632516d68dc",
+    "actor": "rust-timer",
+    "date": "2025-09-18T00:36:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b7687ce510092d484ab241895f4e8f5a94a4a6fe",
+    "actor": "Kobzol",
+    "date": "2025-12-21T10:46:54Z"
+  }
+]

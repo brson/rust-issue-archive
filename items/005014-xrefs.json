@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2238,
+    "type": "issue",
+    "actor": "Kimundi",
+    "date": "2013-02-18T22:41:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a8efa2133392cc846d4ea3cae14f0eb4eccb5f1e",
+    "actor": "bors",
+    "date": "2013-02-19T14:18:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9826,
+    "type": "issue",
+    "actor": "frewsxcv",
+    "date": "2018-10-28T19:50:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "52b9e704c6fa3903ac235065aa6152bff92f712d",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:50Z"
+  }
+]

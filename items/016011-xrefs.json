@@ -1,0 +1,54 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 15972,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2014-07-28T19:34:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2014-07-29T07:42:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8c0ca964bc35050b610bc02c14260b8ae5b31d07",
+    "actor": "dotdash",
+    "date": "2014-07-29T18:30:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16080,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2014-07-29T18:31:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "04fa9066480d172ffd4b6d02f9edf5b3d31fef56",
+    "actor": "alexcrichton",
+    "date": "2014-07-29T23:29:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16225,
+    "type": "issue",
+    "actor": "pczarn",
+    "date": "2014-08-03T21:03:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b9308d1ff0b32598e791a0a68f68cf7e09a07f22",
+    "actor": "bors",
+    "date": "2014-08-06T21:56:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f1de7d727360c8b68f1e68966c1b204b6601397a",
+    "actor": "lnicola",
+    "date": "2024-01-03T09:37:59Z"
+  }
+]

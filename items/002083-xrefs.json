@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2118,
+    "type": "issue",
+    "actor": "jamorton",
+    "date": "2012-04-03T09:03:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7eacdf58b1bbf3a87d5d006263a259928d8f232",
+    "actor": "milibopp",
+    "date": "2015-01-09T21:59:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6220d0756caa62a2a65a730cc9ba0624de4f26f",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b69eb632b764d8eb7e93f65a30517161cfa37da6",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:28Z"
+  }
+]

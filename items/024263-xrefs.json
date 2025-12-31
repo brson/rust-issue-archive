@@ -1,0 +1,115 @@
+[
+  {
+    "event": "referenced",
+    "commit": "41dd35503a358b652cfbbf7fba499cbaf1234637",
+    "actor": "pnkfelix",
+    "date": "2015-04-10T10:24:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24270,
+    "type": "issue",
+    "actor": "ranma42",
+    "date": "2015-09-01T09:06:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 34244,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2016-06-13T00:12:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11815,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2016-06-21T16:28:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 34785,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2016-07-12T17:21:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1696,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2016-08-01T18:34:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27749,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2016-08-22T13:44:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 36823,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2016-09-29T07:17:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "954873055a998a06841ac19b39b1fe18a6641731",
+    "actor": "bors",
+    "date": "2016-09-30T14:35:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43398,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2017-07-21T23:21:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6f65211b9d4349e38ec86924e1108adaac895346",
+    "actor": "durka",
+    "date": "2017-09-02T05:58:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d51643498142b2b33cdad02f4f9dcfe627d52a83",
+    "actor": "durka",
+    "date": "2017-09-02T06:00:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0006d3e01c5c4e4a90c59e85e2564f2440f1e8b1",
+    "actor": "bors",
+    "date": "2017-09-03T21:32:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2089,
+    "type": "issue",
+    "actor": "dtolnay",
+    "date": "2017-09-04T16:15:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c4474ab905f5b81b481a69454afc029af64fb1ed",
+    "actor": "alexcrichton",
+    "date": "2017-09-14T17:38:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45095,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2017-10-07T19:46:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 51561,
+    "type": "issue",
+    "actor": "mbrubeck",
+    "date": "2018-06-14T18:40:53Z"
+  }
+]

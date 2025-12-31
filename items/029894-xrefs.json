@@ -1,0 +1,36 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1288,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-11-17T21:42:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b289892b5d4acd52237fb88ab12f825e7602280c",
+    "actor": "bors",
+    "date": "2015-11-19T23:57:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29956,
+    "type": "issue",
+    "actor": "sfackler",
+    "date": "2015-11-20T22:05:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32626,
+    "type": "issue",
+    "actor": "crumblingstatue",
+    "date": "2016-03-30T21:25:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31866,
+    "type": "issue",
+    "actor": "dtolnay",
+    "date": "2017-11-17T04:51:16Z"
+  }
+]

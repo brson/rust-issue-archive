@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 33,
+    "type": "issue",
+    "actor": "milibopp",
+    "date": "2015-01-10T14:10:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21946,
+    "type": "issue",
+    "actor": "kyledewey",
+    "date": "2015-02-04T22:10:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "17dc96c9107d6f9f388a6c06b78ce57e30039401",
+    "actor": "nikomatsakis",
+    "date": "2015-02-11T16:14:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22182,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-02-11T16:51:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d3f77a53245fd599332c5073221858d69051e28d",
+    "actor": "nikomatsakis",
+    "date": "2015-02-12T18:06:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "14141aca80a78dc8ec67bce463c5677ec0280264",
+    "actor": "nikomatsakis",
+    "date": "2015-02-12T18:30:19Z"
+  }
+]

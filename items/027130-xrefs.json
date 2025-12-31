@@ -1,0 +1,135 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e2491b4737ccd8aeaa5f8a639b841ee058d5d94d",
+    "actor": "dotdash",
+    "date": "2015-07-21T08:45:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27180,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2015-07-21T08:47:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "df042e003c801ae8f8acdddb3e6c61f4b41c1898",
+    "actor": "dotdash",
+    "date": "2015-07-22T12:49:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f9921c269df21736651fc69ac2a9e087a5279a54",
+    "actor": "hanna-kruppe",
+    "date": "2015-08-06T17:42:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e5b93d3b31a28da2055ca9212748ad8d184fa49",
+    "actor": "pnkfelix",
+    "date": "2015-08-06T18:10:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ac8d8096851c0e263bbe85afe0e01dee0979ab6",
+    "actor": "bugadani",
+    "date": "2020-08-25T15:59:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a4090d28da2068692d262649e99bbb4e4e32ca67",
+    "actor": "bugadani",
+    "date": "2020-08-25T16:03:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 75910,
+    "type": "issue",
+    "actor": "bugadani",
+    "date": "2020-08-25T16:09:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b7ab6519a776648aa17329e17b9d0247ddad8596",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-27T19:21:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 75999,
+    "type": "issue",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-27T19:21:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f922f94dcb4092d91292eb86f66407f5f3e411c5",
+    "actor": "bors",
+    "date": "2020-08-27T20:43:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9423b430d48b1a86b17c27dcfb521a6b698910ac",
+    "actor": "pietroalbini",
+    "date": "2020-08-28T12:31:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76025,
+    "type": "issue",
+    "actor": "pietroalbini",
+    "date": "2020-08-28T12:31:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "21bc15a804c74ba65b19e69dfdbc5f854bd21fed",
+    "actor": "bors",
+    "date": "2020-08-28T16:48:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1f1dbdcf5765af8c0f6b4a61a4f044a9711721d7",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-29T00:10:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76045,
+    "type": "issue",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-29T00:10:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "80b1a30affb6ddd7beece30428791488b1c2bd53",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-29T10:18:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76054,
+    "type": "issue",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-29T10:18:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d5b98a74d09e05bad03f08dbd0701330d65919cb",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-29T23:43:50Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76090,
+    "type": "issue",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-08-29T23:44:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "62850d882b1f546783d064ca3b51d1f85b92eeb7",
+    "actor": "bors",
+    "date": "2020-08-30T00:47:44Z"
+  }
+]

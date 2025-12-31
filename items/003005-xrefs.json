@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "22e3a8506f6d8ac9457214caf69de775c36b94ec",
+    "actor": "eholk",
+    "date": "2012-07-24T21:56:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3124,
+    "type": "issue",
+    "actor": "eholk",
+    "date": "2012-08-07T05:30:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e29fd7bebe0ba302ec8d326a02c86b7fe71c30b4",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0ea879f9ceab7080d46d56f05338d6a2f261452f",
+    "actor": "RalfJung",
+    "date": "2023-08-06T20:47:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "43475da1c41596c1eb64bcd9e47e7faea1fa7174",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:55Z"
+  }
+]

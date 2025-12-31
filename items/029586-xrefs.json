@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 37282,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-02-10T02:45:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 48160,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-02-12T18:38:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 48338,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-02-18T23:14:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "56c73f9a931dfe94fc369e6bc919b32934502f1e",
+    "actor": "bors",
+    "date": "2018-03-01T07:16:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e94df497c0af03d196a4ac501507a2d5385f7411",
+    "actor": "Manishearth",
+    "date": "2018-03-02T03:03:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b78bf234740ed8f040c8546e21d509fc137cb468",
+    "actor": "bors",
+    "date": "2018-03-02T03:03:37Z"
+  }
+]

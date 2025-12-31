@@ -1,0 +1,54 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f77568a7a344ce5490c4d07fc71c3424f96a31f2",
+    "actor": "lifthrasiir",
+    "date": "2014-04-25T04:08:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13739,
+    "type": "issue",
+    "actor": "lifthrasiir",
+    "date": "2014-04-25T04:10:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4f8947229e61c3465219d6ede9d27fef194adf5b",
+    "actor": "lifthrasiir",
+    "date": "2014-04-25T04:12:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15603,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2014-07-11T09:02:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24305,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-04-10T21:45:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23,
+    "type": "issue",
+    "actor": "QuietMisdreavus",
+    "date": "2017-08-07T21:27:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "af987dafcbfcc1beefd8694f80b15ccd06a533df",
+    "actor": "bors",
+    "date": "2022-10-18T07:46:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2e5b6801fff90af51323414da014fcb8345421d2",
+    "actor": "bors",
+    "date": "2024-09-24T17:41:14Z"
+  }
+]

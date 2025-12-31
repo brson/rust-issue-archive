@@ -1,0 +1,70 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fcf56397ed2faa54a970ddfb411a17b196b56bcc",
+    "actor": "huonw",
+    "date": "2014-02-05T10:58:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12047,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2014-02-05T11:00:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76f2751bd8b1fe7ac993054c2d646df52e3dbb3b",
+    "actor": "huonw",
+    "date": "2014-02-05T21:55:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "da45340ab84603cf6932b012b977bc2e7b8d6764",
+    "actor": "huonw",
+    "date": "2014-02-05T22:06:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9a9a70b3fde3690e710fddb3d5d3b2f580ee07fb",
+    "actor": "bors",
+    "date": "2014-02-06T11:11:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5f620cfdb06f91f00782b9103a10193391dfa5b2",
+    "actor": "jxs",
+    "date": "2014-04-02T00:59:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b2881dc47a49a39a2e6bca619929e9fd180c8d1",
+    "actor": "alexcrichton",
+    "date": "2024-03-05T15:39:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1546,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2024-03-05T15:39:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d8f91204f5e1104e42bc8b2b4c80ec67696cbab4",
+    "actor": "Amanieu",
+    "date": "2024-03-05T21:50:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f29231064a85103d9c7b4d3cde15999c5cff38e",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-09T09:32:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a13b65390c673f01b19d599528eaaec544c8efb1",
+    "actor": "tautschnig",
+    "date": "2025-07-03T16:27:47Z"
+  }
+]

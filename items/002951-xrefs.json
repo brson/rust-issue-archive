@@ -1,0 +1,66 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3366,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-09-03T18:24:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3195,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2013-05-07T00:44:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2632,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2013-05-08T21:42:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7698,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-07-10T18:53:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7040e8a249a8cd53931603b89e0d12b0b854398",
+    "actor": "bors",
+    "date": "2013-07-10T21:37:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "44db762258c1c1bf8f27925f22d5da3cdde84703",
+    "actor": "kennytm",
+    "date": "2018-09-01T13:14:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "59f30b9929998279d024c25e1fbea18659fb1ae6",
+    "actor": "bors",
+    "date": "2018-09-01T14:38:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1c2e17f4e3a2070a7f703f51e29c1c388ef703b6",
+    "actor": "bors",
+    "date": "2018-09-04T13:17:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a6eb25aca269b26a5b75dd5276dd542ba978f92b",
+    "actor": "RalfJung",
+    "date": "2023-07-08T07:44:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "64232a0c953b27d7f35ecbb39ff70d15652bbc36",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:43Z"
+  }
+]

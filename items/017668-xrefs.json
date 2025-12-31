@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 256,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2014-10-01T00:11:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17666,
+    "type": "issue",
+    "actor": "eddyb",
+    "date": "2014-10-01T08:25:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e651da9ff366c5df78fcd6e8ba161fdcc5470c95",
+    "actor": "lnicola",
+    "date": "2024-07-28T14:46:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b349baa0a9657692f3b022b4ba6ce639ce20621b",
+    "actor": "RalfJung",
+    "date": "2024-08-01T10:19:53Z"
+  }
+]

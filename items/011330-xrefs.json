@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 10430,
+    "type": "issue",
+    "actor": "jhasse",
+    "date": "2014-01-05T22:12:50Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32,
+    "type": "issue",
+    "actor": "jhasse",
+    "date": "2014-01-05T22:16:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "780a417fe15cfee1464ae085e58c0e83fd585d7c",
+    "actor": "bors",
+    "date": "2014-01-05T23:36:47Z"
+  }
+]

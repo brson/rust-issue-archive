@@ -1,0 +1,39 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1208,
+    "type": "issue",
+    "actor": "pcwalton",
+    "date": "2013-11-09T07:02:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4eb84496211bb48d2804a0ddcd16849536546103",
+    "actor": "bors-servo",
+    "date": "2013-11-13T08:07:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76a5ae503b0fa4bb956ee21c9a579e756935718c",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:38:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f74a52d260301ebeba435f606f2707865279c4f8",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T23:45:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4d7e60bea79a7cac3a28174b0e48b4c96536bf26",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:00:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "574c8aeeb5320a672c4956a8749d577637ad7712",
+    "actor": "Jarcho",
+    "date": "2023-02-26T00:10:45Z"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18101,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-10-16T22:34:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ec5d3a1114274c175445a0c6aae60b375c017e4",
+    "actor": "nikomatsakis",
+    "date": "2015-01-24T22:47:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d9ac5b3f26bdc8d2ed7c5dbce991ea0253fd1ad7",
+    "actor": "nikomatsakis",
+    "date": "2015-01-27T02:15:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "293616c62006e09e13060ecc13830e55360d8c65",
+    "actor": "nikomatsakis",
+    "date": "2015-01-27T14:46:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a88ef0a54962a0ea097d60afa4d7f63aaafc4d75",
+    "actor": "nikomatsakis",
+    "date": "2015-01-29T09:45:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2f29cdeb4bdd7aa724d3872deb4d8f59c17aa1bd",
+    "actor": "nikomatsakis",
+    "date": "2015-01-30T14:25:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5035f49312edc3d2d92ec86c41866472e65b771",
+    "actor": "bors",
+    "date": "2024-03-17T10:48:11Z"
+  }
+]

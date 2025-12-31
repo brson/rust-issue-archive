@@ -1,0 +1,53 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4a80ff2b8671bbd0ba753220562b24854bcac237",
+    "actor": "Manishearth",
+    "date": "2015-12-25T11:24:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30555,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-12-25T11:24:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7753e0c96f6a26e2ee743e19ce40f74eb1d4b03e",
+    "actor": "bors",
+    "date": "2015-12-25T11:51:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5b838c586c4da31395d614d9f076430314fa05ff",
+    "actor": "bors",
+    "date": "2015-12-25T14:27:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6f8643195227a7577798abee7a1144d92c49b646",
+    "actor": "bors",
+    "date": "2016-01-11T02:09:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d228cd3964b7cbac7665ff38bde46da67586b87d",
+    "actor": "bors",
+    "date": "2016-01-11T10:19:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 88561,
+    "type": "issue",
+    "actor": "ijackson",
+    "date": "2021-11-09T00:37:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 87074,
+    "type": "issue",
+    "actor": "ijackson",
+    "date": "2021-11-09T11:47:06Z"
+  }
+]

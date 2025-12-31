@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c40866785f6eac48eb00ed19d8e0121968dd72cd",
+    "actor": "jooert",
+    "date": "2015-05-27T09:30:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25821,
+    "type": "issue",
+    "actor": "jooert",
+    "date": "2015-05-27T09:31:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22774,
+    "type": "issue",
+    "actor": "jooert",
+    "date": "2015-05-28T12:23:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4f5a7440dbab9af7bebf50a2e5764c0d8f88c375",
+    "actor": "Manishearth",
+    "date": "2015-06-02T05:44:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17356,
+    "type": "issue",
+    "actor": "edunham",
+    "date": "2015-06-02T17:12:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "48ff33c4ea4178e12076a2a1315e6a24cc7ffe93",
+    "actor": "alexcrichton",
+    "date": "2015-06-10T00:07:42Z"
+  }
+]

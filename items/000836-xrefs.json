@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "031529e3fe34267168a43cf74dbdd9e41f12ac43",
+    "actor": "pcwalton",
+    "date": "2011-08-19T01:15:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dfd33cc6e75d36c8c30733d80ec6423ebca96bb1",
+    "actor": "arielb1",
+    "date": "2015-04-10T00:15:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31437,
+    "type": "issue",
+    "actor": "Burgos",
+    "date": "2016-02-06T19:29:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e38483f494545d2e58e60ef93d17aa17327dbbdb",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c74b3060372cb1057f5623a2d09d8b1599c133f8",
+    "actor": "bors",
+    "date": "2020-10-26T16:31:53Z"
+  }
+]

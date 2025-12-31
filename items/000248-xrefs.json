@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "14c8fe7ace4c795c01d03e0d326127efba089488",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c2d1c71eefaab8685bc2278969bb0c1eac304565",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2023-03-02T00:57:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b764eeb386faf0de1e334d953350483a20818027",
+    "actor": "carolynzech",
+    "date": "2025-02-21T15:02:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c075b158d73a67d264ce41f32e3cbfb2ac47b1d3",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:39Z"
+  }
+]

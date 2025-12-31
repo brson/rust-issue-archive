@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2014-11-04T21:50:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3480bedcdd402dd5049e1f7279fb4f1a25fdd785",
+    "actor": "lnicola",
+    "date": "2024-07-28T14:46:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ff425b50d851e2c0e27a1a6feb94b825239247a1",
+    "actor": "RalfJung",
+    "date": "2024-08-01T10:19:55Z"
+  }
+]

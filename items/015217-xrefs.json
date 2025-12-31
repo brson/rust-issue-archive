@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 15253,
+    "type": "issue",
+    "actor": "mdinger",
+    "date": "2014-07-14T18:18:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "aa0e35bc64b2b1f4b21bc653e74ba986e98610e2",
+    "actor": "bors",
+    "date": "2014-07-22T00:26:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ed4e28b2db7c058a39b498b5524e76f1188a4525",
+    "actor": "bors",
+    "date": "2023-08-21T11:16:58Z"
+  }
+]

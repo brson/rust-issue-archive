@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1471,
+    "type": "issue",
+    "actor": "main--",
+    "date": "2016-01-22T17:18:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29722,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2016-04-08T20:34:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0ee2650e07ccd0b87d945d38e52c84b4dbc752c8",
+    "actor": "bors",
+    "date": "2024-09-24T17:41:11Z"
+  }
+]

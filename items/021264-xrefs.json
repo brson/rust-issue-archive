@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21282,
+    "type": "issue",
+    "actor": "Aatch",
+    "date": "2015-01-17T04:11:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dd8f887aee2c86f6f202d9eb56bdd14cecd7332f",
+    "actor": "bors",
+    "date": "2015-01-19T05:55:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "43f2c199e4e87d7ccd15658c52ad8dc5a1d54fb9",
+    "actor": "bors",
+    "date": "2015-01-19T12:17:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "30332663cb48250e8ee45b70e1792c69a55ee7da",
+    "actor": "lnicola",
+    "date": "2025-12-15T10:02:17Z"
+  }
+]

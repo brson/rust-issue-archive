@@ -1,0 +1,60 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0fb291b64ff6495c43c7790953ebfadaffd5e901",
+    "actor": "alexcrichton",
+    "date": "2014-06-17T00:50:50Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14953,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-06-17T00:50:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "375c5b884fd41e637bf0eff6d58c16cc18b179a9",
+    "actor": "alexcrichton",
+    "date": "2014-06-17T02:00:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "206dd91742b43ffa81463e53671afdc412699905",
+    "actor": "bors",
+    "date": "2014-07-08T22:51:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15545,
+    "type": "issue",
+    "actor": "chris-morgan",
+    "date": "2014-07-09T08:44:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15546,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-07-09T14:01:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dab9a02ab8b96d83e839df446128ed782747da43",
+    "actor": "Kroisse",
+    "date": "2014-07-16T13:01:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f49c8e341dfec5b684d47d6b32fac5089eddc58b",
+    "actor": "emberian",
+    "date": "2014-07-21T02:28:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29941,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2015-11-19T23:15:24Z"
+  }
+]

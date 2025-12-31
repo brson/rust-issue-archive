@@ -1,0 +1,88 @@
+[
+  {
+    "event": "referenced",
+    "commit": "6d332b6a54e55478caab85b16d7d68a3014f6dac",
+    "actor": "nikomatsakis",
+    "date": "2013-06-06T01:15:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "154270fed87e3a82198562bd120180c3be504dbd",
+    "actor": "nikomatsakis",
+    "date": "2013-06-16T18:05:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7187,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-06-16T18:08:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6210f61289c3f91cf92d42ce614bf79f050f5768",
+    "actor": "bors",
+    "date": "2013-06-17T18:31:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3e963352d76562ed5594e465084166f4093ed552",
+    "actor": "nikomatsakis",
+    "date": "2013-06-19T13:23:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9e6d5e152ee30c306afccfe9ede105acc6a0a278",
+    "actor": "nikomatsakis",
+    "date": "2013-07-02T00:45:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3b966d4d731eebaa29c6b7dce4ec5411100578d9",
+    "actor": "bors",
+    "date": "2013-07-02T01:04:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3e6242be5a1bb8f8952ff28ef88d802b720f9e35",
+    "actor": "bors",
+    "date": "2013-07-02T01:34:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "98f0e85fb0448f6b42a08fa9fd3d0ca2c041c839",
+    "actor": "bors",
+    "date": "2013-07-02T04:25:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8894f6e00ce7a798825e4a03e29a212c228e0890",
+    "actor": "bors",
+    "date": "2013-07-02T16:28:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4347db130ec67070439bc2ec179e50240fbb958f",
+    "actor": "bors",
+    "date": "2013-07-02T19:05:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1754946b3ed693834bb79760169e528277fd98d2",
+    "actor": "RalfJung",
+    "date": "2023-12-26T08:41:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d4a3f7b4bb1b485aae6618e016bbfd021270ca18",
+    "actor": "jaisnan",
+    "date": "2024-07-29T17:32:03Z"
+  }
+]

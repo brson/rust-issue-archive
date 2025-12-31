@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 29282,
+    "type": "issue",
+    "actor": "little-dude",
+    "date": "2015-10-25T09:43:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2ba44607fe09c4fb98a52ca2149b0c9869a87b4c",
+    "actor": "bors",
+    "date": "2015-11-22T23:01:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27867,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-11-23T00:46:35Z"
+  }
+]

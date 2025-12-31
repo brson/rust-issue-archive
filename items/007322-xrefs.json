@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 7325,
+    "type": "issue",
+    "actor": "artagnon",
+    "date": "2013-06-23T17:00:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a48bd3fde25e069efa978535e3a99afdc737a36a",
+    "actor": "bors",
+    "date": "2013-06-25T16:50:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4967bd0508a4d04797e0fff49517b7abbc086b74",
+    "actor": "bors",
+    "date": "2013-06-25T20:11:14Z"
+  }
+]

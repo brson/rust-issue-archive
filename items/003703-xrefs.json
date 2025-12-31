@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "aa53505c18488f4afc00f63495796a699bfb5594",
+    "actor": "catamorphism",
+    "date": "2012-10-09T00:38:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 123636,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-04-08T17:01:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6146bdb900b7330dc6e79c00841d7bec11723f25",
+    "actor": "matthiaskrgr",
+    "date": "2024-04-09T04:02:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1539e9843a109f8c586f23c5289b58afeb284768",
+    "actor": "rust-timer",
+    "date": "2024-04-09T07:14:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9a42436d1fe0ecd25ddb1f1397ca446c005c2dc3",
+    "actor": "RalfJung",
+    "date": "2024-06-29T11:10:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "340b98a480b13125d32912005860a002ddac9bd9",
+    "actor": "RalfJung",
+    "date": "2024-06-29T11:10:03Z"
+  }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5515,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-03-23T13:52:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a56ec8c1342453a88be79e192a11501844375d40",
+    "actor": "bors",
+    "date": "2013-03-23T19:36:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7727c4ac7f3d4c977866bd8e6659a3e27f0bb6aa",
+    "actor": "tesuji",
+    "date": "2020-06-04T04:49:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6c008d7e91edee907fca45741ac70560c66f0222",
+    "actor": "tesuji",
+    "date": "2020-06-04T04:49:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f40e71c9de3d5d1075fa9fd94fccdd6126ae1ad4",
+    "actor": "lnicola",
+    "date": "2025-09-18T14:54:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c82a25860547ece12081be3e2df7caff6bfd0ca",
+    "actor": "lnicola",
+    "date": "2025-09-18T14:54:34Z"
+  }
+]

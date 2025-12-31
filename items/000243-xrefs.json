@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "555fc41d5ed4922b7dd3c3ca874eb784e8d6e770",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4411ad7db204e3859dddf6a061f9a53eb43cbe5",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:39:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2023-03-02T00:57:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7e49000dd4af41f3fe6ca65f822cf84e493d3309",
+    "actor": "ZuseZ4",
+    "date": "2023-03-07T00:48:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6ad065fc8aa80f335eaad4c2f30951716bbb077",
+    "actor": "matthiaskrgr",
+    "date": "2023-03-07T18:57:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5699f3ca2b71f52e482bd21ceac46f0e53934ff4",
+    "actor": "carolynzech",
+    "date": "2025-02-19T22:07:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1050f48fb391dfe26d7332cc52d40e97e64893df",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:38Z"
+  }
+]

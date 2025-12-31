@@ -1,0 +1,36 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2033,
+    "type": "issue",
+    "actor": "pcwalton",
+    "date": "2013-04-23T16:52:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6264,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2013-08-28T10:45:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3309,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-10-09T16:07:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6,
+    "type": "issue",
+    "actor": "rust-highfive",
+    "date": "2014-12-29T19:41:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "21c351867a4a81d12989e2166ba2418180e3e258",
+    "actor": "flip1995",
+    "date": "2020-09-24T12:49:38Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e8e649239c67543f2719d0ee045ed87ad81b7382",
+    "actor": "salty-horse",
+    "date": "2015-12-29T21:14:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30620,
+    "type": "issue",
+    "actor": "salty-horse",
+    "date": "2015-12-29T21:14:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a73df6bf24bc6f55cf3d2fa60f397bc7a0cb7024",
+    "actor": "steveklabnik",
+    "date": "2015-12-30T14:24:25Z"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 27682,
+    "type": "issue",
+    "actor": "neurons",
+    "date": "2015-08-12T01:40:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1ab038dee7add431f6e050374b0aea50d22d6fa8",
+    "actor": "alexcrichton",
+    "date": "2015-08-12T05:29:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fe3ab2105402f89c9c074142d79b7e560463f19b",
+    "actor": "alexcrichton",
+    "date": "2015-08-12T05:44:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "58ac4d2d1237ffa612dc439d1b6e7c3d3cc51140",
+    "actor": "steveklabnik",
+    "date": "2017-03-01T17:12:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "aa44d31a7390a4b8dfe9d1586facce30b6b75f54",
+    "actor": "steveklabnik",
+    "date": "2017-03-01T17:31:19Z"
+  }
+]

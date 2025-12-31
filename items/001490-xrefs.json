@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 12786,
+    "type": "issue",
+    "actor": "ramnes",
+    "date": "2014-03-09T14:04:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2df34f9091c7b87b8a6755a041b4358a606cac43",
+    "actor": "bjorn3",
+    "date": "2024-05-13T13:26:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0ca0e78a0abfa01a000ce0d00d7cff5e19dec0c6",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8c32370f40fb6ba15ada75b1ff04a2c43997bf29",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:00Z"
+  }
+]

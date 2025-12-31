@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1533,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-01-15T22:24:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b0250fca191a9520540a49d1166e32cfa13beb95",
+    "actor": "bjorn3",
+    "date": "2024-01-26T18:34:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cf728faa26e2c32616bac3b180e0b2f3c1835a0f",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-09T09:32:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4e3e7ad609de9f01c7d016fab25819b0cb551917",
+    "actor": "tautschnig",
+    "date": "2025-07-03T16:27:45Z"
+  }
+]

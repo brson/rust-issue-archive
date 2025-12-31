@@ -1,0 +1,89 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 852,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2015-06-17T16:38:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1961,
+    "type": "issue",
+    "actor": "scottmcm",
+    "date": "2017-06-05T04:05:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42496,
+    "type": "issue",
+    "actor": "Razaekel",
+    "date": "2017-06-07T03:03:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "378887b21df222414e9c6e3f07d38079240f6d2e",
+    "actor": "bors",
+    "date": "2017-06-13T16:44:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7463cf5faf90c3f9c99077267520d53d73393591",
+    "actor": "frewsxcv",
+    "date": "2017-06-13T21:15:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a7f664f3a6af393283314ddaa5756f315867ad5d",
+    "actor": "budziq",
+    "date": "2017-09-15T10:53:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5398e03704a54e62f06b1f1498d89041c9cc4e25",
+    "actor": "budziq",
+    "date": "2017-09-15T10:54:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e9b68f4ac1e31b60a50ea19fc1c1cb81f33b0c9",
+    "actor": "GuillaumeGomez",
+    "date": "2017-09-15T14:48:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "adc09615dbe0e67302b2fbb33b656f7c2d81ef4a",
+    "actor": "alexcrichton",
+    "date": "2017-09-16T01:02:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1ae6ab4eeeb091cafd00955fff0bed89a7f6a57e",
+    "actor": "frewsxcv",
+    "date": "2017-09-16T02:10:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5c2a9b059a46a2402b535f3b47d92cb99a7edb38",
+    "actor": "alexcrichton",
+    "date": "2017-09-16T14:17:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dec9671484495d7c0105a80351f24e06e04a3ae7",
+    "actor": "alexcrichton",
+    "date": "2017-09-16T21:13:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3cc135afa3b470a058c9ae95bd543faf625d0480",
+    "actor": "alexcrichton",
+    "date": "2017-09-17T00:09:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "df8fec1d704392317cb8390862b189d38f1187c1",
+    "actor": "dtolnay",
+    "date": "2017-09-25T06:04:59Z"
+  }
+]

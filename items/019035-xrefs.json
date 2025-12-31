@@ -1,0 +1,109 @@
+[
+  {
+    "event": "referenced",
+    "commit": "cdaa3d4104e99ea99ed4f1281ff5ad4c154c64ec",
+    "actor": "japaric",
+    "date": "2014-11-17T16:22:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ad24fd6f841837a0bb6d742dc9a980fd04eec8a6",
+    "actor": "japaric",
+    "date": "2014-12-01T04:23:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19434,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-12-01T05:06:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20118,
+    "type": "issue",
+    "actor": "mdinger",
+    "date": "2014-12-21T23:55:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20251,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-12-26T23:48:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22099,
+    "type": "issue",
+    "actor": "mdinger",
+    "date": "2015-02-08T21:24:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22993,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-03-03T08:04:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6a6a1edad2b003038cfd4b3de01a52ef4ec43d97",
+    "actor": "nikomatsakis",
+    "date": "2015-03-24T21:30:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1c310fb79d027b2537fc843aa8912b51acd89525",
+    "actor": "nikomatsakis",
+    "date": "2015-03-25T00:36:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e4fcdea71dff682f8ab9f0a1d203c54c4027d0cb",
+    "actor": "nikomatsakis",
+    "date": "2015-03-25T00:38:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "82fdbdbbbda1151f66486d5c2de32597063aab29",
+    "actor": "nikomatsakis",
+    "date": "2015-03-25T00:45:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "40f1d5567615372c5cdfba563fdb50d6e7683985",
+    "actor": "nikomatsakis",
+    "date": "2015-03-25T09:13:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5265d571c396875caa1b1f9003b2ccd05e278eee",
+    "actor": "nikomatsakis",
+    "date": "2015-03-25T09:18:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1dbddda523bf481ca12b836fdcc47f38548af6e2",
+    "actor": "nikomatsakis",
+    "date": "2015-03-25T13:47:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7595c25ef93bb18b5f96805daee4d1890f5b6a6b",
+    "actor": "nikomatsakis",
+    "date": "2015-03-30T13:07:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf26974ae7972acaed3fa08e85508e21f8fdc655",
+    "actor": "pnkfelix",
+    "date": "2015-03-31T16:19:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a7cbe4bedd2a8a75ab1690d9429477b7b80ea834",
+    "actor": "lnicola",
+    "date": "2025-01-27T07:42:38Z"
+  }
+]

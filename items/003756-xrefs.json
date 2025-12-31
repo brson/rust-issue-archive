@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 13592,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2014-04-18T12:17:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18274,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-10-24T14:01:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "deb329a6bb1e6d2976cacd25333abdc976c1090d",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "12cb742e8258d32afefe304a8c2402a56d4a05ee",
+    "actor": "RalfJung",
+    "date": "2024-07-29T09:10:48Z"
+  }
+]

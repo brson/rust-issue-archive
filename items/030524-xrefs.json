@@ -1,0 +1,54 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30523,
+    "type": "issue",
+    "actor": "strega-nil",
+    "date": "2015-12-22T13:56:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 146,
+    "type": "issue",
+    "actor": "gnzlbg",
+    "date": "2015-12-23T19:02:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "68d1928e0d17e5126d3391968e3ed12ab2f0c98f",
+    "actor": "bors",
+    "date": "2016-01-01T02:31:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "50726c13376cd0906436559d12ea5c870fb73c12",
+    "actor": "bors",
+    "date": "2016-01-04T07:45:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e8cb3819bf62527947634ad4d5e44b4b69daecd",
+    "actor": "bors",
+    "date": "2016-01-04T18:37:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "82e781ace6b9e52a8a9331e415bac3a991ada801",
+    "actor": "notriddle",
+    "date": "2016-04-18T04:58:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2017-12-19T20:26:23Z"
+  }
+]

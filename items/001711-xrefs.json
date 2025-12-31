@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 88,
+    "type": "issue",
+    "actor": "burg",
+    "date": "2012-09-28T20:45:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f3f9b95c877fa5216c62e79735f51515048197b4",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cd9e42b8cfd24c3d252c123e7a6afc65297bb167",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:18Z"
+  }
+]

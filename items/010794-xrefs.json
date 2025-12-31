@@ -1,0 +1,15 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 10790,
+    "type": "issue",
+    "actor": "vmx",
+    "date": "2013-12-04T12:09:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "91695797c2ff36017edc47af270ca665f2f4d1ef",
+    "actor": "bors",
+    "date": "2013-12-04T13:26:40Z"
+  }
+]

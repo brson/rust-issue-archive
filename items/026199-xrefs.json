@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "400e955d8bbff8c3abc3c43c74fc255a70cf885e",
+    "actor": "bors",
+    "date": "2015-06-11T21:35:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26148,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-06-12T00:00:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45019,
+    "type": "issue",
+    "actor": "aidanhs",
+    "date": "2017-10-04T13:08:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "abef7e1fd26e6828bbba457173a76d150b1378d8",
+    "actor": "bors",
+    "date": "2017-10-05T10:50:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 96544,
+    "type": "issue",
+    "actor": "m-ysk",
+    "date": "2022-06-24T17:08:33Z"
+  }
+]

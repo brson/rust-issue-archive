@@ -1,0 +1,29 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 15347,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-07-18T11:17:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30094,
+    "type": "issue",
+    "actor": "ilammy",
+    "date": "2015-11-28T17:24:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32055,
+    "type": "issue",
+    "actor": "mitaa",
+    "date": "2016-03-05T09:58:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "72d588a62044b9fae0e5baaba21aa9166b6db9c5",
+    "actor": "bors",
+    "date": "2016-03-06T17:08:36Z"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 968,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2015-03-16T20:18:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d72a7d52c3addbc6664c090cfc98ce94484bed4d",
+    "actor": "nikomatsakis",
+    "date": "2015-03-18T13:23:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23475,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-03-18T13:24:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "111508751444afd543ab087e10badb3ffed00b5b",
+    "actor": "nikomatsakis",
+    "date": "2015-03-18T22:23:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c225824bded695c8bced713f5a4c62fe327277bc",
+    "actor": "nikomatsakis",
+    "date": "2015-03-19T00:07:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "911eb3c401f646fcc6b1775d47a1d7c8c916b9ec",
+    "actor": "Manishearth",
+    "date": "2015-03-19T00:39:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5f1bed57b482252df9e331b60d2ea90aa69b4fab",
+    "actor": "Manishearth",
+    "date": "2015-03-19T03:05:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a32bb1bcc4c6b8806b1058c2f654415341240233",
+    "actor": "Manishearth",
+    "date": "2015-03-19T03:18:56Z"
+  }
+]

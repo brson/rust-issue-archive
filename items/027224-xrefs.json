@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1825,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-07-22T23:28:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "69ca0125641db798f072f9a0f5d838686255eb37",
+    "actor": "bors",
+    "date": "2015-07-23T23:38:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10110,
+    "type": "issue",
+    "actor": "0xPoe",
+    "date": "2021-11-22T14:14:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e1fb17631eb1b3665cdbe45b1c186111577ef512",
+    "actor": "bors",
+    "date": "2021-11-22T16:53:08Z"
+  }
+]

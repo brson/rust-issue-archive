@@ -1,0 +1,59 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d0bc6a1f49f2802d603acf086ed54d976a79d703",
+    "actor": "sfackler",
+    "date": "2015-11-04T06:48:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29565,
+    "type": "issue",
+    "actor": "sfackler",
+    "date": "2015-11-04T06:49:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c2d6a7c771f7a4288d337d4b3cd20b5855e859e",
+    "actor": "bors",
+    "date": "2015-11-04T10:27:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9f84cae8ed2849ad7965e865c4928b3cfae0cb05",
+    "actor": "bors",
+    "date": "2015-11-04T22:33:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3a0409d29129d7128a55c93239d81a00d121a200",
+    "actor": "bors",
+    "date": "2015-11-05T18:15:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28951,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2015-12-06T15:24:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c844e1e12b6ab4e5d5e0892c7e5e9819ba940ac",
+    "actor": "mcarton",
+    "date": "2016-10-07T14:33:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1857,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2017-01-27T16:44:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "df53bd9fab1025e3aabc1835f551ae8a00ee6249",
+    "actor": "kankri",
+    "date": "2019-08-23T21:48:51Z"
+  }
+]

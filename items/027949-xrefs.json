@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "70290947355188be67db4f721be636b0695a4c80",
+    "actor": "jamwt",
+    "date": "2019-02-25T08:43:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f8e3e66a7b7fca7d7b9bb45ad061f02562117938",
+    "actor": "Centril",
+    "date": "2019-02-25T08:55:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 58726,
+    "type": "issue",
+    "actor": "Centril",
+    "date": "2019-02-25T08:55:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e53fbf8bf21a250ae1dcf39629edb9eaaea066eb",
+    "actor": "Centril",
+    "date": "2019-02-25T10:42:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 58728,
+    "type": "issue",
+    "actor": "Centril",
+    "date": "2019-02-25T10:42:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "da573206f87b5510de4b0ee1a9c044127e409bd3",
+    "actor": "bors",
+    "date": "2019-02-25T11:57:11Z"
+  }
+]

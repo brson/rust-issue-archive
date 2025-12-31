@@ -1,0 +1,49 @@
+[
+  {
+    "event": "referenced",
+    "commit": "858865478358c627f0485f3aef17ffb8bcfee612",
+    "actor": "alexcrichton",
+    "date": "2015-10-31T16:43:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29491,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-10-31T16:43:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7512808ac94cffd385a83d0bc6fc76d37a411879",
+    "actor": "bors",
+    "date": "2015-11-06T04:29:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 49143,
+    "type": "issue",
+    "actor": "DustinByfuglien",
+    "date": "2018-03-18T19:33:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16,
+    "type": "issue",
+    "actor": "AltSysrq",
+    "date": "2019-03-17T14:10:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 144,
+    "type": "issue",
+    "actor": "Jake-Shadle",
+    "date": "2020-12-03T13:49:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 231,
+    "type": "issue",
+    "actor": "taiki-e",
+    "date": "2025-05-05T06:45:10Z"
+  }
+]

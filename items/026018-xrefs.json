@@ -1,0 +1,34 @@
+[
+  {
+    "event": "referenced",
+    "commit": "882a7624a21ba4356889d7c0b9a246de39849687",
+    "actor": "bors",
+    "date": "2015-06-07T23:42:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b3ed4e6824808c0956009d92d0aef775c98541d",
+    "actor": "bors",
+    "date": "2015-06-08T00:19:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "717e8831b6b81669f7d087a2a1d7f7e899bcea43",
+    "actor": "bors",
+    "date": "2015-06-08T03:22:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26055,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-06-08T05:00:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1691,
+    "type": "issue",
+    "actor": "vhbit",
+    "date": "2015-06-08T07:36:57Z"
+  }
+]

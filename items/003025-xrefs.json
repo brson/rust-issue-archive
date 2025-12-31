@@ -1,0 +1,51 @@
+[
+  {
+    "event": "referenced",
+    "commit": "8c95feda3961efaffe4461d775b029f92a1744c4",
+    "actor": "graydon",
+    "date": "2012-08-08T01:44:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ff9151fa55e4e81c0cbaa7181eb672b2df6b53f6",
+    "actor": "pcwalton",
+    "date": "2012-08-26T17:53:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "62be878ed1715650f080c3b113a85f73e7af0973",
+    "actor": "pcwalton",
+    "date": "2012-08-26T18:27:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6484,
+    "type": "issue",
+    "actor": "Thiez",
+    "date": "2013-05-15T23:17:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a2d99259a420fc44cff11bbf69b38ec915f32e08",
+    "actor": "flip1995",
+    "date": "2020-12-20T16:59:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "66c15e46ba1c3cb0f48b65bd2e3ab2d2bb09fc99",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "13acd4f239971619ce351fc6956a3678260506a1",
+    "actor": "RalfJung",
+    "date": "2023-08-17T11:53:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "42fcf40af42a647f8ab74d3a7b41185be64690c9",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:47Z"
+  }
+]

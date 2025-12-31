@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30240,
+    "type": "issue",
+    "actor": "Aatch",
+    "date": "2015-12-09T01:19:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30277,
+    "type": "issue",
+    "actor": "Stebalien",
+    "date": "2015-12-09T01:36:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4005d437653fc09b47cd3176bb65323c52cccd47",
+    "actor": "bors",
+    "date": "2015-12-09T04:22:07Z"
+  }
+]

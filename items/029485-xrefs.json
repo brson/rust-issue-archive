@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1410,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2016-01-08T19:20:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f8ac36473d7e41600d37df96405a96f2f0245ae4",
+    "actor": "dotdash",
+    "date": "2016-02-10T21:03:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31545,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2016-02-10T21:03:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a17fb64fcecdc42c5e25dd1745e517db881f14e1",
+    "actor": "dotdash",
+    "date": "2016-02-10T22:10:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "98ec51a4ddc5519f809d667e7dbbf636d59ab653",
+    "actor": "bors",
+    "date": "2016-02-11T22:22:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45029,
+    "type": "issue",
+    "actor": "Gankra",
+    "date": "2017-10-04T20:17:35Z"
+  }
+]

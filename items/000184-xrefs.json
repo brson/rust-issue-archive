@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "6d4af47ee7eafbe4141a2c507fe15e57cf8dde23",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1d791b55b23ec5389fbd5b3cee80db3f8bbdd162",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c79d7df9bc5a8c21f946408ab89a513fbdbed47e",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 132601,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-11-04T17:01:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "79498aa514e7b904c9300ad38baf0702bb3d46ab",
+    "actor": "carolynzech",
+    "date": "2025-06-24T21:22:14Z"
+  }
+]

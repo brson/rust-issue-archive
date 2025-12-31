@@ -1,0 +1,34 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f17cc4cf045dcb8e8fb3e2060eb0ec0681e6c08f",
+    "actor": "bors",
+    "date": "2015-09-22T09:19:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28593,
+    "type": "issue",
+    "actor": "gandro",
+    "date": "2015-09-26T12:08:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 54402,
+    "type": "issue",
+    "actor": "bgermann",
+    "date": "2018-09-20T18:16:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "99e79c0635df024eb826f48d945b1c3a8565ec3b",
+    "actor": "kennytm",
+    "date": "2018-09-21T15:15:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8455a7fcbe2a0ff5005ec5643a3300e6d4833543",
+    "actor": "pietroalbini",
+    "date": "2018-09-22T07:56:37Z"
+  }
+]

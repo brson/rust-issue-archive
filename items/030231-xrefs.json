@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "3a6fd55fd13a0297381657a33c67d1e8502bcfb5",
+    "actor": "DiamondLovesYou",
+    "date": "2015-12-08T18:39:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30270,
+    "type": "issue",
+    "actor": "DiamondLovesYou",
+    "date": "2015-12-08T18:40:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "08a5b112ed7af90e31a355e409f637997e458fbc",
+    "actor": "bors",
+    "date": "2015-12-09T18:42:15Z"
+  }
+]

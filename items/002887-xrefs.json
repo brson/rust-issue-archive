@@ -1,0 +1,72 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 31089,
+    "type": "issue",
+    "actor": "fhahn",
+    "date": "2016-01-21T21:25:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9c6677c4804fd85d0527e528cf20251d329098c8",
+    "actor": "bors",
+    "date": "2016-01-27T12:12:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8256c470a5ec80509071a70dcfba76666c855a1e",
+    "actor": "bors",
+    "date": "2016-01-27T12:12:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43352,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2017-07-20T04:57:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "35f64996ad5639173040097a0fe718e25d0dc29d",
+    "actor": "bors",
+    "date": "2017-07-22T13:30:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 60620,
+    "type": "issue",
+    "actor": "mark-i-m",
+    "date": "2019-05-07T23:08:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a7cff45e655f886da150e206c7acbe984df4ab71",
+    "actor": "bors",
+    "date": "2019-05-09T19:03:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20dff29b354e99e2675c4a1b94a7a8f3aa5bcedd",
+    "actor": "Centril",
+    "date": "2019-05-10T18:31:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 78603,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2020-10-31T15:34:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "540d4743ccc7597f68d9832c232e212167ae2fac",
+    "actor": "m-ou-se",
+    "date": "2020-11-01T10:53:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9667886737588ee5da531cff67eb9ec27594c621",
+    "actor": "RalfJung",
+    "date": "2023-06-29T06:39:42Z"
+  }
+]

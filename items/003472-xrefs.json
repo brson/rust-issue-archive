@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3450,
+    "type": "issue",
+    "actor": "bblum",
+    "date": "2012-09-12T18:12:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2686,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-07-19T23:40:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4b80b6395b6c52d774be04a8ea8ae70b6ac995c",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fee494b2b283c4cdcc816b2723fc8d9ee6e0dedd",
+    "actor": "RalfJung",
+    "date": "2024-04-20T09:08:27Z"
+  }
+]

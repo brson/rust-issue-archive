@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5003,
+    "type": "issue",
+    "actor": "mitsuhiko",
+    "date": "2013-02-19T01:59:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0ded562e8364244c9c0da1d5f4dc97cd900b4fe4",
+    "actor": "bors",
+    "date": "2013-02-26T22:03:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16507,
+    "type": "issue",
+    "actor": "l0kod",
+    "date": "2015-02-11T00:04:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5ab50d20a6d624c28f40d87eaccfbf9cfbfdd478",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:51Z"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5663,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-04-01T21:22:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dc60788215afc61b3f5b5e57cf786478218b919e",
+    "actor": "bors",
+    "date": "2013-04-01T22:12:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:44Z"
+  }
+]

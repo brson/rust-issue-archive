@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 15018,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2014-06-18T20:35:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c3bf8836f6f0cd18d8ac4f7189615f7f4098f5d",
+    "actor": "alexcrichton",
+    "date": "2014-06-19T01:00:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14646,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2014-06-19T11:47:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2a239b98338dfb96535cfc05d3a2999a52ec8e2f",
+    "actor": "bors",
+    "date": "2024-01-21T16:14:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9e7782b809383d7c9293d71be9334d4790b0915e",
+    "actor": "flip1995",
+    "date": "2025-06-13T09:25:00Z"
+  }
+]

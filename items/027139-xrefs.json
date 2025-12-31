@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 27023,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2015-07-20T11:45:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "28a530fe3ed9d8f28c0e988b79b257d97cd88235",
+    "actor": "pnkfelix",
+    "date": "2015-07-20T11:48:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "48a1f1b96f3e80d75f50d65e8dd5672ac47cfa8c",
+    "actor": "bors",
+    "date": "2015-07-21T03:19:44Z"
+  }
+]

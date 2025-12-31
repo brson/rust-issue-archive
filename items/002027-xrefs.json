@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2028,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-03-19T00:47:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0a4279fed9cc91e4e8921fff3b27d1c152f13b07",
+    "actor": "bors",
+    "date": "2022-09-22T12:27:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8767fe6aced9c6be554216ee258d7fc0240ce2ed",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0263f1136674e0fb134a1d68160cd6bd5315f86d",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "05f6d55ef5bf038308e51d6426fd8957a341b5c3",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 136522,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2025-02-05T17:01:57Z"
+  }
+]

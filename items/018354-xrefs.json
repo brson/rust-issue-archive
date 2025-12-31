@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e407472f90247bd23485191b9ecaab89a90326c8",
+    "actor": "pshc",
+    "date": "2014-12-02T04:53:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19453,
+    "type": "issue",
+    "actor": "pshc",
+    "date": "2014-12-02T05:35:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4850c048a3f046ff90a7257ff62dff8fd72fb4eb",
+    "actor": "bors",
+    "date": "2014-12-02T14:02:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f21a01f5effe69d39100ae5bf68317f3f67ceb09",
+    "actor": "lnicola",
+    "date": "2024-10-22T07:40:12Z"
+  }
+]

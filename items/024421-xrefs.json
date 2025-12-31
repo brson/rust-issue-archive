@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 36867,
+    "type": "issue",
+    "actor": "mbrubeck",
+    "date": "2016-09-30T22:03:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0e268d9e898f76c16fd82d13ef47eca521374789",
+    "actor": "euclio",
+    "date": "2018-10-12T17:08:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 55018,
+    "type": "issue",
+    "actor": "euclio",
+    "date": "2018-10-12T17:09:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2bab4bf486aca3c3ba105e9931f56f6ddf445c3d",
+    "actor": "bors",
+    "date": "2018-10-14T01:53:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 56537,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2018-12-05T15:28:26Z"
+  }
+]

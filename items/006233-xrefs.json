@@ -1,0 +1,66 @@
+[
+  {
+    "event": "referenced",
+    "commit": "ebdfbd15c6e5eb502a7ad467e47671c0d0e4210d",
+    "actor": "huonw",
+    "date": "2014-01-03T03:28:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11284,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2014-01-03T03:29:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "52e5b1e8a151344e1a9f358a2a0f72f14fdde948",
+    "actor": "huonw",
+    "date": "2014-01-03T05:16:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f1b5f59287106fc511d29c425255bd343608065c",
+    "actor": "huonw",
+    "date": "2014-01-04T00:07:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "55d492364f00fb990a14b60cdd1cb3612a534148",
+    "actor": "bors",
+    "date": "2014-01-04T21:56:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "60abeb34e4c7f6efb3a897fd4cb30ac09c8f748a",
+    "actor": "fhahn",
+    "date": "2014-01-05T20:09:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11885,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2014-01-29T10:48:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23628,
+    "type": "issue",
+    "actor": "andersk",
+    "date": "2015-03-23T02:26:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1936,
+    "type": "issue",
+    "actor": "martin-frbg",
+    "date": "2019-02-28T14:10:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "225ce5ff588a500eea636ecb1bd53245e9adc386",
+    "actor": "flip1995",
+    "date": "2020-11-05T14:48:15Z"
+  }
+]

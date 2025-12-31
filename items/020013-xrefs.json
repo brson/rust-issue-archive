@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 504,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-12-19T08:09:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20080,
+    "type": "issue",
+    "actor": "seanmonstar",
+    "date": "2014-12-20T18:25:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9ea781e9eb61525d53d5baa9d312fe2c4dcb9dab",
+    "actor": "alexcrichton",
+    "date": "2014-12-21T08:48:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "40e1f7c6ba14b7a60d6d5abb0e86c7c3257ce802",
+    "actor": "alexcrichton",
+    "date": "2014-12-21T17:29:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20481,
+    "type": "issue",
+    "actor": "seanmonstar",
+    "date": "2015-01-03T19:01:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "58febcc8c1cbc193958666dcf62382bf6dc59911",
+    "actor": "seanmonstar",
+    "date": "2015-01-06T20:52:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "44440e5c18a1dbcc9685866ffffe00c508929079",
+    "actor": "seanmonstar",
+    "date": "2015-01-06T22:49:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "435b62938fbba71c0657ae1172f1a43ed42eeaf5",
+    "actor": "alkor",
+    "date": "2015-01-11T09:36:37Z"
+  }
+]

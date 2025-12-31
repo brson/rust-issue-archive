@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0bba8f4b747237aac095422357a0a01ed1213d24",
+    "actor": "alexcrichton",
+    "date": "2013-07-20T02:02:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7923,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-07-20T02:03:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7f44189badc91ef76e18538dfdd8dcc0deb03718",
+    "actor": "bors",
+    "date": "2013-07-21T08:58:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e336cbf8f9e26758a2ef98ec6b7715e083fdcced",
+    "actor": "bors",
+    "date": "2013-07-21T20:07:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f487715f5458b94fa13ba8dac454ac55270553ee",
+    "actor": "Sawyer47",
+    "date": "2014-06-18T11:37:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15002,
+    "type": "issue",
+    "actor": "Sawyer47",
+    "date": "2014-06-18T11:38:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bde851e969d327397ac1ab4bca05692069ff62a5",
+    "actor": "alexcrichton",
+    "date": "2014-06-19T01:00:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c3bf8836f6f0cd18d8ac4f7189615f7f4098f5d",
+    "actor": "alexcrichton",
+    "date": "2014-06-19T01:00:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f065d4b887e6722d617eacc93d5dcb75e6b32105",
+    "actor": "flip1995",
+    "date": "2020-06-23T15:08:46Z"
+  }
+]

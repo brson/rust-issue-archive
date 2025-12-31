@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "7c548a2653becf8c7eb99dc78b3f2f013a7dc6a3",
+    "actor": "shepmaster",
+    "date": "2015-04-26T02:55:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24834,
+    "type": "issue",
+    "actor": "shepmaster",
+    "date": "2015-04-26T02:55:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b772ce6342962792620e21623997d0d3b98164b7",
+    "actor": "bors",
+    "date": "2015-04-27T12:45:38Z"
+  }
+]

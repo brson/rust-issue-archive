@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "451e134c180e88b06e3b747ed750e4901ca93721",
+    "actor": "bors",
+    "date": "2015-01-15T01:42:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20107,
+    "type": "issue",
+    "actor": "tomjakubowski",
+    "date": "2015-01-15T06:44:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20020,
+    "type": "issue",
+    "actor": "flaper87",
+    "date": "2015-01-27T20:22:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dfc9bd02ae169689dd643c3e69a4fbd207768b5a",
+    "actor": "lnicola",
+    "date": "2025-07-28T19:25:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 146348,
+    "type": "issue",
+    "actor": "lcnr",
+    "date": "2025-09-12T07:57:36Z"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3178,
+    "type": "issue",
+    "actor": "bblum",
+    "date": "2012-08-11T00:22:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2795,
+    "type": "issue",
+    "actor": "bblum",
+    "date": "2012-08-13T17:51:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b8a133d432fc5af0eee5bb30d05b1e07875aea72",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2ef639d4fbf89dc584bfa1a2211b56123df4aa5f",
+    "actor": "RalfJung",
+    "date": "2023-11-04T14:54:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ec34e01431d70cff72ab8b76f29c347bb086c4c6",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:56Z"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "bfb95528b2621145c4469114a421dc08de1f2bf6",
+    "actor": "tomjakubowski",
+    "date": "2015-08-04T07:22:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27509,
+    "type": "issue",
+    "actor": "tomjakubowski",
+    "date": "2015-08-04T07:22:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 35822,
+    "type": "issue",
+    "actor": "jonas-schievink",
+    "date": "2016-08-19T12:40:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 38628,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2016-12-27T02:42:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1ed00f39c22428dce3f6162cc1e803b82b6b76e5",
+    "actor": "lnicola",
+    "date": "2025-12-22T13:48:36Z"
+  }
+]

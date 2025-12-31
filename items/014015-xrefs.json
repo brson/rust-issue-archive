@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 25,
+    "type": "issue",
+    "actor": "rust-highfive",
+    "date": "2015-01-25T20:37:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 425,
+    "type": "issue",
+    "actor": "cessen",
+    "date": "2017-12-03T08:43:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "46084a1e71c7e8733eb51c62699b565f96795fd5",
+    "actor": "bors",
+    "date": "2023-02-13T20:23:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e359e88088f2e60a883b11a4a167537a98c55467",
+    "actor": "bors",
+    "date": "2025-01-28T23:11:42Z"
+  }
+]

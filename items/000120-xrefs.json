@@ -1,0 +1,67 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2089,
+    "type": "issue",
+    "actor": "evanmcc",
+    "date": "2012-04-03T21:31:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "aaba692effbcaff0acc6a0700f66818b648cdf47",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45500,
+    "type": "issue",
+    "actor": "shaleh",
+    "date": "2017-11-02T23:36:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7adba3a149caf75aa6b9e40632dc510e5022ad8e",
+    "actor": "eddyb",
+    "date": "2020-06-30T20:29:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "72f47d698e1da16eaae5fd273a235d27219a3e9e",
+    "actor": "Aaron1011",
+    "date": "2020-10-26T19:38:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20c3b8e13f8f8549af221762300c3222d72ccae0",
+    "actor": "bors",
+    "date": "2021-10-01T01:37:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 92676,
+    "type": "issue",
+    "actor": "gregbuchholz",
+    "date": "2022-01-08T18:21:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "87b270ebdc403944eac7a16d26f3fa6d14fa246a",
+    "actor": "Mark-Simulacrum",
+    "date": "2022-02-22T02:31:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 112522,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2023-06-12T19:00:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 120116,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-01-19T17:31:38Z"
+  }
+]

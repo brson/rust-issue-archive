@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c1063e047ed4054da76a79954fd0e8731c74923d",
+    "actor": "Sawyer47",
+    "date": "2014-07-19T10:08:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15805,
+    "type": "issue",
+    "actor": "Sawyer47",
+    "date": "2014-07-19T10:09:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20df4ccafe4d3eb588fa309f06d41aa6b5b1d526",
+    "actor": "Sawyer47",
+    "date": "2014-07-20T07:43:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c4dd47df3477b224f0bf8d89a48f1ce57ec0dbd7",
+    "actor": "bors",
+    "date": "2014-07-20T19:26:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 81387,
+    "type": "issue",
+    "actor": "c410-f3r",
+    "date": "2021-01-25T17:03:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "69f036404ced673cda4b1c0fe46b447b946c273f",
+    "actor": "JohnTitor",
+    "date": "2021-02-01T10:13:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "11eb176da5c1e066cb27c5a0ca9242eb6cfefaec",
+    "actor": "henryboisdequin",
+    "date": "2021-02-01T12:18:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0f4f9ecdb3d4db785b5d96ef5c61454e079b12c4",
+    "actor": "flip1995",
+    "date": "2022-04-21T17:27:00Z"
+  }
+]

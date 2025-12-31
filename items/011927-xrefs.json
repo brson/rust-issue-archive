@@ -1,0 +1,54 @@
+[
+  {
+    "event": "referenced",
+    "commit": "5046b555af655fcbb252eae6af8bdef17e2ec65c",
+    "actor": "alexcrichton",
+    "date": "2014-02-01T05:35:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d2445126263c4938cd95d59dffff9f77fc2b42b0",
+    "actor": "alexcrichton",
+    "date": "2014-02-01T05:43:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 149,
+    "type": "issue",
+    "actor": "briansmith",
+    "date": "2016-03-12T21:41:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 468,
+    "type": "issue",
+    "actor": "phil-blain",
+    "date": "2020-12-26T18:04:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 91659,
+    "type": "issue",
+    "actor": "thomcc",
+    "date": "2021-12-08T11:13:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "97dc4b22c61ab52de80b495ca0e583c4c5c73a9f",
+    "actor": "flip1995",
+    "date": "2024-02-26T17:57:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d71899573a2826392ef08dc3bea796f5e077ecdf",
+    "actor": "flip1995",
+    "date": "2024-02-26T17:57:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 108868,
+    "type": "issue",
+    "actor": "clubby789",
+    "date": "2024-06-10T14:12:34Z"
+  }
+]

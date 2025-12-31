@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "24c454057154a3dcd6dd4599d5ee60050a043041",
+    "actor": "alexcrichton",
+    "date": "2014-04-13T18:33:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e163ab215105753fd4e9b60a3786ff4636a0c3ff",
+    "actor": "alexcrichton",
+    "date": "2014-04-13T18:33:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13496,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-04-13T18:46:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "38b802044bb150606b42861e91155f390c9017d3",
+    "actor": "bors",
+    "date": "2014-04-14T10:26:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0e6cfd1ccdc6b0e371bc829ce481255cb53ad721",
+    "actor": "bors",
+    "date": "2014-04-14T20:36:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "168b2d1a3f4569706fe4f9a2baee04e37f85d297",
+    "actor": "bors",
+    "date": "2014-04-14T21:36:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d022e0ec536948ced38ac67dec0d64c312264f7c",
+    "actor": "Dylan-DPC",
+    "date": "2022-11-01T16:31:40Z"
+  }
+]

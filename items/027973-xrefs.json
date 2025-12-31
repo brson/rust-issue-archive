@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b61fddebb09f33c52cf97f66c797f8d5401096ec",
+    "actor": "sfackler",
+    "date": "2015-08-24T06:01:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27976,
+    "type": "issue",
+    "actor": "sfackler",
+    "date": "2015-08-24T06:01:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b74ec4c847388a5d34688186347eb9ebb3d6115b",
+    "actor": "bors",
+    "date": "2015-08-24T16:00:44Z"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3564,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-09-23T21:46:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4461dd7bdc528a766bcb679c190c726f831a5ea",
+    "actor": "alexcrichton",
+    "date": "2013-09-24T01:06:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "19ac447a5b592b584c3d23e59309f9425fb68449",
+    "actor": "alexcrichton",
+    "date": "2013-09-24T01:07:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf2aab24b5866ee49a15f3cb946abbb61f1032bf",
+    "actor": "alexcrichton",
+    "date": "2013-09-24T21:03:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "23461383aae4b092b2b15bdbc4d737118a184b9d",
+    "actor": "alexcrichton",
+    "date": "2013-09-25T18:11:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "db28c2998015446dd4f3c9615484f0666225aa60",
+    "actor": "alexcrichton",
+    "date": "2013-09-25T21:28:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cc97eaf9f9181aec5a1ba6459b204ed4a7fba62a",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:24Z"
+  }
+]

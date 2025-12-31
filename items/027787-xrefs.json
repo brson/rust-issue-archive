@@ -1,0 +1,79 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 38610,
+    "type": "issue",
+    "actor": "arthurprs",
+    "date": "2017-01-02T19:22:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7631057b9f2f5854ae7116e42b121e7ad4cfda32",
+    "actor": "bors",
+    "date": "2017-01-14T02:10:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0ef85a6b1c06839197c26a895cb6d8ce36915800",
+    "actor": "bors",
+    "date": "2017-01-15T21:44:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 676,
+    "type": "issue",
+    "actor": "sgrif",
+    "date": "2017-02-11T17:51:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": "zslayton",
+    "date": "2017-03-14T16:56:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "86b48b21037ae55fef740f5d17f57c6d558601e1",
+    "actor": "frewsxcv",
+    "date": "2017-03-17T01:20:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "341724b7ed90bcbc0e947ef7bc68cfb93ad5204e",
+    "actor": "alexcrichton",
+    "date": "2017-03-17T16:27:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "37b38a2f750c95aa653ced2a33c13c9060129800",
+    "actor": "alexcrichton",
+    "date": "2017-03-17T20:29:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "94a8e38d9ae67018f32dc1c4c567d41a1dadf3c3",
+    "actor": "alexcrichton",
+    "date": "2017-03-17T21:38:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": "a10y",
+    "date": "2017-04-05T19:58:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "700f05c5f42c2fc4ab72bf778a5cd543f668bce2",
+    "actor": "0x7CFE",
+    "date": "2017-04-18T16:23:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2167,
+    "type": "issue",
+    "actor": "bwhmather",
+    "date": "2017-10-03T12:03:47Z"
+  }
+]

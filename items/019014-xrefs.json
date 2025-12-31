@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 19122,
+    "type": "issue",
+    "actor": "Kintaro",
+    "date": "2014-11-19T23:23:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "97b004f6e1a12a7d48082dcdffb1f3dcee667109",
+    "actor": "alexcrichton",
+    "date": "2014-11-22T00:13:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2a4c0100fe5eead03b8b566748c1909a7b9b903b",
+    "actor": "bors",
+    "date": "2014-11-22T04:06:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a365f732ea0be1283dd53f9022668b53fafd403f",
+    "actor": "lnicola",
+    "date": "2025-01-27T07:42:35Z"
+  }
+]

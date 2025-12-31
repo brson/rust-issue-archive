@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1348,
+    "type": "issue",
+    "actor": "kud1ing",
+    "date": "2011-12-20T11:42:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1985,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2012-03-22T01:03:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5820,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2013-05-30T16:53:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8b481380394bad81054a4049b338c455dbf9d4d7",
+    "actor": "bjorn3",
+    "date": "2023-02-09T11:38:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "762d5417516bd2d338430b26ff8f3904b7b54a35",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "70882672f9bf8541ae80c35accfa1c3971615fb0",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:19:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3ddc6e2f85017321250dcebeee533546cf36c826",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4d46e1d0a334d380f724577b37cda6b28e699c5",
+    "actor": "bors",
+    "date": "2025-02-15T10:08:02Z"
+  }
+]

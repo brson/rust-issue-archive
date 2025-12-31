@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e207b8461ecf61b1e90e892f1463d811b9b80b37",
+    "actor": "oli-obk",
+    "date": "2015-05-23T10:50:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25731,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2015-05-23T10:50:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ee6820911d29b9abf0b0f0481d065bc6ae5f7d6",
+    "actor": "bors",
+    "date": "2015-05-23T15:57:48Z"
+  }
+]

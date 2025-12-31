@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "erickt",
+    "date": "2012-09-29T07:09:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3628,
+    "type": "issue",
+    "actor": "erickt",
+    "date": "2012-09-29T07:20:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "42780f0b390422fd1e4335db4bd407edb5bda064",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b9bd7a8a949105d42ef94591389883545cde88ef",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:55Z"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a2fab457dcb6e65e119694acacc8d92fde2569c2",
+    "actor": "milibopp",
+    "date": "2014-02-10T23:19:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12170,
+    "type": "issue",
+    "actor": "milibopp",
+    "date": "2014-02-10T23:27:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "86e6a5cf7beb567ff908ea35748392bd0bb01b58",
+    "actor": "bors",
+    "date": "2014-02-11T08:41:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12367,
+    "type": "issue",
+    "actor": "darnuria",
+    "date": "2014-02-18T13:17:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d2f265d195fd0559b8edfb71126785114de92117",
+    "actor": "bors",
+    "date": "2014-02-19T11:26:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8a848b160c803c515233e29e57f2df86130f81fe",
+    "actor": "jxs",
+    "date": "2014-04-02T00:59:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "720ee775a1cc927da259d02c62c890ebd46fb34f",
+    "actor": "jxs",
+    "date": "2014-04-02T00:59:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e789d73424d571b71dd1a4ddefc09b4d80de81c6",
+    "actor": "bors",
+    "date": "2022-07-25T00:20:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "775a5c27123414c11376778f090f167831259ce8",
+    "actor": "flip1995",
+    "date": "2025-03-20T21:35:19Z"
+  }
+]

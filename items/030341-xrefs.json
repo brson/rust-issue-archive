@@ -1,0 +1,29 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4af427881405f95b8d87efea844cbd695fb55986",
+    "actor": "bors",
+    "date": "2015-12-16T22:53:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30095,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-12-17T01:25:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30519,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-12-23T11:01:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30438,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2016-02-05T14:34:23Z"
+  }
+]

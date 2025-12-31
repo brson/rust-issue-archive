@@ -1,0 +1,36 @@
+[
+  {
+    "event": "referenced",
+    "commit": "5afa2704a6fdee62b267a5df9ca0934350dfc3d1",
+    "actor": "bors",
+    "date": "2015-04-12T01:26:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24261,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-04-12T04:31:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24583,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-04-19T12:14:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32360,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2016-03-19T19:59:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 69390,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2020-02-23T02:09:18Z"
+  }
+]

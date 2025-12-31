@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c64e7da6d8cf8ce9ca83e9b1b82d4dc2cbe875bf",
+    "actor": "tromey",
+    "date": "2017-11-09T21:35:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8c9a797b4e919d85513576da10ffd2a47d35f1aa",
+    "actor": "tromey",
+    "date": "2017-11-13T18:49:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ab4da8ce852d35e8f39950185a7161223698fa36",
+    "actor": "tromey",
+    "date": "2017-11-13T19:11:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ae4cc6069626206b493caf6b1158d3d5d601bbc7",
+    "actor": "tromey",
+    "date": "2017-11-15T08:48:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20,
+    "type": "issue",
+    "actor": "tromey",
+    "date": "2018-10-23T16:28:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 544,
+    "type": "issue",
+    "actor": null,
+    "date": "2021-05-22T12:27:42Z"
+  }
+]

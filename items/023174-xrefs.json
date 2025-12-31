@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-03-09T04:33:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23369,
+    "type": "issue",
+    "actor": "novalis",
+    "date": "2015-03-14T20:10:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c69ea54dc7e418a60ec81cb72d7aa010ec0a6567",
+    "actor": "novalis",
+    "date": "2015-03-19T15:55:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a47d04a9096e72dc21a2e8c70076056b4f7705ec",
+    "actor": "novalis",
+    "date": "2015-03-20T03:29:01Z"
+  }
+]

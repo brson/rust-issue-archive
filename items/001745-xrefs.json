@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1507,
+    "type": "issue",
+    "actor": "marijnh",
+    "date": "2012-02-03T07:39:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c573c5037cf6c7b54c0cebd8776b43974c16dd99",
+    "actor": "nikomatsakis",
+    "date": "2012-02-11T05:52:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2ec3a0b60833736a3c0d805768885b4392c36100",
+    "actor": "tedhorst",
+    "date": "2012-02-11T16:38:22Z"
+  }
+]

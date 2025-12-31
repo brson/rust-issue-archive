@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21388,
+    "type": "issue",
+    "actor": "aochagavia",
+    "date": "2015-01-19T16:44:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b9588393ee18b5d47b9c05bf1910948bfda062b4",
+    "actor": "barosl",
+    "date": "2015-01-20T17:16:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21428,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2015-01-20T17:16:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b275365cab522127dbe0b37abf63a7ebc39dc5e2",
+    "actor": "bors",
+    "date": "2015-01-20T18:50:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21431,
+    "type": "issue",
+    "actor": "csouth3",
+    "date": "2015-01-20T19:46:42Z"
+  }
+]

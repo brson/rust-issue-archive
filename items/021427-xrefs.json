@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "01ae97b45eb54c888e0425693069270542694c77",
+    "actor": "barosl",
+    "date": "2015-01-20T17:16:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21428,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2015-01-20T17:16:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b275365cab522127dbe0b37abf63a7ebc39dc5e2",
+    "actor": "bors",
+    "date": "2015-01-20T18:50:51Z"
+  }
+]

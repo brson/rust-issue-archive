@@ -1,0 +1,62 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d6e74944412648649c24ce987261c75bea4eb4b4",
+    "actor": "alexcrichton",
+    "date": "2015-01-02T19:01:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e635bae282b7e517310db28a5bd2af971ee6657f",
+    "actor": "alexcrichton",
+    "date": "2015-01-02T19:07:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4459b1dcedc5b0cb195c2494beda56b87105a980",
+    "actor": "alexcrichton",
+    "date": "2015-01-02T19:15:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20497,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-04T02:26:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19187,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-07T10:50:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20676,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-07T10:52:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20550,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-01-07T12:30:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10520,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-01-09T21:13:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1751,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2016-09-18T09:50:09Z"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 28960,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2015-10-11T00:40:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8667aa207b3de577d097a1c7b948d672f064617a",
+    "actor": "barosl",
+    "date": "2015-10-11T00:47:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8fbb35b8357d8cb4a105b56eb6af401c4d6802c9",
+    "actor": "bors",
+    "date": "2015-10-11T19:51:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43321,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2017-07-18T23:36:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 46799,
+    "type": "issue",
+    "actor": "Diggsey",
+    "date": "2017-12-18T01:58:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 71684,
+    "type": "issue",
+    "actor": "BurntSushi",
+    "date": "2020-05-02T01:48:04Z"
+  }
+]

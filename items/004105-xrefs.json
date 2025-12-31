@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 4445,
+    "type": "issue",
+    "actor": null,
+    "date": "2013-01-11T19:36:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "00e199c974bd304695e6436fcb6b60bca5c8d6f4",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cb73bb653828a758ddebb8b84e9f7e0603ec02fb",
+    "actor": "RalfJung",
+    "date": "2024-12-26T08:48:15Z"
+  }
+]

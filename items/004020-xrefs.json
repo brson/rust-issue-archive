@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 4023,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2012-12-03T19:14:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5db71529626ca7c8316b93c4763cf3b2f1989a95",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5ff90d069a2d9c1391c811278b9c50550e6861dc",
+    "actor": "RalfJung",
+    "date": "2024-11-10T11:04:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3061c7c3f87d5d274585fd643615e59fe71865a2",
+    "actor": "mati865",
+    "date": "2024-11-12T00:14:08Z"
+  }
+]

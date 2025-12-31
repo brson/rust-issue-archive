@@ -1,0 +1,81 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24622,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-04-24T09:32:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1214,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-07-17T21:04:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27579,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-08-07T12:03:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28299,
+    "type": "issue",
+    "actor": "apasel422",
+    "date": "2015-09-08T18:21:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eaa5bf31b8b6cf05bb367f5046348aa098acfee9",
+    "actor": "bors",
+    "date": "2015-09-09T18:40:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": "raphlinus",
+    "date": "2016-04-27T00:56:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e109c85c399ecde830137c26e7ea1c9e97966d3c",
+    "actor": "cramertj",
+    "date": "2017-10-19T05:24:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45378,
+    "type": "issue",
+    "actor": "cramertj",
+    "date": "2017-10-19T05:29:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "194e0a8294f8fc683202bf4028212f24a89dc557",
+    "actor": "cramertj",
+    "date": "2017-10-19T05:31:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "751fa450414e962341d0eb16009dae503ffcee52",
+    "actor": "nivkner",
+    "date": "2018-03-17T17:39:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e1b9bf07022d18fb44aeb3dd3870952f1bc17619",
+    "actor": "nivkner",
+    "date": "2018-03-17T18:26:35Z"
+  }
+]

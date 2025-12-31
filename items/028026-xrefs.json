@@ -1,0 +1,39 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 126712,
+    "type": "issue",
+    "actor": "Oneirical",
+    "date": "2024-06-19T20:54:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "da56db5850efd46021aeea3c00ff6717e81f5ae8",
+    "actor": "bors",
+    "date": "2024-06-19T22:13:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "55d4f60f0b7a9fadfcafa213f8c3f645ca1ee8be",
+    "actor": "bors",
+    "date": "2024-06-20T17:32:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fb7304dc8076f779b0870d19c322c66c0ef0ce61",
+    "actor": "workingjubilee",
+    "date": "2024-06-21T00:41:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "84b09225659c4b335807b6894f34435e5b053072",
+    "actor": "workingjubilee",
+    "date": "2024-06-22T04:02:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "29a0eb9cbf522c06c4c2e01100b9075f6c892034",
+    "actor": "rust-timer",
+    "date": "2024-06-22T08:02:46Z"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2853,
+    "type": "issue",
+    "actor": "larsbergstrom",
+    "date": "2015-05-13T03:42:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25858,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-05-28T17:15:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a49ae5bd4378cb47fd5cfdcd0c31e04d55373696",
+    "actor": "bors",
+    "date": "2015-06-01T19:51:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 468,
+    "type": "issue",
+    "actor": "phil-blain",
+    "date": "2020-12-26T18:04:13Z"
+  }
+]

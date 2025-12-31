@@ -1,0 +1,59 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 25729,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-05-26T16:59:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a9b89de38c18a39f129f03f47a4026a7588ab665",
+    "actor": "SimonSapin",
+    "date": "2015-06-05T17:23:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26039,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-06-05T17:51:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "addaa5b1ff0d611b6568ce5fb0c6469a8e1a6ee4",
+    "actor": "SimonSapin",
+    "date": "2015-06-06T10:37:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1b36871c193d43ecabcf27a87594c0b695101d03",
+    "actor": "bors",
+    "date": "2015-06-09T03:14:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "30f6796c6508ff65b6105b29de7782d82e198954",
+    "actor": "bors",
+    "date": "2015-06-09T08:20:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1fb2b1901e40f37b797674bec6664f192dde2154",
+    "actor": "bors",
+    "date": "2015-06-09T17:05:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f06e02657865d944a3b99a628077dc2214ea2e83",
+    "actor": "bors",
+    "date": "2015-06-09T20:00:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 51362,
+    "type": "issue",
+    "actor": "squelart",
+    "date": "2018-06-05T08:05:55Z"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1298,
+    "type": "issue",
+    "actor": "jonas-schievink",
+    "date": "2015-12-30T21:04:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e8c337b5ca883285e6215f1f669d5556842d1520",
+    "actor": "bors",
+    "date": "2016-01-06T18:37:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30317,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2016-01-06T20:32:24Z"
+  }
+]

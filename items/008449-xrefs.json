@@ -1,0 +1,73 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 8448,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2013-08-11T07:01:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9367,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2013-09-20T21:45:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12027,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-02-04T16:18:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c8141f28f0d4300593117c6692f3e23f958dad54",
+    "actor": "alexcrichton",
+    "date": "2014-02-14T20:54:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12276,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-02-14T20:55:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a99e3a0a1c3b0ca0563836d386c385b722a05420",
+    "actor": "bors",
+    "date": "2014-02-15T01:11:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "90311fc68fb484310df9ffc614e592dee30644ae",
+    "actor": "alexcrichton",
+    "date": "2014-02-15T03:26:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f0bad904a1b53c5c5972e24edd79a96a1d442576",
+    "actor": "bors",
+    "date": "2014-02-15T03:31:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d5e073c20ffdb32e9fedc4bb525ebab64c6c8bae",
+    "actor": "jxs",
+    "date": "2014-04-02T00:59:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 624,
+    "type": "issue",
+    "actor": "durin42",
+    "date": "2021-03-05T19:17:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "190f0deac83174de23ff21f980ab514c90e0e59e",
+    "actor": "flip1995",
+    "date": "2022-04-07T15:52:58Z"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c033d98280355a411610260d1c1511d0e2d58ce4",
+    "actor": "bors",
+    "date": "2015-05-09T00:18:50Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25299,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-05-11T06:22:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d46358c561a9eaea74d341a37801eaad35e38337",
+    "actor": "daboross",
+    "date": "2015-05-11T09:33:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26780,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2015-07-05T01:09:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 99683,
+    "type": "issue",
+    "actor": "est31",
+    "date": "2022-07-27T20:02:11Z"
+  }
+]

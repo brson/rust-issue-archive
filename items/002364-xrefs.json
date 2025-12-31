@@ -1,0 +1,34 @@
+[
+  {
+    "event": "referenced",
+    "commit": "1e6da7b38dfac0ce0c59d966f242ca57a7dc9bf9",
+    "actor": "catamorphism",
+    "date": "2012-05-07T22:10:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2288,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2012-05-07T22:13:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2445,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2012-05-30T01:52:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4e9de3117458aa5b7e249e1aaa2e3757eaad7834",
+    "actor": "bors",
+    "date": "2022-09-22T12:28:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a20437a54fdc28203dc4154255848dad3d93ed47",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:24Z"
+  }
+]

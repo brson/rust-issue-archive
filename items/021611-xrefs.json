@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c168494525f4f41734a7ce937147fb74d144c0d6",
+    "actor": "huonw",
+    "date": "2015-05-20T09:21:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25646,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-05-20T09:25:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "225b116829ef76b72f01c2ebf718259c20aa7e14",
+    "actor": "huonw",
+    "date": "2015-06-26T01:02:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "378a370ff2057afeb1eae86eb6e78c476866a4a6",
+    "actor": "bors",
+    "date": "2015-06-26T02:58:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "07a9c5353320c22596241dd0699f209b4567fc2f",
+    "actor": "alexcrichton",
+    "date": "2015-07-01T02:34:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9f4e1e22d93451cd66b86a55f2056d32309d8757",
+    "actor": "jroesch",
+    "date": "2015-07-21T21:54:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "91cfc9f4c7b24b12c1154c9a3fa80282a6329f4c",
+    "actor": "thepowersgang",
+    "date": "2015-07-25T05:29:08Z"
+  }
+]

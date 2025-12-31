@@ -1,0 +1,78 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 16640,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-02-02T16:43:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8b55fa748b75a988aa105a051632b82462c5d7d4",
+    "actor": "bors",
+    "date": "2015-02-05T01:28:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c05354211b04a52cc66a0b8ad8b2225eaf9e972",
+    "actor": "bors",
+    "date": "2015-02-05T15:22:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22120,
+    "type": "issue",
+    "actor": "lukesteensen",
+    "date": "2015-02-09T21:33:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9b46822881509f7adbb1335d52346cd655647b7e",
+    "actor": "Manishearth",
+    "date": "2015-02-10T16:57:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "637a89bdf627aa0ae27a1b2ace6303875ae7d798",
+    "actor": "alexcrichton",
+    "date": "2015-02-10T19:05:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 405,
+    "type": "issue",
+    "actor": "mdinger",
+    "date": "2015-02-12T00:07:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22884,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-02-28T02:24:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3bf1eb4f076c89bfd87e6673ac75e763b7bc57f9",
+    "actor": "Manishearth",
+    "date": "2015-02-28T08:26:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "040a811b9190d2c2c595e09b5d1db07bedffdde9",
+    "actor": "Manishearth",
+    "date": "2015-02-28T13:49:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c28cee7b847f03223eb73fcdac18cbff5a851b12",
+    "actor": "steveklabnik",
+    "date": "2017-03-01T17:12:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a461089d017052f9bd294971633c0e5b20a040f9",
+    "actor": "steveklabnik",
+    "date": "2017-03-01T17:31:16Z"
+  }
+]

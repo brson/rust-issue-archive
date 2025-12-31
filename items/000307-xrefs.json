@@ -1,0 +1,77 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fd30cfddf381b93f81af6038b7c0eeda357033c4",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b68f7297682177311c562fc57280b3367c48bf8c",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a8db77571a3540b1d9d85cd2ce6f11ca787f5efa",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5fc6f9e6062f6e7cee3177f252615e93388a5964",
+    "actor": "Mark-Simulacrum",
+    "date": "2022-02-22T02:31:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 81890,
+    "type": "issue",
+    "actor": "agersant",
+    "date": "2023-01-14T02:23:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "779ac0f6e3b832cfda533cded34bd379426faded",
+    "actor": "ZuseZ4",
+    "date": "2023-03-07T00:49:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "36b059438d49ace9e8d38bf58b9037902d219c5c",
+    "actor": "antoyo",
+    "date": "2023-10-09T19:54:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 126603,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-06-17T17:00:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d5f9117403ab281d8168f81a31ed6c2d9257d839",
+    "actor": "matthiaskrgr",
+    "date": "2024-06-17T18:34:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9929de3ec72cf3615aa8821832de6ca57a432ff8",
+    "actor": "rust-timer",
+    "date": "2024-06-17T21:31:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 132601,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2024-11-04T17:01:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bbc60e416ca514fb5ce30e9c4a494a17bdfdccec",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:45Z"
+  }
+]

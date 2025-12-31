@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5384,
+    "type": "issue",
+    "actor": "Kimundi",
+    "date": "2013-03-15T22:35:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5787,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-04-08T22:16:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "30dbbe17c9189fed32d0f5f332b4f6ff8f7cc4aa",
+    "actor": "bors",
+    "date": "2013-04-09T01:36:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5797,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-04-09T06:21:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4beebc427c4688fa61492478a6ef70af1625fbc3",
+    "actor": "bors",
+    "date": "2013-04-15T20:01:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3a16bbc1de1b1f7dc9bb157c4065266727256364",
+    "actor": "RalfJung",
+    "date": "2025-09-18T21:18:55Z"
+  }
+]

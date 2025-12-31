@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 343,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-08-08T02:36:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d9038fc3b3222c678bdf2d06b896322976eaacf5",
+    "actor": "alexcrichton",
+    "date": "2014-08-08T03:20:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16342,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-08-08T03:20:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "beda30e7ae2201f90b65c385188a76efa4260c8d",
+    "actor": "bors",
+    "date": "2014-08-09T16:16:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8846cc9126cb9188ecdd6ce670d0cd20e2e38319",
+    "actor": "mrmonday",
+    "date": "2014-08-25T16:28:13Z"
+  }
+]

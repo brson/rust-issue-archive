@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0db50056aec603eadff2e7f2e8e6519824add552",
+    "actor": "alexcrichton",
+    "date": "2013-10-31T02:52:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10189,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-10-31T02:54:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c7d5a5214470a697b1ba31d23ef02763b0e6a774",
+    "actor": "bors",
+    "date": "2013-10-31T11:46:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 865,
+    "type": "issue",
+    "actor": "quantheory",
+    "date": "2015-03-22T06:53:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 48427,
+    "type": "issue",
+    "actor": "malbarbo",
+    "date": "2018-02-22T12:12:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "679fa9f2bfbdb65f0eb7732fa20043fd0f6813a8",
+    "actor": "Jarcho",
+    "date": "2022-08-29T02:24:53Z"
+  }
+]

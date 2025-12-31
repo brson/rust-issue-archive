@@ -1,0 +1,77 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2089,
+    "type": "issue",
+    "actor": "evanmcc",
+    "date": "2012-04-03T21:31:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d6bc508b84510755fa90cf59a35d30aa42fecfa7",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "86cd81ddc974dfa173594bda4aed2435f358d27b",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9679514769b0a0770cd0014ce39c1a3c4e84bf5f",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f95d04285354d005d433372e98ede81ca175147f",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": "dylanmckay",
+    "date": "2018-12-18T11:04:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eb61d77cbabc862fd7b1bf8757723da8e55d805c",
+    "actor": "eddyb",
+    "date": "2020-06-30T20:29:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4311c0660edfb8c124b4e04873d8291bcf0fb7c0",
+    "actor": "bors",
+    "date": "2021-10-01T01:37:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4ad63c687d0f0876252dbeaa2ebbd8aca82dfba",
+    "actor": "bjorn3",
+    "date": "2022-02-01T19:02:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 112522,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2023-06-12T19:00:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0c70dcd2db594709b39b6791004229b71c9a6d85",
+    "actor": "celinval",
+    "date": "2024-11-09T01:13:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ee9b7c311ab494329382b483e35cec622d7e565e",
+    "actor": "tautschnig",
+    "date": "2024-12-06T23:25:46Z"
+  }
+]

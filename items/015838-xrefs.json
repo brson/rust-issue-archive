@@ -1,0 +1,55 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 15552,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-07-21T20:00:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a213f132fc9c699d1a5c7f0212f1aeb01672f57a",
+    "actor": "ftxqxd",
+    "date": "2014-09-12T23:46:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "58cfbdf4ceb38ab14678730e52261c63745dd92c",
+    "actor": "ftxqxd",
+    "date": "2014-09-12T23:47:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17215,
+    "type": "issue",
+    "actor": "ftxqxd",
+    "date": "2014-09-12T23:50:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17434,
+    "type": "issue",
+    "actor": "ftxqxd",
+    "date": "2014-09-22T04:58:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "84a4a07bbd66f9b1a05591d2c1a4964944c47d83",
+    "actor": "bors",
+    "date": "2014-10-02T11:32:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17822,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-10-07T00:34:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15872,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2016-08-11T20:13:31Z"
+  }
+]

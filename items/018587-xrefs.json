@@ -1,0 +1,59 @@
+[
+  {
+    "event": "referenced",
+    "commit": "768caf1083f916f47cfa2aaa2134083e572ef8b1",
+    "actor": "alexcrichton",
+    "date": "2014-11-03T22:36:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18589,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-11-03T22:36:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0a5e7f35949d18f312dca90af73e56aced6f2b0e",
+    "actor": "bors",
+    "date": "2014-11-03T23:16:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7f310970867061ae1eb8d95ce7a674560533857",
+    "actor": "hirschenberger",
+    "date": "2014-11-03T23:48:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18593,
+    "type": "issue",
+    "actor": "hirschenberger",
+    "date": "2014-11-04T08:03:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7dab9037257f9ccdce58d5e7c8ecfc7932355b09",
+    "actor": "hirschenberger",
+    "date": "2014-11-11T09:41:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18872,
+    "type": "issue",
+    "actor": "hirschenberger",
+    "date": "2014-11-11T09:43:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5db8381c7e3506d50dbb2152ad0161b9e214ac3c",
+    "actor": "bors",
+    "date": "2014-11-13T08:17:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "54a1a96b5786148d96a3918be7dcb058e0115a42",
+    "actor": "lnicola",
+    "date": "2024-12-11T12:41:04Z"
+  }
+]

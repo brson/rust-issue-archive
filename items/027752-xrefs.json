@@ -1,0 +1,71 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b42d21c04461c8fc6047cdeb0089b9d587f8c23d",
+    "actor": "alexcrichton",
+    "date": "2016-06-28T17:11:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 34530,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2016-06-28T17:12:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e0aa0554cf153ce69fc45de0466e4160bd9e35f1",
+    "actor": "alexcrichton",
+    "date": "2016-06-28T20:05:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "71dec1b666cc11e53857047b0067c6cda4a0b5bc",
+    "actor": "alexcrichton",
+    "date": "2016-06-28T20:17:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9ef8ff8c2c0e5b6e50f009d7507b2088dca80596",
+    "actor": "bors",
+    "date": "2016-07-02T13:27:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7cfcb4a99ac885bfd1203030eaa0b0170c65214f",
+    "actor": "alexcrichton",
+    "date": "2016-07-02T17:28:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6321596d3e1919ede0f505b0e50913109cd9a2a",
+    "actor": "bors",
+    "date": "2016-07-02T22:13:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3016626c3aa4bc44807e54a8ba8b9e367ff566f5",
+    "actor": "alexcrichton",
+    "date": "2016-07-03T17:49:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "696b703b5a58816bb0e549ac332a98fa7e635949",
+    "actor": "bors",
+    "date": "2016-07-03T21:33:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 118,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2017-12-19T20:39:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1480,
+    "type": "issue",
+    "actor": "litherum",
+    "date": "2021-07-14T18:28:43Z"
+  }
+]

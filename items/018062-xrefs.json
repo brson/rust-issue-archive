@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "ed31260290e21be31cdc3bcd1e7ec2d64c244422",
+    "actor": "pcwalton",
+    "date": "2014-11-01T03:41:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18504,
+    "type": "issue",
+    "actor": "pcwalton",
+    "date": "2014-11-01T03:42:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e8d6031c71a5ab42648f26a253671ba17584407a",
+    "actor": "pcwalton",
+    "date": "2014-11-04T22:58:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4375b32dabf8096a1137a68c1070fc9a9292cb06",
+    "actor": "bors",
+    "date": "2014-11-05T03:31:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "44f8545b3cc83f7279293f2d5290511434e6826a",
+    "actor": "lnicola",
+    "date": "2024-09-25T06:58:27Z"
+  }
+]

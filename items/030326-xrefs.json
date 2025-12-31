@@ -1,0 +1,36 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30487,
+    "type": "issue",
+    "actor": "jonas-schievink",
+    "date": "2015-12-19T22:36:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30889,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2016-01-14T00:55:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b694d1b1d11b5fa41f5a019b1251124a133d031d",
+    "actor": "bors",
+    "date": "2016-01-27T01:30:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 36675,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2016-09-23T18:46:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15701,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2016-09-23T18:48:11Z"
+  }
+]

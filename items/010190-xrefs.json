@@ -1,0 +1,43 @@
+[
+  {
+    "event": "referenced",
+    "commit": "ef9f5fb1a4dd4efc0d6e8e5c81254e46266d5813",
+    "actor": "dcrewi",
+    "date": "2013-11-01T19:54:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10262,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2013-11-04T15:44:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10904,
+    "type": "issue",
+    "actor": null,
+    "date": "2013-12-10T14:47:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11278,
+    "type": "issue",
+    "actor": "johnwalker",
+    "date": "2014-01-02T20:54:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18950,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2014-11-15T04:20:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-02-02T10:16:41Z"
+  }
+]

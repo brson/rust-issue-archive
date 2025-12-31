@@ -1,0 +1,175 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24755,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-04-24T17:22:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3fa6fc3cb85d43e15589182b17e727ce7454f965",
+    "actor": "alexcrichton",
+    "date": "2015-04-24T20:38:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25369,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-05-13T16:30:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25891,
+    "type": "issue",
+    "actor": "alexchandel",
+    "date": "2015-05-29T23:11:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bef60419fd89ab424b881a5fd6abb3c29a646268",
+    "actor": "DanielKeep",
+    "date": "2015-06-28T02:53:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14,
+    "type": "issue",
+    "actor": "DanielKeep",
+    "date": "2015-06-28T02:54:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1777,
+    "type": "issue",
+    "actor": null,
+    "date": "2015-07-02T08:20:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2ce26c7d6438ff1009b411c9ae7c7b91dd0cbf5b",
+    "actor": "philippkeller",
+    "date": "2016-12-21T08:53:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 38281,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2017-04-29T18:41:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ecbf85a87cc4ab6e0d39ed89313ab04cde97a791",
+    "actor": "urschrei",
+    "date": "2017-04-29T19:02:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41609,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-06-22T11:36:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 47074,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2017-12-30T17:27:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 58,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2018-03-14T12:27:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 48661,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2018-03-15T02:29:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7394e660ae40193e665a728cd18e0e0743ce9b0f",
+    "actor": "alexcrichton",
+    "date": "2018-03-23T21:40:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 49316,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2018-03-23T21:40:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "60e6480eceeb5002158edf83a70732783366f801",
+    "actor": "alexcrichton",
+    "date": "2018-03-23T21:41:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d67db101c6ad7284255873f0726fe337ecc5d45b",
+    "actor": "alexcrichton",
+    "date": "2018-03-23T22:02:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3b41480ce9a9c0917ba6f57313d79d4c15334952",
+    "actor": "alexcrichton",
+    "date": "2018-03-25T07:38:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eec0d6511dee1291bc7432aecdbde22f73b46de0",
+    "actor": "alexcrichton",
+    "date": "2018-03-25T18:57:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ad2f7f9eb6c2c932007a38d839f1d6d3fb4e7e0",
+    "actor": "alexcrichton",
+    "date": "2018-03-27T18:29:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "50ad5f9fcb3f69bbba7c82a39902f479b649503a",
+    "actor": "alexcrichton",
+    "date": "2018-03-28T23:04:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0579f55645b45d0363079f88f880a64e67635259",
+    "actor": "bors",
+    "date": "2018-03-29T10:50:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "88114f61b44dba22c6fa180e17d7638f2cf7a9d7",
+    "actor": "alexcrichton",
+    "date": "2018-03-29T22:08:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "491f4bf5a5861ab6a9bbf4f263d87e68c6730cda",
+    "actor": "bors",
+    "date": "2018-03-29T23:20:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "69aff88fd741b4cec3ca572259de5d2d98407d9a",
+    "actor": "XAMPPRocky",
+    "date": "2018-05-01T12:41:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "87c733c31e1ff19a6bb4f1f1626b314321229972",
+    "actor": "lnicola",
+    "date": "2025-01-07T16:33:05Z"
+  }
+]

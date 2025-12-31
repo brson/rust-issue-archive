@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "49b696114f29c1354c0d36eb9a4514e65ce53847",
+    "actor": "jauhien",
+    "date": "2014-08-17T06:21:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "52ce8500e7f13649425c96093ccba7d02866bf75",
+    "actor": "jauhien",
+    "date": "2014-08-17T06:24:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16552,
+    "type": "issue",
+    "actor": "jauhien",
+    "date": "2014-08-17T06:29:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "90a5e3faf01b24368ecd9912a7750eb640702e1e",
+    "actor": "jauhien",
+    "date": "2014-08-17T13:39:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a412d0dc46743f9d787178d9d5eb9727dd2befd7",
+    "actor": "jauhien",
+    "date": "2014-08-17T14:38:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e889f8091a5a60d5961f545107b57b8e840204d0",
+    "actor": "jauhien",
+    "date": "2014-11-16T00:02:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2fcbf90d6823000ee9a7fa9c4c214ee6a6041931",
+    "actor": "bors",
+    "date": "2014-11-21T06:21:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27254,
+    "type": "issue",
+    "actor": "saschmit",
+    "date": "2015-07-24T04:55:21Z"
+  }
+]

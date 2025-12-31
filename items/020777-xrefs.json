@@ -1,0 +1,91 @@
+[
+  {
+    "event": "referenced",
+    "commit": "14b6c6d153edec5731230f919eaafcb5c32959d8",
+    "actor": "dotdash",
+    "date": "2015-01-11T11:27:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20935,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2015-01-11T11:27:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7b397b02e49ab6af5bc2a30dd04c19c38e0e266",
+    "actor": "bors",
+    "date": "2015-01-11T22:15:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21646,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2015-01-26T09:24:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1c87af2ebacf58f5cf87a05d1092ed55b4e0cd78",
+    "actor": "bors",
+    "date": "2015-01-27T05:15:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6cb41e2e822ba792a6a08398557091b835cc6dde",
+    "actor": "semarie",
+    "date": "2016-02-17T10:44:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31727,
+    "type": "issue",
+    "actor": "semarie",
+    "date": "2016-02-17T10:47:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7dd3b20119e1830d27c06ca518eb1addff674d85",
+    "actor": "bors",
+    "date": "2016-02-18T07:35:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1f86005fc09eceb6b19507c466b9674013425521",
+    "actor": "jakllsch",
+    "date": "2016-07-25T17:18:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 35033,
+    "type": "issue",
+    "actor": "jakllsch",
+    "date": "2016-07-25T17:20:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e1e90dd4366330f46e6586e1ed948f4d5f5a83e",
+    "actor": "jakllsch",
+    "date": "2016-07-31T17:48:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "758333ab672a445362b7679a4da108a8f79f92d7",
+    "actor": "sanxiyn",
+    "date": "2016-08-01T15:12:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6ce82d488dbb62c3af29ab026dbf3889b1640309",
+    "actor": "lnicola",
+    "date": "2025-10-14T11:27:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 396,
+    "type": "issue",
+    "actor": "maiha",
+    "date": "2025-12-04T22:19:49Z"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 67597,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2019-12-24T23:19:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "57573e101a62f62ac92b2b4dfd931aa78d4cc1ff",
+    "actor": "bors",
+    "date": "2019-12-28T05:55:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "57d0165452b35697ce58a38891c73ebe03b58107",
+    "actor": "bors",
+    "date": "2019-12-29T02:20:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "71bb0ff33e3759ee71ea19c230492c11e5e32b87",
+    "actor": "bors",
+    "date": "2019-12-31T09:51:03Z"
+  }
+]

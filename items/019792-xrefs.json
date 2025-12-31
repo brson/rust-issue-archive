@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 42393,
+    "type": "issue",
+    "actor": "arielb1",
+    "date": "2017-06-03T11:36:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1c1fa1bb2087374043236da904c67b4710601ed2",
+    "actor": "lnicola",
+    "date": "2025-05-28T13:40:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "94c624e7f5233ccce1808d740b37aeeb7ed90282",
+    "actor": "lnicola",
+    "date": "2025-05-28T13:49:52Z"
+  }
+]

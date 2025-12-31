@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "21a2496d6af8490da1bc9c329175a3c23d36714c",
+    "actor": "alexcrichton",
+    "date": "2014-04-15T15:38:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e33228727e97e3abb95ca91f6b6049f8682db7d0",
+    "actor": "bors",
+    "date": "2014-04-16T07:56:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14538,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-05-31T17:19:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "07f6efc4e7302d05f31a4bde1f5bd23424ba6a45",
+    "actor": "notriddle",
+    "date": "2022-11-10T02:44:26Z"
+  }
+]

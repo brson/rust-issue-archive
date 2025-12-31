@@ -1,0 +1,52 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2089,
+    "type": "issue",
+    "actor": "evanmcc",
+    "date": "2012-04-03T21:31:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0b632d553e8c4590ea349a54254d9aacaea0f543",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6a13db97fb0fabb542e6459d4113cb190805a126",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c29398f895db2c5ce0cb4dd8a85632742dfd7b2",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6620015a779a5391808d16d3e65459bd0bdfb65b",
+    "actor": "bors",
+    "date": "2021-10-01T01:37:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20ab1351a6c927a4e4f610141e89bedeba97afb2",
+    "actor": "Mark-Simulacrum",
+    "date": "2022-02-22T02:31:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 112522,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2023-06-12T19:00:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "351e958c1a5601b704343a34a44e66cd03c5cdc0",
+    "actor": "celinval",
+    "date": "2024-09-19T17:44:59Z"
+  }
+]

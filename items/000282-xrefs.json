@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "53e14e2f64730f6e299f4903ee149ff24fccbead",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "abc749346b1efe4dd887ac4e17df01f7e1ff2f99",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1bbee3e217d75e7bc3bfe5d8c1b35e776fce96e6",
+    "actor": "antoyo",
+    "date": "2023-06-19T22:52:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "b812pon",
+    "date": "2023-08-23T23:52:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "xaiksan1",
+    "date": "2023-08-24T09:31:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ce9fc3c607de1cfd312188cb550b851547e8655e",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:42Z"
+  }
+]

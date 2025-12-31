@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 16301,
+    "type": "issue",
+    "actor": "Gankra",
+    "date": "2014-08-06T14:30:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:39:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "11b01266795a749dea8a2e2bdc67a638c9483b2f",
+    "actor": "bors",
+    "date": "2024-01-08T18:25:12Z"
+  }
+]

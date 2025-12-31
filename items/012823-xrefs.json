@@ -1,0 +1,81 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f735c4c7647596643b72cff5d235d4277cc6166f",
+    "actor": "alexcrichton",
+    "date": "2014-03-12T17:42:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "373d2d4966d7ee91e59dbf2ec063782ce162f475",
+    "actor": "alexcrichton",
+    "date": "2014-03-12T18:18:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "959f7da392cdc5b7b2216accd5c7c3e68d544d70",
+    "actor": "alexcrichton",
+    "date": "2014-03-12T20:47:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "792da8424f4f422c2750607dcc243315fdff9fc3",
+    "actor": "bors",
+    "date": "2014-03-13T05:36:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "13c83f90ac0031b71bea8aa14d967b47647498bb",
+    "actor": "fasterthanlime",
+    "date": "2022-07-24T08:46:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2be00623e4fb1edc6a8a13f1d1c55b3ea093a732",
+    "actor": "fasterthanlime",
+    "date": "2022-07-24T08:46:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76eee82e79e736c4cef6ee9f755f58e752b9f58a",
+    "actor": "bors",
+    "date": "2024-05-30T16:46:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 144894,
+    "type": "issue",
+    "actor": "jieyouxu",
+    "date": "2025-08-04T12:12:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a0c10c87d26f6e5ed5667c455c0e46afe2d8b8ed",
+    "actor": "samueltardieu",
+    "date": "2025-08-04T22:22:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bc601e9cf94a3f6a8ed4a15022f86f89d8e416f0",
+    "actor": "samueltardieu",
+    "date": "2025-08-05T01:51:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fe9e86795a32a0ab5eb0976945cbb471f0107089",
+    "actor": "rust-timer",
+    "date": "2025-08-05T05:08:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "33d2f58e353647274437a1f43a9cb9eff11ddba3",
+    "actor": "github-actions[bot]",
+    "date": "2025-08-07T04:18:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d8756d850a3c6972547afe1bb5a0fc7e492be3a9",
+    "actor": "github-actions[bot]",
+    "date": "2025-08-11T04:30:39Z"
+  }
+]

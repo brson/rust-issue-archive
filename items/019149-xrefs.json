@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "97a520c7a3dfa574150c552ea46cfadf0739f358",
+    "actor": "alexcrichton",
+    "date": "2014-11-22T00:13:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b7b6251fb69671c4daeaea84de95785b0a465608",
+    "actor": "alexcrichton",
+    "date": "2014-11-22T06:10:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "649d16b3ea801e1e952a928062e8d24a3abd7cf0",
+    "actor": "bors",
+    "date": "2014-11-25T03:31:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6cb58caeedf509cc80dd376bbb2541a0446046b",
+    "actor": "bors",
+    "date": "2014-11-25T09:21:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e107c8b84969fbe52cae7c9fd61858fddc6e016b",
+    "actor": "CryZe",
+    "date": "2016-09-21T19:11:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 36632,
+    "type": "issue",
+    "actor": "CryZe",
+    "date": "2016-09-21T19:14:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c1e39380fbb04691cdcf6c58e2c0054110fa698c",
+    "actor": "sophiajt",
+    "date": "2016-09-22T18:25:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 82383,
+    "type": "issue",
+    "actor": "trevyn",
+    "date": "2021-02-22T02:35:31Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 4907,
+    "type": "issue",
+    "actor": "sanxiyn",
+    "date": "2013-02-13T13:11:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5112,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-03-06T11:50:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c84bac9462ae853b32f55fcaca2613a7e392d41",
+    "actor": "bors",
+    "date": "2013-03-19T16:52:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5551,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-10-28T15:22:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a373e73f5a9e4db97e69875ff787dfa4de9958d7",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "88d1a1c6fdf6e607606876cdab672eebdf6a3c71",
+    "actor": "RalfJung",
+    "date": "2024-04-20T09:08:26Z"
+  }
+]

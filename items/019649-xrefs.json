@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "dbf2eb9c18ba68eb83ab162897644bb181d55f08",
+    "actor": "Gankra",
+    "date": "2014-12-18T21:58:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "44f6f52578d5711ba8f395c8d5da577bb3c5fe15",
+    "actor": "tomjakubowski",
+    "date": "2014-12-20T18:25:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fb9b45189effece40b2b672fc4fd3b01e15f19cb",
+    "actor": "tomjakubowski",
+    "date": "2014-12-20T18:25:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20081,
+    "type": "issue",
+    "actor": "tomjakubowski",
+    "date": "2014-12-20T18:28:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b7d7ee41e43fc03be7ce08e82616bde9a4beb90b",
+    "actor": "nivkner",
+    "date": "2017-09-30T08:16:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ca309e023712102ee90a1ea6298481a7dfaed187",
+    "actor": "nivkner",
+    "date": "2017-09-30T08:22:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ff99111f482096248e7b37eeaf46ee8174d05b00",
+    "actor": "nivkner",
+    "date": "2017-09-30T08:34:14Z"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18101,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-10-28T11:24:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7bcd9183d3e1604a2623a7fd13c7f37109cea956",
+    "actor": "nikomatsakis",
+    "date": "2014-10-28T11:24:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18388,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-10-28T11:25:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a6e38e47cdd68ccd5093fce95c5e557fba450d46",
+    "actor": "nikomatsakis",
+    "date": "2014-10-28T11:51:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7c658948c59df482509d47394237327388525fac",
+    "actor": "bors",
+    "date": "2014-10-31T05:06:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "07f8053ad2b9de8fa2181aa0cbf87ea33cc6e2de",
+    "actor": "nikomatsakis",
+    "date": "2014-11-03T19:48:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a751c7bb721b240c8b42addcbaa457c8b189f6c2",
+    "actor": "nikomatsakis",
+    "date": "2014-11-04T02:55:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b31cd9a3d59536653dbd47dd6fdc3e83d1d05118",
+    "actor": "bors",
+    "date": "2014-11-04T10:21:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6ea023fa07cc7d618de0ebc6b3b2585da3446a6",
+    "actor": "nikomatsakis",
+    "date": "2014-11-05T21:13:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bcbae0a854892cec3ec175f64137036bc5ba79b0",
+    "actor": "nikomatsakis",
+    "date": "2014-11-06T01:11:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d6cadef2d6737e6fd70a89ee653c35590cd157df",
+    "actor": "bors",
+    "date": "2014-11-06T02:06:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "680d579ff0e0c8e65e329d29b867600aa2aec478",
+    "actor": "nikomatsakis",
+    "date": "2014-11-06T03:01:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0e2f9b948564708085373fc28d91b4524c821fa3",
+    "actor": "bors",
+    "date": "2014-11-06T04:21:49Z"
+  }
+]

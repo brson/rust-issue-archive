@@ -1,0 +1,82 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a7b6fa43edb698ffeb5cb83cade560fcbe7510d7",
+    "actor": "alexcrichton",
+    "date": "2014-12-17T20:19:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f28079b3c1b121cb5322408be7e415978ec175e9",
+    "actor": "alexcrichton",
+    "date": "2014-12-17T20:24:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9a74186b13367a91990a2f55e7b53e978bed0ffc",
+    "actor": "alexcrichton",
+    "date": "2014-12-17T20:24:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "49563894241ca46dbe2fdd6cd289748729e1647b",
+    "actor": "alexcrichton",
+    "date": "2014-12-17T20:26:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19961,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-12-17T20:26:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8605ce2096eb32b8c89e392e5d2a53e0bbc1254c",
+    "actor": "alexcrichton",
+    "date": "2014-12-17T20:35:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a71686f4ea1a265f15adfbe850305f65453ef550",
+    "actor": "alexcrichton",
+    "date": "2014-12-19T21:43:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a3c6dd2aafa0987d5397d1ea77b2b67ab8cc28a4",
+    "actor": "alexcrichton",
+    "date": "2014-12-21T08:48:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "380d3f2ae196cc15002c5aeffbc889df1a3fde2c",
+    "actor": "bors",
+    "date": "2014-12-21T15:41:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1bdcfd64629930c09b942025e242e51e784c447d",
+    "actor": "bors",
+    "date": "2014-12-21T15:42:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e8722691abbe521fd6ba7b558dec7273ca7cec6d",
+    "actor": "alexcrichton",
+    "date": "2014-12-21T17:29:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18991,
+    "type": "issue",
+    "actor": null,
+    "date": "2015-01-29T10:50:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bec452fac1f5332baf145115eaa92e82bedf4d49",
+    "actor": "lnicola",
+    "date": "2025-02-10T06:24:34Z"
+  }
+]

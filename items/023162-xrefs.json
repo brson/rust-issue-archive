@@ -1,0 +1,42 @@
+[
+  {
+    "event": "referenced",
+    "commit": "eef7330db3250a5aeb4dfb895cfd4d10f46c4fe3",
+    "actor": "bors",
+    "date": "2015-03-12T02:31:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "49f7550a25722fbdb779eef80afa85f6d802f7e8",
+    "actor": "bors",
+    "date": "2015-03-12T07:30:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23016,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-03-12T10:10:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23083,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-03-17T17:37:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10068,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-04-02T07:38:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 640,
+    "type": "issue",
+    "actor": "liigo",
+    "date": "2015-07-08T03:37:56Z"
+  }
+]

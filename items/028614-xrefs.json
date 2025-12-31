@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 28671,
+    "type": "issue",
+    "actor": "wthrowe",
+    "date": "2015-09-26T05:32:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29397,
+    "type": "issue",
+    "actor": "dylanmckay",
+    "date": "2015-10-27T10:25:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e42112f5b841094dd97a124cc8c3b41880db71b",
+    "actor": "Manishearth",
+    "date": "2015-11-24T12:39:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d0ca581016c68f70303929667429e82fe933a0f2",
+    "actor": "steveklabnik",
+    "date": "2015-11-24T14:43:46Z"
+  }
+]

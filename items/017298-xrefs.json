@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "5aa264a14fbc386c2cbb1d8f7dc0f0d7c7f1a773",
+    "actor": "pcwalton",
+    "date": "2014-09-18T23:26:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17379,
+    "type": "issue",
+    "actor": "pcwalton",
+    "date": "2014-09-18T23:27:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "138f32410dae7e08e8d93f967d202a162b2e440d",
+    "actor": "bors",
+    "date": "2014-09-19T04:55:39Z"
+  }
+]

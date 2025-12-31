@@ -1,0 +1,78 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 9701,
+    "type": "issue",
+    "actor": "madjar",
+    "date": "2013-10-03T13:46:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "46d404653ab96af587a1f73deade088e002417e1",
+    "actor": "madjar",
+    "date": "2013-10-18T20:55:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "41a55868bae6d2cdb57f3afd908c95a2cf4cc95b",
+    "actor": "madjar",
+    "date": "2013-10-18T21:00:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9936,
+    "type": "issue",
+    "actor": "madjar",
+    "date": "2013-10-18T21:46:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7d89fae738c70a4cc731727299107a7e5c2f6de",
+    "actor": "madjar",
+    "date": "2013-10-20T08:55:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7391a7624f9c686aceb3902c9dbbec6cdef43dcc",
+    "actor": "bors",
+    "date": "2013-10-21T17:06:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f02687b7a9425679942e60d016c2a0903f896751",
+    "actor": "madjar",
+    "date": "2013-10-21T19:53:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1dc3d0bf86c7e3db3e9b1cb9cfb1f344f9420f0f",
+    "actor": "madjar",
+    "date": "2013-10-21T19:58:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6dd6623b71ccee5b24117fa14df2bf3e5533e0c7",
+    "actor": "bors",
+    "date": "2013-10-21T21:21:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 94760,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2022-03-09T04:34:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 94761,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2022-03-09T05:38:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e0663e25ca956380002c0703c59e8e7323add2d",
+    "actor": "djkoloski",
+    "date": "2022-09-21T17:03:11Z"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 52527,
+    "type": "issue",
+    "actor": "ljedrz",
+    "date": "2018-07-19T08:31:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6cd5dbfdcb3b3d84156e465914ab9efb916c793c",
+    "actor": "pietroalbini",
+    "date": "2018-07-20T13:47:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e10194dc27b1cc941cd5b344f4c6d3833c97ccd2",
+    "actor": "pietroalbini",
+    "date": "2018-07-20T14:51:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a1b0188d51aca8d8212d85a03e282adcd0465704",
+    "actor": "kennytm",
+    "date": "2018-07-20T18:59:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "63da8122fb93838dc3a20c0ba94665658df55166",
+    "actor": "kennytm",
+    "date": "2018-07-20T20:09:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "197d58d59171acd4a903f04ce1a4be7e299b3b46",
+    "actor": "bors",
+    "date": "2025-01-28T23:11:38Z"
+  }
+]

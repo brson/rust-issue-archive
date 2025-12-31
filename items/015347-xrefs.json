@@ -1,0 +1,156 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2854,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2014-09-29T23:07:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 331,
+    "type": "issue",
+    "actor": "drewcrawford",
+    "date": "2015-01-29T02:40:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a2c5c80d3fb0d0914671d995f645e5b89c4b1d85",
+    "actor": "alexcrichton",
+    "date": "2015-04-08T00:54:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a30f28edad0244c855e9f4b52250efe4e28bc039",
+    "actor": "alexcrichton",
+    "date": "2015-04-08T00:55:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1520,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-04-13T12:59:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25568,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-05-18T16:24:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c85bfe13506237077d4883884388bc9be5b41633",
+    "actor": "SimonSapin",
+    "date": "2015-07-17T20:33:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6655,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-07-17T20:38:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a24783df4be2641afab3aa72626f9c59f90d49af",
+    "actor": "bors-servo",
+    "date": "2015-07-17T20:40:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27104,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-07-18T11:16:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf2dfaf60eb4d6efabd1a22f8318ffb0c783129d",
+    "actor": "SimonSapin",
+    "date": "2015-07-20T07:30:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6668,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-07-20T07:31:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "685a44e1f5017849c341850696a77418bcc14011",
+    "actor": "bors-servo",
+    "date": "2015-07-20T07:32:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30094,
+    "type": "issue",
+    "actor": "ilammy",
+    "date": "2015-11-28T17:24:55Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 34026,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2016-06-01T23:42:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ee93988bced49362ed88bb5ae509403ae5cce924",
+    "actor": "jrmuizel",
+    "date": "2017-06-12T20:58:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "23a1257cd170bf78190263ac3af5aa8aeede3d93",
+    "actor": "jrmuizel",
+    "date": "2017-06-12T20:58:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7,
+    "type": "issue",
+    "actor": "typesanitizer",
+    "date": "2017-07-28T03:25:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "72581abb6f4edaf8baeeaec0cc48cd46b3fbf1a5",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:52:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "89a00725deab890f6b264c367bd7c0c26e191741",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:52:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1cf951977466092786b62080960c94a8fbda9b23",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:23:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c8b4059a47f599529e93f29ff452a3947cf51c71",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:23:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "86bb81d7d9a0300e64f6a2c8eea4943274c23245",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:32:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f41f6606ae186d1529b8c6cfc01eb58b53ee59b2",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:32:37Z"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "ba17bd0b42b3f8e13cac97781f7d81efad13b166",
+    "actor": "birkenfeld",
+    "date": "2016-05-09T08:18:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33509,
+    "type": "issue",
+    "actor": "birkenfeld",
+    "date": "2016-05-09T08:18:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "044727d7575ea45e28436098d4b1ce7f16c42e67",
+    "actor": "Manishearth",
+    "date": "2016-05-09T19:49:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3766313e0b05cbf7aac3c98c5386a8a0625d0db5",
+    "actor": "Manishearth",
+    "date": "2016-05-09T19:50:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fb382df1f8e9f7124659f4cdb02f0ab311ea02b4",
+    "actor": "Manishearth",
+    "date": "2016-05-09T22:00:34Z"
+  }
+]

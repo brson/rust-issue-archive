@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 17683,
+    "type": "issue",
+    "actor": "gereeter",
+    "date": "2014-10-01T12:59:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "00ebebb25883a5f0c0af73c17152b6bfefdc3c74",
+    "actor": "bors",
+    "date": "2014-10-01T13:27:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "56d544f7adc455fc1d7dfaec80315ea44e46d9ae",
+    "actor": "bors",
+    "date": "2014-10-23T20:22:19Z"
+  }
+]

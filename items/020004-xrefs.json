@@ -1,0 +1,48 @@
+[
+  {
+    "event": "referenced",
+    "commit": "2ffaa56e265a0d24e2c27f7755f86391d3591415",
+    "actor": "aturon",
+    "date": "2014-12-19T02:56:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4c0c0ff42e81a47c4e1e6985db62a28a8576406",
+    "actor": "aturon",
+    "date": "2014-12-19T07:36:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41618,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-04-29T03:06:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f99a1d5a7136a4734348bd042724cccbd39b6872",
+    "actor": "frewsxcv",
+    "date": "2017-04-29T17:54:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 47863,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2018-01-30T19:07:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 102032,
+    "type": "issue",
+    "actor": "tmandry",
+    "date": "2022-09-20T23:02:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 148635,
+    "type": "issue",
+    "actor": "jieyouxu",
+    "date": "2025-11-07T07:39:29Z"
+  }
+]

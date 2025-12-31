@@ -1,0 +1,29 @@
+[
+  {
+    "event": "referenced",
+    "commit": "05460fcd5a9b2be5055f55965f768b0aa37119d9",
+    "actor": "bors",
+    "date": "2013-05-07T00:52:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4903,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2013-05-07T03:53:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3850,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-05-07T19:16:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4945,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-05-12T21:11:17Z"
+  }
+]

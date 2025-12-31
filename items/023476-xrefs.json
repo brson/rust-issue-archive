@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 50610,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-05-10T16:14:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c6ec5f4e0a1d0061f6899f6c4d60cc49bb023b90",
+    "actor": "bors",
+    "date": "2018-05-17T11:56:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b3734bd78f566dc9c6ddf977fb290c847cccdc9c",
+    "actor": "Mark-Simulacrum",
+    "date": "2018-05-17T19:51:22Z"
+  }
+]

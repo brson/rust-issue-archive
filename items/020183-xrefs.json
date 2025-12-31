@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1085,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-12-24T05:28:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c55a992cb4537900f0b345f41461b78731417dce",
+    "actor": "geomaster",
+    "date": "2014-12-24T20:42:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c43efee6def9a4a4e943feef0236d3e17b3f581d",
+    "actor": "bors",
+    "date": "2014-12-26T03:01:42Z"
+  }
+]

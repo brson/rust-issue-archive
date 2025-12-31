@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 52177,
+    "type": "issue",
+    "actor": "ljedrz",
+    "date": "2018-07-09T13:43:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bb9f49404c0c058a82d2403096b2e0fc4349a1b4",
+    "actor": "Mark-Simulacrum",
+    "date": "2018-07-10T01:36:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "77117e383676176116851d7d3ec04b5e0cf0c456",
+    "actor": "bors",
+    "date": "2018-07-10T06:52:30Z"
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "dc4818ccac07e70f6540eff05d4f67f89a7a2dbc",
+    "actor": "bors",
+    "date": "2015-05-27T22:02:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1a3cffbddfa21aac6fabd2f07f86703fbf1f26a5",
+    "actor": "bors",
+    "date": "2015-05-28T02:17:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "915a9c93beeaf09b7807029f80555eb88460b2fc",
+    "actor": "alexcrichton",
+    "date": "2017-05-05T14:04:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41769,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2017-05-05T14:04:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "94e4b459efa3e75c190aeb50da88a02661b3d214",
+    "actor": "alexcrichton",
+    "date": "2017-05-05T18:27:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4209651ec4d4455dab4fc3f3a3456a897d9da7f",
+    "actor": "bors",
+    "date": "2017-05-05T20:44:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ae43eb95e14158c8e8d45d75901db072748ad60",
+    "actor": "hackeryarn",
+    "date": "2017-05-09T15:28:51Z"
+  }
+]

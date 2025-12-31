@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "6f9e1a0042322c2804bbbffb8f2674eb5b562fab",
+    "actor": "nrc",
+    "date": "2015-01-14T20:32:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21156,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2015-01-14T20:33:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9d4d5ca6e7d19fd9be6775289e465fefddab69f5",
+    "actor": "alexcrichton",
+    "date": "2015-01-15T22:13:22Z"
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "event": "referenced",
+    "commit": "5cf99c585ac16ad8c990c134333e61ea3bf591fb",
+    "actor": "bblum",
+    "date": "2012-07-26T22:20:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "802ea5d57e8cd4cd12e1a0e25c446b90be4a6a06",
+    "actor": "nikomatsakis",
+    "date": "2012-08-08T17:26:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3224,
+    "type": "issue",
+    "actor": "bblum",
+    "date": "2012-08-21T01:55:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3271,
+    "type": "issue",
+    "actor": "bblum",
+    "date": "2012-08-24T20:58:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6743fea70e99efc33f6890770da8c0f91723311",
+    "actor": "nikomatsakis",
+    "date": "2013-05-10T09:29:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6385,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-05-10T09:30:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d165533813b9b001afd78578c2a648efd393d6fb",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ce365ff79fe323ca5ea269ea261363efc82ce2d",
+    "actor": "RalfJung",
+    "date": "2023-08-17T11:53:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d861442704c2791aa6ad92d7881a760e4a7deaa0",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:47Z"
+  }
+]

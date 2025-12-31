@@ -1,0 +1,51 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e44f47adf7e2021bdbe5771a74646525437d7477",
+    "actor": "bjorn3",
+    "date": "2023-07-22T13:33:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5b169ef7752b546cac506cd27a6e549a20234c7f",
+    "actor": "coastalwhite",
+    "date": "2023-08-05T20:36:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "46952c822fe024c7d0ebcb9caac4e74d7155b3de",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b5260c63643e7a73cc3fbd5d2c2c84426ebc7cfe",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:19:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3cb910acead67e4979af832aa5ccd2382297db67",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4d46e1d0a334d380f724577b37cda6b28e699c5",
+    "actor": "bors",
+    "date": "2025-02-15T10:08:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 138310,
+    "type": "issue",
+    "actor": "rust-timer",
+    "date": "2025-03-10T21:45:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "57c492180ddc964829306997db3f681292f36e17",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-09T09:32:24Z"
+  }
+]

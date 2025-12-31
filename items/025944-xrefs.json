@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "5dac5ee8583149cc93118f54f1ccd32453f74efe",
+    "actor": "birkenfeld",
+    "date": "2016-05-09T13:51:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33512,
+    "type": "issue",
+    "actor": "birkenfeld",
+    "date": "2016-05-09T13:56:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5606b42981e5714b22ff61ec2dcd37414d569287",
+    "actor": "birkenfeld",
+    "date": "2016-05-09T20:46:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "80ec1b9f1040fba67846924234167feeb24d1f68",
+    "actor": "bors",
+    "date": "2016-05-11T03:14:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 35012,
+    "type": "issue",
+    "actor": "ollie27",
+    "date": "2016-07-25T00:01:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 35483,
+    "type": "issue",
+    "actor": "ollie27",
+    "date": "2016-08-08T10:10:45Z"
+  }
+]

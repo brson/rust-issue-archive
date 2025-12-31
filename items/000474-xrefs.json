@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "18c6cc63717bde7095c2e093e5dcff9661aefe79",
+    "actor": "graydon",
+    "date": "2011-09-23T17:53:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "335cff9f8bb00f3eef2ea2319b307755e55c835c",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "07e61cdc514234beeacc6d954e204b8d31e81c34",
+    "actor": "withoutboats",
+    "date": "2018-04-11T10:11:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 49868,
+    "type": "issue",
+    "actor": "withoutboats",
+    "date": "2018-04-11T10:12:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e57b2ee7b14114af8299587401e66f8c8e579225",
+    "actor": "pdietl",
+    "date": "2020-04-23T21:22:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "df6aea84d798bb142cdb07a9944fa1312a701b02",
+    "actor": "celinval",
+    "date": "2024-06-04T02:18:56Z"
+  }
+]

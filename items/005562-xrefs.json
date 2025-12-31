@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5523,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-03-26T20:47:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6cb273ed4efb6724b1c713c3ac35d14e52999fb1",
+    "actor": "nikomatsakis",
+    "date": "2013-05-05T17:50:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "578692d9b0205102968032bd4a63c3b262c43b63",
+    "actor": "flip1995",
+    "date": "2020-05-27T19:56:40Z"
+  }
+]

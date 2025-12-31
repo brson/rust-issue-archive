@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "49cdf36d2b993e08833bfdda2563b0c22ee42de7",
+    "actor": "huonw",
+    "date": "2013-04-08T06:36:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5776,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2013-04-08T06:39:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "913ca088fc595aca5c5428460064976d58184a33",
+    "actor": "bors",
+    "date": "2013-04-08T19:07:00Z"
+  }
+]

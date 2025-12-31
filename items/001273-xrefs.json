@@ -1,0 +1,78 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1315,
+    "type": "issue",
+    "actor": "kud1ing",
+    "date": "2011-12-20T09:33:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "54450db231070225ee9087683d888818e6e984a8",
+    "actor": "nikomatsakis",
+    "date": "2012-02-15T19:59:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bfff2a8d55f8d96df77c7e496dc7713fe7faf5f9",
+    "actor": "nikomatsakis",
+    "date": "2012-02-15T22:24:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1940,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-03-07T18:36:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2046,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-03-22T16:31:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8a9df5aa38f63c9864dc560baadec95575188997",
+    "actor": "nikomatsakis",
+    "date": "2012-05-07T20:32:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2643,
+    "type": "issue",
+    "actor": "dherman",
+    "date": "2012-06-19T22:27:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d18a3757dd47746e778cc913adb0ffb4e74373cd",
+    "actor": "bjorn3",
+    "date": "2022-10-23T14:23:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4c5507a5cde21526ddbc6c2eb151fc7678171a4",
+    "actor": "coastalwhite",
+    "date": "2023-08-05T20:36:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "26d0b6703e7b53b9d014bd1b66d5da95057eda28",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:19:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "46d48d8d72cfd28e259535762c501bdca285214b",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "929f6e84099de2ba0f9ca15ef513416a77a1f019",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-09T09:32:17Z"
+  }
+]

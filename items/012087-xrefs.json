@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c3ccaacc6c90fc678cbba9c3c0427f0a7dece75c",
+    "actor": "bors",
+    "date": "2014-02-07T11:26:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "34e4c9fa4a8bb00ada7671cc922d09d4ed6e4834",
+    "actor": "flip1995",
+    "date": "2024-02-08T19:25:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e52f5bf16dea36f302ad33af92518dcc8083012f",
+    "actor": "nnethercote",
+    "date": "2024-12-04T08:44:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 133847,
+    "type": "issue",
+    "actor": "nnethercote",
+    "date": "2024-12-04T08:45:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a4dc9634a8a7d25fc2ed3b0a5724d19b6e0697ca",
+    "actor": "matthiaskrgr",
+    "date": "2024-12-04T17:23:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cd621cfbeddf11766a8dc843a7290f7fa83a1e68",
+    "actor": "rust-timer",
+    "date": "2024-12-04T20:38:08Z"
+  }
+]

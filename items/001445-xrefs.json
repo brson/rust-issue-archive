@@ -1,0 +1,87 @@
+[
+  {
+    "event": "referenced",
+    "commit": "413aae8169cb4a21584637cc7b18ed65e8547b42",
+    "actor": "nikomatsakis",
+    "date": "2016-03-11T20:41:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76d29a727cb50c64097eac17f64552486e828c89",
+    "actor": "nikomatsakis",
+    "date": "2016-03-11T20:41:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ed617f0d35840c9d255ca895f5ba3412e346d61",
+    "actor": "nikomatsakis",
+    "date": "2016-03-11T20:44:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "afc4c7078186866df5f887bf5ccbe6252ca5e2d9",
+    "actor": "nikomatsakis",
+    "date": "2016-03-11T20:44:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32199,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2016-03-11T20:47:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f69eb8efbe5dbc373426bf0ff021b49f37db41cb",
+    "actor": "nikomatsakis",
+    "date": "2016-03-25T14:05:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7f661ec417616ea7036f0cc4aefc7034592a3647",
+    "actor": "nikomatsakis",
+    "date": "2016-03-25T14:05:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b590846f2c7157e1f80e7ed064e9d1e59229e66",
+    "actor": "bors",
+    "date": "2016-03-25T15:32:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "49e312b6e76c9f5114f332886292fbc1e978ad96",
+    "actor": "bors",
+    "date": "2016-03-25T21:28:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1bf8d69a777e7c3fabd3ee9f08a755a18a74c045",
+    "actor": "Manishearth",
+    "date": "2016-03-26T03:27:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "128b2ad8298f33984c64b98cfb354bb932b740ef",
+    "actor": "Manishearth",
+    "date": "2016-03-26T03:37:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f69c2e768fcfecb118b495630c45d756f83d58d1",
+    "actor": "bjorn3",
+    "date": "2024-01-26T18:34:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "081196feab7109a6a1efc8e29af86f6d7e82291d",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bad0cec3f689b7916ceeec33639727d14ebdecd7",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:58Z"
+  }
+]

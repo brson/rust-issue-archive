@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18264,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-10-30T20:46:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "82045ca3606dfe070fce99ca71fb6a9d39217b73",
+    "actor": "bors",
+    "date": "2014-10-31T11:16:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 59739,
+    "type": "issue",
+    "actor": "eddyb",
+    "date": "2019-04-16T11:06:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 57563,
+    "type": "issue",
+    "actor": "Lokathor",
+    "date": "2019-11-27T17:01:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9774d0ac7a65db7d0488d5be1c0fbfa439e4f23f",
+    "actor": "tshepang",
+    "date": "2025-11-10T22:42:55Z"
+  }
+]

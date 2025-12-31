@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 48138,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-02-11T21:41:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 48534,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-02-25T21:15:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dda6f9b8c96840cff66a23c7bc0f61626b7c33a7",
+    "actor": "bors",
+    "date": "2018-03-15T05:17:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ff2d506c2c748bd218f74c6014abc4cecc8c74c4",
+    "actor": "bors",
+    "date": "2018-03-15T13:16:19Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "39543e91f51eead5a00242e7eda6a0fced06ceea",
+    "actor": "arielb1",
+    "date": "2015-04-13T16:29:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24380,
+    "type": "issue",
+    "actor": "arielb1",
+    "date": "2015-04-13T16:29:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "38c9e0f4bc2068b2f4518c4c67742f483a9a4fbd",
+    "actor": "alexcrichton",
+    "date": "2015-04-14T20:51:01Z"
+  }
+]

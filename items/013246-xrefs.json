@@ -1,0 +1,80 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 31,
+    "type": "issue",
+    "actor": "sfackler",
+    "date": "2014-04-01T16:17:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 34,
+    "type": "issue",
+    "actor": "sfackler",
+    "date": "2014-04-06T15:27:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c4dcf8768639bb3beaf649a538e680884245ba6",
+    "actor": "sfackler",
+    "date": "2014-04-08T03:57:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13778,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-04-26T17:10:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4fecc503ee6f4fcd97d0d9421bfed279dd67ac6c",
+    "actor": "alexcrichton",
+    "date": "2014-06-10T03:59:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14787,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-06-10T03:59:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ba49a196959ccded7cef18b67ebb64020ef1355",
+    "actor": "bors",
+    "date": "2014-06-10T11:01:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "db9e0a1142ee1f57d27201f9bfb33d28e44f6355",
+    "actor": "bors",
+    "date": "2014-06-11T11:22:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 8861,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-06-12T21:34:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 60,
+    "type": "issue",
+    "actor": "mikedilger",
+    "date": "2014-09-28T06:15:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f3cce5feea047e61af84f371072a021a333ba69f",
+    "actor": "compiler-errors",
+    "date": "2022-10-26T20:45:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b86a202c92aec56daa3eee677bbc70493ac10394",
+    "actor": "flip1995",
+    "date": "2024-09-05T15:07:08Z"
+  }
+]

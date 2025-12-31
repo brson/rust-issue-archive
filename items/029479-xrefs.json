@@ -1,0 +1,36 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c1d2f08dc73ca2eee541b5003c526c4aa0417210",
+    "actor": "steveklabnik",
+    "date": "2015-11-04T09:15:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 212,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-11-04T09:15:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42575,
+    "type": "issue",
+    "actor": "scorbeil",
+    "date": "2017-06-10T00:02:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11852,
+    "type": "issue",
+    "actor": "rth",
+    "date": "2018-08-18T11:35:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 157,
+    "type": "issue",
+    "actor": "windelbouwman",
+    "date": "2018-10-24T08:49:15Z"
+  }
+]

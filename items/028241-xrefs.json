@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 25,
+    "type": "issue",
+    "actor": "dhuseby",
+    "date": "2015-09-04T22:13:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28254,
+    "type": "issue",
+    "actor": "semarie",
+    "date": "2015-09-05T05:01:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a8b1bf713ee927d53a568cb6a90011ef4d51ab2e",
+    "actor": "bors",
+    "date": "2015-09-05T05:51:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8115b397f6df6a9f2b109dcadb31b21535f976bd",
+    "actor": "bors",
+    "date": "2015-09-08T20:34:50Z"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 27840,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-11-04T10:23:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30364,
+    "type": "issue",
+    "actor": "luqmana",
+    "date": "2015-12-13T13:52:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30481,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-12-19T15:30:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a9c3ffd2d203b3c603024f87a260afc864eb798b",
+    "actor": "bors",
+    "date": "2016-01-06T00:31:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d5ac1a1da327f22bb865f23963f1070d4fd40c0c",
+    "actor": "bors",
+    "date": "2016-01-06T13:11:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30845,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2016-01-12T13:23:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0a5f6b872f9e7e97c5de8fad81cfa167afa632c8",
+    "actor": "Manishearth",
+    "date": "2016-01-13T22:52:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "29d24a3b02cb805da19450bf9830a8f0a6bd859c",
+    "actor": "bors",
+    "date": "2016-01-14T15:54:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eaa505937fb122c0502139a110f209069a7b7308",
+    "actor": "bors",
+    "date": "2016-01-14T19:14:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "41b74b11b4bdc54ee8d811b2b38c4f40c68f508e",
+    "actor": "bors",
+    "date": "2016-01-19T13:46:18Z"
+  }
+]

@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1736,
+    "type": "issue",
+    "actor": "marijnh",
+    "date": "2012-03-15T15:12:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2369,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2012-05-15T14:56:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6819,
+    "type": "issue",
+    "actor": "Aatch",
+    "date": "2013-06-28T19:54:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "086af3d1cc27fc1c57da5b8b7d98d24afb4c6769",
+    "actor": "scottmcm",
+    "date": "2017-04-29T06:06:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "14f877c8de3ca759b52ac8089beec300acc7f64f",
+    "actor": "scottmcm",
+    "date": "2017-04-29T06:54:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6e36a539a12fb7689023328f1326c6d83de028b7",
+    "actor": "scottmcm",
+    "date": "2017-05-21T07:17:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "258ddce627d43a0800f14263aa316c75e31eff61",
+    "actor": "scottmcm",
+    "date": "2017-05-21T08:18:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1f8f29c188913a21258177d73fc70a4ee53ff7b2",
+    "actor": "ZuseZ4",
+    "date": "2025-12-24T18:54:09Z"
+  }
+]

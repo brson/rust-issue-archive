@@ -1,0 +1,83 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2395,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-05-18T00:01:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d90b481e7144f1e175d94bcefaf0f3820cd0f008",
+    "actor": "0c0w3",
+    "date": "2012-09-11T07:20:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3460,
+    "type": "issue",
+    "actor": "0c0w3",
+    "date": "2012-09-11T07:35:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 102788,
+    "type": "issue",
+    "actor": "joshtriplett",
+    "date": "2022-10-07T16:47:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10bd656b729e92c232f4034c457039089bc0f53a",
+    "actor": "joshtriplett",
+    "date": "2022-10-07T16:47:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "870032b09c99a3d0f6449b46157004d6dc30e9bd",
+    "actor": "Dylan-DPC",
+    "date": "2022-10-08T06:32:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c2bd2f309853ccd8c4ba2cd20436df0489a65136",
+    "actor": "matthiaskrgr",
+    "date": "2022-10-08T07:13:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dcc93168a8a4e94cfdd1c87d0d9598d85035a636",
+    "actor": "Dylan-DPC",
+    "date": "2022-10-08T07:17:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "140fe041f67d91869584ad03c67caa55a45af52a",
+    "actor": "matthiaskrgr",
+    "date": "2022-10-08T12:38:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "64d6da5cda286b083fe0c02b81baeaf7855b99cd",
+    "actor": "bjorn3",
+    "date": "2024-04-05T16:20:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b0aeb2bcd5362c001aff391d4d7545f48b1ee7ba",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0f6090abdba34c816b355ceae6f58806fb88fb1d",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7722f6dd66523d94cf823faed1d2de24642cdd17",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:00Z"
+  }
+]

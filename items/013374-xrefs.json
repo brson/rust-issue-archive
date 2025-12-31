@@ -1,0 +1,113 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fa166a92ae1cd7b3da073c1685fd2a6e1631ec8f",
+    "actor": "alexcrichton",
+    "date": "2014-04-23T16:40:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13706,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-04-23T16:40:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6eaa21635e6c6c90e1a0579876bc63581f661f7d",
+    "actor": "bors",
+    "date": "2014-04-24T09:56:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "759aed65320502f49bc5b5f25dc96f18bf005ff0",
+    "actor": "alexcrichton",
+    "date": "2014-04-24T16:52:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "65f68dcf700a140a64bdd868d5d86b187326e088",
+    "actor": "alexcrichton",
+    "date": "2014-04-24T16:54:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3485d90728fe8dc076c6362211bf1f62830c97d8",
+    "actor": "bors",
+    "date": "2014-04-24T18:31:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "43c7f3ca3d1828f67d65d705b30eba21ec1485e9",
+    "actor": "bors",
+    "date": "2022-10-18T07:46:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1e797e9a381906c9b249209dae053bbbd13b50ca",
+    "actor": "bors",
+    "date": "2024-09-24T17:41:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10,
+    "type": "issue",
+    "actor": "epage",
+    "date": "2025-04-11T16:13:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ebb508239be8e877ca10136641820150bc5ce940",
+    "actor": "epage",
+    "date": "2025-08-11T20:20:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 145269,
+    "type": "issue",
+    "actor": "epage",
+    "date": "2025-08-11T20:21:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "76aeefbc8d0274ba82ab6409b235c63e373ff576",
+    "actor": "Kobzol",
+    "date": "2025-08-12T17:36:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "34cb05ef5dacd1f44dfa6a2f7c25c5dacda603ab",
+    "actor": "jhpratt",
+    "date": "2025-08-12T18:08:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3cb4a985540c1a87fbb198ea2d0236f5d3096509",
+    "actor": "jhpratt",
+    "date": "2025-08-12T18:09:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "91a99f2efd82bdb983f89c4b4180ef90bbf61281",
+    "actor": "jhpratt",
+    "date": "2025-08-12T18:20:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b1deef096d6bc6f98a2de6afc31d5d25c1905af",
+    "actor": "Kobzol",
+    "date": "2025-08-13T05:03:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4a91c891d81ecb1d03f87c84fd962c952dcb6bd",
+    "actor": "rust-timer",
+    "date": "2025-08-13T10:39:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fc2441dad9a10966e7fb7f612121ba483ba3c8a3",
+    "actor": "github-actions[bot]",
+    "date": "2025-08-18T19:51:57Z"
+  }
+]

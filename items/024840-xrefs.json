@@ -1,0 +1,66 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24687,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-04-26T15:27:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24902,
+    "type": "issue",
+    "actor": "bombless",
+    "date": "2015-04-28T14:26:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2f613bfaeb81ce25b116835a5f09750384b888c7",
+    "actor": "bors",
+    "date": "2015-04-30T15:16:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31033,
+    "type": "issue",
+    "actor": "frewsxcv",
+    "date": "2016-01-21T03:15:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ac4945c1cbdee5800a53c7afe180b290291cefe1",
+    "actor": "pnkfelix",
+    "date": "2018-10-04T10:41:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 54811,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2018-10-04T10:44:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9f9ae6f2c670283a8c91a9d4640dec19a3189bef",
+    "actor": "pietroalbini",
+    "date": "2018-10-09T22:38:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c8b891ac74b81ec22f2407fb509b2cf95eac494c",
+    "actor": "pietroalbini",
+    "date": "2018-10-10T07:01:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e33cd16247310ec27956f48eaf9b6c9e98a73db7",
+    "actor": "Mark-Simulacrum",
+    "date": "2018-10-11T14:32:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e03db2301e823be6371464228f7d8b10b3189abd",
+    "actor": "kennytm",
+    "date": "2018-10-12T14:04:03Z"
+  }
+]

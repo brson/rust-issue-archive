@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "2a9bf0959b8929736a6c42b3096eed1c4d431aa6",
+    "actor": "msullivan",
+    "date": "2012-05-22T23:41:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3521,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2012-09-18T14:59:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "17bb2c094634238f34942608930e845cbc15a17f",
+    "actor": "bors",
+    "date": "2022-09-22T12:28:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6e91d1386f8ade781e7e5ffaf23817219133f92f",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:10Z"
+  }
+]

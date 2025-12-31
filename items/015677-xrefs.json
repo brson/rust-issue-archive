@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 41705,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-05-02T14:35:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b51384a2d6973b307ca126551fbe838cf7384d0",
+    "actor": "frewsxcv",
+    "date": "2017-05-03T01:21:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b3f45745ea0502e664711f130f9d01f87b99fd27",
+    "actor": "bors",
+    "date": "2023-11-13T23:43:39Z"
+  }
+]

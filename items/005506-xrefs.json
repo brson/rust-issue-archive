@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 8293,
+    "type": "issue",
+    "actor": "dim-an",
+    "date": "2013-08-04T22:31:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d8b299d179653cbde783f62f70b5531dbaa5c5a6",
+    "actor": "bors",
+    "date": "2013-08-05T18:28:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5d8a3e8724f587c6b2a888087a3643ead5534fde",
+    "actor": "oli-obk",
+    "date": "2020-05-02T07:49:29Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 22219,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2015-02-12T12:58:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ba2efe96aeada34c1e2dc267a1a35948bdda91f8",
+    "actor": "bors",
+    "date": "2015-02-13T02:09:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e0ac65e669e2a59a674327f7ff2590afbc2f3442",
+    "actor": "nivkner",
+    "date": "2017-10-07T21:30:23Z"
+  }
+]

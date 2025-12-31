@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 4316,
+    "type": "issue",
+    "actor": "ttaubert",
+    "date": "2012-12-30T19:06:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d4409350dc38a4ee22f86ff39f5613b37a2c5771",
+    "actor": "oli-obk",
+    "date": "2020-05-02T07:49:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a96f8743014cb1e3c26ec6e6b45734fa537bda2e",
+    "actor": "oli-obk",
+    "date": "2020-05-02T07:49:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "817e72521f6a87a043475c7cd3e4d6883ed7552d",
+    "actor": "RalfJung",
+    "date": "2025-04-29T08:26:53Z"
+  }
+]

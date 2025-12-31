@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24853,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2015-05-08T13:23:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dd372506743183b824cbda0ec0177d0e85f31f42",
+    "actor": "Manishearth",
+    "date": "2015-05-08T19:07:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25218,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-05-08T19:07:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b210aea1d446dcc9d05d0072c439575f9649d9f9",
+    "actor": "bors",
+    "date": "2015-05-08T20:39:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25311,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-05-11T18:24:09Z"
+  }
+]

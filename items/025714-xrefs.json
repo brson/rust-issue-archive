@@ -1,0 +1,47 @@
+[
+  {
+    "event": "referenced",
+    "commit": "07dd853a2efda22cca4ddca3c340a552ceddf514",
+    "actor": "oli-obk",
+    "date": "2015-05-23T10:50:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25731,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2015-05-23T10:50:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "69f403162569dd5e32181893a7c81c83e2d0f732",
+    "actor": "oli-obk",
+    "date": "2015-05-23T16:48:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25734,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2015-05-23T16:48:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0b70f27b64214fa79e680369aadcfe184ebf24a8",
+    "actor": "oli-obk",
+    "date": "2015-05-23T17:03:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25735,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2015-05-23T17:03:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a33b808ac0ec37a8ef78b0581b3b061271c93ab8",
+    "actor": "bors",
+    "date": "2015-05-23T17:33:56Z"
+  }
+]

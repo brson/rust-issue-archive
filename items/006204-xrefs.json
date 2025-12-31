@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "984180c600b083b272237c0b343bb3e3dd844086",
+    "actor": "bors",
+    "date": "2013-05-03T07:12:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e023158145ece18176a2e93420600ccda0d0bc58",
+    "actor": "Mark-Simulacrum",
+    "date": "2020-09-01T14:02:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76199,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2020-09-01T14:04:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6b1083ce20fb4640c03b100a7abae4b890c2cbfa",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-10-17T00:18:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "496e2feed684afc3eb43a3e4ac933fc61a5a8305",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-10-17T01:27:15Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "067ad9928f75c647a2088bef57ca75b71c809792",
+    "actor": "nagisa",
+    "date": "2015-08-24T22:45:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27988,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-08-24T22:45:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c4847a11dabf108c49ce2c035e44c0a8c32ac18c",
+    "actor": "steveklabnik",
+    "date": "2015-08-25T13:43:08Z"
+  }
+]

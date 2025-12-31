@@ -1,0 +1,29 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30187,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-12-04T23:22:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31965,
+    "type": "issue",
+    "actor": null,
+    "date": "2016-02-29T15:24:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 31955,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2016-02-29T16:13:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5b91fc02f05420d62257be6e6616258f37609616",
+    "actor": "steveklabnik",
+    "date": "2016-03-01T18:39:42Z"
+  }
+]

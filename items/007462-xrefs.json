@@ -1,0 +1,67 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 6819,
+    "type": "issue",
+    "actor": "Aatch",
+    "date": "2013-06-28T20:44:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e41e4358516190bf84172f21d9e25e45da81caf4",
+    "actor": "dotdash",
+    "date": "2013-07-07T13:03:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7636,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2013-07-07T13:04:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "52abd1cc32f6d08d58dc2b1087ca8c4e129d762e",
+    "actor": "bors",
+    "date": "2013-07-07T18:17:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 39525,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-05-20T15:18:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 60571,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2019-05-10T00:59:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76918,
+    "type": "issue",
+    "actor": "ishitatsuyuki",
+    "date": "2020-09-19T13:05:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "52836408ae482f87159a2473c3e5475348b1f255",
+    "actor": "bors",
+    "date": "2020-09-19T13:23:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e599b53e67ddd197a09a3d8720eed872df481aa0",
+    "actor": "bors",
+    "date": "2020-09-24T17:23:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b193e247f108c303d2ef9818ddd4aadceaf5760",
+    "actor": "flip1995",
+    "date": "2021-07-15T08:45:02Z"
+  }
+]

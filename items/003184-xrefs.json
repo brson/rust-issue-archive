@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "833e8bb101e07f844a49f188659ac279942ae544",
+    "actor": "nikomatsakis",
+    "date": "2013-04-05T01:01:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5739,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-04-05T10:00:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fd8f56efab638baa9d6028ce9e02f66a576cfea1",
+    "actor": "nikomatsakis",
+    "date": "2013-04-05T10:02:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5740,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-04-05T10:03:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "28527ce8a272f117e6dcc25725452ba6430f6694",
+    "actor": "bors",
+    "date": "2013-04-06T05:54:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "377fbb90e815c46dd988876efa37acfd8bfe4d69",
+    "actor": "RalfJung",
+    "date": "2023-11-25T12:13:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2a1e0ce0c9fb80dad42c0dcd7776cfdb97a50b1e",
+    "actor": "RalfJung",
+    "date": "2023-11-25T14:00:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7bf23a25dd3d7e9a4bea6c1b3b43d004d1a2c030",
+    "actor": "jaisnan",
+    "date": "2024-07-29T17:32:00Z"
+  }
+]

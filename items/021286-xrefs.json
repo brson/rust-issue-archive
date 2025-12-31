@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21326,
+    "type": "issue",
+    "actor": "look",
+    "date": "2015-01-17T22:05:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2d4accdf6123bd5158c36b8c05ac15e9acf34d4e",
+    "actor": "alexcrichton",
+    "date": "2015-01-19T02:05:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "356c61da8d8059a13e81ad07bb984cd49873e228",
+    "actor": "barosl",
+    "date": "2015-01-20T17:16:47Z"
+  }
+]

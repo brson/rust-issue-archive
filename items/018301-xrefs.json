@@ -1,0 +1,22 @@
+[
+  {
+    "event": "referenced",
+    "commit": "1cf0404f1745497a17b6f0c343f00c9e4277f05a",
+    "actor": "jsanders",
+    "date": "2014-10-25T00:52:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17,
+    "type": "issue",
+    "actor": "jsanders",
+    "date": "2014-10-27T18:29:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27728,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-10-27T14:52:09Z"
+  }
+]

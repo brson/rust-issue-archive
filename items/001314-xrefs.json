@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "91249fed82e572df1eefea1db26b42895044ba4b",
+    "actor": "brson",
+    "date": "2011-12-16T02:26:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21070,
+    "type": "issue",
+    "actor": "newpavlov",
+    "date": "2016-09-03T18:38:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "14ca1df478ac9c0a7899530eb581362f37519ad3",
+    "actor": "bjorn3",
+    "date": "2023-01-24T17:57:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9744ab569448083351c177f5627e61c9db95110d",
+    "actor": "coastalwhite",
+    "date": "2023-08-05T20:36:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1154adb4365b0b261c6c7f610683f739f631fd82",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-09T09:32:20Z"
+  }
+]

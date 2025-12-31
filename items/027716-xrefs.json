@@ -1,0 +1,66 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 43158,
+    "type": "issue",
+    "actor": "PlasmaPower",
+    "date": "2017-07-11T00:19:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "98a0110fcc1386ff85373c741108b4967c5cd879",
+    "actor": "bors",
+    "date": "2017-07-12T22:34:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a9859cbe80b561a1334e1e80f681f06673820b79",
+    "actor": "bors",
+    "date": "2017-07-12T23:30:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b2c0707872082c890f332178f59fd02eea5b98f3",
+    "actor": "bors",
+    "date": "2017-07-13T10:50:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 45340,
+    "type": "issue",
+    "actor": null,
+    "date": "2017-10-17T09:05:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c6892f470eb2ae1c6bc13c1568bacb2b0b992823",
+    "actor": "kennytm",
+    "date": "2017-10-18T17:59:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 154,
+    "type": "issue",
+    "actor": "pitdicker",
+    "date": "2017-12-18T06:41:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 48585,
+    "type": "issue",
+    "actor": null,
+    "date": "2018-02-27T16:14:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d0a06c9177c797fed6b2acfafa0f44b0aad6d634",
+    "actor": "Manishearth",
+    "date": "2018-03-01T07:33:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b812b77094adf7a6a0daf8495718f44fbcaf5daa",
+    "actor": "Manishearth",
+    "date": "2018-03-01T17:29:52Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 12473,
+    "type": "issue",
+    "actor": "brendanzab",
+    "date": "2014-02-22T21:10:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 308,
+    "type": "issue",
+    "actor": "rust-highfive",
+    "date": "2014-09-24T05:00:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4bad1956a0b28002108f987d87a374ead9f8cfec",
+    "actor": "bors",
+    "date": "2022-07-25T00:20:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "250fd094052291756011bf22eaa2adfbc060ece1",
+    "actor": "flip1995",
+    "date": "2024-02-26T17:57:47Z"
+  }
+]

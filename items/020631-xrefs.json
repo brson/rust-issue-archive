@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "345df7a415acd7219d5622890906070ab7619d78",
+    "actor": "bors",
+    "date": "2015-01-06T15:50:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf08c527513b95910b5058bb7e187b3d2b3889b6",
+    "actor": "bors",
+    "date": "2015-01-07T14:34:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bf6847aaf98fb7c06a2fc64a0dd94e5b0dc2e3f9",
+    "actor": "bors",
+    "date": "2015-01-07T14:35:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0cccb46aadec55ebb7b10411b22c1f51485e2702",
+    "actor": "bors",
+    "date": "2015-01-08T01:00:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "773fdb3dbec7d8d2ace01a0e2025e1592925c285",
+    "actor": "alexcrichton",
+    "date": "2015-01-08T01:39:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 766,
+    "type": "issue",
+    "actor": "burdges",
+    "date": "2015-06-16T00:12:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 230,
+    "type": "issue",
+    "actor": "delta4chat",
+    "date": "2025-03-18T07:54:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e665f6fbe9ab5baf637d5a5ef13da77ea3b21d63",
+    "actor": "lnicola",
+    "date": "2025-09-18T14:54:30Z"
+  }
+]

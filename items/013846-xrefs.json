@@ -1,0 +1,73 @@
+[
+  {
+    "event": "referenced",
+    "commit": "9aa0f47d791b072c1a91d569dd74efcfcacf5e91",
+    "actor": "klutzy",
+    "date": "2014-08-12T14:41:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f1aa21e2257163476b41bfd8f50690169b82f583",
+    "actor": "klutzy",
+    "date": "2014-08-12T14:44:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 16450,
+    "type": "issue",
+    "actor": "klutzy",
+    "date": "2014-08-12T14:47:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "322510e938afbd47924434b7c8c5d9df0dca922c",
+    "actor": "bors",
+    "date": "2014-08-12T16:06:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1061,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-06-18T19:07:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e0ac65e669e2a59a674327f7ff2590afbc2f3442",
+    "actor": "nivkner",
+    "date": "2017-10-07T21:30:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 75604,
+    "type": "issue",
+    "actor": "mati865",
+    "date": "2020-08-16T21:06:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ea395ed1485d36521a04c2f954567d7a06649e7",
+    "actor": "flip1995",
+    "date": "2024-12-26T14:01:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 148669,
+    "type": "issue",
+    "actor": "wesleywiser",
+    "date": "2025-11-07T21:03:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e23a5fc45f1f588a00ed8028afeaf92aa43c949e",
+    "actor": "rust-bors[bot]",
+    "date": "2025-11-07T21:15:10Z"
+  }
+]

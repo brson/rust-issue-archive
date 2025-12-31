@@ -1,0 +1,34 @@
+[
+  {
+    "event": "referenced",
+    "commit": "ef8fbcdaf327ba5027636910503c5b5c8c26c60d",
+    "actor": "huonw",
+    "date": "2012-12-30T10:48:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4313,
+    "type": "issue",
+    "actor": "huonw",
+    "date": "2012-12-30T12:57:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "98ae62d01613e8632a39b87e11911d182dc81e49",
+    "actor": "huonw",
+    "date": "2013-01-10T20:34:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "83e3c82d63f75d697c3e803b639ce2f90b1721b1",
+    "actor": "catamorphism",
+    "date": "2013-01-24T02:58:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9555,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2013-12-20T09:23:35Z"
+  }
+]

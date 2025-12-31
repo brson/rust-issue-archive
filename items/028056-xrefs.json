@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 14475,
+    "type": "issue",
+    "actor": "JanZerebecki",
+    "date": "2017-02-17T22:10:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 120736,
+    "type": "issue",
+    "actor": "notriddle",
+    "date": "2024-02-07T08:41:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f0de87670931a5f1543c49134cac4b935c87e9cc",
+    "actor": "tgross35",
+    "date": "2024-09-05T01:42:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e1da72c6e85a550fe03bd94f088bebd845271050",
+    "actor": "matthiaskrgr",
+    "date": "2024-09-05T01:47:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e0decced28f7c6ce7f87c86d9bb8a53a910a1c8a",
+    "actor": "rust-timer",
+    "date": "2024-09-05T10:13:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "baacfd0dd8c78e9c86bdc3305a162ea6dc202a66",
+    "actor": "github-actions[bot]",
+    "date": "2024-09-06T05:10:43Z"
+  }
+]

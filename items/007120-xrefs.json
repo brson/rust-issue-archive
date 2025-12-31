@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "079ffa362fbec884c6397581c5f9898c4aba392e",
+    "actor": "alexcrichton",
+    "date": "2013-06-14T04:49:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d5d38cdb55bd8ae657e4f11db64bdd5047f75738",
+    "actor": "alexcrichton",
+    "date": "2013-06-14T20:39:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 62589,
+    "type": "issue",
+    "actor": "ralfbiedert",
+    "date": "2019-07-11T14:39:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "74f55996fe4b68e548e8652c025a19db7a24e047",
+    "actor": "flip1995",
+    "date": "2021-04-27T10:17:37Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24321,
+    "type": "issue",
+    "actor": "lgrz",
+    "date": "2015-04-11T07:23:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "882185ecd58a0afc39543c4dcc2071e3f725c1ed",
+    "actor": "Manishearth",
+    "date": "2015-04-12T13:16:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 96600,
+    "type": "issue",
+    "actor": "c410-f3r",
+    "date": "2022-05-01T11:48:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "905fd731543ee837bd9f4cf960b048610d037155",
+    "actor": "bors",
+    "date": "2022-05-02T05:52:04Z"
+  }
+]

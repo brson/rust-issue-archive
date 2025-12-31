@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2176,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2012-04-10T15:51:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5145042d344cdd5d234a9bd003129cbd48d087a6",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e27c176380586f86ea911eea12bc0a6f35efcb4c",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:13Z"
+  }
+]

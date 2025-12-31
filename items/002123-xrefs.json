@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2937,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2012-07-17T02:14:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f78c90653535128b5a7c08d4850d6ef202beba40",
+    "actor": "catamorphism",
+    "date": "2012-08-15T03:12:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 57016,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2018-12-28T16:15:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f6c2734f5517f7c5168eb04667695dad94f271fc",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "45754f3ee276e407912d51ca61a25d97bd49df68",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:31Z"
+  }
+]

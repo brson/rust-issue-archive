@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d6109bc51dc02e56186bfc3aca36c6fb15bde4fd",
+    "actor": "alexcrichton",
+    "date": "2015-03-31T18:03:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e3f2d45cb38a89172c423aba07ce270b1a04984f",
+    "actor": "alexcrichton",
+    "date": "2015-03-31T22:55:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15903,
+    "type": "issue",
+    "actor": "bombless",
+    "date": "2015-04-15T10:04:48Z"
+  }
+]

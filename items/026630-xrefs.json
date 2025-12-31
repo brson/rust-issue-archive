@@ -1,0 +1,36 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e333e6a0dc60ac200e3e4c61dc0e536bee6b98af",
+    "actor": "bors",
+    "date": "2015-07-25T14:50:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26870,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-07-25T18:22:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29719,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2015-11-09T16:59:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29759,
+    "type": "issue",
+    "actor": "eefriedman",
+    "date": "2015-11-10T21:41:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29884,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-11-17T10:22:53Z"
+  }
+]

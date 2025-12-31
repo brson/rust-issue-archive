@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "bc9100721f5458a2a489d10edcd00f8de931985c",
+    "actor": "alexcrichton",
+    "date": "2014-04-19T18:25:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13630,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-04-19T18:25:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "97c91c971336f88ddd25071dcdc3b39893ec9fb6",
+    "actor": "alexcrichton",
+    "date": "2014-04-19T19:36:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cccf44de63956d07a855e0f84165b6d10941a1c5",
+    "actor": "bors",
+    "date": "2014-04-22T07:21:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5cd502e47ad99da87c328c1895e88d75cf702ff",
+    "actor": "bors",
+    "date": "2014-04-22T09:06:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c7f1ca801a4e647ec3b6409ce44a2e5e3b0faea2",
+    "actor": "hirschenberger",
+    "date": "2014-04-23T16:54:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2687,
+    "type": "issue",
+    "actor": "emberian",
+    "date": "2014-06-19T21:18:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e162d5800a54320b3cdf88b15ec2eb6a89291585",
+    "actor": "Manishearth",
+    "date": "2022-11-23T20:03:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "040129b7745fdf661a395d7de13b4ef7944cd1e0",
+    "actor": "flip1995",
+    "date": "2024-11-07T21:32:06Z"
+  }
+]

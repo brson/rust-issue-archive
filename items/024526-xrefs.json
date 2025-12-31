@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 48,
+    "type": "issue",
+    "actor": "klutzy",
+    "date": "2015-04-17T12:30:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5228bccba8aadceb0abe433e7047f9688acedde8",
+    "actor": "bors",
+    "date": "2015-04-19T09:54:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c6b8d96abd116090af13f1c2c5fe8d5b7fc494d2",
+    "actor": "bors",
+    "date": "2015-04-19T17:28:27Z"
+  }
+]

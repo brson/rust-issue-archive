@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1902,
+    "type": "issue",
+    "actor": "jruderman",
+    "date": "2012-02-25T11:26:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d5816057f54e6366712c96a600da3d66b09dd472",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "240f076d804d8682994c49a92b5407ebbbe1fe3a",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:06Z"
+  }
+]

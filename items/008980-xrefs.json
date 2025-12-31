@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 8982,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2013-09-05T02:01:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7c7f055197f23f2c578184c8de712845cc446df4",
+    "actor": "bors",
+    "date": "2013-09-05T02:20:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d285ea791058f7db8bef828740aae95e69becc99",
+    "actor": "bors",
+    "date": "2013-09-05T04:15:44Z"
+  }
+]

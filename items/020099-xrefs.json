@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 20128,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2014-12-22T11:54:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2383a9cd063120648de0dd923edcb35095d5be39",
+    "actor": "alexcrichton",
+    "date": "2015-01-05T08:16:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7f4f79cbd7b53cfcef50f1262ea24422e37600e9",
+    "actor": "alexcrichton",
+    "date": "2015-01-06T03:32:07Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a1f64c2204687263ca1230f08af1cc7317cc4a26",
+    "actor": "steveklabnik",
+    "date": "2015-08-18T19:03:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27891,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-08-18T19:03:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1d72d314480d3437345129ddf8b299c36e048f18",
+    "actor": "bors",
+    "date": "2015-08-18T20:13:45Z"
+  }
+]

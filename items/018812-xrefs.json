@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "5f09a50e8f5fe8cbf4ce8fed5bfd49b9e12b9aa1",
+    "actor": "aturon",
+    "date": "2014-11-10T23:36:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18860,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-11-10T23:36:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e4ead7b034c96b705ec34b8325f5f9f778f1cbb9",
+    "actor": "bors",
+    "date": "2014-11-12T12:21:57Z"
+  }
+]

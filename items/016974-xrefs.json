@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 25252,
+    "type": "issue",
+    "actor": "inrustwetrust",
+    "date": "2015-05-09T22:37:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5db9bee7836717505137101d043e3dc1b7d6d8d6",
+    "actor": "Manishearth",
+    "date": "2015-05-10T05:30:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "87a62787232df4def8f1d100c80557d561a369f1",
+    "actor": "Manishearth",
+    "date": "2015-05-10T05:31:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9d84142ef22103b76262974301f2cb22c186f0fe",
+    "actor": "bors",
+    "date": "2024-03-31T08:25:34Z"
+  }
+]

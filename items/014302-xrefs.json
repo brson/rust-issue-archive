@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "290ab3f1ee05d790570a8a9241b83a786bd3a5c9",
+    "actor": "arjantop",
+    "date": "2014-06-21T15:27:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "tedsta",
+    "date": "2014-10-09T23:34:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1fc7f1c817190036d644c87d95c82860a93eac27",
+    "actor": "barosl",
+    "date": "2014-12-10T07:38:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19690,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2014-12-10T07:39:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dc6233d780dc3cdf98cb70d64d1c6064966cc9b9",
+    "actor": "barosl",
+    "date": "2014-12-10T07:41:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ce5a53934f6fbbf9b00151eee70ac01d6d3cfee",
+    "actor": "lnicola",
+    "date": "2023-03-13T08:44:45Z"
+  }
+]

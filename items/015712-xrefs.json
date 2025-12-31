@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2854,
+    "type": "issue",
+    "actor": "larsbergstrom",
+    "date": "2014-07-16T13:29:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 315,
+    "type": "issue",
+    "actor": "rust-highfive",
+    "date": "2014-09-24T05:03:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fd39a30b6c46a98cc1cfe156d1e925034343c25a",
+    "actor": "bors",
+    "date": "2023-11-13T23:43:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fac86e3c109191ea59d3e73e865b0492f1d2c8c7",
+    "actor": "flip1995",
+    "date": "2025-10-06T15:49:55Z"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "2f42b14b4f57d602ffa446a8f30840c2dcbeb127",
+    "actor": "lht",
+    "date": "2012-04-07T14:12:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2166,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-04-08T22:35:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "38111b3916987c3b2a779626002830c94882b0a4",
+    "actor": "bors",
+    "date": "2022-09-22T12:27:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "15dd78184f2a2705fc21839812bd3f2c7b7f4e3c",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e91942cbdb43827bbbf83a6cf1769663f14eb173",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:32Z"
+  }
+]

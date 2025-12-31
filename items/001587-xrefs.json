@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "988b9a052addf24644a047a476903de3cdefc72c",
+    "actor": "j-clark",
+    "date": "2012-01-24T05:02:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1629,
+    "type": "issue",
+    "actor": "j-clark",
+    "date": "2012-01-24T05:04:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1631,
+    "type": "issue",
+    "actor": "j-clark",
+    "date": "2012-01-24T05:19:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20245e82d7d29f1ec9e88ab0de2bdc51d22889b2",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dca5a7ecd8a2aea1d5bb7b13099e40f09d64c11b",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5782b21cefe6c28c5f6d29cab1773ed68420dc6b",
+    "actor": "bjorn3",
+    "date": "2025-11-08T14:19:13Z"
+  }
+]

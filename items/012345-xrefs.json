@@ -1,0 +1,86 @@
+[
+  {
+    "event": "referenced",
+    "commit": "b3ed38f2196e8636f9f295da8d06c6921db183fe",
+    "actor": "bors",
+    "date": "2014-02-18T10:51:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25761,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-05-24T22:42:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41309,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2017-04-15T10:46:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 64633,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2019-09-23T17:35:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 71896,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2020-05-04T20:40:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 74193,
+    "type": "issue",
+    "actor": "Dylan-DPC-zz",
+    "date": "2020-07-10T00:26:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "038a71a201e8a47fed52c38473cec05498e00a16",
+    "actor": "bors",
+    "date": "2022-07-25T00:20:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e216e03ca4c1bae9b161ea9b659cdec63171596e",
+    "actor": "bors",
+    "date": "2023-09-05T09:10:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c728bf3963433062b91bd84ffcb37d15416b800e",
+    "actor": "bors",
+    "date": "2023-09-14T01:05:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0d1ba48cb490f08790e0cf17ceb5c84349d34654",
+    "actor": "flip1995",
+    "date": "2024-02-26T17:57:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4c36aeda27b472e645d846b3b5ffe94340856c88",
+    "actor": "ChrisDenton",
+    "date": "2025-04-19T19:30:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6018b790d8ff0cb8a2de39030608f4b1048939a9",
+    "actor": "rust-timer",
+    "date": "2025-04-20T00:08:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9,
+    "type": "issue",
+    "actor": "devwif[bot]",
+    "date": "2025-06-14T06:01:28Z"
+  }
+]

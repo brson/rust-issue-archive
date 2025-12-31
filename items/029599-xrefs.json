@@ -1,0 +1,364 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 12,
+    "type": "issue",
+    "actor": "skade",
+    "date": "2015-12-01T10:20:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 13294,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2016-05-24T21:03:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12249,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2016-05-24T21:03:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4,
+    "type": "issue",
+    "actor": "killercup",
+    "date": "2016-08-06T18:59:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7,
+    "type": "issue",
+    "actor": "killercup",
+    "date": "2016-08-06T21:38:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 39954,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2017-02-19T10:01:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1913,
+    "type": "issue",
+    "actor": "JelteF",
+    "date": "2017-02-21T07:22:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1167,
+    "type": "issue",
+    "actor": "dtolnay",
+    "date": "2018-05-02T05:07:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 50403,
+    "type": "issue",
+    "actor": "ExpHP",
+    "date": "2018-05-03T00:39:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 614,
+    "type": "issue",
+    "actor": "dtolnay",
+    "date": "2018-05-03T07:15:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5,
+    "type": "issue",
+    "actor": "fafhrd91",
+    "date": "2018-05-12T18:57:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "315740bc5136730355168a80d9ab37348895c47a",
+    "actor": "AgustinCB",
+    "date": "2018-09-29T00:50:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3edbb3b03bd58c4d20c669f18870b361277edef6",
+    "actor": "AgustinCB",
+    "date": "2018-09-29T12:23:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "595447459ba67a8abb1f25c6d3255827eeed03cb",
+    "actor": "AgustinCB",
+    "date": "2018-10-03T04:14:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25,
+    "type": "issue",
+    "actor": "softprops",
+    "date": "2018-10-05T19:28:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b4918c0eef43ccd5197efb4628468c2f745f6f97",
+    "actor": "AgustinCB",
+    "date": "2018-10-12T22:37:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 344,
+    "type": "issue",
+    "actor": "spacejam",
+    "date": "2018-10-16T08:31:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5079c123c84f19c49ff1dbfd609cc89b61c93146",
+    "actor": "AgustinCB",
+    "date": "2018-11-02T00:13:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e41ff56cb2e32b812cec99a8266884870fe02dfe",
+    "actor": "AgustinCB",
+    "date": "2018-11-13T20:18:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "75eb94afcaae2f868ecccba5b5dcea4066998d7a",
+    "actor": "AgustinCB",
+    "date": "2018-11-14T11:37:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4772,
+    "type": "issue",
+    "actor": "kennytm",
+    "date": "2019-05-25T14:11:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "594a2a766f47e95255f750d530174887eed064b3",
+    "actor": "edre",
+    "date": "2019-05-31T23:03:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 83,
+    "type": "issue",
+    "actor": "edre",
+    "date": "2019-05-31T23:04:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "143609d4ef8f9762ec97a9955c3ea9d2c58070f5",
+    "actor": "bors",
+    "date": "2019-06-02T00:47:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 152,
+    "type": "issue",
+    "actor": "Dushistov",
+    "date": "2019-08-15T11:03:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 66,
+    "type": "issue",
+    "actor": "msarahan",
+    "date": "2019-11-07T04:46:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "and-cesbo",
+    "date": "2019-12-23T10:47:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1649,
+    "type": "issue",
+    "actor": "mcy",
+    "date": "2020-03-03T18:18:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 103,
+    "type": "issue",
+    "actor": "twistedfall",
+    "date": "2020-03-16T10:56:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 70247,
+    "type": "issue",
+    "actor": "jplatte",
+    "date": "2020-03-21T22:17:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18,
+    "type": "issue",
+    "actor": "ririsoft",
+    "date": "2020-07-17T19:17:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 292,
+    "type": "issue",
+    "actor": "heaths",
+    "date": "2021-06-11T18:56:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "ojeda",
+    "date": "2021-07-02T18:00:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 647,
+    "type": "issue",
+    "actor": "twitu",
+    "date": "2022-05-19T11:01:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 95860,
+    "type": "issue",
+    "actor": "CAD97",
+    "date": "2022-06-03T19:48:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 96709,
+    "type": "issue",
+    "actor": "traviscross",
+    "date": "2022-06-29T06:41:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3114,
+    "type": "issue",
+    "actor": "jrvanwhy",
+    "date": "2022-08-01T00:08:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1277,
+    "type": "issue",
+    "actor": "tgeoghegan",
+    "date": "2023-04-24T20:38:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 111930,
+    "type": "issue",
+    "actor": "c410-f3r",
+    "date": "2023-05-25T03:11:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 80,
+    "type": "issue",
+    "actor": "Douile",
+    "date": "2023-07-26T19:46:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 118958,
+    "type": "issue",
+    "actor": "c410-f3r",
+    "date": "2023-12-15T00:18:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1470,
+    "type": "issue",
+    "actor": "mokeyish",
+    "date": "2023-12-23T06:19:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 124225,
+    "type": "issue",
+    "actor": "fmease",
+    "date": "2024-04-21T15:29:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12,
+    "type": "issue",
+    "actor": "jhorstmann",
+    "date": "2024-06-14T10:04:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f8e566053207b4ecbcbc7a7d6ded82c43061e3da",
+    "actor": "bors",
+    "date": "2024-06-14T16:41:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 102,
+    "type": "issue",
+    "actor": "aschaeffer",
+    "date": "2024-09-14T11:45:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1394,
+    "type": "issue",
+    "actor": "maximebuyse",
+    "date": "2025-04-08T14:52:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "938b6f54d1248dae39be1394ec44ce6e4b8ec685",
+    "actor": "tgross35",
+    "date": "2025-06-19T06:47:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 142704,
+    "type": "issue",
+    "actor": "tgross35",
+    "date": "2025-06-19T06:49:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1f5783cbeb5da8b38566d718631d016891e9c912",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-19T07:06:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9b1f7adc834ac60128834733e4def5f8a53974de",
+    "actor": "tgross35",
+    "date": "2025-06-24T10:23:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0377330be4b7fa7569e4b04113207468e002d1bb",
+    "actor": "GuillaumeGomez",
+    "date": "2025-06-24T13:39:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "09c710b70b970963e54d9631d9115fd0cb0387ec",
+    "actor": "rust-timer",
+    "date": "2025-06-24T18:48:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b24d9adb10eea0973d89b220f0f150aea5d86070",
+    "actor": "tautschnig",
+    "date": "2025-07-03T16:27:58Z"
+  }
+]

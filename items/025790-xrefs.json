@@ -1,0 +1,28 @@
+[
+  {
+    "event": "referenced",
+    "commit": "7d71f5094e674628a560f57c347ace677e2edb84",
+    "actor": "bors",
+    "date": "2015-05-27T06:58:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eb16ad6e71172eabb71acb73758675f25df91649",
+    "actor": "bors",
+    "date": "2015-05-27T08:47:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25646,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-05-27T10:22:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25740,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-05-27T10:24:23Z"
+  }
+]

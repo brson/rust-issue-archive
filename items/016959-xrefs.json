@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "81f1262124f485f41c2da2fa699d9295dd9ea7e3",
+    "actor": "dotdash",
+    "date": "2014-10-08T21:37:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17875,
+    "type": "issue",
+    "actor": "dotdash",
+    "date": "2014-10-08T21:37:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6fa5a2f66fddd473d265e646b41da43d20e87ec2",
+    "actor": "dotdash",
+    "date": "2014-10-09T09:09:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dfd52817ee81676e0cdba4ab2c5badf195fcfda7",
+    "actor": "bors",
+    "date": "2014-10-09T12:47:01Z"
+  }
+]

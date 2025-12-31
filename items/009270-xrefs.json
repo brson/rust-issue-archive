@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "1ce657aa1f9c07168969cbc90ef4dceb5666c621",
+    "actor": "luqmana",
+    "date": "2013-09-18T01:05:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9272,
+    "type": "issue",
+    "actor": "luqmana",
+    "date": "2013-09-18T01:06:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9e636f106d50f948ce90738683fba416bb265796",
+    "actor": "bors",
+    "date": "2013-09-18T13:45:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7c427f0fdadf07c117d23d0b3352a4870c9b17d3",
+    "actor": "flip1995",
+    "date": "2022-08-11T17:42:44Z"
+  }
+]

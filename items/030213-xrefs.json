@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30477,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2015-12-21T00:38:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30870,
+    "type": "issue",
+    "actor": null,
+    "date": "2016-01-13T13:11:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1447ce78fbd65a629f228ec8731a5cddc076a15c",
+    "actor": "bors",
+    "date": "2016-01-13T22:27:47Z"
+  }
+]

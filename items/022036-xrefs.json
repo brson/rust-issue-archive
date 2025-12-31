@@ -1,0 +1,53 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d769baef66eccef01ccf1e9e2a3a376baf09728c",
+    "actor": "edwardw",
+    "date": "2015-02-07T16:55:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22055,
+    "type": "issue",
+    "actor": "edwardw",
+    "date": "2015-02-07T16:55:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 310,
+    "type": "issue",
+    "actor": "zummenix",
+    "date": "2015-02-08T08:10:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "415e6b8f06556d22e75f19f4504d07945461eca2",
+    "actor": "edwardw",
+    "date": "2015-02-09T13:37:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2af968eaa67762cf9237728295433678c488873e",
+    "actor": "edwardw",
+    "date": "2015-02-11T17:38:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22185,
+    "type": "issue",
+    "actor": "edwardw",
+    "date": "2015-02-11T17:38:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9675f514efbc08e17fe6008ff553f028f1c574a2",
+    "actor": "alexcrichton",
+    "date": "2015-02-11T22:46:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e9f8329bc4fee8bce74f2a212ddac096e6c86779",
+    "actor": "bors",
+    "date": "2015-02-11T23:01:09Z"
+  }
+]

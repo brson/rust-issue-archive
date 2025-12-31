@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e4dc11d98d6e7d9fb42ce847ee6b6194e764d1b7",
+    "actor": "varkor",
+    "date": "2017-12-10T23:21:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 46647,
+    "type": "issue",
+    "actor": "varkor",
+    "date": "2017-12-10T23:21:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "707d0708158dabd9b0a12af21a4b51bf1713cb9e",
+    "actor": "bors",
+    "date": "2017-12-12T15:54:20Z"
+  }
+]

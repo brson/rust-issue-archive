@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4fbf709864aa8382b5a1796398cd734171a9fd01",
+    "actor": "eddyb",
+    "date": "2014-02-02T13:26:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11994,
+    "type": "issue",
+    "actor": "eddyb",
+    "date": "2014-02-02T13:27:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9042c9e6bc6347ed7ebf149b597e1af0bfc891c1",
+    "actor": "eddyb",
+    "date": "2014-02-02T13:43:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8c9973d5e2416ccea2adb7de23f0703a9fb857e6",
+    "actor": "eddyb",
+    "date": "2014-02-03T08:34:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9ceaafb4665c947939dfbe00c9688e8b497bb18f",
+    "actor": "eddyb",
+    "date": "2014-02-08T18:30:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 306,
+    "type": "issue",
+    "actor": "rust-highfive",
+    "date": "2014-09-24T05:00:21Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "355fccc7f718c9a9ef3863dff2696613e18c9a05",
+    "actor": "bors",
+    "date": "2015-01-01T22:41:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cd614164e692cca3a1460737f581fcb6d4630baf",
+    "actor": "bors",
+    "date": "2015-01-02T02:31:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 69,
+    "type": "issue",
+    "actor": "Nercury",
+    "date": "2015-01-02T21:27:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 223,
+    "type": "issue",
+    "actor": "Nercury",
+    "date": "2015-01-02T22:03:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 254,
+    "type": "issue",
+    "actor": "Nercury",
+    "date": "2015-01-02T22:25:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e1c954c619246afd04df264b82cbceba3ff9ca3b",
+    "actor": "lnicola",
+    "date": "2025-09-01T11:36:23Z"
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18101,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-12-11T09:55:59Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19338,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-12-11T09:56:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dc4e9516ce50ff935d671f639681f4fb5bcc436b",
+    "actor": "nikomatsakis",
+    "date": "2014-12-15T10:43:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d44e39a040a7667ed9d3a0a411d45b1f55459738",
+    "actor": "nikomatsakis",
+    "date": "2014-12-15T16:51:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19884,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-12-15T16:53:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a110d796948ad1ab47e418041586be19aa214f8d",
+    "actor": "nikomatsakis",
+    "date": "2014-12-16T16:19:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fa7f535f123c74018c146b16c62af444899c48af",
+    "actor": "nikomatsakis",
+    "date": "2014-12-18T15:24:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a28c32e375c0c7ee1297f2d0a817fec3942d0d86",
+    "actor": "nikomatsakis",
+    "date": "2014-12-18T18:47:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5455066fd209735e7f7b8c984f744cacf3805abe",
+    "actor": "nikomatsakis",
+    "date": "2014-12-19T03:47:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f45c0ef51e342c552021a80ddd343b0c7175111e",
+    "actor": "nikomatsakis",
+    "date": "2014-12-19T08:30:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8eec63112eecdfb14a393994f6426a9dcea059e0",
+    "actor": "bors",
+    "date": "2014-12-19T10:48:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bd90b936d73c0ea2c261cd8e7b9c43764cb2da05",
+    "actor": "bors",
+    "date": "2014-12-19T13:22:11Z"
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 47319,
+    "type": "issue",
+    "actor": "estebank",
+    "date": "2018-01-10T23:23:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 47574,
+    "type": "issue",
+    "actor": "zilbuz",
+    "date": "2018-01-19T13:05:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5b4cac2f999ec60ef3b48132bfe225c0187ecd8f",
+    "actor": "bors",
+    "date": "2018-03-10T01:00:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ac2cc996bd392f81fecba27f69f5588778c956d7",
+    "actor": "bors",
+    "date": "2018-03-10T06:09:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "87344aa59af2ebb868253228e2b558d701573dff",
+    "actor": "bors",
+    "date": "2018-03-10T10:52:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fcd3a6b037dc39a458d52d7e22b033b01720ff1b",
+    "actor": "bors",
+    "date": "2023-06-05T13:31:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1b5523a8cdc46dfdc5170203cf6bc4e65f4515f6",
+    "actor": "bors",
+    "date": "2023-06-05T13:31:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d44e35d5952427b37b5a2562bc1514ade943f03d",
+    "actor": "bors",
+    "date": "2025-05-21T19:47:08Z"
+  }
+]

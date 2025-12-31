@@ -1,0 +1,46 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 173,
+    "type": "issue",
+    "actor": "bgamari",
+    "date": "2014-10-04T23:52:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17787,
+    "type": "issue",
+    "actor": "bgamari",
+    "date": "2014-10-05T03:32:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9be7da2745879d3c338d802e84e7d720b2c85be4",
+    "actor": "bgamari",
+    "date": "2014-10-06T14:05:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "80ce402d093ae92a416ea3422e88a4cc69ae6429",
+    "actor": "bgamari",
+    "date": "2014-10-06T14:40:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5a11a8ef0ac9d66660d93b0db951eae9497705f",
+    "actor": "bgamari",
+    "date": "2014-10-06T14:55:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "610b3a27e40e77a111b545eab2efb290cb2b4ed5",
+    "actor": "bors",
+    "date": "2014-10-07T19:17:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3b945dcae6dcedd0917652d66edd8ceefb4f73c1",
+    "actor": "bors",
+    "date": "2014-10-07T23:12:09Z"
+  }
+]

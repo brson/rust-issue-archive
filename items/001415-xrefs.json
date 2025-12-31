@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 492,
+    "type": "issue",
+    "actor": "marijnh",
+    "date": "2012-01-02T13:10:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e151d2232b33f799953a9585c1fc39cf77942d09",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 137788,
+    "type": "issue",
+    "actor": "jieyouxu",
+    "date": "2025-02-28T13:13:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "46f5dea7c5836a9578c2bc2859df36ce2410d2f0",
+    "actor": "jieyouxu",
+    "date": "2025-02-28T13:42:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "166504f0d924c6029d2c638162bfafb6fc8c31e7",
+    "actor": "rust-timer",
+    "date": "2025-02-28T18:05:44Z"
+  }
+]

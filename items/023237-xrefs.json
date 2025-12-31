@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 23240,
+    "type": "issue",
+    "actor": "strega-nil",
+    "date": "2015-03-10T01:45:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4806fb29a00425cc73cbb1f0321ad36f8b0bc221",
+    "actor": "bluss",
+    "date": "2015-05-01T23:20:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25038,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2015-05-01T23:20:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5574029b68e4a66864c4eaff8553cc8086117d56",
+    "actor": "bors",
+    "date": "2015-05-02T17:44:12Z"
+  }
+]

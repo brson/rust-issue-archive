@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "2984d703bdcb651c44ea379e1ce4e2faf17651e2",
+    "actor": "killerswan",
+    "date": "2012-06-02T07:27:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6fb42b343772a71960007e9dc6bc95b1d5996f75",
+    "actor": "killerswan",
+    "date": "2012-06-02T07:46:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2488,
+    "type": "issue",
+    "actor": "killerswan",
+    "date": "2012-06-02T07:51:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a7359f5b3b484c17a96d036e9ac7074030b48ad5",
+    "actor": "brson",
+    "date": "2012-06-02T23:45:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2e3fa311c7b380e3119bc440226450abe493d337",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "053b36f6b45c15a5f2a00009dfd98c422833c290",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9f4c6b2106c4b2bbe5de6b135963f6cfb846fc33",
+    "actor": "Kobzol",
+    "date": "2025-07-20T14:52:14Z"
+  }
+]

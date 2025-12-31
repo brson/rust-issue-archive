@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "5b043d712b18e0477e578a47767b35a643acedfd",
+    "actor": "alexcrichton",
+    "date": "2014-10-12T19:38:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17980,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-10-12T19:38:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4a382d7c4743775e9ee87735ed606b0a673d8ed5",
+    "actor": "bors",
+    "date": "2014-10-13T14:22:43Z"
+  }
+]

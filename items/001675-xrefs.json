@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 12113,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2014-02-08T21:25:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 115761,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2023-09-11T17:01:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "059231f9dc40121b83a6b0e58e8edf3ca35bf12b",
+    "actor": "matthiaskrgr",
+    "date": "2023-09-11T19:16:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fbecc02a1931a5a3ba22977b7c232d67fbdabd6e",
+    "actor": "rust-timer",
+    "date": "2023-09-11T22:49:43Z"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d66671b29fba09e0841e093a100bf94ad6647de5",
+    "actor": "steveklabnik",
+    "date": "2015-04-27T14:25:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0c3514253ca91078a889573ffe9ed6e402d8251c",
+    "actor": "steveklabnik",
+    "date": "2015-04-27T14:26:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24869,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-04-27T14:26:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "32f9f4276271bac1b8c3bc569ceed5cfaf992f29",
+    "actor": "bors",
+    "date": "2015-04-27T14:45:44Z"
+  }
+]

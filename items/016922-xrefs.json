@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f61d43372c1efc3a1d37f41039f7cb4009acf6a7",
+    "actor": "tamird",
+    "date": "2015-03-15T22:29:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1dcedba381bff7c26bbeb074221da27929a3549f",
+    "actor": "tamird",
+    "date": "2015-03-16T08:22:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2522207a99367d6237970be1553649753b2b979e",
+    "actor": "tamird",
+    "date": "2015-03-16T14:35:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 36183,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2016-09-28T09:52:31Z"
+  }
+]

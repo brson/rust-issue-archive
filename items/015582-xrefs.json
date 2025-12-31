@@ -1,0 +1,51 @@
+[
+  {
+    "event": "referenced",
+    "commit": "048ab4ef09b253bc5ee210dd01d5cf02f32d08e5",
+    "actor": "alexcrichton",
+    "date": "2014-07-10T17:35:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6fbbe8a3232b9bf76fdf4dbcd0c4ddb7b9743641",
+    "actor": "alexcrichton",
+    "date": "2014-07-10T17:37:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "85d7dd34bfdbab3a1c7c4ea207fceeb097fd7444",
+    "actor": "alexcrichton",
+    "date": "2014-07-11T21:27:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e7fc004f1a2ca3d7eebee7e9be3fb9f36be90b4d",
+    "actor": "alexcrichton",
+    "date": "2014-07-11T21:27:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ca0b65402b107a8d357225945876783fa28122c6",
+    "actor": "alexcrichton",
+    "date": "2014-07-12T05:39:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4130,
+    "type": "issue",
+    "actor": "ice1000",
+    "date": "2019-01-27T07:13:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e5e937ae5eafe38b995e26f0e6c4f1035d52a313",
+    "actor": "bors",
+    "date": "2023-11-13T23:43:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2147bb93167e54407a8da6f6b4a0b2e652a11d20",
+    "actor": "flip1995",
+    "date": "2025-09-18T15:08:57Z"
+  }
+]

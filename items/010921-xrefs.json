@@ -1,0 +1,94 @@
+[
+  {
+    "event": "referenced",
+    "commit": "277434fd0658e19617edb6353964be6e6c6b7949",
+    "actor": "bors",
+    "date": "2013-12-12T12:46:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f96566b9ca2b48fa79c306ba5f92566a5a1df332",
+    "actor": "bors",
+    "date": "2013-12-14T03:11:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3dba97c7df4e4ec0f4446f04ed5102d5365adc1a",
+    "actor": "bors",
+    "date": "2013-12-14T06:41:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0b1fb892788dd15f7571d88e4006ee4b61cde352",
+    "actor": "bors",
+    "date": "2013-12-14T06:51:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1445,
+    "type": "issue",
+    "actor": "aydinkim",
+    "date": "2013-12-31T01:14:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1442,
+    "type": "issue",
+    "actor": "aydinkim",
+    "date": "2013-12-31T01:25:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c52edecd25416196a4ef79c2f0f5bf39822a1abe",
+    "actor": "bors-servo",
+    "date": "2014-01-02T23:55:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c7b3eebc7ad797835f816c4745869a6190503cbc",
+    "actor": "bors-servo",
+    "date": "2014-01-03T00:37:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bc56d96607dcac09113235befb11bc9ead40a25b",
+    "actor": "bors-servo",
+    "date": "2014-01-03T00:55:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0555b8ca26b34916bb11603925e623c97b54a880",
+    "actor": "bors-servo",
+    "date": "2014-01-03T07:52:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "90f44738a4c6daaa0df323fe19783bd28aa724d7",
+    "actor": "bors-servo",
+    "date": "2014-01-03T15:40:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7813f25745cce116b707757778d05a4391b66a4f",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:38:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0625627156a617c2d6374c024af8df7bdc0d1db2",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T23:45:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c43796392991b230d703b5cf32253c03074bed5",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:00:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "21e6235b4cbec68645ebf0ec3e113ed56ce57de4",
+    "actor": "flip1995",
+    "date": "2023-06-30T16:54:25Z"
+  }
+]

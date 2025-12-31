@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 28206,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-09-28T18:46:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27417,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-09-28T18:46:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28717,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-09-28T22:04:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e1f7470672eb4efb5f68d486516d110973bf5872",
+    "actor": "bors",
+    "date": "2015-09-30T03:20:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f78603a81bc958cc8daf39aa9b3bd7d9198776c",
+    "actor": "bors",
+    "date": "2015-10-03T04:11:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c682cff09160b146fada34878728da1245e41fd5",
+    "actor": "bors",
+    "date": "2015-10-05T11:34:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d319a17826ec312bffaf473171f70e7a608a5fbb",
+    "actor": "bors",
+    "date": "2015-10-05T16:55:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6843ea4a46f1479b5f33d0d46512083f432d6251",
+    "actor": "bors",
+    "date": "2015-10-05T21:47:49Z"
+  }
+]

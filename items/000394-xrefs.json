@@ -1,0 +1,75 @@
+[
+  {
+    "event": "referenced",
+    "commit": "836cda98930c5621d937c31e3796db9fe0b8f8a7",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4126bdc4d714738108a81fafa491e019af7de1f5",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bb7d65cd9f42a89c7d4009cd8d8b80cf2d980bea",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e06e54cf1453a18274b9d66ef059911fb35c1e67",
+    "actor": "calebzulawski",
+    "date": "2024-02-17T23:33:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 143248,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2025-06-30T17:01:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f6dc54f5c02f8000b3960615b95d830c1bb344e",
+    "actor": "matthiaskrgr",
+    "date": "2025-06-30T18:49:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1981bc7d0510ba6cc7a2a212093e85b2d4043351",
+    "actor": "rust-timer",
+    "date": "2025-07-01T02:20:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d022fc2f10e26bf849fb82660cf812c1ce0e02e8",
+    "actor": "github-actions[bot]",
+    "date": "2025-07-01T05:07:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "613f27d613677e0dd64b10caf1c4156277d98a9a",
+    "actor": "tautschnig",
+    "date": "2025-07-10T16:16:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0ab5c6a964f3e9c4e2ef3f66b8415a412449e5bc",
+    "actor": "lnicola",
+    "date": "2025-07-15T14:42:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "75fcde980338a86d43722b282606460362d47b43",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1bc2144b0309067c6823590b24a40071ef7a6cce",
+    "actor": "Kobzol",
+    "date": "2025-12-29T11:20:57Z"
+  }
+]

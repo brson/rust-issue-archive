@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a118aa270af592e0745fac4bcbde186830ba41a1",
+    "actor": "steveklabnik",
+    "date": "2015-11-04T11:44:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29579,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-11-04T11:44:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dd3778d3983e0ffeaa6c646ef7b6bc5a2fc7776f",
+    "actor": "steveklabnik",
+    "date": "2015-11-05T08:32:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "05cbfa478c8cbc79a6baac714da4f3d5d77c6919",
+    "actor": "steveklabnik",
+    "date": "2015-11-05T11:43:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 69400,
+    "type": "issue",
+    "actor": "lcnr",
+    "date": "2020-02-23T15:52:50Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 8,
+    "type": "issue",
+    "actor": "Anders429",
+    "date": "2021-02-18T16:16:34Z"
+  }
+]

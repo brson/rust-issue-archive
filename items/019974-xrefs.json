@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 19980,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2014-12-18T15:22:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19988,
+    "type": "issue",
+    "actor": "darnuria",
+    "date": "2014-12-18T19:44:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10d05cdcfd8505e48a4f542b3d9fc3edd28227b1",
+    "actor": "bors",
+    "date": "2014-12-19T15:39:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1e77e29d2896017e522ed3fc85dca07c1bd466b9",
+    "actor": "bors",
+    "date": "2014-12-19T15:40:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "22e0adf6a2028a75b2b0893505110e7ff1cffa1e",
+    "actor": "alexcrichton",
+    "date": "2014-12-21T08:48:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "319ed81307ab68c58c7fd446cac4454e3a1ff8e9",
+    "actor": "alexcrichton",
+    "date": "2014-12-21T17:29:13Z"
+  }
+]

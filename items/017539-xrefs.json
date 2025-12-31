@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 88121,
+    "type": "issue",
+    "actor": "camelid",
+    "date": "2021-08-17T20:21:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fb1a092cc53518e43fa12776af7db523aa9bfecc",
+    "actor": "bors",
+    "date": "2021-08-27T21:51:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c4f26b15e37101c54829efab456922a53e3103ad",
+    "actor": "bors",
+    "date": "2021-09-01T03:43:40Z"
+  }
+]

@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "2cd1c91e989a4857c69b0a16c2d9b30de7b72c0c",
+    "actor": "Sawyer47",
+    "date": "2014-09-27T07:02:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b39921c49eca9f9973992cd99f0d1aa1472c8632",
+    "actor": "Sawyer47",
+    "date": "2014-09-27T07:18:13Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17586,
+    "type": "issue",
+    "actor": "Sawyer47",
+    "date": "2014-09-27T07:19:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "42cb1a2bd79af321b0cc503d2960b73f34e2f92b",
+    "actor": "matthiaskrgr",
+    "date": "2024-02-05T05:37:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a9800004cb3adcc79530a695a3d90270c3c9e456",
+    "actor": "bors",
+    "date": "2024-02-18T10:04:18Z"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 15818,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2014-09-16T03:16:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17421,
+    "type": "issue",
+    "actor": "colrdavidson",
+    "date": "2014-09-21T06:14:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b8599ecdb30de6c54852e863d748e70171c8c5f8",
+    "actor": "bors",
+    "date": "2014-09-21T07:50:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6f7c5589abfc93fbdfc071cc2716d1ea7b527e2e",
+    "actor": "bors",
+    "date": "2022-07-25T00:21:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "099e2c00338b19646d18df33f6108c6eb934df84",
+    "actor": "matthiaskrgr",
+    "date": "2024-03-21T22:40:06Z"
+  }
+]

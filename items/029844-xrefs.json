@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "7e271b2bae20e5a5577ba1f60405ea4a33bb6c69",
+    "actor": "arielb1",
+    "date": "2015-12-06T18:22:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30242,
+    "type": "issue",
+    "actor": "arielb1",
+    "date": "2015-12-06T18:23:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "80e191fba095ce8881770db9c51f6bf75cd1672b",
+    "actor": "arielb1",
+    "date": "2015-12-07T17:36:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "822a5d3dd7047b452db3085c423a0a71cc8ba66e",
+    "actor": "nikomatsakis",
+    "date": "2015-12-08T15:24:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d824ab1cd1c057aa7fc0a2804cda5d360d000b2f",
+    "actor": "bors",
+    "date": "2015-12-12T04:19:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "da31c148aef597a17740b2cbfb2b921b79e55589",
+    "actor": "bors",
+    "date": "2015-12-12T06:18:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "06dcaaf2d46e3ae0c629adeefc86c496cb0f1a89",
+    "actor": "mitaa",
+    "date": "2015-12-15T02:26:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33545,
+    "type": "issue",
+    "actor": "kaminsod",
+    "date": "2016-05-10T20:24:25Z"
+  }
+]

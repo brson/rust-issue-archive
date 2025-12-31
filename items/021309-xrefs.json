@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "bc75dce38923fb800453b0385f630ae9b90a8165",
+    "actor": "bors",
+    "date": "2015-01-17T22:41:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9489d82b717521b97a26faf3031b62a1d62d6257",
+    "actor": "alexcrichton",
+    "date": "2015-01-19T02:05:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21383,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-01-19T02:05:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3ae54693c3a575eed174d4765047f560c41261ae",
+    "actor": "steveklabnik",
+    "date": "2015-01-20T17:07:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4c159178a5202e2ce00cd5e4bfc4cfda508549c",
+    "actor": "steveklabnik",
+    "date": "2015-01-20T17:07:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "409c9972a954b56eb278c91666d33b09aeb00c6a",
+    "actor": "barosl",
+    "date": "2015-01-20T17:16:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21428,
+    "type": "issue",
+    "actor": "barosl",
+    "date": "2015-01-20T17:16:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b275365cab522127dbe0b37abf63a7ebc39dc5e2",
+    "actor": "bors",
+    "date": "2015-01-20T18:50:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "acdb5e329227e75f5324a6fd35bf76d528fa6147",
+    "actor": "lnicola",
+    "date": "2025-12-22T13:48:34Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 23369,
+    "type": "issue",
+    "actor": "nwin",
+    "date": "2015-05-02T08:31:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43526,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-07-28T20:21:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43582,
+    "type": "issue",
+    "actor": "ivanbakel",
+    "date": "2017-08-01T02:12:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e399d7ee6953f3960158ea009f2b93e9a86292b0",
+    "actor": "bors",
+    "date": "2017-08-07T12:35:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4a8360c3a24d96daf26234ac15cc15b53584d975",
+    "actor": "bors",
+    "date": "2017-08-09T10:09:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d21ec9b4efd1da012979b050bc0a0426fe45fcdf",
+    "actor": "bors",
+    "date": "2017-08-10T08:53:28Z"
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5989,
+    "type": "issue",
+    "actor": "Thiez",
+    "date": "2013-04-21T15:10:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8942099614dba3a52e3fc0805ed6c0c37cb371a4",
+    "actor": "bors",
+    "date": "2013-04-21T18:12:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6581,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-05-18T03:47:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "260f1600af8e7c13b7b1575f2a5841f9a8fb26cd",
+    "actor": "bors",
+    "date": "2013-05-18T18:10:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7193,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2013-06-16T23:58:19Z"
+  }
+]

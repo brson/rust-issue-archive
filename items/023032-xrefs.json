@@ -1,0 +1,35 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 51,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-03-04T17:17:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29249,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-10-23T14:06:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b9a97f0b923935cbe7bd8c2e46b7c00e98245143",
+    "actor": "wheals",
+    "date": "2015-10-26T00:41:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 62,
+    "type": "issue",
+    "actor": "wheals",
+    "date": "2015-10-26T00:43:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "67f9cd4d3f468c0b977cb901b7ecd274c258ebcc",
+    "actor": "steveklabnik",
+    "date": "2018-08-02T16:35:42Z"
+  }
+]

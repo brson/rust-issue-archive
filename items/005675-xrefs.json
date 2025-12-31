@@ -1,0 +1,54 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 6685,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-05-22T18:47:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1b6a3765f837f257dbd4b21de9dd2fbb204ce627",
+    "actor": "bors",
+    "date": "2013-05-24T07:25:42Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7070,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-06-11T21:14:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5fc354ef9a8029cf39a099db04be16ab0f09501f",
+    "actor": "bors",
+    "date": "2013-06-13T03:01:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ec08d8e121295bb0e74b189431127cdb5646710",
+    "actor": "bors",
+    "date": "2013-06-13T04:22:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e2fdeecc22367d70451a6051f02a876e5ff7d80f",
+    "actor": "tesuji",
+    "date": "2020-06-04T04:49:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:44Z"
+  }
+]

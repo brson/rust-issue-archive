@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a712d828f93ca08c072808d57fb110b1f9d0ca72",
+    "actor": "pkgw",
+    "date": "2013-02-24T04:33:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5098,
+    "type": "issue",
+    "actor": "pkgw",
+    "date": "2013-02-24T05:13:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c6ea3e4b8e13b682eb4228e7994eda38153c987b",
+    "actor": "bors",
+    "date": "2013-02-26T03:48:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6bff18ea0de2f96a4103c11bc183b380f6d2c83a",
+    "actor": "bors",
+    "date": "2013-02-28T04:39:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7567,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-07-04T04:31:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e634a6f9a8ad9435f2d9f6bbfb6a8eb018ee8e3f",
+    "actor": "calebcartwright",
+    "date": "2021-07-26T03:57:42Z"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18180,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2014-10-20T07:56:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19677,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2014-12-09T23:30:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bdf1b87fb20b425fbbb51341af140bf4449ea321",
+    "actor": "bors",
+    "date": "2014-12-13T10:32:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5112c417bd52abbd39bf14dd40e71fdfb832029d",
+    "actor": "bors",
+    "date": "2014-12-14T04:17:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10ac5b72f1974775bed499105c2a3cf18da98f32",
+    "actor": "bors",
+    "date": "2014-12-14T07:07:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20ed8ce78cb11203f7af7d86fc32bb023fcac8a8",
+    "actor": "lnicola",
+    "date": "2024-09-25T06:58:18Z"
+  }
+]

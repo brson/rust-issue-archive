@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d9fed2b06f0850fa9e2455e98606644d5d54757f",
+    "actor": "lilyball",
+    "date": "2013-06-27T21:33:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7436,
+    "type": "issue",
+    "actor": "lilyball",
+    "date": "2013-06-27T21:33:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4e4e2f70c90f01b5be22a192c883b9dcb34df7ff",
+    "actor": "bors",
+    "date": "2013-06-28T14:41:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3cc67785121c57d285987770bec9a49471639d18",
+    "actor": "flip1995",
+    "date": "2021-07-15T08:45:01Z"
+  }
+]

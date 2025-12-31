@@ -1,0 +1,48 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 17371,
+    "type": "issue",
+    "actor": "nmsmith",
+    "date": "2014-09-18T14:24:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17351,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-09-18T22:02:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17313,
+    "type": "issue",
+    "actor": "dyrim",
+    "date": "2014-10-06T00:19:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f192bc3b910df34b58e435cd6253c9a2bd8622fd",
+    "actor": "nikomatsakis",
+    "date": "2014-11-07T20:32:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18746,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-11-07T20:33:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ee9a7b60fab1198a43cf3bb991a93434f9a19e2c",
+    "actor": "nikomatsakis",
+    "date": "2014-11-19T15:02:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3e9414463e88f01eef9953f4644ca3ffc3f17250",
+    "actor": "bors",
+    "date": "2014-11-19T16:22:02Z"
+  }
+]

@@ -1,0 +1,55 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 30013,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-11-24T18:24:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cef78b6eaa560e2857ce2721668e37bd22437eb4",
+    "actor": "birkenfeld",
+    "date": "2016-05-09T09:02:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33510,
+    "type": "issue",
+    "actor": "birkenfeld",
+    "date": "2016-05-09T09:03:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2bb2287b8884f239c405c8ee615c05525f376c2e",
+    "actor": "birkenfeld",
+    "date": "2016-08-07T08:15:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 80580,
+    "type": "issue",
+    "actor": "GuillaumeGomez",
+    "date": "2021-01-01T15:12:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2686daa7791865d7970fba2b9d6e6db279666a41",
+    "actor": "GuillaumeGomez",
+    "date": "2021-01-03T16:09:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 81402,
+    "type": "issue",
+    "actor": "jyn514",
+    "date": "2021-02-04T18:39:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 87586,
+    "type": "issue",
+    "actor": "thomcc",
+    "date": "2021-07-29T13:11:49Z"
+  }
+]

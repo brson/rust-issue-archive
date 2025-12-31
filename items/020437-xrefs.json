@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "8b3c67690c4747b9fadfef407e6261524fb03f8a",
+    "actor": "ranma42",
+    "date": "2015-01-02T19:39:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20430,
+    "type": "issue",
+    "actor": "ranma42",
+    "date": "2015-01-02T23:13:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5e21e17d9638d14af41e27e5ca9a21c8a1bc0170",
+    "actor": "bors",
+    "date": "2015-01-04T14:21:08Z"
+  }
+]

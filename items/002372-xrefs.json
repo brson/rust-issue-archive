@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2364,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-05-09T12:57:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2422,
+    "type": "issue",
+    "actor": "msullivan",
+    "date": "2012-05-22T18:45:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3b1eeabc490ab3e24e5d6f97b90fbf601f83a347",
+    "actor": "bors",
+    "date": "2022-09-22T12:28:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "87e3b15202a432f60ad374b6fa33c12a5e4f7067",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:07Z"
+  }
+]

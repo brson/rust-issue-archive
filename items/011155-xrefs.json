@@ -1,0 +1,28 @@
+[
+  {
+    "event": "referenced",
+    "commit": "db7d314f3e6e12442e1c15b16fa64e300389108d",
+    "actor": "bors",
+    "date": "2013-12-31T19:06:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8ec03b37c05203026c02336639428146f1c4360e",
+    "actor": "bors",
+    "date": "2013-12-31T20:37:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11702,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2014-01-21T11:54:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21130,
+    "type": "issue",
+    "actor": "SiegeLord",
+    "date": "2015-01-14T06:38:09Z"
+  }
+]

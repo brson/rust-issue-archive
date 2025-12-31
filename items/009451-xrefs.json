@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "1093730d721e64d71f0db18239714903d7f731b1",
+    "actor": "chris-morgan",
+    "date": "2013-10-18T13:28:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9927,
+    "type": "issue",
+    "actor": "chris-morgan",
+    "date": "2013-10-18T13:30:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a1848bc755411285afb15f2453df7567e10ebc04",
+    "actor": "bors",
+    "date": "2013-10-18T14:21:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "292e313259f422c8f4c31ecaedcc14058e8f4f8b",
+    "actor": "flip1995",
+    "date": "2022-10-20T14:45:02Z"
+  }
+]

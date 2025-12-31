@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "badacc554d6f65ed74a4633f6882d51973f6b937",
+    "actor": "brson",
+    "date": "2014-12-12T21:13:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ce05ff5d4bd6f7ddfdb477ee1f0bdf6c146dcd40",
+    "actor": "bors",
+    "date": "2014-12-13T15:22:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-12-28T12:25:30Z"
+  }
+]

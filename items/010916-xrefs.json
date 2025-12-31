@@ -1,0 +1,65 @@
+[
+  {
+    "event": "referenced",
+    "commit": "952c6b3a623bae5a0af6940872dd2d552367debb",
+    "actor": "bors",
+    "date": "2013-12-12T11:11:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10942,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-12-13T16:48:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "378897a09c4c72595d450f74f2ffbb1ab44958a2",
+    "actor": "bors",
+    "date": "2013-12-13T20:56:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11647,
+    "type": "issue",
+    "actor": "edwardw",
+    "date": "2014-01-18T12:21:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "86ea6abaf0be4029a489edc5222aad6ee8175cce",
+    "actor": "Amanieu",
+    "date": "2022-01-14T00:27:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b1ba348496c4b4ff7a00d2ea5f7b2dcf0d7aed9",
+    "actor": "Amanieu",
+    "date": "2022-01-14T00:28:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 92877,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2022-01-14T00:29:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "606d9c0c0e54b7ed6ec962f3eb492f335c6afe81",
+    "actor": "Amanieu",
+    "date": "2022-01-14T00:36:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7f02604f3dbea55b1606434e357097c7687b31cd",
+    "actor": "matthiaskrgr",
+    "date": "2022-01-17T19:07:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a3b185b60ae14e4aa6091606ae2ea0d9d18be93f",
+    "actor": "flip1995",
+    "date": "2023-06-30T16:54:26Z"
+  }
+]

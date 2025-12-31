@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 26044,
+    "type": "issue",
+    "actor": "nagisa",
+    "date": "2015-06-07T19:03:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 114166,
+    "type": "issue",
+    "actor": "Enselic",
+    "date": "2023-07-28T09:38:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4cd4bcf2e253522af221ac4da4c135c8294915cf",
+    "actor": "Noratrieb",
+    "date": "2023-08-02T10:41:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ddda3fa0b00a127a91ab06adadb046bbbea10fea",
+    "actor": "Noratrieb",
+    "date": "2023-08-02T11:46:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fa17b6bb1be9bcba5393dcda89e6c9c1f4448269",
+    "actor": "rust-timer",
+    "date": "2023-08-02T15:28:45Z"
+  }
+]

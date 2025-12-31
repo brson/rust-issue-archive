@@ -1,0 +1,64 @@
+[
+  {
+    "event": "referenced",
+    "commit": "828d0677c4d6d9cc955f9b90e8b28039f69ff8b8",
+    "actor": "lht",
+    "date": "2012-04-12T09:37:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9388,
+    "type": "issue",
+    "actor": "jdm",
+    "date": "2013-09-22T04:23:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "909cbbeda81f64fe9d92e2d4fe5325cc9a4a327a",
+    "actor": "jooert",
+    "date": "2015-05-26T21:51:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25805,
+    "type": "issue",
+    "actor": "jooert",
+    "date": "2015-05-26T21:56:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f76d9bcfc2c269452522fbbe19f66fe653325646",
+    "actor": "bors",
+    "date": "2015-05-28T00:15:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "245db82e9e91b883fa7446ebb93dbcc9dfe1a1eb",
+    "actor": "XMPPwocky",
+    "date": "2015-05-29T18:44:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5ee53b03f1f7ba17f7fb0674c66774ddec4e8c53",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8e7e6a03d82cb76782d5805a0cc88d248c2d10f4",
+    "actor": "pdietl",
+    "date": "2020-04-23T21:22:12Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "092cae12f9f5bb077f189a62ef03ef634a91edf4",
+    "actor": "bors",
+    "date": "2020-10-26T16:31:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "28dda986da5d3713304b37324d7332eaf1cde32b",
+    "actor": "noscripter",
+    "date": "2025-09-08T12:00:30Z"
+  }
+]

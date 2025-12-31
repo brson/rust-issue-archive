@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 9852,
+    "type": "issue",
+    "actor": "erickt",
+    "date": "2014-09-22T19:20:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18099,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-10-16T20:29:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "41a79104a412989b802852f9ee6e589b06391d61",
+    "actor": "bors",
+    "date": "2014-10-18T13:22:12Z"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e97ac02ac2b865a949ffcd3e360319f087cfd6d6",
+    "actor": "birkenfeld",
+    "date": "2015-08-27T07:04:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28039,
+    "type": "issue",
+    "actor": "birkenfeld",
+    "date": "2015-08-27T07:05:10Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a7313a0b891fb5fa62357527409bafde63aa44aa",
+    "actor": "birkenfeld",
+    "date": "2015-08-27T16:49:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "51cc43055b1ee915e842458f205f6e635df95328",
+    "actor": "Manishearth",
+    "date": "2015-08-27T22:08:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "07d1a22ce5050cfa2edd7b257ac7fead534588a2",
+    "actor": "Manishearth",
+    "date": "2015-08-27T22:08:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 57872,
+    "type": "issue",
+    "actor": "KeyboardDanni",
+    "date": "2019-01-24T01:01:17Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "8a6ff90a3a41e6ace18aeb089ea0a0eb3726dd08",
+    "actor": "bjorn3",
+    "date": "2021-08-06T14:27:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 115246,
+    "type": "issue",
+    "actor": "rust-timer",
+    "date": "2023-08-26T13:07:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7cc65683e9a18b73ff2f0609e0799c90da497b99",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:26Z"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a270e445565e8978fc0abd40c6ff9101c0ca05ce",
+    "actor": "kyrias",
+    "date": "2017-07-11T08:57:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "230668765d5a1c435cfd6d6a101aaee0f67de2dc",
+    "actor": "kyrias",
+    "date": "2017-07-11T12:22:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43170,
+    "type": "issue",
+    "actor": "kyrias",
+    "date": "2017-07-11T20:04:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4e56bbeb19c48edf6a211448a6fb5b67b29eceec",
+    "actor": "bors",
+    "date": "2017-07-19T05:39:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fbd17ef41ed196e7bbff84640a736e437f09c70a",
+    "actor": "mattico",
+    "date": "2017-07-29T23:30:33Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 73855,
+    "type": "issue",
+    "actor": "LifeIsStrange",
+    "date": "2020-06-29T08:56:24Z"
+  }
+]

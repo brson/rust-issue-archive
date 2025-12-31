@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "168ebad92edda115963f23cfabcfe5ff61e3f1a0",
+    "actor": "eefriedman",
+    "date": "2015-07-27T02:20:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "21b514ff3040527e290d79a27d591b1b31301f68",
+    "actor": "eefriedman",
+    "date": "2015-07-27T02:22:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27315,
+    "type": "issue",
+    "actor": "eefriedman",
+    "date": "2015-07-27T02:22:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d019a49ac86322703e1daad0ebca393856185b32",
+    "actor": "bors",
+    "date": "2015-07-27T11:49:48Z"
+  }
+]

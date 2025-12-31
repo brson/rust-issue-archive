@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "538c282a59e13f99115fd56c70582902dfe1f7b1",
+    "actor": "bors",
+    "date": "2015-11-30T18:25:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c48ac8ad7c0b0892217478da2f0eb5e46593ecfa",
+    "actor": "SimonSapin",
+    "date": "2015-11-30T19:52:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6da4c12e90ab20b6f0bcf38d453204eb47d58f8d",
+    "actor": "SimonSapin",
+    "date": "2015-11-30T20:28:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20046,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2015-11-30T21:17:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c212c0e1d1ff9f061c8149b4831e5fa1cb7e5b83",
+    "actor": "bors",
+    "date": "2015-12-01T05:55:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30158,
+    "type": "issue",
+    "actor": "jdm",
+    "date": "2015-12-02T03:05:07Z"
+  }
+]

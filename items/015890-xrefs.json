@@ -1,0 +1,48 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 76,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-07-22T02:39:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32427,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2016-03-22T19:00:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 39796,
+    "type": "issue",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-04-30T19:50:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e86588e2286ac2c0fb4763bf2d8c3046d0abcc22",
+    "actor": "cuviper",
+    "date": "2017-05-18T23:14:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42092,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2017-05-18T23:15:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "99633794b490205762fb5f7405dad87cb91189b1",
+    "actor": "bors",
+    "date": "2017-05-19T11:55:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fd8ca3ea6d9dbd09336f882ec9a2952a752954b5",
+    "actor": "Mark-Simulacrum",
+    "date": "2017-05-19T20:16:26Z"
+  }
+]

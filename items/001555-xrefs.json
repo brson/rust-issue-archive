@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1850,
+    "type": "issue",
+    "actor": "thoughtpolice",
+    "date": "2012-02-16T02:02:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "39ab14c01b52ce8421db36caa23eccfdce4585e5",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-09T09:32:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "be78ea13e3a21ffd8ccfc81d8f195702d2b45f1b",
+    "actor": "tautschnig",
+    "date": "2025-07-03T16:27:47Z"
+  }
+]

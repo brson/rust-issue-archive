@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24147,
+    "type": "issue",
+    "actor": "lgrz",
+    "date": "2015-04-07T08:58:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b34643638d627a371bd1073fc810f8d4acb170f",
+    "actor": "Manishearth",
+    "date": "2015-04-07T19:49:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 81941,
+    "type": "issue",
+    "actor": "c410-f3r",
+    "date": "2021-02-09T23:16:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c27dad5c54be2463116e71a72bab8847f66bf9e1",
+    "actor": "JohnTitor",
+    "date": "2021-02-15T05:21:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5734d139fd0d422f281df5ec9543b22aa72f705f",
+    "actor": "Dylan-DPC-zz",
+    "date": "2021-02-16T14:54:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e13ed441da453e9b37d0c06b56f6dd155d13831d",
+    "actor": "Dylan-DPC-zz",
+    "date": "2021-02-16T23:29:08Z"
+  }
+]

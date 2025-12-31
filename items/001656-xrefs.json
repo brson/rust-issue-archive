@@ -1,0 +1,45 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 142585,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2025-06-16T17:00:52Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7423763c4ca298d71bac761e900fb9f3343801a5",
+    "actor": "jhpratt",
+    "date": "2025-06-17T01:00:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bb3a2732ca7ca538bc5b76dfa1e1ba09dbdfdf76",
+    "actor": "workingjubilee",
+    "date": "2025-06-17T07:28:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "29892b8fd98ca80afc94a53ed89babb96a30c021",
+    "actor": "workingjubilee",
+    "date": "2025-06-17T07:39:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "55139b83886b8c636b5080e30db0f9a73e4a712a",
+    "actor": "workingjubilee",
+    "date": "2025-06-17T07:50:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7da53ae54e1176e69d45d1b72ea823edbf86625b",
+    "actor": "rust-timer",
+    "date": "2025-06-17T21:13:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6b5e1667eead1431027fcc36d285c21b20622d97",
+    "actor": "github-actions[bot]",
+    "date": "2025-06-18T05:04:29Z"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "event": "referenced",
+    "commit": "d1e1b7fb2050de8f808713c783862d1d35240afa",
+    "actor": "bors",
+    "date": "2013-04-01T20:09:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5672,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2013-04-01T23:38:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5673,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2013-04-01T23:39:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cb16cd9423e13fc6439d92ee3350cc72c7aa48d7",
+    "actor": "bors",
+    "date": "2013-04-03T03:15:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:44Z"
+  }
+]

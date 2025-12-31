@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "be86be55e33406c6e9836b96f88363312b853ed5",
+    "actor": "nikomatsakis",
+    "date": "2014-11-07T21:28:21Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18750,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-11-07T21:31:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a8b86b341e5819bfa0e3edd210fff0665f71a12a",
+    "actor": "nikomatsakis",
+    "date": "2014-11-20T10:43:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f12565c1ad5955a8e63b1ee6c7792069e1fec7a7",
+    "actor": "nikomatsakis",
+    "date": "2014-11-20T10:56:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7a372e23cbab0be6abd3fbd321d0548640568920",
+    "actor": "nikomatsakis",
+    "date": "2014-11-20T14:16:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d13aff12246ab3c72b0c5f186400a21f825c0a6c",
+    "actor": "bors",
+    "date": "2014-11-20T19:26:42Z"
+  }
+]

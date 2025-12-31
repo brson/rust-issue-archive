@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2854,
+    "type": "issue",
+    "actor": "larsbergstrom",
+    "date": "2014-07-16T13:30:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 316,
+    "type": "issue",
+    "actor": "rust-highfive",
+    "date": "2014-09-24T05:03:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dca63d1b21d0ec58ca157106878641c9194a81b8",
+    "actor": "bors",
+    "date": "2023-11-13T23:43:42Z"
+  }
+]

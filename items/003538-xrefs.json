@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "6aff4913d6079ad1f3f2531271450d97545dd8c1",
+    "actor": "lkuper",
+    "date": "2013-05-27T17:26:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "beec6e4b2115616e9cfc4283f2b71de1be1aca7a",
+    "actor": "lkuper",
+    "date": "2013-05-27T17:30:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6768,
+    "type": "issue",
+    "actor": "lkuper",
+    "date": "2013-05-27T18:33:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d98cc9995fb5c87230f57eeffb8061df25d85190",
+    "actor": "bors",
+    "date": "2013-05-27T18:41:10Z"
+  }
+]

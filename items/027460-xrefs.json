@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "f1a98a1bf654286f5df7010e1b5ef77b8fdb74b0",
+    "actor": "bors",
+    "date": "2015-08-01T20:24:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5f841eb82476b6de4ebb4eb199e9b070a0a0493c",
+    "actor": "Manishearth",
+    "date": "2015-08-04T12:30:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27512,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-08-04T12:30:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b79add08653d89f08e5a5c94c2132515a1aa30f",
+    "actor": "bors",
+    "date": "2015-08-04T12:31:34Z"
+  }
+]

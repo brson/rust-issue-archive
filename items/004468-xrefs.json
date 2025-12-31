@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5334,
+    "type": "issue",
+    "actor": "larryv",
+    "date": "2013-03-12T08:28:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5482,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2013-03-22T00:34:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "27434e8219148d5d7fded0274470a297a4314ea4",
+    "actor": "bors",
+    "date": "2013-03-22T05:57:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24140,
+    "type": "issue",
+    "actor": "partim",
+    "date": "2017-11-27T08:46:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5453326ae0e2cc58b1b0860230e843506f540a5c",
+    "actor": "RalfJung",
+    "date": "2025-07-16T11:34:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4fce6dad914cd1b85a4bb33f910bb0a46491b2e4",
+    "actor": "Muscraft",
+    "date": "2025-07-21T20:59:50Z"
+  }
+]

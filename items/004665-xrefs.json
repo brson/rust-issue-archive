@@ -1,0 +1,48 @@
+[
+  {
+    "event": "referenced",
+    "commit": "73a7672b8d9ddab92c91d1b343535b9a9a765b68",
+    "actor": "catamorphism",
+    "date": "2013-02-05T00:49:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4796,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-02-05T00:50:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f1b05ece9310303c600ecf83c895892d7a19b565",
+    "actor": "bors",
+    "date": "2013-02-05T15:04:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5137,
+    "type": "issue",
+    "actor": "yjh0502",
+    "date": "2013-02-27T05:41:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4707,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2013-03-07T13:33:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4257,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-03-21T19:36:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ddc3ad05db0f2e5960372207a4611997ff15ead",
+    "actor": "RalfJung",
+    "date": "2025-11-08T15:33:54Z"
+  }
+]

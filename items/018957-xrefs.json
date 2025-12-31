@@ -1,0 +1,45 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5777,
+    "type": "issue",
+    "actor": "tamird",
+    "date": "2015-04-21T19:26:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b0a7d1bf865eff7b6ca3bae874004a61c19b3c27",
+    "actor": "bors-servo",
+    "date": "2015-04-27T19:37:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6a37f39778a8bddf6e9b2a128f2e634e642983b5",
+    "actor": "jrmuizel",
+    "date": "2017-06-12T20:57:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fed70753e41a33c7551dae6f49c87b206eca6e20",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:47:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "99f02ad9bd1bc547e7d4f5a0ede75022d1791a17",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:11:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dbda3c75f019a06b070af1262fd20ca638b59490",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:25:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b8eec1a35efb933bff2dc8467b2a632251734aec",
+    "actor": "lnicola",
+    "date": "2025-01-20T15:11:12Z"
+  }
+]

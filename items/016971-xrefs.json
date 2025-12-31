@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4d87b0522555d1e43cff0fb99f3f50bff2efb650",
+    "actor": "alexcrichton",
+    "date": "2014-09-09T15:39:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "679b4e1b3870d8dd9349b99a68be4bb95b3d5fa7",
+    "actor": "alexcrichton",
+    "date": "2014-09-09T20:13:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 175,
+    "type": "issue",
+    "actor": "toqueteos",
+    "date": "2015-01-22T13:55:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a8b7acf22ff5f4e9d075dfa45ddaacf7b608e35e",
+    "actor": "bors",
+    "date": "2024-03-31T08:25:34Z"
+  }
+]

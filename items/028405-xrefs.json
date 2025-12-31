@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "06123d3afe0fe6e24863f0043d4d2e28bed482da",
+    "actor": "zackmdavis",
+    "date": "2016-10-15T22:58:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 37200,
+    "type": "issue",
+    "actor": "zackmdavis",
+    "date": "2016-10-15T23:00:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "33907e209562fc3718064a9cc043f3a63bf760fd",
+    "actor": "bors",
+    "date": "2016-10-16T07:16:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3ff8ee18aa0865ffcd96beec52ad1f09d9ffd8ab",
+    "actor": "GuillaumeGomez",
+    "date": "2016-10-17T21:07:53Z"
+  }
+]

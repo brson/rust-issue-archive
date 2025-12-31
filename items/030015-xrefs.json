@@ -1,0 +1,42 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 73,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2015-11-23T23:01:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6d88afe4775436d45ec3050ee5c1488e68afe9e2",
+    "actor": "bors",
+    "date": "2015-11-26T10:22:38Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30071,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2015-11-26T10:24:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 29850,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-11-26T13:08:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30043,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-11-26T13:11:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e5aa92a0df5cd90ed2dc364e0d335c87b23355bf",
+    "actor": "bors",
+    "date": "2015-11-27T01:48:12Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c7d58321e1856396d4b5b047c1844d6494a5d5c4",
+    "actor": "bors",
+    "date": "2015-12-03T23:09:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30198,
+    "type": "issue",
+    "actor": "mitaa",
+    "date": "2015-12-04T08:11:19Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30222,
+    "type": "issue",
+    "actor": "mitaa",
+    "date": "2015-12-05T13:25:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3ffc6f0450ad2a462370235fb30cc23190f03cc7",
+    "actor": "bors",
+    "date": "2015-12-06T06:49:06Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2877,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2014-07-19T18:55:15Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f15d6d28396e8700b6c3f2704204a2769e710403",
+    "actor": "bors",
+    "date": "2014-07-20T22:46:30Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e461efb636ae512cff83a1bd6e6c9818b982347f",
+    "actor": "lnicola",
+    "date": "2024-01-03T09:37:59Z"
+  }
+]

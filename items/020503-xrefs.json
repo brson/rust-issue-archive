@@ -1,0 +1,42 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a1755b7c9800c0e5b586e89302f5a55e031f4927",
+    "actor": "tomprogrammer",
+    "date": "2015-01-04T14:51:17Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30550,
+    "type": "issue",
+    "actor": "Stebalien",
+    "date": "2015-12-24T17:22:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 37275,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2016-10-19T10:42:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 37791,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2016-11-16T00:33:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1c448574bc668b0de70ed75223bf8798d17bf058",
+    "actor": "bors",
+    "date": "2016-11-28T21:15:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 12640,
+    "type": "issue",
+    "actor": "barafael",
+    "date": "2024-04-06T13:24:45Z"
+  }
+]

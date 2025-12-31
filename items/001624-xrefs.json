@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1623,
+    "type": "issue",
+    "actor": "thoughtpolice",
+    "date": "2012-01-23T22:27:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d53296ac3fbc7ee5f1f3833fbc0055b72c078343",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7574320770988f22c8acca81e529125ecdc9a6e8",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8b68f142fa69c1801c1cd63c21bec6d3de97577d",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:09Z"
+  }
+]

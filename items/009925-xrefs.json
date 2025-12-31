@@ -1,0 +1,58 @@
+[
+  {
+    "event": "referenced",
+    "commit": "90911d72592fedbce0c34d8a0e20b5aac5c781bf",
+    "actor": "alexcrichton",
+    "date": "2013-10-18T17:39:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9933,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-10-18T17:40:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "df187a0b67cf94b339220c3fa7b9d2edbe4d05aa",
+    "actor": "bors",
+    "date": "2013-10-18T22:26:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18678,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-11-06T04:23:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "70436c0b134eb426c368bf430df63439d06fb2b9",
+    "actor": "dmitry-stripe",
+    "date": "2018-10-11T08:13:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "15a9c2604e3401593110ddf6c9e2e16a4b28e68e",
+    "actor": "dmitry-stripe",
+    "date": "2018-10-11T08:15:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "75766ec2b663b360be8eea9730a7adc0d252ce7e",
+    "actor": "DarkDimius",
+    "date": "2020-04-03T00:31:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4e5bda00d5eb7737b23776388b8589addf7e2cfd",
+    "actor": "jez",
+    "date": "2023-03-22T01:05:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "aa2180f5fe2e7a61755092a974fcefe252439e70",
+    "actor": "flip1995",
+    "date": "2025-03-20T21:35:13Z"
+  }
+]

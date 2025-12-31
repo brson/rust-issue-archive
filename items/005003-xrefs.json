@@ -1,0 +1,29 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 9655,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2013-10-10T17:12:09Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18720,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-11-06T23:02:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 65427,
+    "type": "issue",
+    "actor": "varkor",
+    "date": "2019-10-15T08:54:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e8642c7a2900bed28003a98d4db8b62290ac802f",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:48Z"
+  }
+]

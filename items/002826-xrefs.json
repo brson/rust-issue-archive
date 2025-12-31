@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "6b8ebc12db1056632531578f91ec20c2d3d2edbf",
+    "actor": "graydon",
+    "date": "2012-07-06T23:18:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "172bf3a03851fee9ddbc808c3a526744c138f767",
+    "actor": "graydon",
+    "date": "2012-07-10T01:42:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "14f19bdee4985503e1b8bf63950e77aabcb75541",
+    "actor": "msullivan",
+    "date": "2012-07-10T20:40:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2855,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2014-06-16T21:56:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7315b6da628e0e6759c2eab5e83253edc1f1f9a7",
+    "actor": "saethlin",
+    "date": "2023-04-11T01:17:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cbc8b9915373a257d9160a398b2fd5f9d776df26",
+    "actor": "celinval",
+    "date": "2024-06-04T02:20:28Z"
+  }
+]

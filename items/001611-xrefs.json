@@ -1,0 +1,73 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "ehuss",
+    "date": "2022-11-24T00:59:20Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4,
+    "type": "issue",
+    "actor": "ehuss",
+    "date": "2022-11-25T02:03:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 5,
+    "type": "issue",
+    "actor": "ehuss",
+    "date": "2022-11-25T04:23:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 104993,
+    "type": "issue",
+    "actor": "ehuss",
+    "date": "2022-11-27T22:22:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 105313,
+    "type": "issue",
+    "actor": "rustbot",
+    "date": "2022-12-05T17:01:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "151516eb14fd022420dc8959f4ca0a907cabcd99",
+    "actor": "matthiaskrgr",
+    "date": "2022-12-05T19:43:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8d90e63cdb79298d24f6e52d8b40dba48d464fcb",
+    "actor": "matthiaskrgr",
+    "date": "2022-12-05T20:54:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ecd71a86171c139c2b4d82f274a2e49905289fe7",
+    "actor": "matthiaskrgr",
+    "date": "2022-12-05T21:54:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eeb1bbc64103a3c6f47bb31cef051ad122147dfa",
+    "actor": "JohnTitor",
+    "date": "2022-12-06T03:48:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f56de6347cefdc8103812e959f9450ef52aa7c0e",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4b8cc1b285fc35a7bab5198e48f8d119453ee2f2",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:07Z"
+  }
+]

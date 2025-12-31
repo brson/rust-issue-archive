@@ -1,0 +1,35 @@
+[
+  {
+    "event": "referenced",
+    "commit": "73bd5cfc5394d472050ac4f9f000079fcd077afb",
+    "actor": "edwardw",
+    "date": "2015-02-22T13:23:43Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 22338,
+    "type": "issue",
+    "actor": "edwardw",
+    "date": "2015-02-22T13:27:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19,
+    "type": "issue",
+    "actor": "ehiggs",
+    "date": "2015-07-24T19:28:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41728,
+    "type": "issue",
+    "actor": "sirideain",
+    "date": "2017-05-03T17:08:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2d4ed8e0cbe2c5f3763273a5d8f6b15119473ba7",
+    "actor": "bors",
+    "date": "2017-05-03T19:58:41Z"
+  }
+]

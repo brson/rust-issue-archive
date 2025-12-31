@@ -1,0 +1,59 @@
+[
+  {
+    "event": "referenced",
+    "commit": "8ba56052330c69b6bb5bb9c477ff2d3894e5911d",
+    "actor": "steveklabnik",
+    "date": "2014-12-07T09:19:00Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19614,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2014-12-07T09:19:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fb587f1f9bfbd102e7fffdd023c40974a3dd71cc",
+    "actor": "alexcrichton",
+    "date": "2014-12-09T18:27:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2596366caa1185b35b05eb5b0e5807c814e83c7d",
+    "actor": "gereeter",
+    "date": "2014-12-12T12:47:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "947b74bb6099aec8399552c95d7b8814de42049d",
+    "actor": "pickfire",
+    "date": "2020-08-29T11:11:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76063,
+    "type": "issue",
+    "actor": "pickfire",
+    "date": "2020-08-29T11:11:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "85a400d44e44309c3ddda538355aeb0829fafb42",
+    "actor": "pickfire",
+    "date": "2020-08-31T14:10:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 76161,
+    "type": "issue",
+    "actor": "pickfire",
+    "date": "2020-08-31T14:10:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9df193b6b28a692349b8c547bb2b563944c61fdf",
+    "actor": "tmandry",
+    "date": "2020-09-01T02:18:26Z"
+  }
+]

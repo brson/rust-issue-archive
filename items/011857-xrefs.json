@@ -1,0 +1,52 @@
+[
+  {
+    "event": "referenced",
+    "commit": "782f5fdb434c2d86d82717cddb9107475411664c",
+    "actor": "alexcrichton",
+    "date": "2014-02-23T08:00:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cf70ffc7945141e08f9c2ce249df8d741a04947c",
+    "actor": "alexcrichton",
+    "date": "2014-04-08T17:41:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "97043c33c40b938b0c1c9066884aef8f3f44d6fe",
+    "actor": "alexcrichton",
+    "date": "2014-04-10T16:05:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f2c55f7d5b5c7717dd12eef4572c52a4e8ff550",
+    "actor": "alexcrichton",
+    "date": "2014-04-10T22:22:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8236d81ea848b36f2338bbd02bf5a4d501792ae1",
+    "actor": "vhbit",
+    "date": "2014-04-14T12:20:24Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18720,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-11-06T23:02:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2014-12-08T02:39:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "30c743f8a04d2ad35885eefaa8d29b19a0e3d013",
+    "actor": "bors",
+    "date": "2023-12-01T23:55:56Z"
+  }
+]

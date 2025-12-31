@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 31756,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2016-03-08T16:00:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 32233,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2016-03-13T16:42:07Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d19f1b629918a556709e6b89a1929305db6449dc",
+    "actor": "bors",
+    "date": "2016-03-14T15:32:45Z"
+  }
+]

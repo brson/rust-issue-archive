@@ -1,0 +1,106 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 27742,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2015-08-12T21:31:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27818,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-08-13T20:10:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "82b89645fb6ec31138d5788b588ddd7e44c434fa",
+    "actor": "bors",
+    "date": "2015-08-13T23:32:31Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27400,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-08-14T01:06:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27808,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-08-14T01:08:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27760,
+    "type": "issue",
+    "actor": "bors",
+    "date": "2015-08-14T01:11:32Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24292,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2015-08-14T13:35:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a3bc438a9d57b43514bcb75b92095a14298a8a9c",
+    "actor": "Ms2ger",
+    "date": "2015-08-16T12:50:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7240,
+    "type": "issue",
+    "actor": "Ms2ger",
+    "date": "2015-08-16T12:51:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4d7dd66ec9f0a5229a52b3301ac1a38848ebfb4b",
+    "actor": "bors-servo",
+    "date": "2015-08-16T13:13:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5a1bc634dc907ef08906a6a6825fddb7d8b82bb2",
+    "actor": "mokus0",
+    "date": "2015-08-16T22:59:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "673e722aa68563542230f9322bd921eb4e848c19",
+    "actor": "jrmuizel",
+    "date": "2017-06-12T20:59:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "41f5db01399da839d74eda4fae019df752fbb13f",
+    "actor": "gecko-dev-updater",
+    "date": "2019-09-30T20:52:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2105fe4a7c7a3998402b235ba208c166df7c34a2",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:23:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bbbc9209a3dd1f19a8f0b1a09edc67fdcceca931",
+    "actor": "gecko-dev-updater",
+    "date": "2019-10-01T00:32:39Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 68495,
+    "type": "issue",
+    "actor": "LukasKalbertodt",
+    "date": "2020-01-25T11:25:50Z"
+  }
+]

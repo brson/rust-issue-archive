@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "450c4f3fa84f1cc1fe85e2f74402e00a7557433b",
+    "actor": "graydon",
+    "date": "2012-02-15T04:57:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1785,
+    "type": "issue",
+    "actor": "kevina",
+    "date": "2012-02-15T05:34:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "354902096539ec0a5dfc75209c9ef074b78e9035",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "39fcd947e51ccd482a927996543d158867b3677f",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:15Z"
+  }
+]

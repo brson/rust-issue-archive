@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "6d20876c3ffa34c3daaff409b995d863faea9787",
+    "actor": "michaelwoerister",
+    "date": "2014-01-02T15:00:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "645bb327dbd1fab65a87d2f0bd6ca8c3ec620422",
+    "actor": "michaelwoerister",
+    "date": "2014-01-02T15:00:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11274,
+    "type": "issue",
+    "actor": "michaelwoerister",
+    "date": "2014-01-02T15:16:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3249de8c4f5d4c7cf34a4bda5e98f047b6b72263",
+    "actor": "bors",
+    "date": "2014-01-02T17:02:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14385,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2014-05-23T22:51:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "568ccf3fc843527011a268c6f2b23bf898fa0793",
+    "actor": "flip1995",
+    "date": "2023-07-31T21:54:04Z"
+  }
+]

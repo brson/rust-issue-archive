@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c4265209a60ebb6227a6fff63c906e34f7210e49",
+    "actor": "lkuper",
+    "date": "2011-07-15T22:34:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "560e73f357f5121e5b1916cf450a333ff138576f",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1ad8c2e9739c9a5220c2de4fdf4b239b23c3bac2",
+    "actor": "pdietl",
+    "date": "2020-04-23T21:22:10Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 88181,
+    "type": "issue",
+    "actor": "cgrzemba",
+    "date": "2021-08-20T13:42:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7441e0cd5116a27e0b5849d7a8b0f9b159b19ff1",
+    "actor": "Mark-Simulacrum",
+    "date": "2022-02-22T02:31:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4bde3fdc9510648ec1ff5ef79636260ab49b627",
+    "actor": "tgross35",
+    "date": "2025-06-03T05:23:04Z"
+  }
+]

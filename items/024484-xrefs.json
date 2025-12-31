@@ -1,0 +1,59 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 19,
+    "type": "issue",
+    "actor": "briansmith",
+    "date": "2015-09-21T21:06:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2e02b8b6507a16d97c533818425150d3eab77baf",
+    "actor": "zackmdavis",
+    "date": "2017-07-23T22:03:58Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "09fc36e3b5ca245d31f9dbddeb41006ac457273e",
+    "actor": "zackmdavis",
+    "date": "2017-07-23T22:42:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43445,
+    "type": "issue",
+    "actor": "zackmdavis",
+    "date": "2017-07-23T23:13:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3c12233a3129b5b2349a6e1e99f9d581024f1a8e",
+    "actor": "bors",
+    "date": "2017-07-26T10:42:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4a42ff482367afa83b6cdb1fbfad2ee69f836f97",
+    "actor": "bors",
+    "date": "2017-07-27T02:06:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "47c9e7cba9f4ae30cbc9bb5b0364b07b4b7c26b4",
+    "actor": "mattico",
+    "date": "2017-07-29T23:30:34Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e010db5647103c945da702a765c6ff9e3b75e47a",
+    "actor": "matthewhammer",
+    "date": "2017-08-03T19:39:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23,
+    "type": "issue",
+    "actor": "QuietMisdreavus",
+    "date": "2017-08-15T20:15:57Z"
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 11098,
+    "type": "issue",
+    "actor": "erickt",
+    "date": "2013-12-21T05:36:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5fa1d95bc422b8f7da00c5098db232916a0d1b7",
+    "actor": "bors",
+    "date": "2013-12-28T00:36:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14425,
+    "type": "issue",
+    "actor": "erickt",
+    "date": "2014-06-03T04:41:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ab1bd3adf673ef7a515242a2dcc09ce360d41d9c",
+    "actor": "erickt",
+    "date": "2014-06-29T19:32:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 15256,
+    "type": "issue",
+    "actor": "erickt",
+    "date": "2014-06-29T19:34:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e25eb6b223d86047dc807a167f3dd4bf492bbf41",
+    "actor": "bors",
+    "date": "2014-06-30T03:46:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 59119,
+    "type": "issue",
+    "actor": "lnicola",
+    "date": "2019-03-21T11:18:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 59605,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2019-04-01T14:52:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "941d92c08043d18a7d44c717a3711ec11be4f08f",
+    "actor": "pnkfelix",
+    "date": "2019-04-05T09:35:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 62883,
+    "type": "issue",
+    "actor": "Stargateur",
+    "date": "2019-07-22T23:06:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8f9b8c19de66ffc706a46c41a958e3358adf1ad4",
+    "actor": "Centril",
+    "date": "2019-07-28T01:01:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3f4e5999b241fab30a51fa7fa45a55697c40dbb4",
+    "actor": "flip1995",
+    "date": "2023-07-14T11:53:44Z"
+  }
+]

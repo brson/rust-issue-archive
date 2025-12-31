@@ -1,0 +1,54 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 29249,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-10-23T14:06:04Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27844,
+    "type": "issue",
+    "actor": "mitaa",
+    "date": "2015-10-28T09:43:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4504df751448dce8427ac244d07dfecc020319b7",
+    "actor": "imjacobclark",
+    "date": "2016-06-07T10:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 34136,
+    "type": "issue",
+    "actor": "imjacobclark",
+    "date": "2016-06-08T14:38:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20f4d9904d6874e09b19f30aa4b28a14c4e29b1d",
+    "actor": "Manishearth",
+    "date": "2016-06-08T15:46:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "874227af2cdaa27f6f00f0a63f66d71c29e71f8c",
+    "actor": "sanxiyn",
+    "date": "2016-06-10T08:14:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b6940932d42ba6dd5ae482787bd8fc05bb14e77b",
+    "actor": "sanxiyn",
+    "date": "2016-06-10T12:16:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 55797,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2018-11-08T22:53:44Z"
+  }
+]

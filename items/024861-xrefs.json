@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "4dee31c1195882505bfd64910a4b6c0d2a7468a1",
+    "actor": "wesleywiser",
+    "date": "2016-01-03T02:39:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30680,
+    "type": "issue",
+    "actor": "wesleywiser",
+    "date": "2016-01-03T02:40:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3a6c6c8e01b489cac888a679d9cd567138987000",
+    "actor": "bors",
+    "date": "2016-01-05T08:37:06Z"
+  }
+]

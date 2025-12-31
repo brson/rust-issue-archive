@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "9fe747937a57a8bdb5510016d96fdcb15b9077c0",
+    "actor": "bors",
+    "date": "2015-01-10T19:25:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9d2e9b9be62316f0bae4ac833c2485f55915ee6c",
+    "actor": "bors",
+    "date": "2015-01-11T12:15:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 74852,
+    "type": "issue",
+    "actor": "tesuji",
+    "date": "2020-07-28T00:54:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "afd3e8ab7e3e1c925fc3893aab125617395808c8",
+    "actor": "bors",
+    "date": "2020-07-28T02:27:37Z"
+  }
+]

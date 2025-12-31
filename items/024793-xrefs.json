@@ -1,0 +1,42 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0ffa676fc64cdbe44fc25fc7627acc063f3585e9",
+    "actor": "bors",
+    "date": "2015-04-25T02:45:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5c710b593b429d39ea01375172a9ce968f43ab26",
+    "actor": "bors",
+    "date": "2015-05-01T04:22:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 25121,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-05-05T17:59:51Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 58048,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2019-02-10T20:15:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 60784,
+    "type": "issue",
+    "actor": "SimonSapin",
+    "date": "2019-05-17T14:24:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2895,
+    "type": "issue",
+    "actor": "CobaltCause",
+    "date": "2024-12-31T00:12:25Z"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 12199,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2014-03-23T09:06:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "27e17ffd27ac850a2fc7de1d36a83ef440322255",
+    "actor": "JohnTitor",
+    "date": "2022-08-30T22:26:11Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c8b0923a739a1873c7bbea523598f4a35906ba35",
+    "actor": "Jarcho",
+    "date": "2024-08-24T21:35:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "88506a9147172ff233f820451982e9514aee3476",
+    "actor": "bors",
+    "date": "2024-08-25T11:57:11Z"
+  }
+]

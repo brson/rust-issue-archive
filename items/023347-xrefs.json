@@ -1,0 +1,27 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 22500,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2015-03-13T20:23:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2b6af65f78602b89b7cb09b937ed223a9ce9074a",
+    "actor": "bors",
+    "date": "2015-03-14T13:22:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7a306b1b005eb7c870f7ebad75f6d19b6e995236",
+    "actor": "bors",
+    "date": "2015-03-15T11:49:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bde09eea35113f25d4e0bcc4a8344de971f3069a",
+    "actor": "bors",
+    "date": "2015-03-16T17:02:12Z"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 16459,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2014-08-21T16:41:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21046,
+    "type": "issue",
+    "actor": "steveklabnik",
+    "date": "2015-01-12T21:00:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "87dce0c138af6887704fc2379b7a75e05a1e8b18",
+    "actor": "alexcrichton",
+    "date": "2015-01-15T22:13:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4a8d0f7f565b6df45da5522dd7366a4df3460cd7",
+    "actor": "bors",
+    "date": "2024-02-25T10:20:26Z"
+  }
+]

@@ -1,0 +1,40 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0d77ea0228900c61777834e22217c3fbb1aed523",
+    "actor": "bors",
+    "date": "2013-02-13T03:50:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "18fde2ca51e52a941960d23c0acf1afa110776ba",
+    "actor": "bors",
+    "date": "2013-02-13T20:18:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eb02c455bfc90169a50442db90ffd5f9a75afdbf",
+    "actor": "bors",
+    "date": "2013-02-14T05:44:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "27822022016f0b701c4bfd851bf20ba29500ae1b",
+    "actor": "bors",
+    "date": "2013-02-16T18:16:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 47154,
+    "type": "issue",
+    "actor": "andjo403",
+    "date": "2018-03-06T17:32:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 470,
+    "type": "issue",
+    "actor": "nfachan",
+    "date": "2025-02-10T20:14:09Z"
+  }
+]

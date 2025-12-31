@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 33183,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2016-04-25T04:52:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 46789,
+    "type": "issue",
+    "actor": "Diggsey",
+    "date": "2017-12-17T17:18:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "97e576bbf0e204ebdf1aed46f5dc7b4790d06b69",
+    "actor": "bors",
+    "date": "2017-12-22T15:15:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "faecf24d7bb672cca9001291083ce32ec93aba01",
+    "actor": "bors",
+    "date": "2017-12-23T09:04:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c284f8807eb3a1d728242bb6a767b0306d6f6bd5",
+    "actor": "bors",
+    "date": "2017-12-24T20:57:26Z"
+  }
+]

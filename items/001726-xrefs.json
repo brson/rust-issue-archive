@@ -1,0 +1,53 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 2110,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-04-02T12:59:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2296,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2012-04-25T07:11:07Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2376,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2012-05-11T20:36:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a3be0b105436118e187ea52deb89788afaf1edb5",
+    "actor": "nikomatsakis",
+    "date": "2012-05-24T13:49:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2776076efa23eceb07897ee54a0a6ce4535dd98c",
+    "actor": "flip1995",
+    "date": "2021-11-23T10:47:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "21ceaa2d4a381e17f195d892c332ba45de5c6300",
+    "actor": "celinval",
+    "date": "2024-06-04T02:19:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9fcdcc08c13b44954166785393e3eb189e6dbee7",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3717786066638c409e4831029babaf858cb7fc44",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:12Z"
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "9d3de77b98fe34bbc95d749acbf5fce9426e99dc",
+    "actor": "bblum",
+    "date": "2013-07-30T23:21:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2e6dc161b6efac1ce2709ab4e1c05c55c01e3abf",
+    "actor": "bblum",
+    "date": "2013-07-31T18:38:44Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10302,
+    "type": "issue",
+    "actor": "basic-calculus",
+    "date": "2013-11-06T00:03:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2931,
+    "type": "issue",
+    "actor": "reem",
+    "date": "2014-09-03T09:35:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 33803,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2016-05-24T17:16:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "81a4c1d58d7ecbb8870f723b09f9f1a9fcbefdcc",
+    "actor": "RalfJung",
+    "date": "2023-05-12T12:53:25Z"
+  }
+]

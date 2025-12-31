@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 27285,
+    "type": "issue",
+    "actor": "lastorset",
+    "date": "2015-07-25T19:15:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5fc614b05d62ed71a89f0745e78138b004071305",
+    "actor": "bors",
+    "date": "2015-08-05T16:37:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1fb78b19ce0f75c6e6297b26b20d92f31c27e703",
+    "actor": "steveklabnik",
+    "date": "2015-08-05T19:09:49Z"
+  }
+]

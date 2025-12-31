@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "a66e01369da407e785f884f6b1b837506b41da6a",
+    "actor": "brson",
+    "date": "2012-10-24T21:38:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "daa57dc82c6cf4d5a335086962464ecba7b3a731",
+    "actor": "cuviper",
+    "date": "2017-04-05T07:39:48Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 41080,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2017-04-05T07:40:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "599b3295f53295b72ca1fab138a2786e667d5c06",
+    "actor": "RalfJung",
+    "date": "2024-09-22T16:38:19Z"
+  }
+]

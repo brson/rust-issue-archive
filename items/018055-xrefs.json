@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 18054,
+    "type": "issue",
+    "actor": "zwarich",
+    "date": "2014-10-15T08:20:59Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7876cf9ca915724d1888043a9cbfedd45009e5f2",
+    "actor": "nikomatsakis",
+    "date": "2014-10-16T22:59:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 18105,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2014-10-16T22:59:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d670919aa43d186317a89a375f4a5b7170fc08a8",
+    "actor": "bors",
+    "date": "2014-10-18T15:12:11Z"
+  }
+]

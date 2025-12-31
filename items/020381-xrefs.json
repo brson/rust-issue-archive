@@ -1,0 +1,52 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 21267,
+    "type": "issue",
+    "actor": "danslapman",
+    "date": "2015-01-16T22:39:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b766a6b8c0225de9e077d595a63955e76c6ee34f",
+    "actor": "bors",
+    "date": "2015-01-17T13:08:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "696a6967a17ae521aecfe7450b023fae68860a01",
+    "actor": "bors",
+    "date": "2015-01-17T13:11:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bd8a43c668ba93d29e9671c0c8dc6b67428bf492",
+    "actor": "bors",
+    "date": "2015-01-19T01:45:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 839,
+    "type": "issue",
+    "actor": "pkulchenko",
+    "date": "2023-06-25T17:11:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4d8547a3317fb5f4804672a25a8c376172f5e38c",
+    "actor": "lnicola",
+    "date": "2025-09-01T11:36:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "798cdbe0dce5ac4f94f626681678fe1e9ef03a3c",
+    "actor": "makai410",
+    "date": "2025-11-08T07:57:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e0509270878e9440fa1abee9c284e36082a084ca",
+    "actor": "makai410",
+    "date": "2025-11-10T08:28:17Z"
+  }
+]

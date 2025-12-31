@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "7ee3eaa79c07636588e3a5272f2486c284c57961",
+    "actor": "dsprenkels",
+    "date": "2016-06-16T08:27:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 34296,
+    "type": "issue",
+    "actor": "dsprenkels",
+    "date": "2016-06-16T09:02:49Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "12b6345bc2d0cc02d81bc712682b3c77346acc15",
+    "actor": "bors",
+    "date": "2016-06-16T16:26:37Z"
+  }
+]

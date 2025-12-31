@@ -1,0 +1,27 @@
+[
+  {
+    "event": "referenced",
+    "commit": "161c24b786db25ab79a897dca9ee0e1ffda98119",
+    "actor": "alexcrichton",
+    "date": "2014-10-27T16:44:29Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dc5a18c6e0f5568a93a15e99ac3857c3f5970af7",
+    "actor": "alexcrichton",
+    "date": "2014-10-27T19:56:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": "nicobao",
+    "date": "2020-04-27T21:55:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a4df972532877cf313affc3b400b31626bd2ed71",
+    "actor": "lnicola",
+    "date": "2024-10-17T12:22:29Z"
+  }
+]

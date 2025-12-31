@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "01472435acc2714dde0dfb64e08aa0dd59679826",
+    "actor": "scialex",
+    "date": "2014-09-16T16:26:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 17306,
+    "type": "issue",
+    "actor": "scialex",
+    "date": "2014-09-16T16:27:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c24f27a0673a73f00a95cb359e62156dc2618aea",
+    "actor": "bors",
+    "date": "2014-09-19T02:55:39Z"
+  }
+]

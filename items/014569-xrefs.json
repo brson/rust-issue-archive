@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5,
+    "type": "issue",
+    "actor": "skade",
+    "date": "2014-05-31T22:55:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b981add9ee56a2d6dc11aa48f01aac5d0dda9327",
+    "actor": "bors",
+    "date": "2014-06-02T05:01:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 500,
+    "type": "issue",
+    "actor": "skade",
+    "date": "2014-12-06T12:37:09Z"
+  }
+]

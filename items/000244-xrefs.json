@@ -1,0 +1,53 @@
+[
+  {
+    "event": "referenced",
+    "commit": "dfc1ab5f2b81e8846612d64f9ccd4d08aad71b41",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:37Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c4d880ba917838ecf3b7204f0e79820c414aaca",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:11Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 58414,
+    "type": "issue",
+    "actor": "venkag",
+    "date": "2019-02-13T19:49:27Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 11,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:39:26Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2023-03-02T00:57:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6c5a70de207adc466ab0ffd5151fc1c9161c83e7",
+    "actor": "matthiaskrgr",
+    "date": "2023-03-07T18:57:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a2c90fd955b2bb41ace3f20879cef0ef8bbe3b3a",
+    "actor": "carolynzech",
+    "date": "2025-02-19T22:07:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f753d058d9bbfddb612c70a76ddf17aff70b4aa7",
+    "actor": "noscripter",
+    "date": "2025-09-08T11:59:39Z"
+  }
+]

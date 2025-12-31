@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "803c81d88b665d2d98b5e328f002f9f8509e9203",
+    "actor": "alexcrichton",
+    "date": "2014-06-25T01:09:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cdccecb24f5c467282b73413494343d3848b4e5a",
+    "actor": "alexcrichton",
+    "date": "2014-06-25T01:57:40Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 19260,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2014-12-16T03:51:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4a2ceeff0fb53de168691b0f55d9808d221b867e",
+    "actor": "bors",
+    "date": "2023-07-17T13:54:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b7cc5c45bdf89ea049fc63c41479a1cae265ead5",
+    "actor": "flip1995",
+    "date": "2025-08-07T15:10:44Z"
+  }
+]

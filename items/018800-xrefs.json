@@ -1,0 +1,41 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 22530,
+    "type": "issue",
+    "actor": "rprichard",
+    "date": "2015-02-23T00:10:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9167c62c1adf7effb48cd1cc66ab45f7751d0d6c",
+    "actor": "rprichard",
+    "date": "2015-02-24T07:42:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 52526,
+    "type": "issue",
+    "actor": "ljedrz",
+    "date": "2018-07-19T08:14:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2554cb7fe634de3c970417aaae6814f0339384cf",
+    "actor": "kennytm",
+    "date": "2018-07-20T18:59:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1ed1b13090ff1ecaf4199390a490808c1f0338c4",
+    "actor": "kennytm",
+    "date": "2018-07-20T20:09:43Z"
+  }
+]

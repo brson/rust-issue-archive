@@ -1,0 +1,15 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 28512,
+    "type": "issue",
+    "actor": "lambda-fairy",
+    "date": "2015-09-19T08:06:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "50048c00b9cfedb0c1f5939f47adc51fab608ad7",
+    "actor": "bors",
+    "date": "2015-09-20T00:12:13Z"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 5677,
+    "type": "issue",
+    "actor": "graydon",
+    "date": "2013-04-03T00:48:35Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 7148,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-06-15T05:39:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "eac0200f18bfe19646ae5dce56acc325629224cb",
+    "actor": "bors",
+    "date": "2013-06-15T15:12:58Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:34Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3,
+    "type": "issue",
+    "actor": "snyk-bot",
+    "date": "2022-10-23T08:38:44Z"
+  }
+]

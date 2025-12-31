@@ -1,0 +1,47 @@
+[
+  {
+    "event": "referenced",
+    "commit": "186046198e9b86b2e06fdbe0f9025bbac4cfb288",
+    "actor": "bors",
+    "date": "2015-04-21T07:20:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "db958b7f9af0da4c04d1b4d8bb2b43adfcc4a8d2",
+    "actor": "bors",
+    "date": "2015-04-21T19:48:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "09e67cf22fcdddff10a8e86f78ca489db3b11448",
+    "actor": "bors",
+    "date": "2015-04-21T21:13:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a1dd5ac78745a9f266573d539ba34bbd75b50277",
+    "actor": "alexcrichton",
+    "date": "2015-04-21T23:02:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24691,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-04-22T14:38:37Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24708,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-04-23T00:09:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 1,
+    "type": "issue",
+    "actor": "cuviper",
+    "date": "2017-12-21T20:37:26Z"
+  }
+]

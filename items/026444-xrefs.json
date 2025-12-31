@@ -1,0 +1,77 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 40569,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2017-03-16T16:52:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 40984,
+    "type": "issue",
+    "actor": "durka",
+    "date": "2017-05-08T19:27:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "335ec208aa368d71e6d80eab66d33d65a8ad3d03",
+    "actor": "kennytm",
+    "date": "2017-06-26T15:28:49Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42913,
+    "type": "issue",
+    "actor": "kennytm",
+    "date": "2017-06-26T15:52:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "89ba78376fc262ae9d016af8e41700055701d064",
+    "actor": "kennytm",
+    "date": "2017-06-27T22:38:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "685469e6e7ede43e14e2865989f734bc502995dd",
+    "actor": "kennytm",
+    "date": "2017-06-27T23:12:40Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "111f48fde87ebf881a7c43af84b9798396ceea1b",
+    "actor": "kennytm",
+    "date": "2017-07-05T21:45:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "729de35082a3e3e14c7c726895b92900e3750c69",
+    "actor": "kennytm",
+    "date": "2017-07-05T21:48:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b619821e1db36fe645d7e00558ad5a8f17ee28fc",
+    "actor": "kennytm",
+    "date": "2017-07-05T21:50:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f4e50309b78483d01b337e0d62585503eb97e505",
+    "actor": "kennytm",
+    "date": "2017-07-06T10:31:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "600800480a750978a5ed6d29188056e950ae2075",
+    "actor": "kennytm",
+    "date": "2017-07-07T06:19:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1999bfaa9f961ce2e0c82e97f9bc152d5ce5ed72",
+    "actor": "bors",
+    "date": "2017-07-11T04:04:19Z"
+  }
+]

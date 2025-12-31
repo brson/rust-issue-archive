@@ -1,0 +1,59 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 17605,
+    "type": "issue",
+    "actor": "thestinger",
+    "date": "2014-09-28T02:58:26Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5ef7974e28d8c8efc2548ea3b6d0833bf95fa852",
+    "actor": "alexcrichton",
+    "date": "2015-08-04T16:04:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ac7e87c7ca53baac4c4fec716d8e89977099cf3",
+    "actor": "alexcrichton",
+    "date": "2015-08-04T16:04:57Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 27516,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-08-04T16:05:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "426df0083397831ccc8dca563165bf4c1a3bcc0f",
+    "actor": "bors",
+    "date": "2015-08-06T02:20:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "96a1f40402cdd05d29d1f1c0b62001254db8dcf6",
+    "actor": "bors",
+    "date": "2015-08-10T17:06:16Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 540,
+    "type": "issue",
+    "actor": "bdrewery",
+    "date": "2018-02-23T23:56:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "44ff3c407a9db70f0c8f02b04d73ab1f883f37fe",
+    "actor": "lnicola",
+    "date": "2023-03-13T08:44:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0f20a12ad4ae1958c941c5d5b5d0ea188f625043",
+    "actor": "flip1995",
+    "date": "2025-02-20T15:07:50Z"
+  }
+]

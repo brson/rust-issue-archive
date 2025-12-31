@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "87fa1aa640f1a1fdab946ff1104d1ca602e0a610",
+    "actor": "nrc",
+    "date": "2015-03-15T21:45:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "170ccd615f976fc9e90a8f14ce6c373bfdf01533",
+    "actor": "nrc",
+    "date": "2015-03-15T22:04:06Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23400,
+    "type": "issue",
+    "actor": "nrc",
+    "date": "2015-03-15T22:18:01Z"
+  }
+]

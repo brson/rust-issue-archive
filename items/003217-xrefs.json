@@ -1,0 +1,39 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3215,
+    "type": "issue",
+    "actor": "bblum",
+    "date": "2012-08-17T19:03:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "09cf5c1de412d55ac0f082e1dd5b6e52140d3486",
+    "actor": "bblum",
+    "date": "2012-08-17T19:07:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "fcb055ef7e030c3cb057a375e3fd7dfc65777137",
+    "actor": "nikomatsakis",
+    "date": "2012-08-18T00:35:25Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "40174e9481872d99ac446ac61e27cf800bfd4842",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "92ab9d65bb8f3a1b167c2ccb9d22de301a7aef45",
+    "actor": "RalfJung",
+    "date": "2023-12-17T08:48:27Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c2cb6e4576eb5a68b982405efb1a4ea9d4a4c3d5",
+    "actor": "jaisnan",
+    "date": "2024-07-29T17:31:56Z"
+  }
+]

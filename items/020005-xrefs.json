@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "182db6e7f884bba3fb9f70cead259994c3c45722",
+    "actor": "japaric",
+    "date": "2015-01-01T16:54:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20404,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-01-01T16:55:48Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b51ff9f06a3f6acdb8fb3641afedce69cde748ad",
+    "actor": "alexcrichton",
+    "date": "2015-01-02T17:27:39Z"
+  }
+]

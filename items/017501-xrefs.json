@@ -1,0 +1,34 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 17334,
+    "type": "issue",
+    "actor": null,
+    "date": "2014-09-27T14:28:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "942b055ce9448b0d9719ecbcdbfdede22e3df2f5",
+    "actor": "bors",
+    "date": "2014-10-01T01:42:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "60e7317345f246a8169bbfe721473f693d54cade",
+    "actor": "bors",
+    "date": "2014-10-01T07:22:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 51886,
+    "type": "issue",
+    "actor": "smcmurray",
+    "date": "2018-06-28T22:40:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "af8575e17f9735b32485e383859beb8a9449d1de",
+    "actor": "lnicola",
+    "date": "2024-07-11T17:48:38Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "c7509bb8d88c46d2b0762a4892958bfea9e5d510",
+    "actor": "alexcrichton",
+    "date": "2015-03-23T23:16:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "10ab1cb245289dbed3bbdb2f568d1e74d54bfe9e",
+    "actor": "Manishearth",
+    "date": "2015-03-24T13:56:03Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23660,
+    "type": "issue",
+    "actor": "Manishearth",
+    "date": "2015-03-24T13:56:05Z"
+  }
+]

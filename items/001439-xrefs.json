@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1227,
+    "type": "issue",
+    "actor": "marijnh",
+    "date": "2012-01-05T13:35:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6572efa7ebd4e713b397df60e7890d5281b6d109",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:01Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ed711b71db616a1f1bf255d1e993463e93e1b0ec",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:58Z"
+  }
+]

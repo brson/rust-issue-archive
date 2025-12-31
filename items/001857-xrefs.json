@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1868,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-02-19T23:06:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 2680,
+    "type": "issue",
+    "actor": "bblum",
+    "date": "2012-06-28T23:38:39Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "81576e2856e2f559e6971778d2802cb396c9bc2b",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:20:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "351c9f37e1dcc4279928ece8bda608dc7889204a",
+    "actor": "bors",
+    "date": "2025-01-02T06:00:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bb7a446c758746def292829a2d0407ce60b38220",
+    "actor": "Kobzol",
+    "date": "2025-07-20T14:52:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b5a8ec4a7f03f98a8fe96bd949e94c87b3603a49",
+    "actor": "github-actions[bot]",
+    "date": "2025-07-30T07:07:52Z"
+  }
+]

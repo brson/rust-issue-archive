@@ -1,0 +1,45 @@
+[
+  {
+    "event": "referenced",
+    "commit": "176899a970b5ccea7aea43bee31c9ee08860ab0f",
+    "actor": "mbrubeck",
+    "date": "2011-10-17T01:30:18Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "feeb13c4b95a8291625a375df6d4d2122606e0aa",
+    "actor": "oli-obk",
+    "date": "2017-07-19T17:58:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "af77843345ec6fc7e51113bfd692138d89024bc0",
+    "actor": "keeperofdakeys",
+    "date": "2017-12-12T11:18:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "03abb5f51fb8ac8d197149f14c425303fd1397db",
+    "actor": "kazcw",
+    "date": "2018-10-23T00:18:09Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5ee4e21ba0047a41082f3cd9b727b81f17ba08e",
+    "actor": "dlrobertson",
+    "date": "2018-11-29T02:09:03Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "871d588ec44ec21008df54233dc60615a76e2638",
+    "actor": "bors",
+    "date": "2021-10-01T01:37:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 112522,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2023-06-12T19:00:32Z"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24770,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2015-04-24T12:12:25Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 24407,
+    "type": "issue",
+    "actor": "GuillaumeGomez",
+    "date": "2015-04-28T09:40:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "dc630d01e3eae8ba05db98383119bc2ddbbb01c1",
+    "actor": "bors",
+    "date": "2015-05-09T16:48:11Z"
+  }
+]

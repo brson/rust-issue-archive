@@ -1,0 +1,39 @@
+[
+  {
+    "event": "referenced",
+    "commit": "19df0dad4082f8fde64381e28e0964776153ef5a",
+    "actor": "alkor",
+    "date": "2015-01-14T21:08:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21158,
+    "type": "issue",
+    "actor": "alkor",
+    "date": "2015-01-14T21:09:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d161e1946b2153e83ec1e8c0e4779ea440b5e0b1",
+    "actor": "alkor",
+    "date": "2015-01-15T14:48:05Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bca826b9b90110eec61ee046eb6d580983176cd6",
+    "actor": "alkor",
+    "date": "2015-01-16T12:34:45Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "06410ef9fb03f640769d37b10bad1a71ded08b4c",
+    "actor": "bors",
+    "date": "2015-01-28T07:32:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "20fa8ab327599ca8443a57228151033c283758ca",
+    "actor": "lnicola",
+    "date": "2025-11-27T13:22:17Z"
+  }
+]

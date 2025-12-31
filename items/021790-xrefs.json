@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 23541,
+    "type": "issue",
+    "actor": "aturon",
+    "date": "2015-03-20T20:25:13Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "0e56d8b202f5b2a9a59ec8c5843efdb77bf1f37f",
+    "actor": "bors",
+    "date": "2015-03-21T09:58:42Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b97e1cc28e0d3fe6a745a02a7c1750564a090f34",
+    "actor": "alexcrichton",
+    "date": "2015-03-23T23:16:46Z"
+  }
+]

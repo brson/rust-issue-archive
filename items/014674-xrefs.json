@@ -1,0 +1,48 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 19652,
+    "type": "issue",
+    "actor": "sfackler",
+    "date": "2014-12-09T05:52:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21592,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-01-24T19:49:14Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 26951,
+    "type": "issue",
+    "actor": "Gankra",
+    "date": "2015-07-16T20:20:54Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 30801,
+    "type": "issue",
+    "actor": "Amanieu",
+    "date": "2016-01-09T19:38:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "efbbe042b193517593eaa68f937447666bcd428d",
+    "actor": "bors",
+    "date": "2016-01-13T20:34:02Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ee021efbdbf723c676aed721c8040603733b5af5",
+    "actor": "Manishearth",
+    "date": "2016-01-13T22:52:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "6f4ede44dec50d58d10349c12256de5f3b254ade",
+    "actor": "Manishearth",
+    "date": "2016-01-14T05:35:00Z"
+  }
+]

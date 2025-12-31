@@ -1,0 +1,33 @@
+[
+  {
+    "event": "referenced",
+    "commit": "15f65bae65a78c9fd72c509c2a99e8f898409edb",
+    "actor": "TeXitoi",
+    "date": "2014-06-12T21:43:05Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 14855,
+    "type": "issue",
+    "actor": "TeXitoi",
+    "date": "2014-06-12T21:45:50Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "cc30abbcad282634fb99089eb9297e7cc4f26729",
+    "actor": "bors",
+    "date": "2014-06-17T01:01:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "4ecd7e6c0d25ed9a83bf94e49c63d0b6919c22f0",
+    "actor": "bors",
+    "date": "2023-06-05T13:31:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "689e62b3b20f383d7009db7fcff580f0b0eb5f08",
+    "actor": "flip1995",
+    "date": "2025-05-15T17:30:40Z"
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 3735,
+    "type": "issue",
+    "actor": "bstrie",
+    "date": "2012-10-12T03:17:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "298df703683838215fda0846ca9e4fec5fe31ff3",
+    "actor": "bors",
+    "date": "2020-05-02T16:24:56Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ff49b806283050c9e095e0352560256522356c3b",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:26Z"
+  }
+]

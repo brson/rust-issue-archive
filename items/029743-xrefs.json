@@ -1,0 +1,21 @@
+[
+  {
+    "event": "referenced",
+    "commit": "0501ee23d5df7aed33010618cdd4d21bee11a4b3",
+    "actor": "euclio",
+    "date": "2018-10-04T19:51:22Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 54823,
+    "type": "issue",
+    "actor": "euclio",
+    "date": "2018-10-04T19:52:17Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "987a50bab3329a55d7b782da454456d5d4f4b9a1",
+    "actor": "bors",
+    "date": "2018-10-07T08:32:33Z"
+  }
+]

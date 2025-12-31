@@ -1,0 +1,77 @@
+[
+  {
+    "event": "referenced",
+    "commit": "ba6b34f6e10035ee033e93423d173d32c7a535b5",
+    "actor": "nikomatsakis",
+    "date": "2013-09-09T22:55:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "14ea8b66703c8a82e07b2961f3acb7b31cbb44d6",
+    "actor": "nikomatsakis",
+    "date": "2013-09-09T23:01:56Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 9088,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2013-09-09T23:02:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "019f1fc7dd536657db64782dac22f89bc66232ae",
+    "actor": "bors",
+    "date": "2013-09-10T06:51:00Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "a5ad4c379466519a0bf977864a5cdc50a7ade385",
+    "actor": "nikomatsakis",
+    "date": "2013-09-10T09:45:19Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "753d8c226c75b72edd939793223d28f4baf932fd",
+    "actor": "bors",
+    "date": "2013-09-10T10:11:02Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 10676,
+    "type": "issue",
+    "actor": "pnkfelix",
+    "date": "2013-11-30T17:38:28Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44366,
+    "type": "issue",
+    "actor": "oli-obk",
+    "date": "2017-09-06T13:13:46Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "18313d5a0d5a823c76ca4d207f6faf632488d086",
+    "actor": "nivkner",
+    "date": "2018-03-17T17:39:31Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2c6b7b93230d4dcc99608538b43530e9e520215b",
+    "actor": "nivkner",
+    "date": "2018-03-17T18:26:35Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "7e66a9ff1690a7b4e0b46110350814ff8de251c9",
+    "actor": "bors",
+    "date": "2022-09-22T12:28:22Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5abfd8226ef54bf0d16ce08921588d1aa7296b1e",
+    "actor": "tshepang",
+    "date": "2025-08-18T06:35:31Z"
+  }
+]

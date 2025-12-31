@@ -1,0 +1,66 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 16,
+    "type": "issue",
+    "actor": "bluss",
+    "date": "2015-09-10T11:10:53Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 28364,
+    "type": "issue",
+    "actor": "petrochenkov",
+    "date": "2015-09-11T22:09:04Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "d72cf3b9b3ca7142f76ed502056cae18c1c09617",
+    "actor": "alexcrichton",
+    "date": "2015-09-18T16:18:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 20,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-09-18T16:18:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "272dc462c5ae34ce57936744e30ee5349460717d",
+    "actor": "alexcrichton",
+    "date": "2015-09-18T16:20:29Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 803,
+    "type": "issue",
+    "actor": "alexcrichton",
+    "date": "2015-09-18T16:20:33Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "327b9236ec9a25deee1138f931ae3dd1ee29b4c6",
+    "actor": "homu",
+    "date": "2015-09-18T16:38:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "3fda15eabccad20e88dcac8b5ad8cceb155daaed",
+    "actor": "bors-servo",
+    "date": "2015-09-18T18:09:28Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "650cd02c5051b2ef8ef9f4158f3f036d59fbefff",
+    "actor": null,
+    "date": "2015-09-18T18:49:06Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "e9d2587766a30d30491ec96dab5cc5d741ae043a",
+    "actor": "bors",
+    "date": "2015-09-22T01:12:28Z"
+  }
+]

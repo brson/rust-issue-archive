@@ -1,0 +1,55 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 803,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-03-06T13:37:32Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "1a9439d4a0828f6e2896d66bd3276c60da004ef8",
+    "actor": "nikomatsakis",
+    "date": "2015-03-06T15:15:01Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 23119,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2015-03-06T15:15:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "f78815979706bca435bff80155b28acc80a19781",
+    "actor": "steveklabnik",
+    "date": "2015-03-23T21:05:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "ad41e7cd7a3d1969e666508d7e4a3ba305cee2ec",
+    "actor": "alexcrichton",
+    "date": "2015-03-23T23:16:46Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 43399,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2017-07-29T16:48:47Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 44614,
+    "type": "issue",
+    "actor": "arielb1",
+    "date": "2017-09-25T14:59:23Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 42640,
+    "type": "issue",
+    "actor": "arielb1",
+    "date": "2017-09-25T15:22:22Z"
+  }
+]

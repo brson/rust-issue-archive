@@ -1,0 +1,39 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 1951,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-03-12T20:33:47Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5ab690d9e75d3d80ddc96bbfe131709227862d56",
+    "actor": "bjorn3",
+    "date": "2023-02-09T11:38:38Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "b168a4c1626e9f159f1bb34869a6642fbcdf5a5c",
+    "actor": "coastalwhite",
+    "date": "2023-08-05T20:36:43Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "2f3e05a8072c869118f3efd9fa1674d7ad82923d",
+    "actor": "Kobzol",
+    "date": "2024-12-30T18:19:57Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "5a1aeb7a797e0a5f5531aa6a87c2bd99b49004e5",
+    "actor": "bors",
+    "date": "2025-01-02T05:59:53Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "45e3039ee9618e8af0708467e34e8e92b9bee7ac",
+    "actor": "rust-bors[bot]",
+    "date": "2025-06-09T09:32:22Z"
+  }
+]

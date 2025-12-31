@@ -1,0 +1,34 @@
+[
+  {
+    "event": "referenced",
+    "commit": "e23d8c09695b77ce9d2a675a945136b454a695e1",
+    "actor": "brson",
+    "date": "2012-12-06T23:10:41Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "55aa49882d43f338da48ec870ddfbe99b74ca11e",
+    "actor": "brson",
+    "date": "2012-12-06T23:26:41Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 4054,
+    "type": "issue",
+    "actor": "brson",
+    "date": "2012-12-06T23:36:12Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 6878,
+    "type": "issue",
+    "actor": "catamorphism",
+    "date": "2013-06-01T07:26:55Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "8edcd9374a26cffa9474ce92d79c64892caef146",
+    "actor": "RalfJung",
+    "date": "2025-01-19T20:10:09Z"
+  }
+]

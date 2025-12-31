@@ -1,0 +1,28 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 55,
+    "type": "issue",
+    "actor": "BurntSushi",
+    "date": "2015-01-11T18:42:51Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "74e111caf6d9634917f77977a4e51e562498be87",
+    "actor": "japaric",
+    "date": "2015-01-19T15:41:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 21392,
+    "type": "issue",
+    "actor": "japaric",
+    "date": "2015-01-19T15:47:44Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "9227db398aa6ec4a538fc2d5a9d4f53e9ae7b9da",
+    "actor": "alexcrichton",
+    "date": "2015-01-21T18:18:56Z"
+  }
+]

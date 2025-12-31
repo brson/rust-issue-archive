@@ -1,0 +1,47 @@
+[
+  {
+    "event": "referenced",
+    "commit": "fb8786fe522ed96172cf1ae8e205e3f2722e834c",
+    "actor": "nikomatsakis",
+    "date": "2012-09-07T14:54:36Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3461,
+    "type": "issue",
+    "actor": "burg",
+    "date": "2012-09-12T05:30:15Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3677,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-10-06T13:36:30Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 3678,
+    "type": "issue",
+    "actor": "nikomatsakis",
+    "date": "2012-10-06T13:50:24Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "bc32f9fcf33a5713b3f2fa997c8400c7bfb82656",
+    "actor": "bors",
+    "date": "2021-05-15T17:37:21Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "02ee5647a25582495d961d375709195f0a7fb5ed",
+    "actor": "RalfJung",
+    "date": "2024-03-03T11:38:36Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "53b702d90c8db2df5666ecb3cc1584ba77b7e585",
+    "actor": "jaisnan",
+    "date": "2024-07-29T17:32:14Z"
+  }
+]

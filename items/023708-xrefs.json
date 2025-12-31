@@ -1,0 +1,40 @@
+[
+  {
+    "event": "cross-referenced",
+    "from": 24720,
+    "type": "issue",
+    "actor": "critiqjo",
+    "date": "2015-04-23T14:27:14Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "be2f26b65756887f6bf1129c69719f8502381689",
+    "actor": "bors",
+    "date": "2015-04-30T22:41:54Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "613109db1b7ee95cc55d2e9710c1d54836504271",
+    "actor": "bors",
+    "date": "2015-05-01T16:42:20Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "619003d1d414167630331efffe83702f74413be6",
+    "actor": "Phlosioneer",
+    "date": "2018-03-20T09:39:52Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 49201,
+    "type": "issue",
+    "actor": "Phlosioneer",
+    "date": "2018-03-20T09:43:23Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "085c4b43b567298aa7af21a92426f49633919047",
+    "actor": "bors",
+    "date": "2018-03-31T06:41:03Z"
+  }
+]

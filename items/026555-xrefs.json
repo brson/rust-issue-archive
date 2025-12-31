@@ -1,0 +1,41 @@
+[
+  {
+    "event": "referenced",
+    "commit": "32b7b50bafd0d40fda1caa93cf7f7068cc5052e3",
+    "actor": "SimonSapin",
+    "date": "2015-06-25T05:17:08Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "32ed2241594121ac830d4b5c56bbe093966ec7ba",
+    "actor": "jroesch",
+    "date": "2015-07-21T21:54:16Z"
+  },
+  {
+    "event": "referenced",
+    "commit": "c883bd24c7cf3bae2ea66b22576f5d92c34888ae",
+    "actor": "thepowersgang",
+    "date": "2015-07-25T05:29:08Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 827,
+    "type": "issue",
+    "actor": "OddCoincidence",
+    "date": "2019-04-13T19:52:45Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 139,
+    "type": "issue",
+    "actor": "choznerol",
+    "date": "2023-06-20T16:09:18Z"
+  },
+  {
+    "event": "cross-referenced",
+    "from": 354,
+    "type": "issue",
+    "actor": "Jules-Bertholet",
+    "date": "2024-03-16T01:58:12Z"
+  }
+]
